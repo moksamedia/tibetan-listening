@@ -6,12 +6,17 @@
         <v-col cols="12" class="instructions">
           <p>
             Pick a row and press "Random." This will play a random syllable from among the two or
-            three on that row. You have to press the button corresponding to the correct sound.
+            three on that row. You have to press the button below corresponding to the correct
+            sound. The "Random" button changes to "Again," meaning that it will play the reference
+            sound again. When you chose the correct syllable, the row will reset.
           </p>
           <p>
             The sounds have 2-3 different recordings that they cycle through, so each identical
             syllable won't sound exactly the same each time (the small number in parens). This is on
             purpose to have a range of sounds for each syllable.
+          </p>
+          <p>
+            The "Long" button plays a recording where the speaker speaks the syllables together.
           </p>
         </v-col>
       </v-row>
@@ -66,7 +71,7 @@
                       block
                       color="secondary"
                       @click="playLong(group.long)"
-                      :density="xs ? 'compact' : 'default'"
+                      :density="xs ? 'comfortable' : 'default'"
                     >
                       <v-icon left>mdi-play</v-icon>
                       Long
