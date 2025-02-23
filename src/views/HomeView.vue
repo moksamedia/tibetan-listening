@@ -1,4 +1,3 @@
-// SoundGame.vue
 <template>
   <v-main>
     <v-container :fluid="xs == true ? true : false">
@@ -88,6 +87,7 @@
 </template>
 
 <script>
+import { ref, onMounted } from 'vue'
 import { getSoundGroups } from '../library/sound-loader'
 import { useDisplay } from 'vuetify'
 
@@ -96,76 +96,45 @@ export default {
 
   setup() {
     const { mobile, smAndDown, xs } = useDisplay()
-    return {
-      mobile,
-      smAndDown,
-      xs,
-    }
-  },
+    const isLoading = ref(true)
+    const soundGroups = ref([])
+    const audioContext = ref(null)
 
-  data() {
-    return {
-      isLoading: true,
-      soundGroups: [],
-      audioContext: null,
-    }
-  },
-
-  async created() {
-    try {
-      this.audioContext = new (window.AudioContext || window.webkitAudioContext)()
-      await this.loadSoundFiles()
-    } catch (error) {
-      console.error('Error initializing sound game:', error)
-    }
-  },
-
-  methods: {
-    async loadSoundFiles() {
+    const loadSoundFiles = async () => {
       try {
-        if (this.audioContext == null) throw Error('No audio context')
-        this.soundGroups = await getSoundGroups(this.audioContext)
-        console.log('soundGroups', this.soundGroups)
-        this.isLoading = false
+        if (audioContext.value == null) throw Error('No audio context')
+        soundGroups.value = await getSoundGroups(audioContext.value)
+        console.log('soundGroups', soundGroups.value)
+        isLoading.value = false
       } catch (error) {
         console.error('Error loading sound files:', error)
       }
-    },
+    }
 
-    async loadAudioBuffer(path) {
+    const loadAudioBuffer = async (path) => {
       try {
         const response = await fetch(path)
         const arrayBuffer = await response.arrayBuffer()
-        return await this.audioContext.decodeAudioData(arrayBuffer)
+        return await audioContext.value.decodeAudioData(arrayBuffer)
       } catch (error) {
         console.error(`Error loading audio file ${path}:`, error)
         throw error
       }
-    },
+    }
 
-    nameForGroup(group) {
-      console.log(group)
-      return group.sounds.reduce((acc, curr) => {
-        acc === '' ? (acc = curr.name) : (acc += ' vs ' + curr.name)
-        return acc
-      }, '')
-    },
-
-    async playLong(longBuffer) {
+    const playLong = async (longBuffer) => {
       try {
-        const source = this.audioContext.createBufferSource()
+        const source = audioContext.value.createBufferSource()
         source.buffer = longBuffer
-        source.connect(this.audioContext.destination)
-
+        source.connect(audioContext.value.destination)
         source.start(0)
       } catch (error) {
         console.error('Error playing sound:', error)
-        group.isPlaying = false
       }
-    },
+    }
 
-    async playRandomSound(groupIndex) {
-      const group = this.soundGroups[groupIndex]
+    const playRandomSound = async (groupIndex) => {
+      const group = soundGroups.value[groupIndex]
       if (!group || group.isPlaying) return
 
       group.resetGuesses()
@@ -177,9 +146,11 @@ export default {
       group.isPlaying = true
 
       try {
-        const source = this.audioContext.createBufferSource()
-        source.buffer = group.currentSoundVersionGroup.getRandomBuffer()
-        source.connect(this.audioContext.destination)
+        const source = audioContext.value.createBufferSource()
+        source.buffer = await group.currentSoundVersionGroup.getRandomBuffer(audioContext.value)
+        console.log('Playing:', group.currentSoundVersionGroup.name)
+        console.log('Buffer:', source.buffer)
+        source.connect(audioContext.value.destination)
 
         source.onended = () => {
           group.isPlaying = false
@@ -190,15 +161,15 @@ export default {
         console.error('Error playing sound:', error)
         group.isPlaying = false
       }
-    },
+    }
 
-    checkAnswer(soundVersionGroup, groupIndex) {
-      const group = this.soundGroups[groupIndex]
+    const checkAnswer = async (soundVersionGroup, groupIndex) => {
+      const group = soundGroups.value[groupIndex]
 
       try {
-        const source = this.audioContext.createBufferSource()
-        source.buffer = soundVersionGroup.getNextBuffer()
-        source.connect(this.audioContext.destination)
+        const source = audioContext.value.createBufferSource()
+        source.buffer = await soundVersionGroup.getNextBuffer(audioContext.value)
+        source.connect(audioContext.value.destination)
         source.start(0)
       } catch (error) {
         console.error('Error playing sound:', error)
@@ -210,21 +181,42 @@ export default {
       soundVersionGroup.isCorrect = isCorrect
 
       if (isCorrect) {
-        setTimeout(function () {
+        setTimeout(() => {
           group.currentSoundVersionGroup = null
           group.resetGuesses()
         }, 700)
       } else {
-        setTimeout(function () {
+        setTimeout(() => {
           soundVersionGroup.isCorrect = null
         }, 700)
       }
-    },
+    }
 
-    getButtonColor(soundVersionGroup) {
+    const getButtonColor = (soundVersionGroup) => {
       if (soundVersionGroup.isCorrect === null) return 'default'
       return soundVersionGroup.isCorrect ? 'success' : 'error'
-    },
+    }
+
+    onMounted(async () => {
+      try {
+        audioContext.value = new (window.AudioContext || window.webkitAudioContext)()
+        await loadSoundFiles()
+      } catch (error) {
+        console.error('Error initializing sound game:', error)
+      }
+    })
+
+    return {
+      mobile,
+      smAndDown,
+      xs,
+      isLoading,
+      soundGroups,
+      playLong,
+      playRandomSound,
+      checkAnswer,
+      getButtonColor,
+    }
   },
 }
 </script>

@@ -4,6 +4,8 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
+import { contextPath } from './sound-loader'
+
 export class SoundFile {
   path = null
   name = null
@@ -26,8 +28,38 @@ export class SoundVersionGroup {
   name
   isCorrect = null
   files = []
+  buffersLoaded = false
   constructor(name) {
     this.name = name
+  }
+  async loadAudioBuffer(path, audioContext) {
+    const fullPath = contextPath + path
+    try {
+      console.log('Loading ' + fullPath)
+      const response = await fetch(fullPath)
+      console.log(response)
+      const arrayBuffer = await response.arrayBuffer()
+      const buffer = await audioContext.decodeAudioData(arrayBuffer)
+      console.log(buffer)
+      return buffer
+    } catch (error) {
+      console.error(`Error loading audio file ${fullPath}:`, error)
+      throw error
+    }
+  }
+  async loadBuffers(audioContext) {
+    console.log('Loading buffers for ' + this.name)
+    await Promise.all(
+      this.files.map(async (file, index) => {
+        const buffer =
+          audioContext != null ? await this.loadAudioBuffer(file.path, audioContext) : null
+        if (buffer == null) throw Error('Null buffer for ' + file.path)
+        this.files[index].buffer = buffer
+        console.log(`Loaded buffer for ${file.path}`)
+      }),
+    )
+    console.log('Buffers loaded')
+    this.buffersLoaded = true
   }
   addFile(soundFile) {
     this.files.push(soundFile)
@@ -36,7 +68,8 @@ export class SoundVersionGroup {
     return this.files[index]
   }
   nextFile = 0
-  getNext() {
+  async getNext(audioContext) {
+    if (!this.buffersLoaded) await this.loadBuffers(audioContext)
     if (this.files.length == 0) return null
     if (this.files.length == 1) return this.files[0]
     const next = this.files[this.nextFile]
@@ -44,19 +77,21 @@ export class SoundVersionGroup {
     if (this.nextFile == this.files.length) this.nextFile = 0
     return next
   }
-  getNextBuffer() {
-    return this.getNext().buffer
+  async getNextBuffer(audioContext) {
+    if (!this.buffersLoaded) await this.loadBuffers(audioContext)
+    return this.getNext(audioContext).buffer
   }
-  getRandom() {
+  async getRandom(audioContext) {
+    if (!this.buffersLoaded) await this.loadBuffers(audioContext)
     if (this.files.length == 0) return null
     if (this.files.length == 1) return this.files[0]
     const randomIdx = getRandomInt(0, this.files.length - 1)
     console.log(`length=${this.files.length}, randomIdx=${randomIdx}`)
     return this.files[randomIdx]
   }
-  getRandomBuffer() {
-    console.log(this)
-    return this.getRandom()?.buffer
+  async getRandomBuffer(audioContext) {
+    if (!this.buffersLoaded) await this.loadBuffers(audioContext)
+    return this.getRandom(audioContext).buffer
   }
 }
 
@@ -70,7 +105,15 @@ export class SoundGroup {
   constructor(name) {
     this.name = name
   }
+  async loadBuffers(audioContext) {
+    await Promise.all(
+      this.soundVersions.map(async (soundVersionGroup) => {
+        if (!soundVersionGroup.buffersLoaded) await soundVersionGroup.loadBuffers(audioContext)
+      }),
+    )
+  }
   setRandomCurrentSounVersionGroup() {
+    this.loadBuffers()
     const randomIndex = Math.floor(Math.random() * this.soundVersions.length)
     this.currentSoundVersionGroup = this.soundVersions[randomIndex]
   }
