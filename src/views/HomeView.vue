@@ -19,13 +19,22 @@
           </p>
         </v-col>
       </v-row>
+      <v-banner
+        class="error-banner"
+        v-if="errorMessage"
+        color="red"
+        sticky
+        @click="dismissErrorBanner"
+      >
+        <v-icon left>mdi-alert-circle</v-icon>
+        {{ errorMessage }}
+      </v-banner>
       <v-row v-if="isLoading" justify="center" align="center" class="mt-4">
         <v-col cols="12" class="text-center">
           <v-progress-circular indeterminate color="primary" size="64"></v-progress-circular>
           <div class="mt-2">Loading sound files...</div>
         </v-col>
       </v-row>
-
       <template v-else>
         <v-row
           v-for="(group, groupIndex) in soundGroups"
@@ -69,7 +78,7 @@
                     <v-btn
                       block
                       color="secondary"
-                      @click="playLong(group.long)"
+                      @click="playLong(group)"
                       :density="xs ? 'comfortable' : 'default'"
                     >
                       <v-icon left>mdi-play</v-icon>
@@ -99,6 +108,7 @@ export default {
     const isLoading = ref(true)
     const soundGroups = ref([])
     const audioContext = ref(null)
+    const errorMessage = ref('This is just a test')
 
     const loadSoundFiles = async () => {
       try {
@@ -110,22 +120,37 @@ export default {
         console.error('Error loading sound files:', error)
       }
     }
+    const dismissErrorBanner = () => {
+      errorMessage.value = ''
+    }
+    const pushErrorMessage = (message, duration = 10000) => {
+      errorMessage.value = message
+      setTimeout(() => {
+        errorMessage.value = ''
+      }, duration)
+    }
 
-    const loadAudioBuffer = async (path) => {
-      try {
-        const response = await fetch(path)
-        const arrayBuffer = await response.arrayBuffer()
-        return await audioContext.value.decodeAudioData(arrayBuffer)
-      } catch (error) {
-        console.error(`Error loading audio file ${path}:`, error)
-        throw error
+    const loadBuffersForGroupIfNeeded = async (group) => {
+      if (group.needToLoadBuffers(group)) {
+        console.log('Loading buffers for:', group.name)
+        try {
+          await group.loadBuffers(audioContext.value)
+        } catch (error) {
+          console.error('Error loading sound buffers:', error)
+          group.isPlaying = false
+          pushErrorMessage(`Error loading sound buffers for ${group.name}`)
+          return
+        }
+      } else {
+        console.log('Buffers already loaded for:', group.name)
       }
     }
 
-    const playLong = async (longBuffer) => {
+    const playLong = async (group) => {
+      await loadBuffersForGroupIfNeeded(group)
       try {
         const source = audioContext.value.createBufferSource()
-        source.buffer = longBuffer
+        source.buffer = group.long.getBuffer()
         source.connect(audioContext.value.destination)
         source.start(0)
       } catch (error) {
@@ -145,9 +170,12 @@ export default {
 
       group.isPlaying = true
 
+      await loadBuffersForGroupIfNeeded(group)
+
       try {
         const source = audioContext.value.createBufferSource()
-        source.buffer = await group.currentSoundVersionGroup.getRandomBuffer(audioContext.value)
+        const randomFile = group.currentSoundVersionGroup.getRandom()
+        source.buffer = randomFile.getBuffer()
         console.log('Playing:', group.currentSoundVersionGroup.name)
         console.log('Buffer:', source.buffer)
         source.connect(audioContext.value.destination)
@@ -165,6 +193,8 @@ export default {
 
     const checkAnswer = async (soundVersionGroup, groupIndex) => {
       const group = soundGroups.value[groupIndex]
+
+      await loadBuffersForGroupIfNeeded(group)
 
       try {
         const source = audioContext.value.createBufferSource()
@@ -216,6 +246,8 @@ export default {
       playRandomSound,
       checkAnswer,
       getButtonColor,
+      errorMessage,
+      dismissErrorBanner,
     }
   },
 }
@@ -242,6 +274,15 @@ export default {
 .answer-btn-group .v-btn__content,
 .group-title {
   font-size: 150% !important;
+}
+.v-banner.error-banner {
+  background-color: #e85f5f;
+  color: white;
+  font-size: 130%;
+  border-radius: 10px;
+  opacity: 0.9;
+  width: 80%;
+  margin: 0 auto;
 }
 
 @media only screen and (max-device-width: 480px) {

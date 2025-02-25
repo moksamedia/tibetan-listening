@@ -65,8 +65,13 @@ export async function buildSoundGroups(json, audioContext) {
     json.map(async (sg) => {
       const soundGroupObj = new SoundGroup(sg.name)
       const longFile = sg.long
-      const longBuffer = audioContext != null ? await loadAudioBuffer(longFile, audioContext) : null
-      soundGroupObj.long = longBuffer
+      const longBuffer =
+        !loadBuffersLazy && audioContext != null
+          ? await loadAudioBuffer(longFile, audioContext)
+          : null
+      soundGroupObj.long = new SoundFile({ path: longFile, buffer: longBuffer })
+
+      //console.assert(soundGroupObj.long instanceof SoundFile, 'long is not SoundFile')
 
       /*
             Can build the json dynamically from a pattern, assuming all version groups
@@ -120,6 +125,17 @@ export async function buildSoundGroups(json, audioContext) {
       )
       return soundGroupObj
     }),
+  )
+  console.assert(soundGroups.length == json.length, 'soundGroups.length != json.length')
+  console.assert(
+    soundGroups.every((sg) => sg.long instanceof SoundFile),
+    "SoundGroup long isn't SoundFile",
+    soundGroups.find((sg) => !(sg.long instanceof SoundFile)),
+  )
+  console.assert(
+    soundGroups.every((sg) => sg.long.path != null),
+    "SoundFile path isn't set",
+    soundGroups.find((sg) => sg.long.path == null),
   )
   console.log(soundGroups)
   return soundGroups
