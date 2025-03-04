@@ -19,6 +19,11 @@
           </p>
         </v-col>
       </v-row>
+      <v-row>
+        <v-col cols="12" class="text-right">
+          <v-switch v-model="showFavoritesOnly" label="Show Favorites Only" class="mt-4"></v-switch>
+        </v-col>
+      </v-row>
       <v-banner
         class="error-banner"
         v-if="errorMessage"
@@ -37,7 +42,7 @@
       </v-row>
       <template v-else>
         <v-row
-          v-for="(group, groupIndex) in soundGroups"
+          v-for="(group, groupIndex) in filteredSoundGroups"
           :key="group.name + groupIndex"
           class="mt-4"
         >
@@ -57,7 +62,7 @@
 </template>
 
 <script>
-import { ref, onMounted } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { getSoundGroups } from '../library/sound-loader'
 import { useDisplay } from 'vuetify'
 import SoundGroupCard from '../components/SoundGroupCard.vue'
@@ -73,6 +78,7 @@ export default {
     const soundGroups = ref([])
     const audioContext = ref(null)
     const errorMessage = ref(null)
+    const showFavoritesOnly = ref(false)
 
     const loadSoundFiles = async () => {
       try {
@@ -94,6 +100,13 @@ export default {
       }, duration)
     }
 
+    const filteredSoundGroups = computed(() => {
+      if (showFavoritesOnly.value) {
+        return soundGroups.value.filter((group) => group.isFavorite())
+      }
+      return soundGroups.value
+    })
+
     onMounted(async () => {
       try {
         audioContext.value = new (window.AudioContext || window.webkitAudioContext)()
@@ -114,6 +127,8 @@ export default {
       errorMessage,
       dismissErrorBanner,
       pushErrorMessage,
+      showFavoritesOnly,
+      filteredSoundGroups,
     }
   },
 }

@@ -1,6 +1,15 @@
 <template>
   <v-card>
-    <v-card-title class="group-title">{{ group.getScreenName() }}</v-card-title>
+    <v-card-title class="group-title">
+      {{ group.getScreenName() }}
+      <v-icon
+        class="favorite-icon"
+        :color="isFavorited ? 'yellow' : 'grey'"
+        @click="toggleFavorite"
+      >
+        {{ isFavorited ? 'mdi-star' : 'mdi-star-outline' }}
+      </v-icon>
+    </v-card-title>
     <v-card-text>
       <v-row align="center">
         <v-col cols="12" md="3">
@@ -48,7 +57,7 @@
 </template>
 
 <script>
-import { defineComponent, toRefs } from 'vue'
+import { defineComponent, toRefs, ref, onMounted } from 'vue'
 
 export default defineComponent({
   name: 'SoundGroupCard',
@@ -60,18 +69,19 @@ export default defineComponent({
     pushErrorMessage: Function,
   },
   setup(props) {
-    const { group, groupIndex, xs } = toRefs(props)
+    const { group, groupIndex, xs, audioContext, pushErrorMessage } = toRefs(props)
+    const isFavorited = ref(false)
 
     const loadBuffersForGroupIfNeeded = async () => {
       if (group.value.needToLoadBuffers(group)) {
         console.log('Loading buffers for:', group.value.name)
         try {
-          console.assert(props.audioContext, 'No audio context')
-          await group.value.loadBuffers(props.audioContext)
+          console.assert(audioContext.value, 'No audio context')
+          await group.value.loadBuffers(audioContext.value)
         } catch (error) {
           console.error('Error loading sound buffers:', error)
           group.value.isPlaying = false
-          props.pushErrorMessage(`Error loading sound buffers for ${group.value.name}`)
+          pushErrorMessage.value(`Error loading sound buffers for ${group.value.name}`)
           return
         }
       } else {
@@ -82,9 +92,9 @@ export default defineComponent({
     const handlePlayLong = async () => {
       await loadBuffersForGroupIfNeeded()
       try {
-        const source = props.audioContext.createBufferSource()
+        const source = audioContext.value.createBufferSource()
         source.buffer = group.value.long.getBuffer()
-        source.connect(props.audioContext.destination)
+        source.connect(audioContext.value.destination)
         source.start(0)
       } catch (error) {
         console.error('Error playing sound:', error)
@@ -105,13 +115,13 @@ export default defineComponent({
       await loadBuffersForGroupIfNeeded()
 
       try {
-        console.assert(props.audioContext, 'No audio context')
-        const source = props.audioContext.createBufferSource()
+        console.assert(audioContext.value, 'No audio context')
+        const source = audioContext.value.createBufferSource()
         const randomFile = group.value.currentSoundVersionGroup.getRandom()
         source.buffer = randomFile.getBuffer()
         console.log('Playing:', group.value.currentSoundVersionGroup.name)
         console.log('Buffer:', source.buffer)
-        source.connect(props.audioContext.destination)
+        source.connect(audioContext.value.destination)
 
         source.onended = () => {
           group.value.isPlaying = false
@@ -128,9 +138,9 @@ export default defineComponent({
       await loadBuffersForGroupIfNeeded()
 
       try {
-        const source = props.audioContext.createBufferSource()
-        source.buffer = await soundVersionGroup.getNextBuffer(props.audioContext)
-        source.connect(props.audioContext.destination)
+        const source = audioContext.value.createBufferSource()
+        source.buffer = await soundVersionGroup.getNextBuffer(audioContext.value)
+        source.connect(audioContext.value.destination)
         source.start(0)
       } catch (error) {
         console.error('Error playing sound:', error)
@@ -158,11 +168,21 @@ export default defineComponent({
       return soundVersionGroup.isCorrect ? 'success' : 'error'
     }
 
+    const toggleFavorite = () => {
+      isFavorited.value = group.value.toggleFavorite()
+    }
+
+    onMounted(() => {
+      isFavorited.value = group.value.isFavorite()
+    })
+
     return {
       handlePlayLong,
       handlePlayRandomSound,
       handleCheckAnswer,
       handleGetButtonColor,
+      isFavorited,
+      toggleFavorite,
     }
   },
 })
@@ -185,5 +205,11 @@ export default defineComponent({
 }
 .group-title {
   font-size: 150% !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.favorite-icon {
+  cursor: pointer;
 }
 </style>

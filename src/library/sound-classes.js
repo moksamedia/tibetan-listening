@@ -148,6 +148,14 @@ export class SoundGroup {
   soundVersionGroupForName(name) {
     return this.soundVersions.find((svg) => svg.name == name)
   }
+  isFavorite() {
+    return localStorage.getItem(`favorite-${this.name}`) === 'true'
+  }
+  toggleFavorite() {
+    const newValue = this.isFavorite() ? 'false' : 'true'
+    localStorage.setItem(`favorite-${this.name}`, newValue)
+    return this.isFavorite()
+  }
   pushSoundFile(name, file, speaker, buffer) {
     console.log('pushSoundFile file', file)
     console.log('buffer', buffer)
