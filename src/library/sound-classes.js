@@ -35,6 +35,7 @@ export class SoundFile {
 }
 
 const loadAudioBuffer = async (path, audioContext) => {
+  console.assert(audioContext != null, 'loadAudioBuffer() audioContext is null')
   const fullPath = contextPath + path
   try {
     console.log('Loading ' + fullPath)

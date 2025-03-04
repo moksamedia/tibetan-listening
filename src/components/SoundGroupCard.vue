@@ -1,0 +1,189 @@
+<template>
+  <v-card>
+    <v-card-title class="group-title">{{ group.getScreenName() }}</v-card-title>
+    <v-card-text>
+      <v-row align="center">
+        <v-col cols="12" md="3">
+          <v-btn
+            block
+            :color="group.currentSoundVersionGroup != null ? 'primary' : 'white'"
+            :loading="group.isPlaying"
+            @click="handlePlayRandomSound"
+            :disabled="group.isPlaying"
+          >
+            <v-icon left>mdi-play</v-icon>
+            {{ group.currentSoundVersionGroup != null ? 'Again' : 'Random' }}
+          </v-btn>
+        </v-col>
+
+        <v-col cols="12" md="6">
+          <div class="answer-btn-group">
+            <v-btn
+              v-for="soundVersionGroup in group.soundVersions"
+              :key="soundVersionGroup.name"
+              size="x-large"
+              :color="handleGetButtonColor(soundVersionGroup)"
+              @click="handleCheckAnswer(soundVersionGroup)"
+            >
+              {{ soundVersionGroup.name }}
+              <span class="num-files">{{ `(${soundVersionGroup.files.length})` }}</span>
+            </v-btn>
+          </div>
+        </v-col>
+
+        <v-col cols="12" md="3">
+          <v-btn
+            block
+            color="secondary"
+            @click="handlePlayLong"
+            :density="xs ? 'comfortable' : 'default'"
+          >
+            <v-icon left>mdi-play</v-icon>
+            Long
+          </v-btn>
+        </v-col>
+      </v-row>
+    </v-card-text>
+  </v-card>
+</template>
+
+<script>
+import { defineComponent, toRefs } from 'vue'
+
+export default defineComponent({
+  name: 'SoundGroupCard',
+  props: {
+    group: Object,
+    groupIndex: Number,
+    audioContext: Object,
+    xs: Boolean,
+    pushErrorMessage: Function,
+  },
+  setup(props) {
+    const { group, groupIndex, xs } = toRefs(props)
+
+    const loadBuffersForGroupIfNeeded = async () => {
+      if (group.value.needToLoadBuffers(group)) {
+        console.log('Loading buffers for:', group.value.name)
+        try {
+          console.assert(props.audioContext, 'No audio context')
+          await group.value.loadBuffers(props.audioContext)
+        } catch (error) {
+          console.error('Error loading sound buffers:', error)
+          group.value.isPlaying = false
+          props.pushErrorMessage(`Error loading sound buffers for ${group.value.name}`)
+          return
+        }
+      } else {
+        console.log('Buffers already loaded for:', group.value.name)
+      }
+    }
+
+    const handlePlayLong = async () => {
+      await loadBuffersForGroupIfNeeded()
+      try {
+        const source = props.audioContext.createBufferSource()
+        source.buffer = group.value.long.getBuffer()
+        source.connect(props.audioContext.destination)
+        source.start(0)
+      } catch (error) {
+        console.error('Error playing sound:', error)
+      }
+    }
+
+    const handlePlayRandomSound = async () => {
+      if (!group.value || group.value.isPlaying) return
+
+      group.value.resetGuesses()
+
+      if (!group.value.currentSoundVersionGroup) {
+        group.value.setRandomCurrentSounVersionGroup()
+      }
+
+      group.value.isPlaying = true
+
+      await loadBuffersForGroupIfNeeded()
+
+      try {
+        console.assert(props.audioContext, 'No audio context')
+        const source = props.audioContext.createBufferSource()
+        const randomFile = group.value.currentSoundVersionGroup.getRandom()
+        source.buffer = randomFile.getBuffer()
+        console.log('Playing:', group.value.currentSoundVersionGroup.name)
+        console.log('Buffer:', source.buffer)
+        source.connect(props.audioContext.destination)
+
+        source.onended = () => {
+          group.value.isPlaying = false
+        }
+
+        source.start(0)
+      } catch (error) {
+        console.error('Error playing sound:', error)
+        group.value.isPlaying = false
+      }
+    }
+
+    const handleCheckAnswer = async (soundVersionGroup) => {
+      await loadBuffersForGroupIfNeeded()
+
+      try {
+        const source = props.audioContext.createBufferSource()
+        source.buffer = await soundVersionGroup.getNextBuffer(props.audioContext)
+        source.connect(props.audioContext.destination)
+        source.start(0)
+      } catch (error) {
+        console.error('Error playing sound:', error)
+      }
+
+      if (!group.value.currentSoundVersionGroup) return
+
+      const isCorrect = soundVersionGroup.name === group.value.currentSoundVersionGroup.name
+      soundVersionGroup.isCorrect = isCorrect
+
+      if (isCorrect) {
+        setTimeout(() => {
+          group.value.currentSoundVersionGroup = null
+          group.value.resetGuesses()
+        }, 700)
+      } else {
+        setTimeout(() => {
+          soundVersionGroup.isCorrect = null
+        }, 700)
+      }
+    }
+
+    const handleGetButtonColor = (soundVersionGroup) => {
+      if (soundVersionGroup.isCorrect === null) return 'default'
+      return soundVersionGroup.isCorrect ? 'success' : 'error'
+    }
+
+    return {
+      handlePlayLong,
+      handlePlayRandomSound,
+      handleCheckAnswer,
+      handleGetButtonColor,
+    }
+  },
+})
+</script>
+
+<style scoped>
+.answer-btn-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.answer-btn-group .v-btn {
+  margin: 10px;
+}
+.num-files {
+  font-size: 50%;
+  color: gray;
+}
+.group-title {
+  font-size: 150% !important;
+}
+</style>

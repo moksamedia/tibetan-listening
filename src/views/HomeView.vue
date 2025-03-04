@@ -42,52 +42,13 @@
           class="mt-4"
         >
           <v-col cols="12">
-            <v-card>
-              <v-card-title class="group-title">{{ group.getScreenName() }}</v-card-title>
-              <v-card-text>
-                <v-row align="center">
-                  <v-col cols="12" md="3">
-                    <v-btn
-                      block
-                      :color="group.currentSoundVersionGroup != null ? 'primary' : 'white'"
-                      :loading="group.isPlaying"
-                      @click="playRandomSound(groupIndex)"
-                      :disabled="group.isPlaying"
-                    >
-                      <v-icon left>mdi-play</v-icon>
-                      {{ group.currentSoundVersionGroup != null ? 'Again' : 'Random' }}
-                    </v-btn>
-                  </v-col>
-
-                  <v-col cols="12" md="6">
-                    <div class="answer-btn-group">
-                      <v-btn
-                        v-for="soundVersionGroup in group.soundVersions"
-                        :key="soundVersionGroup.name"
-                        size="x-large"
-                        :color="getButtonColor(soundVersionGroup)"
-                        @click="checkAnswer(soundVersionGroup, groupIndex)"
-                      >
-                        {{ soundVersionGroup.name }}
-                        <span class="num-files">{{ `(${soundVersionGroup.files.length})` }}</span>
-                      </v-btn>
-                    </div>
-                  </v-col>
-
-                  <v-col cols="12" md="3">
-                    <v-btn
-                      block
-                      color="secondary"
-                      @click="playLong(group)"
-                      :density="xs ? 'comfortable' : 'default'"
-                    >
-                      <v-icon left>mdi-play</v-icon>
-                      Long
-                    </v-btn>
-                  </v-col>
-                </v-row>
-              </v-card-text>
-            </v-card>
+            <SoundGroupCard
+              :group="group"
+              :groupIndex="groupIndex"
+              :audioContext="audioContext"
+              :xs="xs"
+              :pushErrorMessage="pushErrorMessage"
+            />
           </v-col>
         </v-row>
       </template>
@@ -99,20 +60,23 @@
 import { ref, onMounted } from 'vue'
 import { getSoundGroups } from '../library/sound-loader'
 import { useDisplay } from 'vuetify'
+import SoundGroupCard from '../components/SoundGroupCard.vue'
 
 export default {
   name: 'SoundGame',
-
+  components: {
+    SoundGroupCard,
+  },
   setup() {
     const { mobile, smAndDown, xs } = useDisplay()
     const isLoading = ref(true)
     const soundGroups = ref([])
     const audioContext = ref(null)
-    const errorMessage = ref('This is just a test')
+    const errorMessage = ref(null)
 
     const loadSoundFiles = async () => {
       try {
-        if (audioContext.value == null) throw Error('No audio context')
+        if (audioContext.value == null) throw Error('loadSoundFiles() No audio context')
         soundGroups.value = await getSoundGroups(audioContext.value)
         console.log('soundGroups', soundGroups.value)
         isLoading.value = false
@@ -130,106 +94,10 @@ export default {
       }, duration)
     }
 
-    const loadBuffersForGroupIfNeeded = async (group) => {
-      if (group.needToLoadBuffers(group)) {
-        console.log('Loading buffers for:', group.name)
-        try {
-          await group.loadBuffers(audioContext.value)
-        } catch (error) {
-          console.error('Error loading sound buffers:', error)
-          group.isPlaying = false
-          pushErrorMessage(`Error loading sound buffers for ${group.name}`)
-          return
-        }
-      } else {
-        console.log('Buffers already loaded for:', group.name)
-      }
-    }
-
-    const playLong = async (group) => {
-      await loadBuffersForGroupIfNeeded(group)
-      try {
-        const source = audioContext.value.createBufferSource()
-        source.buffer = group.long.getBuffer()
-        source.connect(audioContext.value.destination)
-        source.start(0)
-      } catch (error) {
-        console.error('Error playing sound:', error)
-      }
-    }
-
-    const playRandomSound = async (groupIndex) => {
-      const group = soundGroups.value[groupIndex]
-      if (!group || group.isPlaying) return
-
-      group.resetGuesses()
-
-      if (!group.currentSoundVersionGroup) {
-        group.setRandomCurrentSounVersionGroup()
-      }
-
-      group.isPlaying = true
-
-      await loadBuffersForGroupIfNeeded(group)
-
-      try {
-        const source = audioContext.value.createBufferSource()
-        const randomFile = group.currentSoundVersionGroup.getRandom()
-        source.buffer = randomFile.getBuffer()
-        console.log('Playing:', group.currentSoundVersionGroup.name)
-        console.log('Buffer:', source.buffer)
-        source.connect(audioContext.value.destination)
-
-        source.onended = () => {
-          group.isPlaying = false
-        }
-
-        source.start(0)
-      } catch (error) {
-        console.error('Error playing sound:', error)
-        group.isPlaying = false
-      }
-    }
-
-    const checkAnswer = async (soundVersionGroup, groupIndex) => {
-      const group = soundGroups.value[groupIndex]
-
-      await loadBuffersForGroupIfNeeded(group)
-
-      try {
-        const source = audioContext.value.createBufferSource()
-        source.buffer = await soundVersionGroup.getNextBuffer(audioContext.value)
-        source.connect(audioContext.value.destination)
-        source.start(0)
-      } catch (error) {
-        console.error('Error playing sound:', error)
-      }
-
-      if (!group.currentSoundVersionGroup) return
-
-      const isCorrect = soundVersionGroup.name === group.currentSoundVersionGroup.name
-      soundVersionGroup.isCorrect = isCorrect
-
-      if (isCorrect) {
-        setTimeout(() => {
-          group.currentSoundVersionGroup = null
-          group.resetGuesses()
-        }, 700)
-      } else {
-        setTimeout(() => {
-          soundVersionGroup.isCorrect = null
-        }, 700)
-      }
-    }
-
-    const getButtonColor = (soundVersionGroup) => {
-      if (soundVersionGroup.isCorrect === null) return 'default'
-      return soundVersionGroup.isCorrect ? 'success' : 'error'
-    }
-
     onMounted(async () => {
       try {
         audioContext.value = new (window.AudioContext || window.webkitAudioContext)()
+        console.assert(audioContext.value, 'No audio context')
         await loadSoundFiles()
       } catch (error) {
         console.error('Error initializing sound game:', error)
@@ -242,12 +110,10 @@ export default {
       xs,
       isLoading,
       soundGroups,
-      playLong,
-      playRandomSound,
-      checkAnswer,
-      getButtonColor,
+      audioContext,
       errorMessage,
       dismissErrorBanner,
+      pushErrorMessage,
     }
   },
 }

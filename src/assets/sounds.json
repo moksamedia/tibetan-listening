@@ -184,7 +184,104 @@
   },
   {
     "name": "ཞ་མོ་ vs ཤ་མོ་",
-    "long": "wangdac/ཞ་མོ་ vs ཤ་མོ་asdf.mp3",
+    "long": "wangdac/ཞ་མོ་ vs ཤ་མོ་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "ག་ vs ཁ་",
+    "long": "khelsang/ག་ vs ཁ་.wav",
+    "applyPattern": 1
+  },
+  {
+    "name": "ག་པར་ vs ཁ་པར (n)",
+    "long": "khelsang/ག་ vs ཁ་.wav",
+    "versionGroups": [
+      {
+        "name": "ག་པར་",
+        "files": ["khelsang/ག་པར་ 1.mp3"]
+      },
+      {
+        "name": "ཁ་པར",
+        "files": ["khelsang/ཁ་པར་ 1.mp3"]
+      }
+    ]
+  },
+  {
+    "name": "བྱ་བ་ vs འཕྱ་བ་ (v)",
+    "long": "khelsang/bya ba vs 'phya ba.wav",
+    "versionGroups": [
+      {
+        "name": "{bya ba}",
+        "files": ["khelsang/bya ba 1.mp3"]
+      },
+      {
+        "name": "{'phya ba}",
+        "files": ["khelsang/'phya ba 1.mp3"]
+      }
+    ]
+  },
+  {
+    "name": "བཞད་ vs གཤེ་",
+    "long": "khelsang/བཞད་ vs གཤེ་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་",
+    "long": "khelsang/སྟུན་པ་ vsསྟོན་པ་ vs གདོན་པ་.wav",
+    "applyPattern": 1
+  },
+  {
+    "name": "གྲི་ vs ཁྲི་ vs ཀྲི་",
+    "long": "khelsang/གྲི་ vs ཁྲི་ vs ཀྲི་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "ཞེས་པ་ vs ཤེས་པ་ (v)",
+    "long": "khelsang/ཞེས་པ་ vs ཤེས་པ་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "མགོ་ vs ཀོ་",
+    "long": "khelsang/མགོ vs ཀོ.mp3",
+    "versionGroups": [
+      {
+        "name": "མགོ་",
+        "files": ["khelsang/མགོ་b 1.mp3", "khelsang/མགོ་ 1.mp3", "khelsang/མགོ་ 2.mp3"]
+      },
+      {
+        "name": "ཀོ་",
+        "files": ["khelsang/ཀོ་ 1.mp3"]
+      }
+    ]
+  },
+  {
+    "name": "དགྲམ་པ་ vs བཀྲམ་པ་ (v)",
+    "long": "khelsang/དགྲམ་པ་ vs བཀྲམ་པ་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་ (v)",
+    "long": "khelsang/གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "འགྲིག་ vs མཁྲིག་ (v)",
+    "long": "khelsang/འགྲིག་ vs མཁྲིག་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་ (n)",
+    "long": "khelsang/དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "དོགས་པ་ vs ཐོགས་པ་ (n)",
+    "long": "khelsang/དོགས་པ་ vs ཐོགས་པ་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "ལྡོག་པ་ vs རྟོགས་པ་ (n)",
+    "long": "khelsang/ལྡོག་པ་ vs རྟོགས་པ་.mp3",
     "applyPattern": 1
   }
 ]
