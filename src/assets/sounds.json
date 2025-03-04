@@ -283,5 +283,125 @@
     "name": "ལྡོག་པ་ vs རྟོགས་པ་ (n)",
     "long": "khelsang/ལྡོག་པ་ vs རྟོགས་པ་.mp3",
     "applyPattern": 1
+  },
+  {
+    "name": "ཟག་པ་ vs བསག་པ་ (v)",
+    "long": "khelsang/ཟག་པ་ vs བསག་པ་ (v).wav",
+    "applyPattern": 1
+  },
+  {
+    "name": "དུལ་བ་ vs འདུལ་བ་ vs བཏུལ་བ་ (v)",
+    "long": "khelsang/དུལ་བ་ vs འདུལ་བ་ vs བཏུལ་བ་ (v).wav",
+    "applyPattern": 1
+  },
+  {
+    "name": "སྣང་ vs ནང་",
+    "long": "khelsang/སྣང་ vs ནང་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "ལྡག་པ་ vs བརྟག་པ་ (v)",
+    "long": "khelsang/ལྡག་པ་ vs བརྟག་པ་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "མཐོང་བ་ vs འཐུང་བ་ (v)",
+    "long": "khelsang/མཐོང་བ་ vs འཐུང་བ་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "ཡིད་ vs ཡིག་",
+    "long": "khelsang/ཡིད་ vs ཡིག་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "རྒོལ་བ་ vs སྐོལ་བ་ vs སྒུལ་བ་ vs སྐུལ་བ་ (v)",
+    "long": "khelsang/རྒོལ་བ་ vs སྐོལ་བ་ vs སྒུལ་བ་ vs སྐུལ་བ་ (v).mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "རྒོལ་བ་ vs སྐོལ་བ་ (v)",
+    "long": "khelsang/རྒོལ་བ་ vs སྐོལ་བ་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "སྒུལ་བ་ vs སྐུལ་བ་ (v)",
+    "long": "khelsang/སྒུལ་བ་ vs སྐུལ་བ་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "སྒུལ་བ་ (noun) vs སྐུལ་བ་ (verb)",
+    "long": "khelsang/རྒོལ་བ་ རྒོལ་བ་ (n vs v).mp3",
+    "versionGroups": [
+      {
+        "name": "རྒོལ་བ་ n.",
+        "files": ["khelsang/རྒོལ་བ་ n 1.mp3"]
+      },
+      {
+        "name": "རྒོལ་བ་ v.",
+        "files": ["khelsang/རྒོལ་བ་ v 1.mp3"]
+      }
+    ]
+  },
+  {
+    "name": "དགེ་རྒན་ vs སྐེ་རྒྱན་ (n)",
+    "long": "khelsang/དགེ་རྒན་ vs སྐེ་རྒྱན་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "དགག་པ་ vs བཀག་པ་ (verb)",
+    "long": "khelsang/དགག་པ་ vs བཀག་པ་ (v).mp3",
+    "versionGroups": [
+      {
+        "name": "དགག་པ་ v.",
+        "files": ["khelsang/དགག་པ་ v 1.mp3"]
+      },
+      {
+        "name": "བཀག་པ་ v.",
+        "files": ["khelsang/བཀག་པ་ v 1.mp3"]
+      }
+    ]
+  },
+  {
+    "name": "དགག་པ་ vs བཀག་པ་ (noun)",
+    "long": "khelsang/དགག་པ་ vs བཀག་པ་ (n).mp3",
+    "versionGroups": [
+      {
+        "name": "དགག་པ་ n.",
+        "files": ["khelsang/དགག་པ་ n 1.mp3"]
+      },
+      {
+        "name": "བཀག་པ་ n.",
+        "files": ["khelsang/བཀག་པ་ n 1.mp3"]
+      }
+    ]
+  },
+  {
+    "name": "དགག་པ་ noun vs verb",
+    "long": "khelsang/དགག་པ་ noun vs verb.mp3",
+    "versionGroups": [
+      {
+        "name": "དགག་པ་ n.",
+        "files": ["khelsang/དགག་པ་ n 1.mp3"]
+      },
+      {
+        "name": "དགག་པ་ v.",
+        "files": ["khelsang/དགག་པ་ v 1.mp3"]
+      }
+    ]
+  },
+  {
+    "name": "བཀག་པ་ noun vs verb",
+    "long": "khelsang/བཀག་པ་ noun vs verb.mp3",
+    "versionGroups": [
+      {
+        "name": "བཀག་པ་ n.",
+        "files": ["khelsang/བཀག་པ་ n 1.mp3"]
+      },
+      {
+        "name": "བཀག་པ་ v.",
+        "files": ["khelsang/བཀག་པ་ v 1.mp3"]
+      }
+    ]
   }
 ]
