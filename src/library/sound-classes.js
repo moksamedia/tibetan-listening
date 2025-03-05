@@ -5,6 +5,7 @@ function getRandomInt(min, max) {
 }
 
 import { contextPath } from './sound-loader'
+import WeightedRandomIntGenerator from './weighted-random-integer'
 
 export class SoundFile {
   path = null
@@ -56,6 +57,7 @@ export class SoundVersionGroup {
   name
   isCorrect = null
   files = []
+  randomIntGenerator = null
   constructor(name) {
     this.name = name
   }
@@ -97,9 +99,13 @@ export class SoundVersionGroup {
     return this.getNext().getBuffer()
   }
   getRandom() {
+    if (this.randomIntGenerator == null) {
+      this.randomIntGenerator = new WeightedRandomIntGenerator(0, this.files.length - 1)
+    }
     if (this.files.length == 0) return null
     if (this.files.length == 1) return this.files[0]
-    const randomIdx = getRandomInt(0, this.files.length - 1)
+    //const randomIdx = getRandomInt(0, this.files.length - 1)
+    const randomIdx = this.randomIntGenerator.next()
     console.log(`length=${this.files.length}, randomIdx=${randomIdx}`)
     return this.files[randomIdx]
   }
@@ -112,6 +118,7 @@ export class SoundVersionGroup {
 export class SoundGroup {
   name
   currentSoundVersionGroup = null
+  randomIntGenerator = null
   isPlaying = false
   soundVersions = []
   long = null
@@ -135,7 +142,11 @@ export class SoundGroup {
     )
   }
   setRandomCurrentSounVersionGroup() {
-    const randomIndex = Math.floor(Math.random() * this.soundVersions.length)
+    if (this.randomIntGenerator == null) {
+      this.randomIntGenerator = new WeightedRandomIntGenerator(0, this.soundVersions.length - 1)
+    }
+    //const randomIndex = Math.floor(Math.random() * this.soundVersions.length)
+    const randomIndex = this.randomIntGenerator.next()
     this.currentSoundVersionGroup = this.soundVersions[randomIndex]
   }
   resetGuesses() {
