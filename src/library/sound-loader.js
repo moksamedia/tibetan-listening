@@ -1,6 +1,7 @@
 import jsEWTS from './jsewts'
 import sounds from '../assets/sounds.json'
 import { SoundFile, SoundVersionGroup, SoundGroup } from '../library/sound-classes'
+import { mapAsync } from 'lodasync'
 
 export const rawJson = sounds
 
@@ -64,12 +65,31 @@ export async function buildSoundGroups(json, audioContext) {
   let soundGroups = await Promise.all(
     json.map(async (sg) => {
       const soundGroupObj = new SoundGroup(sg.name)
-      const longFile = sg.long
+      let longs = []
+      if (!Array.isArray(sg.long)) {
+        longs.push(sg.long)
+      } else {
+        longs = sg.long
+      }
+
+      let longSoundFiles = null
+      if (!loadBuffersLazy && audioContext != null) {
+        longSoundFiles = await mapAsync(async (longFile) => {
+          const longBuffer = await loadAudioBuffer(longFile, audioContext)
+          return new SoundFile({ path: longFile, buffer: longBuffer })
+        }, longs)
+      } else {
+        longSoundFiles = longs.map((longFile) => new SoundFile({ path: longFile, buffer: null }))
+      }
+
+      /*
       const longBuffer =
         !loadBuffersLazy && audioContext != null
           ? await loadAudioBuffer(longFile, audioContext)
           : null
-      soundGroupObj.long = new SoundFile({ path: longFile, buffer: longBuffer })
+      */
+
+      soundGroupObj.long = longSoundFiles
 
       //console.assert(soundGroupObj.long instanceof SoundFile, 'long is not SoundFile')
 
@@ -89,21 +109,20 @@ export async function buildSoundGroups(json, audioContext) {
         // remove any non-tibetan chars from final sound name
         // to remove any final notes, such as " (noun)"
         sounds = sounds.map((s) => s.replace(/[^\u0f00-\u0fff]*/g, ''))
-        const numFiles = sg.applyPattern
         sg.versionGroups = []
         sounds.forEach((soundName) => {
           // create the version group
-
-          const speaker = getSpeakerFromFilePath(sg.long)
-
-          const files = []
-          for (let c = 0; c < numFiles; c++) {
-            files.push(`${speaker}/${soundName} ${c + 1}.mp3`)
-          }
-
-          sg.versionGroups.push({
-            name: soundName,
-            files: files,
+          sg.applyPattern.forEach((pattern) => {
+            const speaker = pattern.speaker
+            const numFiles = pattern.num
+            const files = []
+            for (let c = 0; c < numFiles; c++) {
+              files.push(`${speaker}/${soundName} ${c + 1}.mp3`)
+            }
+            sg.versionGroups.push({
+              name: soundName,
+              files: files,
+            })
           })
         })
       }
@@ -127,16 +146,6 @@ export async function buildSoundGroups(json, audioContext) {
     }),
   )
   console.assert(soundGroups.length == json.length, 'soundGroups.length != json.length')
-  console.assert(
-    soundGroups.every((sg) => sg.long instanceof SoundFile),
-    "SoundGroup long isn't SoundFile",
-    soundGroups.find((sg) => !(sg.long instanceof SoundFile)),
-  )
-  console.assert(
-    soundGroups.every((sg) => sg.long.path != null),
-    "SoundFile path isn't set",
-    soundGroups.find((sg) => sg.long.path == null),
-  )
   console.log(soundGroups)
   return soundGroups
 }

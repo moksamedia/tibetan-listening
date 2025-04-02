@@ -44,12 +44,15 @@
           </div>
         </v-col>
 
-        <v-col cols="12" md="3">
+        <v-col cols="12" md="2">
           <v-btn
+            v-for="(l, idx) in group.long"
+            :key="l.path"
             block
             color="secondary"
-            @click="handlePlayLong"
+            @click="handlePlayLong(idx)"
             :density="xs ? 'comfortable' : 'default'"
+            class="long-btn"
           >
             <v-icon left>mdi-play</v-icon>
             Long
@@ -102,11 +105,11 @@ export default defineComponent({
       }
     }
 
-    const handlePlayLong = async () => {
+    const handlePlayLong = async (idx) => {
       await loadBuffersForGroupIfNeeded()
       try {
         const source = audioContext.value.createBufferSource()
-        source.buffer = group.value.long.getBuffer()
+        source.buffer = group.value.long[idx].getBuffer()
         source.connect(audioContext.value.destination)
         source.start(0)
       } catch (error) {
@@ -228,5 +231,8 @@ export default defineComponent({
 }
 .favorite-icon {
   cursor: pointer;
+}
+.long-btn {
+  margin: 10px;
 }
 </style>

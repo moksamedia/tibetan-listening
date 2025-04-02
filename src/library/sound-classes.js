@@ -133,17 +133,16 @@ export class SoundGroup {
     return this.soundVersions.find((sv) => sv.needToLoadBuffers() != null)
   }
   async loadBuffers(audioContext) {
-    await Promise.all(
-      this.soundVersions.map(async (soundVersionGroup) => {
-        await soundVersionGroup.loadBuffers(audioContext)
-      }),
-    )
-    const longBuffer = await loadAudioBuffer(this.long.path, audioContext)
-    this.long.setBuffer(longBuffer)
-    console.assert(
-      this.long.buffer != null,
-      `Long buffer is null for ${this.name}, path ${this.long.path}`,
-    )
+    const soundVersionPromises = this.soundVersions.map(async (soundVersionGroup) => {
+      await soundVersionGroup.loadBuffers(audioContext)
+    })
+    const longSoundPromises = this.long.map(async (longSoundFile) => {
+      if (longSoundFile.buffer == null) {
+        const buffer = await loadAudioBuffer(longSoundFile.path, audioContext)
+        longSoundFile.setBuffer(buffer)
+      }
+    })
+    await Promise.all([...soundVersionPromises, ...longSoundPromises])
   }
   setRandomCurrentSounVersionGroup() {
     if (this.randomIntGenerator == null) {
