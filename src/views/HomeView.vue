@@ -17,6 +17,10 @@
           <p>
             The "Long" button plays a recording where the speaker speaks the syllables together.
           </p>
+          <p>
+            The sounds for each group are loaded when you first click on a sound in the group, so
+            there might be a delay the first time you play a sound in a group.
+          </p>
         </v-col>
       </v-row>
       <v-row>

@@ -10,7 +10,11 @@
         {{ isFavorited ? 'mdi-star' : 'mdi-star-outline' }}
       </v-icon>
     </v-card-title>
-    <v-card-text>
+    <v-card-text v-if="loading" class="loading-panel">
+      Loading sounds (each group loads only once when it is first played)
+      <v-progress-linear indeterminate height="40" color="yellow"></v-progress-linear>
+    </v-card-text>
+    <v-card-text v-else>
       <v-row align="center">
         <v-col cols="12" md="3">
           <v-btn
@@ -71,10 +75,17 @@ export default defineComponent({
   setup(props) {
     const { group, groupIndex, xs, audioContext, pushErrorMessage } = toRefs(props)
     const isFavorited = ref(false)
+    const loading = ref(false)
 
     const loadBuffersForGroupIfNeeded = async () => {
       if (group.value.needToLoadBuffers(group)) {
         console.log('Loading buffers for:', group.value.name)
+
+        // only show loading indicator after a short delay
+        const delayTimeout = setTimeout(() => {
+          loading.value = true
+        }, 300)
+
         try {
           console.assert(audioContext.value, 'No audio context')
           await group.value.loadBuffers(audioContext.value)
@@ -82,7 +93,9 @@ export default defineComponent({
           console.error('Error loading sound buffers:', error)
           group.value.isPlaying = false
           pushErrorMessage.value(`Error loading sound buffers for ${group.value.name}`)
-          return
+        } finally {
+          clearTimeout(delayTimeout)
+          loading.value = false
         }
       } else {
         console.log('Buffers already loaded for:', group.value.name)
@@ -110,9 +123,8 @@ export default defineComponent({
         group.value.setRandomCurrentSounVersionGroup()
       }
 
-      group.value.isPlaying = true
-
       await loadBuffersForGroupIfNeeded()
+      group.value.isPlaying = true
 
       try {
         console.assert(audioContext.value, 'No audio context')
@@ -183,12 +195,17 @@ export default defineComponent({
       handleGetButtonColor,
       isFavorited,
       toggleFavorite,
+      loading,
     }
   },
 })
 </script>
 
 <style scoped>
+.loading-panel {
+  text-align: center;
+  font-size: 20px;
+}
 .answer-btn-group {
   display: flex;
   flex-direction: row;

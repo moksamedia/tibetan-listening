@@ -35,6 +35,10 @@ export class SoundFile {
   }
 }
 
+function delay(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
 const loadAudioBuffer = async (path, audioContext) => {
   console.assert(audioContext != null, 'loadAudioBuffer() audioContext is null')
   const fullPath = contextPath + path

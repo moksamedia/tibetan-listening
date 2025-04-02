@@ -26,7 +26,9 @@
         "files": [
           "khelsang/{chad pa }_1.mp3",
           "khelsang/{chad pa }_2.mp3",
-          "khelsang/{chad pa }_3.mp3"
+          "khelsang/{chad pa }_3.mp3",
+          "ngawang/chad pa 1.mp3",
+          "ngawang/chad pa 2.mp3"
         ]
       },
       {
@@ -34,7 +36,9 @@
         "files": [
           "khelsang/{byed pa }_1.mp3",
           "khelsang/{byed pa }_2.mp3",
-          "khelsang/{byed pa }_3.mp3"
+          "khelsang/{byed pa }_3.mp3",
+          "ngawang/byed pa 1.mp3",
+          "ngawang/byed pa 2.mp3"
         ]
       }
     ]
@@ -403,5 +407,47 @@
         "files": ["khelsang/བཀག་པ་ v 1.mp3"]
       }
     ]
+  },
+  {
+    "name": "འགྱེས་པ་ vs སྐྱེས་པ་ (v)",
+    "long": "khelsang/འགྱེས་པ་ vs སྐྱེས་པ་ b.mp3",
+    "versionGroups": [
+      {
+        "name": "འགྱེས་པ་",
+        "files": ["khelsang/འགྱེས་པ་ b 1.mp3"]
+      },
+      {
+        "name": "སྐྱེས་པ་",
+        "files": ["khelsang/སྐྱེས་པ་ b 1.mp3"]
+      }
+    ]
+  },
+  {
+    "name": "ནས་ vs གནས་",
+    "long": "khelsang/ནས་ vs གནས་.mp3",
+    "applyPattern": 1
+  },
+  {
+    "name": "སྐྱེས་པ་ (v) vs སྐྱེད་པ་ (n)",
+    "long": "khelsang/སྐྱེས་པ་ vs སྐྱེད་པ་.mp3",
+    "versionGroups": [
+      {
+        "name": "སྐྱེས་པ་",
+        "files": [
+          "khelsang/སྐྱེས་པ་ c 1.mp3",
+          "khelsang/སྐྱེས་པ་ b 1.mp3",
+          "khelsang/སྐྱེས་པ་ c 1.mp3"
+        ]
+      },
+      {
+        "name": "སྐྱེད་པ",
+        "files": ["khelsang/སྐྱེད་པ་ 1.mp3", "khelsang/སྐྱེད་པ་ 2.mp3"]
+      }
+    ]
+  },
+  {
+    "name": "ཟེར་ vs གསེར་",
+    "long": "khelsang/གསེར་ vs ཟེར་.mp3",
+    "applyPattern": 1
   }
 ]
