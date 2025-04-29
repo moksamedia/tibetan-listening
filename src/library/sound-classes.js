@@ -65,6 +65,11 @@ export class SoundVersionGroup {
   constructor(name) {
     this.name = name
   }
+  getSpeakers() {
+    const speakers = this.files.map((file) => file.speaker)
+    const uniqueSpeakers = [...new Set(speakers)]
+    return uniqueSpeakers
+  }
   needToLoadBuffers() {
     return this.files.find((file) => file.buffer == null)
   }
@@ -126,6 +131,7 @@ export class SoundGroup {
   isPlaying = false
   soundVersions = []
   long = null
+  note = null
   constructor(name) {
     this.name = name
   }
@@ -178,9 +184,10 @@ export class SoundGroup {
       soundVersionGroup = new SoundVersionGroup(name)
       soundVersionGroup.addFile(new SoundFile({ path: file, speaker, buffer }))
       this.soundVersions.push(soundVersionGroup)
+      console.log('soundVersionGroup created -- ' + soundVersionGroup.name)
     } else {
       soundVersionGroup.addFile(new SoundFile({ path: file, speaker, buffer }))
+      console.log('soundVersionGroup found -- ' + soundVersionGroup.name)
     }
-    console.log('soundVersionGroup created -- ' + soundVersionGroup.name)
   }
 }

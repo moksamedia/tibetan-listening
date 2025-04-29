@@ -103,13 +103,17 @@ export async function buildSoundGroups(json, audioContext) {
             - speaker name path can be pulled from long file
             - all sounds have an equal number of files set by applyPattern
         */
+      if (sg.note) {
+        soundGroupObj.note = sg.note
+      }
+
       if (sg.applyPattern) {
-        console.log('Applying pattern ' + sg.applyPattern)
-        let sounds = sg.name.split(' vs ')
+        console.log('Applying pattern ' + JSON.stringify(sg.applyPattern))
+        let sounds = sg.name.includes(' vs ') ? sg.name.split(' vs ') : sg.name.split(' ')
         // remove any non-tibetan chars from final sound name
         // to remove any final notes, such as " (noun)"
         sounds = sounds.map((s) => s.replace(/[^\u0f00-\u0fff]*/g, ''))
-        sg.versionGroups = []
+        sg.versionGroups = sg.versionGroups == null ? [] : sg.versionGroups
         sounds.forEach((soundName) => {
           // create the version group
           sg.applyPattern.forEach((pattern) => {
@@ -123,9 +127,11 @@ export async function buildSoundGroups(json, audioContext) {
               name: soundName,
               files: files,
             })
+            console.log(`Pushing ${soundName} with files:`, files)
           })
         })
       }
+
       await Promise.all(
         sg.versionGroups.map(async (vg) => {
           await Promise.all(
@@ -142,6 +148,7 @@ export async function buildSoundGroups(json, audioContext) {
           )
         }),
       )
+
       return soundGroupObj
     }),
   )

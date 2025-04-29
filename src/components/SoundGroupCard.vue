@@ -16,6 +16,16 @@
     </v-card-text>
     <v-card-text v-else>
       <v-row align="center">
+        <!--
+        <v-col cols="12" md="3">
+          <v-select
+            v-model="selectedSpeaker"
+            :items="['all', ...getSpeakers()]"
+            label="Select Speaker"
+            dense
+          ></v-select>
+        </v-col>
+        -->
         <v-col cols="12" md="3">
           <v-btn
             block
@@ -59,12 +69,13 @@
           </v-btn>
         </v-col>
       </v-row>
+      <v-row v-if="group.note"> {{ group.note }} </v-row>
     </v-card-text>
   </v-card>
 </template>
 
 <script>
-import { defineComponent, toRefs, ref, onMounted } from 'vue'
+import { defineComponent, toRefs, ref, onMounted, onUnmounted } from 'vue'
 
 export default defineComponent({
   name: 'SoundGroupCard',
@@ -74,11 +85,25 @@ export default defineComponent({
     audioContext: Object,
     xs: Boolean,
     pushErrorMessage: Function,
+    autoplayRandom: Boolean,
   },
   setup(props) {
-    const { group, groupIndex, xs, audioContext, pushErrorMessage } = toRefs(props)
+    const { group, groupIndex, xs, audioContext, pushErrorMessage, autoplayRandom } = toRefs(props)
     const isFavorited = ref(false)
     const loading = ref(false)
+    const selectedSpeaker = ref('all')
+    let resetTimeout = null
+    let autoplayTimeout = null
+    let postAnswerTimeout = null
+    console.log('autoplayRandom', autoplayRandom.value)
+    const AUTOPLAY_TIME = 1000
+    const NO_CHOICE_TIMEOUT = 15000
+
+    const getSpeakers = () => {
+      if (!group.value) return []
+      const speakers = group.value.soundVersions.map((sv) => sv.getSpeakers()).flat()
+      return [...new Set(speakers)]
+    }
 
     const loadBuffersForGroupIfNeeded = async () => {
       if (group.value.needToLoadBuffers(group)) {
@@ -117,6 +142,12 @@ export default defineComponent({
       }
     }
 
+    const resetGameState = () => {
+      group.value.currentSoundVersionGroup = null
+      group.value.resetGuesses()
+      group.value.isPlaying = false
+    }
+
     const handlePlayRandomSound = async () => {
       if (!group.value || group.value.isPlaying) return
 
@@ -132,7 +163,7 @@ export default defineComponent({
       try {
         console.assert(audioContext.value, 'No audio context')
         const source = audioContext.value.createBufferSource()
-        const randomFile = group.value.currentSoundVersionGroup.getRandom()
+        const randomFile = group.value.currentSoundVersionGroup.getRandom(selectedSpeaker.value)
         source.buffer = randomFile.getBuffer()
         console.log('Playing:', group.value.currentSoundVersionGroup.name)
         console.log('Buffer:', source.buffer)
@@ -143,6 +174,13 @@ export default defineComponent({
         }
 
         source.start(0)
+
+        // Set a timeout to reset the game state if no guess is made
+        if (resetTimeout) clearTimeout(resetTimeout)
+        resetTimeout = setTimeout(() => {
+          console.log('No guess made within 30 seconds. Resetting game state.')
+          resetGameState()
+        }, NO_CHOICE_TIMEOUT)
       } catch (error) {
         console.error('Error playing sound:', error)
         group.value.isPlaying = false
@@ -167,15 +205,23 @@ export default defineComponent({
       soundVersionGroup.isCorrect = isCorrect
 
       if (isCorrect) {
-        setTimeout(() => {
+        postAnswerTimeout = setTimeout(() => {
           group.value.currentSoundVersionGroup = null
           group.value.resetGuesses()
+          if (autoplayRandom.value) {
+            autoplayTimeout = setTimeout(() => {
+              handlePlayRandomSound()
+            }, AUTOPLAY_TIME)
+          }
         }, 700)
       } else {
-        setTimeout(() => {
+        postAnswerTimeout = setTimeout(() => {
           soundVersionGroup.isCorrect = null
         }, 700)
       }
+
+      // Clear the reset timeout if a guess is made
+      if (resetTimeout) clearTimeout(resetTimeout)
     }
 
     const handleGetButtonColor = (soundVersionGroup) => {
@@ -191,6 +237,13 @@ export default defineComponent({
       isFavorited.value = group.value.isFavorite()
     })
 
+    onUnmounted(() => {
+      if (resetTimeout) clearTimeout(resetTimeout)
+      if (autoplayTimeout) clearTimeout(autoplayTimeout)
+      if (postAnswerTimeout) clearTimeout(postAnswerTimeout)
+      group.value.isPlaying = false
+    })
+
     return {
       handlePlayLong,
       handlePlayRandomSound,
@@ -199,6 +252,8 @@ export default defineComponent({
       isFavorited,
       toggleFavorite,
       loading,
+      selectedSpeaker,
+      getSpeakers,
     }
   },
 })

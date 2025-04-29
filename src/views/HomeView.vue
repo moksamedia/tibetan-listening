@@ -24,8 +24,15 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col cols="12" class="text-right">
+        <v-col cols="6" class="text-right">
           <v-switch v-model="showFavoritesOnly" label="Show Favorites Only" class="mt-4"></v-switch>
+        </v-col>
+        <v-col cols="6" class="text-right">
+          <v-switch
+            v-model="autoplayRandom"
+            label="Autoplay on correct choice"
+            class="mt-4"
+          ></v-switch>
         </v-col>
       </v-row>
       <v-banner
@@ -57,6 +64,7 @@
               :audioContext="audioContext"
               :xs="xs"
               :pushErrorMessage="pushErrorMessage"
+              :autoplayRandom="autoplayRandom"
             />
           </v-col>
         </v-row>
@@ -83,6 +91,7 @@ export default {
     const audioContext = ref(null)
     const errorMessage = ref(null)
     const showFavoritesOnly = ref(false)
+    const autoplayRandom = ref(true)
 
     const loadSoundFiles = async () => {
       try {
@@ -133,6 +142,7 @@ export default {
       pushErrorMessage,
       showFavoritesOnly,
       filteredSoundGroups,
+      autoplayRandom,
     }
   },
 }
