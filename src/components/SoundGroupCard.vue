@@ -26,7 +26,7 @@
           ></v-select>
         </v-col>
         -->
-        <v-col cols="12" md="3">
+        <v-col cols="12" md="3" class="d-flex align-center">
           <v-btn
             block
             :color="group.currentSoundVersionGroup != null ? 'primary' : 'white'"
@@ -36,6 +36,15 @@
           >
             <v-icon left>mdi-play</v-icon>
             {{ group.currentSoundVersionGroup != null ? 'Again' : 'Random' }}
+          </v-btn>
+          <v-btn
+            v-if="group.currentSoundVersionGroup != null"
+            color="red"
+            class="ml-2"
+            density="comfortable"
+            icon="mdi-stop"
+            @click="cancelRandomSound"
+          >
           </v-btn>
         </v-col>
 
@@ -187,6 +196,11 @@ export default defineComponent({
       }
     }
 
+    const cancelRandomSound = () => {
+      group.value.isPlaying = false
+      resetGameState()
+    }
+
     const handleCheckAnswer = async (soundVersionGroup) => {
       await loadBuffersForGroupIfNeeded()
 
@@ -247,6 +261,7 @@ export default defineComponent({
     return {
       handlePlayLong,
       handlePlayRandomSound,
+      cancelRandomSound,
       handleCheckAnswer,
       handleGetButtonColor,
       isFavorited,
