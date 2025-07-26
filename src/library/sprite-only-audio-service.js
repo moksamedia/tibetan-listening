@@ -165,32 +165,21 @@ export class SpriteOnlyAudioService {
  * Simplified Sound Classes for Sprite-Only System
  */
 
-export class SpriteSound {
-  constructor(speaker, soundKey, audioService) {
-    this.speaker = speaker;
-    this.soundKey = soundKey;
-    this.audioService = audioService;
-  }
-
-  async play(options = {}) {
-    return await this.audioService.playSound(this.speaker, this.soundKey, options);
-  }
-}
-
 export class SoundVersionGroup {
   constructor(name, audioService) {
     this.name = name;
     this.audioService = audioService;
-    this.sounds = []; // Array of SpriteSound objects
+    this.sounds = []; // Array of {speaker, soundKey} objects
     this.isCorrect = null; // For UI state
     this.nextIndex = 0; // For rotation
+    this.speakerIndices = {}; // For per-speaker rotation
   }
 
   /**
    * Add a sound variant to this group
    */
   addSound(speaker, soundKey) {
-    this.sounds.push(new SpriteSound(speaker, soundKey, this.audioService));
+    this.sounds.push({ speaker, soundKey });
   }
 
   /**
@@ -201,22 +190,39 @@ export class SoundVersionGroup {
   }
 
   /**
-   * Get random sound from any speaker
+   * Play a specific sound by index
+   */
+  async playSound(index, options = {}) {
+    if (index < 0 || index >= this.sounds.length) return null;
+    const { speaker, soundKey } = this.sounds[index];
+    return await this.audioService.playSound(speaker, soundKey, options);
+  }
+
+  /**
+   * Get random sound and return play function
    */
   getRandom() {
     if (this.sounds.length === 0) return null;
     const randomIndex = Math.floor(Math.random() * this.sounds.length);
-    return this.sounds[randomIndex];
+    return {
+      play: (options = {}) => this.playSound(randomIndex, options)
+    };
   }
 
   /**
    * Get random sound from specific speaker
    */
   getRandomFromSpeaker(speaker) {
-    const speakerSounds = this.sounds.filter(sound => sound.speaker === speaker);
-    if (speakerSounds.length === 0) return null;
-    const randomIndex = Math.floor(Math.random() * speakerSounds.length);
-    return speakerSounds[randomIndex];
+    const speakerIndices = this.sounds
+      .map((sound, index) => sound.speaker === speaker ? index : -1)
+      .filter(index => index !== -1);
+    
+    if (speakerIndices.length === 0) return null;
+    
+    const randomIndex = speakerIndices[Math.floor(Math.random() * speakerIndices.length)];
+    return {
+      play: (options = {}) => this.playSound(randomIndex, options)
+    };
   }
 
   /**
@@ -224,25 +230,37 @@ export class SoundVersionGroup {
    */
   getNext() {
     if (this.sounds.length === 0) return null;
-    const sound = this.sounds[this.nextIndex];
+    const index = this.nextIndex;
     this.nextIndex = (this.nextIndex + 1) % this.sounds.length;
-    return sound;
+    return {
+      play: (options = {}) => this.playSound(index, options)
+    };
   }
 
   /**
    * Get next sound from specific speaker in rotation
    */
   getNextFromSpeaker(speaker) {
-    const speakerSounds = this.sounds.filter(sound => sound.speaker === speaker);
-    if (speakerSounds.length === 0) return null;
+    const speakerIndices = this.sounds
+      .map((sound, index) => sound.speaker === speaker ? index : -1)
+      .filter(index => index !== -1);
     
-    // Use a per-speaker rotation index
-    if (!this.speakerIndices) this.speakerIndices = {};
-    if (this.speakerIndices[speaker] === undefined) this.speakerIndices[speaker] = 0;
+    if (speakerIndices.length === 0) return null;
     
-    const sound = speakerSounds[this.speakerIndices[speaker]];
-    this.speakerIndices[speaker] = (this.speakerIndices[speaker] + 1) % speakerSounds.length;
-    return sound;
+    // Initialize per-speaker rotation index
+    if (this.speakerIndices[speaker] === undefined) {
+      this.speakerIndices[speaker] = 0;
+    }
+    
+    const speakerRotationIndex = this.speakerIndices[speaker];
+    const actualIndex = speakerIndices[speakerRotationIndex];
+    
+    // Advance speaker rotation
+    this.speakerIndices[speaker] = (speakerRotationIndex + 1) % speakerIndices.length;
+    
+    return {
+      play: (options = {}) => this.playSound(actualIndex, options)
+    };
   }
 
   /**
@@ -258,7 +276,7 @@ export class SoundGroup {
     this.name = name;
     this.audioService = audioService;
     this.versionGroups = [];
-    this.longSounds = []; // For comparison audio
+    this.longSounds = []; // Array of {speaker, soundKey} objects
     this.currentVersionGroup = null; // For random game
     this.isPlaying = false;
     this.note = null;
@@ -275,7 +293,16 @@ export class SoundGroup {
    * Add a long comparison sound
    */
   addLongSound(speaker, soundKey) {
-    this.longSounds.push(new SpriteSound(speaker, soundKey, this.audioService));
+    this.longSounds.push({ speaker, soundKey });
+  }
+
+  /**
+   * Play a long sound by index
+   */
+  async playLongSound(index, options = {}) {
+    if (index < 0 || index >= this.longSounds.length) return null;
+    const { speaker, soundKey } = this.longSounds[index];
+    return await this.audioService.playSound(speaker, soundKey, options);
   }
 
   /**

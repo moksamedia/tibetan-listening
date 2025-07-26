@@ -6,10 +6,18 @@
  */
 
 import { SpriteOnlyAudioService, SoundVersionGroup, SoundGroup } from './sprite-only-audio-service.js';
-import { getSpeakerFromFilePath } from './sound-loader.js';
 import sounds from '../assets/sounds-processed.json' with { type: 'json' };
 
 let audioService = null;
+
+/**
+ * Extract speaker name from file path
+ */
+function getSpeakerFromFilePath(path) {
+  const match = path.match(/\/?(.*)\//)
+  const [full, speaker] = match
+  return speaker ? speaker : null
+}
 
 /**
  * Initialize and get sound groups

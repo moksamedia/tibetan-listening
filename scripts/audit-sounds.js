@@ -122,7 +122,7 @@ function expandApplyPattern(soundGroup) {
     
   // Clean up sound names (remove non-Tibetan characters like "(noun)")
   soundNames = soundNames.map(s => s.replace(/\s*\([^)]*\)\s*/g, '').trim());
-  soundNames = soundNames.map(s => s.replace(/[^\\u0f00-\\u0fff\s]*/g, '').trim());
+  soundNames = soundNames.map(s => s.replace(/[^\u0f00-\u0fff\s]*/g, '').trim());
   soundNames = soundNames.filter(s => s.length > 0);
   
   log(`  Sound names: ${soundNames.join(', ')}`);

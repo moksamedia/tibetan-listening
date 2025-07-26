@@ -66,7 +66,7 @@
         <v-col cols="12" md="2">
           <v-btn
             v-for="(longSound, idx) in group.longSounds"
-            :key="longSound.soundKey"
+            :key="`${longSound.speaker}-${longSound.soundKey}`"
             block
             color="secondary"
             @click="handlePlayLong(idx)"
@@ -142,9 +142,7 @@ export default defineComponent({
     const handlePlayLong = async (idx) => {
       await loadBuffersForGroupIfNeeded()
       try {
-        await group.value.longSounds[idx].play({
-          audioContext: audioContext.value
-        })
+        await group.value.playLongSound(idx)
       } catch (error) {
         console.error('Error playing long sound:', error)
       }
