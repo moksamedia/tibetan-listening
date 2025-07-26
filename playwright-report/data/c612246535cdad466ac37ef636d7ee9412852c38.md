@@ -1,0 +1,949 @@
+# Page snapshot
+
+```yaml
+- main:
+  - paragraph: Pick a row and press "Random." This will play a random syllable from among the two or three on that row. You have to press the button below corresponding to the correct sound. The "Random" button changes to "Again," meaning that it will play the reference sound again. When you chose the correct syllable, the row will reset.
+  - paragraph: The sounds have 2-3 different recordings that they cycle through, so each identical syllable won't sound exactly the same each time (the small number in parens). This is on purpose to have a range of sounds for each syllable.
+  - paragraph: The "Long" button plays a recording where the speaker speaks the syllables together.
+  - paragraph: All audio sprites are preloaded when the app starts, so sounds play instantly without any delays.
+  - paragraph:
+    - text: 🎵
+    - strong: Audio sprites enabled!
+    - text: Sounds are loaded from optimized sprite files for faster performance. (0/1 speakers loaded)
+  - checkbox "Show Favorites Only"
+  - text: Show Favorites Only
+  - alert
+  - checkbox "Autoplay on correct choice" [checked]
+  - text: Autoplay on correct choice
+  - alert
+  - text: རྟོག་པ་ vs ལྡོག་པ་ (verbs)
+  - button "󰓒"
+  - button "Random"
+  - button "ལྡོག་པ་ (3)"
+  - button "རྟོག་པ་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ཆད་པ་ vs བྱེད་པ་ (verbs)
+  - button "󰓒"
+  - button "Random"
+  - button "ཆད་པ་ (5)"
+  - button "བྱེད་པ་ (5)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: དཔེ་ vs འབད་
+  - button "󰓒"
+  - button "Random"
+  - button "དཔེ་ (3)"
+  - button "འབད་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ལག་པ་ (n) vs བརླག་པ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "ལག་པ་ (4)"
+  - button "བརླག་པ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: བྱ་བ་ vs ཕྱ་བ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "བྱ་བ་ (2)"
+  - button "ཕྱ་བ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: བཀའ་ vs དགའ་
+  - button "󰓒"
+  - button "Random"
+  - button "བཀའ་ (2)"
+  - button "དགའ་ (2)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: བླངས་པ་ vs ལངས་པ་
+  - button "󰓒"
+  - button "Random"
+  - button "བླངས་པ་ (2)"
+  - button "ལངས་པ་ (2)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: རྐུ་བ་ vs དགུ་བ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "རྐུ་བ་ (4)"
+  - button "དགུ་བ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ཞེས་པ་ vs ཤེས་པ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "ཞེས་པ་ (4)"
+  - button "ཤེས་པ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: དགྲ་ vs ཁྲ་ vs སྐྲ་ (n)
+  - button "󰓒"
+  - button "Random"
+  - button "དགྲ་ (4)"
+  - button "ཁྲ་ (4)"
+  - button "སྐྲ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: སྲོལ་ vs ཚུལ་
+  - button "󰓒"
+  - button "Random"
+  - button "སྲོལ་ (4)"
+  - button "ཚུལ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: རྩེད་ vs ཚད་
+  - button "󰓒"
+  - button "Random"
+  - button "རྩེད་ (4)"
+  - button "ཚད་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: འབྲལ་བ་ vs དཔྲལ་བ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "འབྲལ་བ་ (6)"
+  - button "དཔྲལ་བ་ (6)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: མོག་མོག་ vs རྨོ་རྨོ་ (n)
+  - button "󰓒"
+  - button "Random"
+  - button "མོག་མོག་ (4)"
+  - button "རྨོ་རྨོ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: བདེ་འཇགས་ vs བརྟན་འཇགས་ (n)
+  - button "󰓒"
+  - button "Random"
+  - button "བདེ་འཇགས་ (4)"
+  - button "བརྟན་འཇགས་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: མིག་ vs དམིགས་
+  - button "󰓒"
+  - button "Random"
+  - button "མིག་ (4)"
+  - button "དམིགས་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: སྒྲིབ་པ་ vs མཁྲིས་པ་
+  - button "󰓒"
+  - button "Random"
+  - button "སྒྲིབ་པ་ (4)"
+  - button "མཁྲིས་པ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: སྦང་བ་ vs སྤང་བ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "སྦང་བ་ (4)"
+  - button "སྤང་བ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: གཅེས་ vs རྗེས་
+  - button "󰓒"
+  - button "Random"
+  - button "གཅེས་ (4)"
+  - button "རྗེས་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: མགོ་ vs ཀོ་བ་
+  - button "󰓒"
+  - button "Random"
+  - button "མགོ་ (4)"
+  - button "ཀོ་བ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: འགྱེས་པ་ vs སྐྱེས་པ་
+  - button "󰓒"
+  - button "Random"
+  - button "འགྱེས་པ་ (2)"
+  - button "སྐྱེས་པ་ (2)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ཞ་མོ་ vs ཤ་མོ་
+  - button "󰓒"
+  - button "Random"
+  - button "ཞ་མོ་ (1)"
+  - button "ཤ་མོ་ (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ག་ vs ཁ་
+  - button "󰓒"
+  - button "Random"
+  - button "ག་ (3)"
+  - button "ཁ་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ག་པར་ vs ཁ་པར (n)
+  - button "󰓒"
+  - button "Random"
+  - button "ག་པར་ (3)"
+  - button "ཁ་པར (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: བྱ་བ་ vs འཕྱ་བ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "བྱ་བ (3)"
+  - button "འཕྱ་བ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: བཞད་ vs གཤེ་
+  - button "󰓒"
+  - button "Random"
+  - button "བཞད་ (2)"
+  - button "གཤེ་ (2)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་
+  - button "󰓒"
+  - button "Random"
+  - button "སྟུན་པ་ (3)"
+  - button "སྟོན་པ་ (3)"
+  - button "གདོན་པ་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: གྲི་ vs ཁྲི་ vs ཀྲི་
+  - button "󰓒"
+  - button "Random"
+  - button "གྲི་ (3)"
+  - button "ཁྲི་ (3)"
+  - button "ཀྲི་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ཞེས་པ་ vs ཤེས་པ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "ཞེས་པ་ (3)"
+  - button "ཤེས་པ་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: མགོ་ vs ཀོ་
+  - button "󰓒"
+  - button "Random"
+  - button "མགོ་ (5)"
+  - button "ཀོ་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: དགྲམ་པ་ vs བཀྲམ་པ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "དགྲམ་པ་ (3)"
+  - button "བཀྲམ་པ་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "གཅོད་པ་ (3)"
+  - button "ཆོད་པ་ (3)"
+  - button "བརྗོད་པ་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: འགྲིག་ vs མཁྲིག་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "འགྲིག་ (3)"
+  - button "མཁྲིག་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "དོགས་པ་ (3)"
+  - button "ལྡོག་པ་ (3)"
+  - button "ཐོགས་པ་ (3)"
+  - button "རྟོགས་པ་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: དོགས་པ་ vs ཐོགས་པ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "དོགས་པ་ (3)"
+  - button "ཐོགས་པ་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ལྡོག་པ་ vs རྟོགས་པ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "ལྡོག་པ་ (3)"
+  - button "རྟོགས་པ་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ཟག་པ་ vs བསག་པ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "ཟག་པ་ (3)"
+  - button "བསག་པ་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: དུལ་བ་ vs འདུལ་བ་ vs བཏུལ་བ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "དུལ་བ་ (1)"
+  - button "འདུལ་བ་ (1)"
+  - button "བཏུལ་བ་ (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: སྣང་ vs ནང་
+  - button "󰓒"
+  - button "Random"
+  - button "སྣང་ (1)"
+  - button "ནང་ (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ལྡག་པ་ vs བརྟག་པ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "ལྡག་པ་ (1)"
+  - button "བརྟག་པ་ (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: མཐོང་བ་ vs འཐུང་བ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "མཐོང་བ་ (1)"
+  - button "འཐུང་བ་ (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ཡིད་ vs ཡིག་
+  - button "󰓒"
+  - button "Random"
+  - button "ཡིད་ (1)"
+  - button "ཡིག་ (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: རྒོལ་བ་ vs སྐོལ་བ་ vs སྒུལ་བ་ vs སྐུལ་བ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "རྒོལ་བ་ (1)"
+  - button "སྐོལ་བ་ (1)"
+  - button "སྒུལ་བ་ (1)"
+  - button "སྐུལ་བ་ (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: རྒོལ་བ་ vs སྐོལ་བ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "རྒོལ་བ་ (1)"
+  - button "སྐོལ་བ་ (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: སྒུལ་བ་ vs སྐུལ་བ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "སྒུལ་བ་ (1)"
+  - button "སྐུལ་བ་ (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: སྒུལ་བ་ (noun) vs སྐུལ་བ་ (verb)
+  - button "󰓒"
+  - button "Random"
+  - button "རྒོལ་བ་ n. (1)"
+  - button "རྒོལ་བ་ v. (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: དགེ་རྒན་ vs སྐེ་རྒྱན་ (n)
+  - button "󰓒"
+  - button "Random"
+  - button "དགེ་རྒན་ (1)"
+  - button "སྐེ་རྒྱན་ (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: དགག་པ་ vs བཀག་པ་ (verb)
+  - button "󰓒"
+  - button "Random"
+  - button "དགག་པ་ v. (1)"
+  - button "བཀག་པ་ v. (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: དགག་པ་ vs བཀག་པ་ (noun)
+  - button "󰓒"
+  - button "Random"
+  - button "དགག་པ་ n. (1)"
+  - button "བཀག་པ་ n. (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: དགག་པ་ noun vs verb
+  - button "󰓒"
+  - button "Random"
+  - button "དགག་པ་ n. (1)"
+  - button "དགག་པ་ v. (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: བཀག་པ་ noun vs verb
+  - button "󰓒"
+  - button "Random"
+  - button "བཀག་པ་ n. (1)"
+  - button "བཀག་པ་ v. (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: འགྱེས་པ་ vs སྐྱེས་པ་ (v)
+  - button "󰓒"
+  - button "Random"
+  - button "འགྱེས་པ་ (1)"
+  - button "སྐྱེས་པ་ (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ནས་ vs གནས་
+  - button "󰓒"
+  - button "Random"
+  - button "ནས་ (1)"
+  - button "གནས་ (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: སྐྱེས་པ་ (v) vs སྐྱེད་པ་ (n)
+  - button "󰓒"
+  - button "Random"
+  - button "སྐྱེས་པ་ (n) (3)"
+  - button "སྐྱེད་པ་ (v) (2)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ཟེར་ vs གསེར་
+  - button "󰓒"
+  - button "Random"
+  - button "ཟེར་ (1)"
+  - button "གསེར་ (1)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: གསུང་བ་ vs བཟུང་བ་
+  - button "󰓒"
+  - button "Random"
+  - button "གསུང་བ་ (3)"
+  - button "བཟུང་བ་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: བྱ་བ་ vs འཕྱ་བ་
+  - button "󰓒"
+  - button "Random"
+  - button "བྱ་བ་ (4)"
+  - button "འཕྱ་བ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ཤག vs ཞག
+  - button "󰓒"
+  - button "Random"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: འཚེ་ vs བརྩེ་
+  - button "󰓒"
+  - button "Random"
+  - button "འཚེ་ (5)"
+  - button "བརྩེ་ (5)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: འཚེ་བ་ vs བརྩེ་བ་
+  - button "󰓒"
+  - button "Random"
+  - button "འཚེ་བ་ (4)"
+  - button "བརྩེ་བ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: འཚོ་ vs གཙོ་
+  - button "󰓒"
+  - button "Random"
+  - button "འཚོ་ (4)"
+  - button "གཙོ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: བསྟེན་པ་ (v) vs བསྟན་པ་ (n)
+  - button "󰓒"
+  - button "Random"
+  - button "བསྟེན་པ་ (v) (2)"
+  - button "བསྟན་པ་ (n) (2)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: Distinguish between the pronunciation of a noun and verb བདེན་པ་ (n) vs བསྟན་པ་ (n)
+  - button "󰓒"
+  - button "Random"
+  - button "བདེན་པ་ (n) (4)"
+  - button "བསྟན་པ་ (n) (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: These are both pronounced as nouns འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་
+  - button "󰓒"
+  - button "Random"
+  - button "འདོན་པ་འདོན་པ་ (4)"
+  - button "འདོན་པ་བཏོན་པ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: སྦྱང་ vs སྤྱང་
+  - button "󰓒"
+  - button "Random"
+  - button "སྦྱང་ (4)"
+  - button "སྤྱང་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: སྤྲོ་བ་ vs བྲོ་བ་
+  - button "󰓒"
+  - button "Random"
+  - button "སྤྲོ་བ་ (4)"
+  - button "བྲོ་བ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ཉེན་ཁ་ vs གཉན་ཁ་
+  - button "󰓒"
+  - button "Random"
+  - button "ཉེན་ཁ་ (4)"
+  - button "གཉན་ཁ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་
+  - button "󰓒"
+  - button "Random"
+  - button "པགས་པ་ (5)"
+  - button "སྦག་སྦག་ (5)"
+  - button "འཕགས་པ་ (5)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: དེ་ སྡེ་ སྟེ་
+  - button "󰓒"
+  - button "Random"
+  - button "དེ་ (4)"
+  - button "སྡེ་ (4)"
+  - button "སྟེ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: གི་ གྱི་ ཀྱི་
+  - button "󰓒"
+  - button "Random"
+  - button "གི་ (4)"
+  - button "གྱི་ (4)"
+  - button "ཀྱི་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ག་ རྒ་ ཁ་ ཀ་
+  - button "󰓒"
+  - button "Random"
+  - button "ག་ (4)"
+  - button "རྒ་ (4)"
+  - button "ཁ་ (4)"
+  - button "ཀ་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: གི་ རྒི ཁི་ ཀི་
+  - button "󰓒"
+  - button "Random"
+  - button "གི་ (4)"
+  - button "རྒི་ (4)"
+  - button "ཁི་ (4)"
+  - button "ཀི་ (4)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: གུ་ རྒུ་ ཁུ་ ཀུ་
+  - button "󰓒"
+  - button "Random"
+  - button "གུ་ (3)"
+  - button "རྒུ་ (3)"
+  - button "ཁུ་ (3)"
+  - button "ཀུ་ (3)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: གེ་ རྒེ་ ཁེ་ ཀེ་
+  - button "󰓒"
+  - button "Random"
+  - button "གེ་ (2)"
+  - button "རྒེ་ (2)"
+  - button "ཁེ་ (2)"
+  - button "ཀེ་ (2)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: གོ་ རྒོ་ ཁོ་ ཀོ་
+  - button "󰓒"
+  - button "Random"
+  - button "གོ་ (2)"
+  - button "རྒོ་ (2)"
+  - button "ཁོ་ (2)"
+  - button "ཀོ་ (2)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ཐུགས་རྗེས་ vs དུག་ཆེ་
+  - button "󰓒"
+  - button "Random"
+  - button "ཐུགས་རྗེས་ (2)"
+  - button "དུག་ཆེ་ (2)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: ལ་ vs ལྷ་
+  - button "󰓒"
+  - button "Random"
+  - button "ལ་ (2)"
+  - button "ལྷ་ (2)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: དག་པ་ vs ཐག་པ་ vs རྟག་པ་
+  - button "󰓒"
+  - button "Random"
+  - button "དག་པ་ (2)"
+  - button "ཐག་པ་ (2)"
+  - button "རྟག་པ་ (2)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+  - text: གློག་ vs ལོག་
+  - button "󰓒"
+  - button "Random"
+  - button "གློག་ (2)"
+  - button "ལོག་ (2)"
+  - button "Loading..." [disabled]:
+    - text: Loading...
+    - progressbar:
+      - img
+- img
+- img
+```

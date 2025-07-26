@@ -15,7 +15,10 @@
     "audit-sounds": "node scripts/audit-sounds.js",
     "audit-sounds:fix": "node scripts/audit-sounds.js --fix",
     "audit-sounds:verbose": "node scripts/audit-sounds.js --verbose",
-    "build-audio": "npm run audit-sounds:fix && npm run generate-sprites"
+    "build-audio": "npm run audit-sounds:fix && npm run generate-sprites",
+    "test:integration": "playwright test",
+    "test:integration:ui": "playwright test --ui",
+    "test:integration:headed": "playwright test --headed"
   },
   "dependencies": {
     "lodasync": "^1.0.7",
@@ -27,6 +30,7 @@
   "devDependencies": {
     "@eslint/js": "^9.20.0",
     "@mdi/font": "^7.4.47",
+    "@playwright/test": "^1.54.1",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vitest/eslint-plugin": "1.1.31",
     "@vue/eslint-config-prettier": "^10.2.0",
@@ -35,6 +39,7 @@
     "eslint": "^9.20.1",
     "eslint-plugin-vue": "^9.32.0",
     "jsdom": "^26.0.0",
+    "playwright": "^1.54.1",
     "prettier": "^3.5.1",
     "vite": "^6.1.0",
     "vite-plugin-vue-devtools": "^7.7.2",
