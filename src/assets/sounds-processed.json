@@ -1,2028 +1,5802 @@
 [
   {
     "name": "རྟོག་པ་ vs ལྡོག་པ་ (verbs)",
-    "long": "khelsang/རྟོག་པ་ vs ལྡོག་པ་ long.mp3",
     "versionGroups": [
       {
         "name": "ལྡོག་པ་",
-        "files": [
-          "khelsang/ལྡོག་པ་_1.mp3",
-          "khelsang/ལྡོག་པ་_2.mp3",
-          "khelsang/ལྡོག་པ་_3.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལྡོག་པ་_1",
+            "verified": true,
+            "originalPath": "khelsang/ལྡོག་པ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལྡོག་པ་_2",
+            "verified": true,
+            "originalPath": "khelsang/ལྡོག་པ་_2.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལྡོག་པ་_3",
+            "verified": true,
+            "originalPath": "khelsang/ལྡོག་པ་_3.mp3"
+          }
         ]
       },
       {
         "name": "རྟོག་པ་",
-        "files": [
-          "khelsang/རྟོག་པ་_1.mp3",
-          "khelsang/རྟོག་པ་_2.mp3",
-          "khelsang/རྟོག་པ་_3.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྟོག་པ་_1",
+            "verified": true,
+            "originalPath": "khelsang/རྟོག་པ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྟོག་པ་_2",
+            "verified": true,
+            "originalPath": "khelsang/རྟོག་པ་_2.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྟོག་པ་_3",
+            "verified": true,
+            "originalPath": "khelsang/རྟོག་པ་_3.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "རྟོག་པ་ vs ལྡོག་པ་ long",
+        "verified": {
+          "start": 682600,
+          "length": 4432,
+          "originalPath": "རྟོག་པ་ vs ལྡོག་པ་ long"
+        },
+        "originalPath": "khelsang/རྟོག་པ་ vs ལྡོག་པ་ long.mp3"
       }
     ]
   },
   {
     "name": "ཆད་པ་ vs བྱེད་པ་ (verbs)",
-    "long": [
-      "khelsang/ཆད་པ་ vs བྱེད་པ་ long.mp3",
-      "ngawang/chad pa vs byed pa.mp3"
-    ],
     "versionGroups": [
       {
         "name": "ཆད་པ་",
-        "files": [
-          "khelsang/ཆད་པ་_1.mp3",
-          "khelsang/ཆད་པ་_2.mp3",
-          "khelsang/ཆད་པ་_3.mp3",
-          "ngawang/chad pa 1.mp3",
-          "ngawang/chad pa 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཆད་པ་_1",
+            "verified": true,
+            "originalPath": "khelsang/ཆད་པ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཆད་པ་_2",
+            "verified": true,
+            "originalPath": "khelsang/ཆད་པ་_2.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཆད་པ་_3",
+            "verified": true,
+            "originalPath": "khelsang/ཆད་པ་_3.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "chad pa 1",
+            "verified": true,
+            "originalPath": "ngawang/chad pa 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "chad pa 2",
+            "verified": true,
+            "originalPath": "ngawang/chad pa 2.mp3"
+          }
         ]
       },
       {
         "name": "བྱེད་པ་",
-        "files": [
-          "khelsang/བྱེད་པ་_1.mp3",
-          "khelsang/བྱེད་པ་_2.mp3",
-          "khelsang/བྱེད་པ་_3.mp3",
-          "ngawang/byed pa 1.mp3",
-          "ngawang/byed pa 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བྱེད་པ་_1",
+            "verified": true,
+            "originalPath": "khelsang/བྱེད་པ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བྱེད་པ་_2",
+            "verified": true,
+            "originalPath": "khelsang/བྱེད་པ་_2.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བྱེད་པ་_3",
+            "verified": true,
+            "originalPath": "khelsang/བྱེད་པ་_3.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "byed pa 1",
+            "verified": true,
+            "originalPath": "ngawang/byed pa 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "byed pa 2",
+            "verified": true,
+            "originalPath": "ngawang/byed pa 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ཆད་པ་ vs བྱེད་པ་ long",
+        "verified": {
+          "start": 180000,
+          "length": 3346,
+          "originalPath": "ཆད་པ་ vs བྱེད་པ་ long"
+        },
+        "originalPath": "khelsang/ཆད་པ་ vs བྱེད་པ་ long.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "chad pa vs byed pa",
+        "verified": {
+          "start": 12600,
+          "length": 5287,
+          "originalPath": "chad pa vs byed pa"
+        },
+        "originalPath": "ngawang/chad pa vs byed pa.mp3"
       }
     ]
   },
   {
     "name": "དཔེ་ vs འབད་",
-    "long": [
-      "khelsang/དཔེ་ vs འབད་ long.mp3",
-      "ngawang/dpe vs 'bad.mp3"
-    ],
     "versionGroups": [
       {
         "name": "དཔེ་",
-        "files": [
-          "khelsang/དཔེ་_1.mp3",
-          "khelsang/དཔེ་_2.mp3",
-          "ngawang/dpe 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དཔེ་_1",
+            "verified": true,
+            "originalPath": "khelsang/དཔེ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "དཔེ་_2",
+            "verified": true,
+            "originalPath": "khelsang/དཔེ་_2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "dpe 1",
+            "verified": true,
+            "originalPath": "ngawang/dpe 1.mp3"
+          }
         ]
       },
       {
         "name": "འབད་",
-        "files": [
-          "khelsang/འབད་_1.mp3",
-          "khelsang/འབད་_2.mp3",
-          "ngawang/'bad 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འབད་_1",
+            "verified": true,
+            "originalPath": "khelsang/འབད་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "འབད་_2",
+            "verified": true,
+            "originalPath": "khelsang/འབད་_2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "'bad 1",
+            "verified": true,
+            "originalPath": "ngawang/'bad 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "དཔེ་ vs འབད་ long",
+        "verified": {
+          "start": 267200,
+          "length": 3517,
+          "originalPath": "དཔེ་ vs འབད་ long"
+        },
+        "originalPath": "khelsang/དཔེ་ vs འབད་ long.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "dpe vs 'bad",
+        "verified": {
+          "start": 21200,
+          "length": 4177,
+          "originalPath": "dpe vs 'bad"
+        },
+        "originalPath": "ngawang/dpe vs 'bad.mp3"
       }
     ]
   },
   {
     "name": "ལག་པ་ (n) vs བརླག་པ (v)",
-    "long": [
-      "khelsang/བརླག་པ་ vs ལག་པ་ long.mp3",
-      "ngawang/lag pa vs brlags pa.mp3"
-    ],
     "versionGroups": [
       {
         "name": "ལག་པ་",
-        "files": [
-          "khelsang/ལག་པ་_1.mp3",
-          "khelsang/ལག་པ་_2.mp3",
-          "ngawang/lag pa 1.mp3",
-          "ngawang/lag pa 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལག་པ་_1",
+            "verified": true,
+            "originalPath": "khelsang/ལག་པ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལག་པ་_2",
+            "verified": true,
+            "originalPath": "khelsang/ལག་པ་_2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "lag pa 1",
+            "verified": true,
+            "originalPath": "ngawang/lag pa 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "lag pa 2",
+            "verified": true,
+            "originalPath": "ngawang/lag pa 2.mp3"
+          }
         ]
       },
       {
         "name": "བརླག་པ་",
-        "files": [
-          "khelsang/བརླག་པ་_1.mp3",
-          "khelsang/བརླག་པ་_2.mp3",
-          "ngawang/brlags pa 1.mp3",
-          "ngawang/bralgs pa 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བརླག་པ་_1",
+            "verified": true,
+            "originalPath": "khelsang/བརླག་པ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བརླག་པ་_2",
+            "verified": true,
+            "originalPath": "khelsang/བརླག་པ་_2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "brlags pa 1",
+            "verified": true,
+            "originalPath": "ngawang/brlags pa 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "bralgs pa 2",
+            "verified": true,
+            "originalPath": "ngawang/bralgs pa 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "བརླག་པ་ vs ལག་པ་ long",
+        "verified": {
+          "start": 406400,
+          "length": 3828,
+          "originalPath": "བརླག་པ་ vs ལག་པ་ long"
+        },
+        "originalPath": "khelsang/བརླག་པ་ vs ལག་པ་ long.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "lag pa vs brlags pa",
+        "verified": {
+          "start": 30800,
+          "length": 5744,
+          "originalPath": "lag pa vs brlags pa"
+        },
+        "originalPath": "ngawang/lag pa vs brlags pa.mp3"
       }
     ]
   },
   {
     "name": "བྱ་བ་ vs ཕྱ་བ་ (v)",
-    "long": [
-      "khelsang/བྱ་བ་ vs ཕྱ་བ་ long.mp3",
-      "ngawang/བྱ་བ་ vs ཕྱ་བ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "བྱ་བ་",
-        "files": [
-          "khelsang/བྱ་བ་_1.mp3",
-          "khelsang/བྱ་བ་_2.mp3",
-          "ngawang/བྱ་བ་ 1.mp3",
-          "ngawang/བྱ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བྱ་བ་_1",
+            "verified": false,
+            "originalPath": "khelsang/བྱ་བ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བྱ་བ་_2",
+            "verified": false,
+            "originalPath": "khelsang/བྱ་བ་_2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བྱ་བ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/བྱ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བྱ་བ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/བྱ་བ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཕྱ་བ་",
-        "files": [
-          "khelsang/ཕྱ་བ་_1.mp3",
-          "khelsang/ཕྱ་བ་_2.mp3",
-          "ngawang/ཕྱ་བ་ 1.mp3",
-          "ngawang/ཕྱ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཕྱ་བ་_1",
+            "verified": true,
+            "originalPath": "khelsang/ཕྱ་བ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཕྱ་བ་_2",
+            "verified": true,
+            "originalPath": "khelsang/ཕྱ་བ་_2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཕྱ་བ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཕྱ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཕྱ་བ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཕྱ་བ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "བྱ་བ་ vs ཕྱ་བ་ long",
+        "verified": {
+          "start": 429200,
+          "length": 3102,
+          "originalPath": "བྱ་བ་ vs ཕྱ་བ་ long"
+        },
+        "originalPath": "khelsang/བྱ་བ་ vs ཕྱ་བ་ long.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "བྱ་བ་ vs ཕྱ་བ་",
+        "verified": {
+          "start": 265400,
+          "length": 5152,
+          "originalPath": "བྱ་བ་ vs ཕྱ་བ་"
+        },
+        "originalPath": "ngawang/བྱ་བ་ vs ཕྱ་བ་.mp3"
       }
     ]
   },
   {
     "name": "བཀའ་ vs དགའ་",
-    "long": "ngawang/བཀའ་ vs དགའ་.mp3",
     "versionGroups": [
       {
         "name": "བཀའ་",
-        "files": [
-          "ngawang/བཀའ་ 1.mp3",
-          "ngawang/བཀའ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "ngawang",
+            "soundKey": "བཀའ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/བཀའ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བཀའ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/བཀའ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "དགའ་",
-        "files": [
-          "ngawang/དགའ་ 1.mp3",
-          "ngawang/དགའ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "ngawang",
+            "soundKey": "དགའ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/དགའ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དགའ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/དགའ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "ngawang",
+        "soundKey": "བཀའ་ vs དགའ་",
+        "verified": {
+          "start": 213800,
+          "length": 6597,
+          "originalPath": "བཀའ་ vs དགའ་"
+        },
+        "originalPath": "ngawang/བཀའ་ vs དགའ་.mp3"
       }
     ]
   },
   {
     "name": "བླངས་པ་ vs ལངས་པ་",
-    "long": "ngawang/བླངས་པ་ vs ལངས་པ་.mp3",
     "versionGroups": [
       {
         "name": "བླངས་པ་",
-        "files": [
-          "ngawang/བླངས་པ་ 1.mp3",
-          "ngawang/བླངས་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "ngawang",
+            "soundKey": "བླངས་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/བླངས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བླངས་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/བླངས་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ལངས་པ་",
-        "files": [
-          "ngawang/ལངས་པ་ 1.mp3",
-          "ngawang/ལངས་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "ngawang",
+            "soundKey": "ལངས་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ལངས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ལངས་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ལངས་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "ngawang",
+        "soundKey": "བླངས་པ་ vs ལངས་པ་",
+        "verified": {
+          "start": 282200,
+          "length": 5836,
+          "originalPath": "བླངས་པ་ vs ལངས་པ་"
+        },
+        "originalPath": "ngawang/བླངས་པ་ vs ལངས་པ་.mp3"
       }
     ]
   },
   {
     "name": "རྐུ་བ་ vs དགུ་བ་ (v)",
-    "long": [
-      "khelsang/དགུ་བ་ vs རྐུ་བ་ long.mp3",
-      "ngawang/རྐུ་བ་ vs དགུ་བ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "རྐུ་བ་",
-        "files": [
-          "khelsang/རྐུ་བ་_1.mp3",
-          "khelsang/རྐུ་བ་_2.mp3",
-          "ngawang/རྐུ་བ་ 1.mp3",
-          "ngawang/རྐུ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྐུ་བ་_1",
+            "verified": true,
+            "originalPath": "khelsang/རྐུ་བ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྐུ་བ་_2",
+            "verified": true,
+            "originalPath": "khelsang/རྐུ་བ་_2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "རྐུ་བ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/རྐུ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "རྐུ་བ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/རྐུ་བ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "དགུ་བ་",
-        "files": [
-          "khelsang/དགུ་བ་_1.mp3",
-          "khelsang/དགུ་བ་_2.mp3",
-          "ngawang/དགུ་བ་ 1.mp3",
-          "ngawang/དགུ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དགུ་བ་_1",
+            "verified": true,
+            "originalPath": "khelsang/དགུ་བ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "དགུ་བ་_2",
+            "verified": true,
+            "originalPath": "khelsang/དགུ་བ་_2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དགུ་བ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/དགུ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དགུ་བ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/དགུ་བ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "དགུ་བ་ vs རྐུ་བ་ long",
+        "verified": {
+          "start": 239400,
+          "length": 4187,
+          "originalPath": "དགུ་བ་ vs རྐུ་བ་ long"
+        },
+        "originalPath": "khelsang/དགུ་བ་ vs རྐུ་བ་ long.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "རྐུ་བ་ vs དགུ་བ་",
+        "verified": {
+          "start": 411200,
+          "length": 4492,
+          "originalPath": "རྐུ་བ་ vs དགུ་བ་"
+        },
+        "originalPath": "ngawang/རྐུ་བ་ vs དགུ་བ་.mp3"
       }
     ]
   },
   {
     "name": "ཞེས་པ་ vs ཤེས་པ་ (v)",
-    "long": [
-      "khelsang/ཞེས་པ་ vs ཤེས་པ་ long.mp3",
-      "ngawang/ཞེས་པ་ vs ཤེས་པ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "ཞེས་པ་",
-        "files": [
-          "khelsang/ཞེས་པ་_1.mp3",
-          "khelsang/ཞེས་པ་_2.mp3",
-          "ngawang/ཞེས་པ་ 1.mp3",
-          "ngawang/ཞེས་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཞེས་པ་_1",
+            "verified": true,
+            "originalPath": "khelsang/ཞེས་པ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཞེས་པ་_2",
+            "verified": true,
+            "originalPath": "khelsang/ཞེས་པ་_2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཞེས་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཞེས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཞེས་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཞེས་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཤེས་པ་",
-        "files": [
-          "khelsang/ཤེས་པ་_1.mp3",
-          "khelsang/ཤེས་པ་_2.mp3",
-          "ngawang/ཤེས་པ་ 1.mp3",
-          "ngawang/ཤེས་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཤེས་པ་_1",
+            "verified": true,
+            "originalPath": "khelsang/ཤེས་པ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཤེས་པ་_2",
+            "verified": true,
+            "originalPath": "khelsang/ཤེས་པ་_2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཤེས་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཤེས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཤེས་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཤེས་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ཞེས་པ་ vs ཤེས་པ་ long",
+        "verified": {
+          "start": 510000,
+          "length": 4599,
+          "originalPath": "ཞེས་པ་ vs ཤེས་པ་ long"
+        },
+        "originalPath": "khelsang/ཞེས་པ་ vs ཤེས་པ་ long.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "ཞེས་པ་ vs ཤེས་པ་",
+        "verified": {
+          "start": 361400,
+          "length": 5591,
+          "originalPath": "ཞེས་པ་ vs ཤེས་པ་"
+        },
+        "originalPath": "ngawang/ཞེས་པ་ vs ཤེས་པ་.mp3"
       }
     ]
   },
   {
     "name": "དགྲ་ vs ཁྲ་ vs སྐྲ་ (n)",
-    "long": [
-      "khelsang/སྐྲ་ vs དགྲ་ vs ཁྲ་ long.mp3",
-      "ngawang/དགྲ་ vs ཁྲ་ vs སྐྲ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "དགྲ་",
-        "files": [
-          "khelsang/དགྲ་_1.mp3",
-          "khelsang/དགྲ་_2.mp3",
-          "ngawang/དགྲ་ 1.mp3",
-          "ngawang/དགྲ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དགྲ་_1",
+            "verified": true,
+            "originalPath": "khelsang/དགྲ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "དགྲ་_2",
+            "verified": true,
+            "originalPath": "khelsang/དགྲ་_2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དགྲ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/དགྲ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དགྲ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/དགྲ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཁྲ་",
-        "files": [
-          "khelsang/ཁྲ་_1.mp3",
-          "khelsang/ཁྲ་_2.mp3",
-          "ngawang/ཁྲ་ 1.mp3",
-          "ngawang/ཁྲ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁྲ་_1",
+            "verified": true,
+            "originalPath": "khelsang/ཁྲ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁྲ་_2",
+            "verified": true,
+            "originalPath": "khelsang/ཁྲ་_2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཁྲ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཁྲ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཁྲ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཁྲ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "སྐྲ་",
-        "files": [
-          "khelsang/སྐྲ་_1.mp3",
-          "khelsang/སྐྲ་_2.mp3",
-          "ngawang/སྐྲ་ 1.mp3",
-          "ngawang/སྐྲ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐྲ་_1",
+            "verified": true,
+            "originalPath": "khelsang/སྐྲ་_1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐྲ་_2",
+            "verified": true,
+            "originalPath": "khelsang/སྐྲ་_2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྐྲ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/སྐྲ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྐྲ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/སྐྲ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "སྐྲ་ vs དགྲ་ vs ཁྲ་ long",
+        "verified": {
+          "start": 775800,
+          "length": 11483,
+          "originalPath": "སྐྲ་ vs དགྲ་ vs ཁྲ་ long"
+        },
+        "originalPath": "khelsang/སྐྲ་ vs དགྲ་ vs ཁྲ་ long.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "དགྲ་ vs ཁྲ་ vs སྐྲ་",
+        "verified": {
+          "start": 131600,
+          "length": 16896,
+          "originalPath": "དགྲ་ vs ཁྲ་ vs སྐྲ་"
+        },
+        "originalPath": "ngawang/དགྲ་ vs ཁྲ་ vs སྐྲ་.mp3"
       }
     ]
   },
   {
     "name": "སྲོལ་ vs ཚུལ་",
-    "long": [
-      "khelsang/སྲོལ་ vs ཚུལ་ long.mp3",
-      "ngawang/སྲོལ་ vs ཚུལ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "སྲོལ་",
-        "files": [
-          "khelsang/སྲོལ་ 1.mp3",
-          "khelsang/སྲོལ་ 2.mp3",
-          "ngawang/སྲོལ་ 1.mp3",
-          "ngawang/སྲོལ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྲོལ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྲོལ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྲོལ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/སྲོལ་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྲོལ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/སྲོལ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྲོལ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/སྲོལ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཚུལ་",
-        "files": [
-          "khelsang/ཚུལ་ 1.mp3",
-          "khelsang/ཚུལ་ 2.mp3",
-          "ngawang/ཚུལ་ 1.mp3",
-          "ngawang/ཚུལ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཚུལ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཚུལ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཚུལ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཚུལ་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཚུལ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཚུལ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཚུལ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཚུལ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "སྲོལ་ vs ཚུལ་ long",
+        "verified": {
+          "start": 859800,
+          "length": 6099,
+          "originalPath": "སྲོལ་ vs ཚུལ་ long"
+        },
+        "originalPath": "khelsang/སྲོལ་ vs ཚུལ་ long.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "སྲོལ་ vs ཚུལ་",
+        "verified": {
+          "start": 488400,
+          "length": 4791,
+          "originalPath": "སྲོལ་ vs ཚུལ་"
+        },
+        "originalPath": "ngawang/སྲོལ་ vs ཚུལ་.mp3"
       }
     ]
   },
   {
     "name": "རྩེད་ vs ཚད་",
-    "long": [
-      "khelsang/རྩེད་ vs ཚད་ long.mp3",
-      "ngawang/རྩེད་ vs ཚད་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "རྩེད་",
-        "files": [
-          "khelsang/རྩེད་ 1.mp3",
-          "khelsang/རྩེད་ 2.mp3",
-          "ngawang/རྩེད་ 1.mp3",
-          "ngawang/རྩེད་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྩེད་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྩེད་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྩེད་ 2",
+            "verified": true,
+            "originalPath": "khelsang/རྩེད་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "རྩེད་ 1",
+            "verified": true,
+            "originalPath": "ngawang/རྩེད་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "རྩེད་ 2",
+            "verified": true,
+            "originalPath": "ngawang/རྩེད་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཚད་",
-        "files": [
-          "khelsang/ཚད་ 1.mp3",
-          "khelsang/ཚད་ 2.mp3",
-          "ngawang/ཚད་ 1.mp3",
-          "ngawang/ཚད་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཚད་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཚད་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཚད་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཚད་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཚད་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཚད་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཚད་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཚད་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "རྩེད་ vs ཚད་ long",
+        "verified": {
+          "start": 697400,
+          "length": 4631,
+          "originalPath": "རྩེད་ vs ཚད་ long"
+        },
+        "originalPath": "khelsang/རྩེད་ vs ཚད་ long.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "རྩེད་ vs ཚད་",
+        "verified": {
+          "start": 426000,
+          "length": 4768,
+          "originalPath": "རྩེད་ vs ཚད་"
+        },
+        "originalPath": "ngawang/རྩེད་ vs ཚད་.mp3"
       }
     ]
   },
   {
     "name": "འབྲལ་བ་ vs དཔྲལ་བ་ (v)",
-    "long": [
-      "khelsang/འབྲལ་བ་ vs དཔྲལ་བ་.mp3",
-      "ngawang/འབྲལ་བ་ vs དཔྲལ་བ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "འབྲལ་བ་",
-        "files": [
-          "khelsang/འབྲལ་བ་ 1.mp3",
-          "khelsang/འབྲལ་བ་ 2.mp3",
-          "ngawang/འབྲལ་བ་ 1.mp3",
-          "ngawang/འབྲལ་བ་ 2.mp3",
-          "misc/འབྲལ་བ་ 1.mp3",
-          "misc/འབྲལ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འབྲལ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/འབྲལ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "འབྲལ་བ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/འབྲལ་བ་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "འབྲལ་བ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/འབྲལ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "འབྲལ་བ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/འབྲལ་བ་ 2.mp3"
+          },
+          {
+            "speaker": "misc",
+            "soundKey": "འབྲལ་བ་ 1",
+            "verified": true,
+            "originalPath": "misc/འབྲལ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "misc",
+            "soundKey": "འབྲལ་བ་ 2",
+            "verified": true,
+            "originalPath": "misc/འབྲལ་བ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "དཔྲལ་བ་",
-        "files": [
-          "khelsang/དཔྲལ་བ་ 1.mp3",
-          "khelsang/དཔྲལ་བ་ 2.mp3",
-          "ngawang/དཔྲལ་བ་ 1.mp3",
-          "ngawang/དཔྲལ་བ་ 2.mp3",
-          "misc/དཔྲལ་བ་ 1.mp3",
-          "misc/དཔྲལ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དཔྲལ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/དཔྲལ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "དཔྲལ་བ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/དཔྲལ་བ་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དཔྲལ་བ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/དཔྲལ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དཔྲལ་བ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/དཔྲལ་བ་ 2.mp3"
+          },
+          {
+            "speaker": "misc",
+            "soundKey": "དཔྲལ་བ་ 1",
+            "verified": true,
+            "originalPath": "misc/དཔྲལ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "misc",
+            "soundKey": "དཔྲལ་བ་ 2",
+            "verified": true,
+            "originalPath": "misc/དཔྲལ་བ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "འབྲལ་བ་ vs དཔྲལ་བ་",
+        "verified": {
+          "start": 606600,
+          "length": 4743,
+          "originalPath": "འབྲལ་བ་ vs དཔྲལ་བ་"
+        },
+        "originalPath": "khelsang/འབྲལ་བ་ vs དཔྲལ་བ་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "འབྲལ་བ་ vs དཔྲལ་བ་",
+        "verified": {
+          "start": 400600,
+          "length": 7018,
+          "originalPath": "འབྲལ་བ་ vs དཔྲལ་བ་"
+        },
+        "originalPath": "ngawang/འབྲལ་བ་ vs དཔྲལ་བ་.mp3"
       }
     ]
   },
   {
     "name": "མོག་མོག་ vs རྨོ་རྨོ་ (n)",
-    "long": [
-      "khelsang/མོག་མོག་ vs རྨོ་རྨོ་.mp3",
-      "ngawang/མོག་མོག་ vs རྨོ་རྨོ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "མོག་མོག་",
-        "files": [
-          "khelsang/མོག་མོག་ 1.mp3",
-          "khelsang/མོག་མོག་ 2.mp3",
-          "ngawang/མོག་མོག་ 1.mp3",
-          "ngawang/མོག་མོག་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "མོག་མོག་ 1",
+            "verified": true,
+            "originalPath": "khelsang/མོག་མོག་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "མོག་མོག་ 2",
+            "verified": true,
+            "originalPath": "khelsang/མོག་མོག་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "མོག་མོག་ 1",
+            "verified": true,
+            "originalPath": "ngawang/མོག་མོག་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "མོག་མོག་ 2",
+            "verified": true,
+            "originalPath": "ngawang/མོག་མོག་ 2.mp3"
+          }
         ]
       },
       {
         "name": "རྨོ་རྨོ་",
-        "files": [
-          "khelsang/རྨོ་རྨོ་ 1.mp3",
-          "khelsang/རྨོ་རྨོ་ 2.mp3",
-          "ngawang/རྨོ་རྨོ་ 1.mp3",
-          "ngawang/རྨོ་རྨོ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྨོ་རྨོ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྨོ་རྨོ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྨོ་རྨོ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/རྨོ་རྨོ་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "རྨོ་རྨོ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/རྨོ་རྨོ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "རྨོ་རྨོ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/རྨོ་རྨོ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "མོག་མོག་ vs རྨོ་རྨོ་",
+        "verified": {
+          "start": 494200,
+          "length": 5349,
+          "originalPath": "མོག་མོག་ vs རྨོ་རྨོ་"
+        },
+        "originalPath": "khelsang/མོག་མོག་ vs རྨོ་རྨོ་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "མོག་མོག་ vs རྨོ་རྨོ་",
+        "verified": {
+          "start": 325400,
+          "length": 4249,
+          "originalPath": "མོག་མོག་ vs རྨོ་རྨོ་"
+        },
+        "originalPath": "ngawang/མོག་མོག་ vs རྨོ་རྨོ་.mp3"
       }
     ]
   },
   {
     "name": "བདེ་འཇགས་ vs བརྟན་འཇགས་ (n)",
-    "long": [
-      "khelsang/བདེ་འཇགས་ vs བརྟན་འཇགས་.mp3",
-      "ngawang/བདེ་འཇགས་ vs བརྟན་འཇགས་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "བདེ་འཇགས་",
-        "files": [
-          "khelsang/བདེ་འཇགས་ 1.mp3",
-          "khelsang/བདེ་འཇགས་ 2.mp3",
-          "ngawang/བདེ་འཇགས་ 1.mp3",
-          "ngawang/བདེ་འཇགས་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བདེ་འཇགས་ 1",
+            "verified": true,
+            "originalPath": "khelsang/བདེ་འཇགས་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བདེ་འཇགས་ 2",
+            "verified": true,
+            "originalPath": "khelsang/བདེ་འཇགས་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བདེ་འཇགས་ 1",
+            "verified": true,
+            "originalPath": "ngawang/བདེ་འཇགས་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བདེ་འཇགས་ 2",
+            "verified": true,
+            "originalPath": "ngawang/བདེ་འཇགས་ 2.mp3"
+          }
         ]
       },
       {
         "name": "བརྟན་འཇགས་",
-        "files": [
-          "khelsang/བརྟན་འཇགས་ 1.mp3",
-          "khelsang/བརྟན་འཇགས་ 2.mp3",
-          "ngawang/བརྟན་འཇགས་ 1.mp3",
-          "ngawang/བརྟན་འཇགས་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བརྟན་འཇགས་ 1",
+            "verified": true,
+            "originalPath": "khelsang/བརྟན་འཇགས་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བརྟན་འཇགས་ 2",
+            "verified": true,
+            "originalPath": "khelsang/བརྟན་འཇགས་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བརྟན་འཇགས་ 1",
+            "verified": true,
+            "originalPath": "ngawang/བརྟན་འཇགས་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བརྟན་འཇགས་ 2",
+            "verified": true,
+            "originalPath": "ngawang/བརྟན་འཇགས་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "བདེ་འཇགས་ vs བརྟན་འཇགས་",
+        "verified": {
+          "start": 362200,
+          "length": 5172,
+          "originalPath": "བདེ་འཇགས་ vs བརྟན་འཇགས་"
+        },
+        "originalPath": "khelsang/བདེ་འཇགས་ vs བརྟན་འཇགས་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "བདེ་འཇགས་ vs བརྟན་འཇགས་",
+        "verified": {
+          "start": 227800,
+          "length": 5866,
+          "originalPath": "བདེ་འཇགས་ vs བརྟན་འཇགས་"
+        },
+        "originalPath": "ngawang/བདེ་འཇགས་ vs བརྟན་འཇགས་.mp3"
       }
     ]
   },
   {
     "name": "མིག་ vs དམིགས་",
-    "long": [
-      "khelsang/མིག་ vs དམིགས་.mp3",
-      "ngawang/མིག་ vs དམིགས་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "མིག་",
-        "files": [
-          "khelsang/མིག་ 1.mp3",
-          "khelsang/མིག་ 2.mp3",
-          "ngawang/མིག་ 1.mp3",
-          "ngawang/མིག་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "མིག་ 1",
+            "verified": true,
+            "originalPath": "khelsang/མིག་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "མིག་ 2",
+            "verified": true,
+            "originalPath": "khelsang/མིག་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "མིག་ 1",
+            "verified": true,
+            "originalPath": "ngawang/མིག་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "མིག་ 2",
+            "verified": true,
+            "originalPath": "ngawang/མིག་ 2.mp3"
+          }
         ]
       },
       {
         "name": "དམིགས་",
-        "files": [
-          "khelsang/དམིགས་ 1.mp3",
-          "khelsang/དམིགས་ 2.mp3",
-          "ngawang/དམིགས་ 1.mp3",
-          "ngawang/དམིགས་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དམིགས་ 1",
+            "verified": true,
+            "originalPath": "khelsang/དམིགས་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "དམིགས་ 2",
+            "verified": true,
+            "originalPath": "khelsang/དམིགས་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དམིགས་ 1",
+            "verified": true,
+            "originalPath": "ngawang/དམིགས་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དམིགས་ 2",
+            "verified": true,
+            "originalPath": "ngawang/དམིགས་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "མིག་ vs དམིགས་",
+        "verified": {
+          "start": 484600,
+          "length": 5126,
+          "originalPath": "མིག་ vs དམིགས་"
+        },
+        "originalPath": "khelsang/མིག་ vs དམིགས་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "མིག་ vs དམིགས་",
+        "verified": {
+          "start": 317800,
+          "length": 3498,
+          "originalPath": "མིག་ vs དམིགས་"
+        },
+        "originalPath": "ngawang/མིག་ vs དམིགས་.mp3"
       }
     ]
   },
   {
     "name": "སྒྲིབ་པ་ vs མཁྲིས་པ་",
-    "long": [
-      "khelsang/སྒྲིབ་པ་ vs མཁྲིས་པ་.mp3",
-      "ngawang/སྒྲིབ་པ་ vs མཁྲིས་པ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "སྒྲིབ་པ་",
-        "files": [
-          "khelsang/སྒྲིབ་པ་ 1.mp3",
-          "khelsang/སྒྲིབ་པ་ 2.mp3",
-          "ngawang/སྒྲིབ་པ་ 1.mp3",
-          "ngawang/སྒྲིབ་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྒྲིབ་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྒྲིབ་པ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྒྲིབ་པ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/སྒྲིབ་པ་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྒྲིབ་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/སྒྲིབ་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྒྲིབ་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/སྒྲིབ་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "མཁྲིས་པ་",
-        "files": [
-          "khelsang/མཁྲིས་པ་ 1.mp3",
-          "khelsang/མཁྲིས་པ་ 2.mp3",
-          "ngawang/མཁྲིས་པ་ 1.mp3",
-          "ngawang/མཁྲིས་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "མཁྲིས་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/མཁྲིས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "མཁྲིས་པ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/མཁྲིས་པ་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "མཁྲིས་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/མཁྲིས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "མཁྲིས་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/མཁྲིས་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "སྒྲིབ་པ་ vs མཁྲིས་པ་",
+        "verified": {
+          "start": 801200,
+          "length": 4442,
+          "originalPath": "སྒྲིབ་པ་ vs མཁྲིས་པ་"
+        },
+        "originalPath": "khelsang/སྒྲིབ་པ་ vs མཁྲིས་པ་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "སྒྲིབ་པ་ vs མཁྲིས་པ་",
+        "verified": {
+          "start": 453800,
+          "length": 4794,
+          "originalPath": "སྒྲིབ་པ་ vs མཁྲིས་པ་"
+        },
+        "originalPath": "ngawang/སྒྲིབ་པ་ vs མཁྲིས་པ་.mp3"
       }
     ]
   },
   {
     "name": "སྦང་བ་ vs སྤང་བ་ (v)",
-    "long": [
-      "khelsang/སྦང་བ་ vs སྤང་བ་.mp3",
-      "ngawang/སྦང་བ་ vs སྤང་བ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "སྦང་བ་",
-        "files": [
-          "khelsang/སྦང་བ་ 1.mp3",
-          "khelsang/སྦང་བ་ 2.mp3",
-          "ngawang/སྦང་བ་ 1.mp3",
-          "ngawang/སྦང་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྦང་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྦང་བ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྦང་བ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/སྦང་བ་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྦང་བ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/སྦང་བ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྦང་བ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/སྦང་བ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "སྤང་བ་",
-        "files": [
-          "khelsang/སྤང་བ་ 1.mp3",
-          "khelsang/སྤང་བ་ 2.mp3",
-          "ngawang/སྤང་བ་ 1.mp3",
-          "ngawang/སྤང་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྤང་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྤང་བ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྤང་བ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/སྤང་བ་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྤང་བ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/སྤང་བ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྤང་བ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/སྤང་བ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "སྦང་བ་ vs སྤང་བ་",
+        "verified": {
+          "start": 844400,
+          "length": 4907,
+          "originalPath": "སྦང་བ་ vs སྤང་བ་"
+        },
+        "originalPath": "khelsang/སྦང་བ་ vs སྤང་བ་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "སྦང་བ་ vs སྤང་བ་",
+        "verified": {
+          "start": 479800,
+          "length": 5575,
+          "originalPath": "སྦང་བ་ vs སྤང་བ་"
+        },
+        "originalPath": "ngawang/སྦང་བ་ vs སྤང་བ་.mp3"
       }
     ]
   },
   {
     "name": "གཅེས་ vs རྗེས་",
-    "long": [
-      "khelsang/གཅེས་ vs རྗེས་.mp3",
-      "ngawang/གཅེས་ vs རྗེས་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "གཅེས་",
-        "files": [
-          "khelsang/གཅེས་ 1.mp3",
-          "khelsang/གཅེས་ 2.mp3",
-          "ngawang/གཅེས་ 1.mp3",
-          "ngawang/གཅེས་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གཅེས་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གཅེས་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "གཅེས་ 2",
+            "verified": true,
+            "originalPath": "khelsang/གཅེས་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "གཅེས་ 1",
+            "verified": true,
+            "originalPath": "ngawang/གཅེས་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "གཅེས་ 2",
+            "verified": true,
+            "originalPath": "ngawang/གཅེས་ 2.mp3"
+          }
         ]
       },
       {
         "name": "རྗེས་",
-        "files": [
-          "khelsang/རྗེས་ 1.mp3",
-          "khelsang/རྗེས་ 2.mp3",
-          "ngawang/རྗེས་ 1.mp3",
-          "ngawang/རྗེས་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྗེས་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྗེས་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྗེས་ 2",
+            "verified": true,
+            "originalPath": "khelsang/རྗེས་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "རྗེས་ 1",
+            "verified": true,
+            "originalPath": "ngawang/རྗེས་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "རྗེས་ 2",
+            "verified": true,
+            "originalPath": "ngawang/རྗེས་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "གཅེས་ vs རྗེས་",
+        "verified": {
+          "start": 67800,
+          "length": 5139,
+          "originalPath": "གཅེས་ vs རྗེས་"
+        },
+        "originalPath": "khelsang/གཅེས་ vs རྗེས་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "གཅེས་ vs རྗེས་",
+        "verified": {
+          "start": 87600,
+          "length": 4554,
+          "originalPath": "གཅེས་ vs རྗེས་"
+        },
+        "originalPath": "ngawang/གཅེས་ vs རྗེས་.mp3"
       }
     ]
   },
   {
     "name": "མགོ་ vs ཀོ་བ་",
-    "long": [
-      "khelsang/མགོ་ vs ཀོ་བ་.mp3",
-      "ngawang/མགོ་ vs ཀོ་བ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "མགོ་",
-        "files": [
-          "khelsang/མགོ་ 1.mp3",
-          "khelsang/མགོ་ 2.mp3",
-          "ngawang/མགོ་ 1.mp3",
-          "ngawang/མགོ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "མགོ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/མགོ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "མགོ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/མགོ་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "མགོ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/མགོ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "མགོ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/མགོ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཀོ་བ་",
-        "files": [
-          "khelsang/ཀོ་བ་ 1.mp3",
-          "khelsang/ཀོ་བ་ 2.mp3",
-          "ngawang/ཀོ་བ་ 1.mp3",
-          "ngawang/ཀོ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀོ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཀོ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀོ་བ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཀོ་བ་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཀོ་བ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཀོ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཀོ་བ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཀོ་བ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "མགོ་ vs ཀོ་བ་",
+        "verified": {
+          "start": 461200,
+          "length": 4632,
+          "originalPath": "མགོ་ vs ཀོ་བ་"
+        },
+        "originalPath": "khelsang/མགོ་ vs ཀོ་བ་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "མགོ་ vs ཀོ་བ་",
+        "verified": {
+          "start": 310200,
+          "length": 4114,
+          "originalPath": "མགོ་ vs ཀོ་བ་"
+        },
+        "originalPath": "ngawang/མགོ་ vs ཀོ་བ་.mp3"
       }
     ]
   },
   {
     "name": "འགྱེས་པ་ vs སྐྱེས་པ་",
-    "long": "khelsang/འགྱེས་པ་ vs སྐྱེས་པ་.mp3",
     "versionGroups": [
       {
         "name": "འགྱེས་པ་",
-        "files": [
-          "khelsang/འགྱེས་པ་ 1.mp3",
-          "khelsang/འགྱེས་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འགྱེས་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/འགྱེས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "འགྱེས་པ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/འགྱེས་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "སྐྱེས་པ་",
-        "files": [
-          "khelsang/སྐྱེས་པ་ 1.mp3",
-          "khelsang/སྐྱེས་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐྱེས་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྐྱེས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐྱེས་པ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/སྐྱེས་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "འགྱེས་པ་ vs སྐྱེས་པ་",
+        "verified": {
+          "start": 552200,
+          "length": 11273,
+          "originalPath": "འགྱེས་པ་ vs སྐྱེས་པ་"
+        },
+        "originalPath": "khelsang/འགྱེས་པ་ vs སྐྱེས་པ་.mp3"
       }
     ]
   },
   {
     "name": "ཞ་མོ་ vs ཤ་མོ་",
-    "long": "wangdac/ཞ་མོ་ vs ཤ་མོ་.mp3",
     "versionGroups": [
       {
         "name": "ཞ་མོ་",
-        "files": [
-          "wangdac/ཞ་མོ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "wangdac",
+            "soundKey": "ཞ་མོ་ 1",
+            "verified": true,
+            "originalPath": "wangdac/ཞ་མོ་ 1.mp3"
+          }
         ]
       },
       {
         "name": "ཤ་མོ་",
-        "files": [
-          "wangdac/ཤ་མོ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "wangdac",
+            "soundKey": "ཤ་མོ་ 1",
+            "verified": true,
+            "originalPath": "wangdac/ཤ་མོ་ 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "wangdac",
+        "soundKey": "ཞ་མོ་ vs ཤ་མོ་",
+        "verified": {
+          "start": 2200,
+          "length": 5043,
+          "originalPath": "ཞ་མོ་ vs ཤ་མོ་"
+        },
+        "originalPath": "wangdac/ཞ་མོ་ vs ཤ་མོ་.mp3"
       }
     ]
   },
   {
     "name": "ག་ vs ཁ་",
-    "long": [
-      "khelsang/ག་ vs ཁ་.wav",
-      "ngawang/ག་ vs ཁ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "ག་",
-        "files": [
-          "khelsang/ག་ 1.mp3",
-          "ngawang/ག་ 1.mp3",
-          "ngawang/ག་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ག་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ག་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ག་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ག་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ག་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ག་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཁ་",
-        "files": [
-          "khelsang/ཁ་ 1.mp3",
-          "ngawang/ཁ་ 1.mp3",
-          "ngawang/ཁ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཁ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཁ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཁ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཁ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཁ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ག་ vs ཁ་",
+        "verified": {
+          "start": 49800,
+          "length": 8617,
+          "originalPath": "ག་ vs ཁ་"
+        },
+        "originalPath": "khelsang/ག་ vs ཁ་.wav"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "ག་ vs ཁ་",
+        "verified": {
+          "start": 56200,
+          "length": 3447,
+          "originalPath": "ག་ vs ཁ་"
+        },
+        "originalPath": "ngawang/ག་ vs ཁ་.mp3"
       }
     ]
   },
   {
     "name": "ག་པར་ vs ཁ་པར (n)",
-    "long": [
-      "khelsang/ག་ vs ཁ་.wav",
-      "ngawang/ག་པར་ vs ཁ་པར་.mp3",
-      "ngawang/ག་པར་ vs ཁ་པར་ 2.mp3"
-    ],
     "versionGroups": [
       {
         "name": "ག་པར་",
-        "files": [
-          "khelsang/ག་པར་ 1.mp3",
-          "ngawang/ག་པར་ 1.mp3",
-          "ngawang/ག་པར་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ག་པར་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ག་པར་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ག་པར་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ག་པར་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ག་པར་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ག་པར་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཁ་པར",
-        "files": [
-          "khelsang/ཁ་པར་ 1.mp3",
-          "ngawang/ཁ་པར་ 1.mp3",
-          "ngawang/ཁ་པར་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁ་པར་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཁ་པར་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཁ་པར་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཁ་པར་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཁ་པར་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཁ་པར་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ག་ vs ཁ་",
+        "verified": {
+          "start": 49800,
+          "length": 8617,
+          "originalPath": "ག་ vs ཁ་"
+        },
+        "originalPath": "khelsang/ག་ vs ཁ་.wav"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "ག་པར་ vs ཁ་པར་",
+        "verified": {
+          "start": 72000,
+          "length": 12236,
+          "originalPath": "ག་པར་ vs ཁ་པར་"
+        },
+        "originalPath": "ngawang/ག་པར་ vs ཁ་པར་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "ག་པར་ vs ཁ་པར་ 2",
+        "verified": {
+          "start": 62800,
+          "length": 8957,
+          "originalPath": "ག་པར་ vs ཁ་པར་ 2"
+        },
+        "originalPath": "ngawang/ག་པར་ vs ཁ་པར་ 2.mp3"
       }
     ]
   },
   {
     "name": "བྱ་བ་ vs འཕྱ་བ་ (v)",
-    "long": [
-      "khelsang/bya ba vs 'phya ba.wav",
-      "ngawang/བྱ་བ་ vs འཕྱ་བ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "བྱ་བ",
-        "files": [
-          "khelsang/bya ba 1.mp3",
-          "ngawang/བྱ་བ་ 1b.mp3",
-          "ngawang/བྱ་བ་ 2b.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "bya ba 1",
+            "verified": true,
+            "originalPath": "khelsang/bya ba 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བྱ་བ་ 1b",
+            "verified": true,
+            "originalPath": "ngawang/བྱ་བ་ 1b.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བྱ་བ་ 2b",
+            "verified": true,
+            "originalPath": "ngawang/བྱ་བ་ 2b.mp3"
+          }
         ]
       },
       {
         "name": "འཕྱ་བ",
-        "files": [
-          "khelsang/'phya ba 1.mp3",
-          "ngawang/འཕྱ་བ་ 1.mp3",
-          "ngawang/འཕྱ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "'phya ba 1",
+            "verified": true,
+            "originalPath": "khelsang/'phya ba 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "འཕྱ་བ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/འཕྱ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "འཕྱ་བ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/འཕྱ་བ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "bya ba vs 'phya ba",
+        "verified": {
+          "start": 2400,
+          "length": 3178,
+          "originalPath": "bya ba vs 'phya ba"
+        },
+        "originalPath": "khelsang/bya ba vs 'phya ba.wav"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "བྱ་བ་ vs འཕྱ་བ་",
+        "verified": {
+          "start": 271600,
+          "length": 5263,
+          "originalPath": "བྱ་བ་ vs འཕྱ་བ་"
+        },
+        "originalPath": "ngawang/བྱ་བ་ vs འཕྱ་བ་.mp3"
       }
     ]
   },
   {
     "name": "བཞད་ vs གཤེ་",
-    "long": [
-      "khelsang/བཞད་ vs གཤེ་.mp3",
-      "ngawang/བཞད་ vs གཤེ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "བཞད་",
-        "files": [
-          "khelsang/བཞད་ 1.mp3",
-          "ngawang/བཞད་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བཞད་ 1",
+            "verified": true,
+            "originalPath": "khelsang/བཞད་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བཞད་ 1",
+            "verified": true,
+            "originalPath": "ngawang/བཞད་ 1.mp3"
+          }
         ]
       },
       {
         "name": "གཤེ་",
-        "files": [
-          "khelsang/གཤེ་ 1.mp3",
-          "ngawang/གཤེ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གཤེ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གཤེ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "གཤེ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/གཤེ་ 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "བཞད་ vs གཤེ་",
+        "verified": {
+          "start": 376200,
+          "length": 8672,
+          "originalPath": "བཞད་ vs གཤེ་"
+        },
+        "originalPath": "khelsang/བཞད་ vs གཤེ་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "བཞད་ vs གཤེ་",
+        "verified": {
+          "start": 235200,
+          "length": 16333,
+          "originalPath": "བཞད་ vs གཤེ་"
+        },
+        "originalPath": "ngawang/བཞད་ vs གཤེ་.mp3"
       }
     ]
   },
   {
     "name": "སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་",
-    "long": [
-      "khelsang/སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་.wav",
-      "ngawang/སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "སྟུན་པ་",
-        "files": [
-          "khelsang/སྟུན་པ་ 1.mp3",
-          "ngawang/སྟུན་པ་ 1.mp3",
-          "ngawang/སྟུན་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྟུན་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྟུན་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྟུན་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/སྟུན་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྟུན་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/སྟུན་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "སྟོན་པ་",
-        "files": [
-          "khelsang/སྟོན་པ་ 1.mp3",
-          "ngawang/སྟོན་པ་ 1.mp3",
-          "ngawang/སྟོན་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྟོན་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྟོན་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྟོན་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/སྟོན་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "སྟོན་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/སྟོན་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "གདོན་པ་",
-        "files": [
-          "khelsang/གདོན་པ་ 1.mp3",
-          "ngawang/གདོན་པ་ 1.mp3",
-          "ngawang/གདོན་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གདོན་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གདོན་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "གདོན་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/གདོན་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "གདོན་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/གདོན་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་",
+        "verified": {
+          "start": 807600,
+          "length": 5084,
+          "originalPath": "སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་"
+        },
+        "originalPath": "khelsang/སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་.wav"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་",
+        "verified": {
+          "start": 461400,
+          "length": 9142,
+          "originalPath": "སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་"
+        },
+        "originalPath": "ngawang/སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་.mp3"
       }
     ]
   },
   {
     "name": "གྲི་ vs ཁྲི་ vs ཀྲི་",
-    "long": [
-      "khelsang/གྲི་ vs ཁྲི་ vs ཀྲི་.mp3",
-      "ngawang/གྲི་ vs ཁྲི་ vs ཀྲི་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "གྲི་",
-        "files": [
-          "khelsang/གྲི་ 1.mp3",
-          "ngawang/གྲི་ 1.mp3",
-          "ngawang/གྲི་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གྲི་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གྲི་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "གྲི་ 1",
+            "verified": true,
+            "originalPath": "ngawang/གྲི་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "གྲི་ 2",
+            "verified": true,
+            "originalPath": "ngawang/གྲི་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཁྲི་",
-        "files": [
-          "khelsang/ཁྲི་ 1.mp3",
-          "ngawang/ཁྲི་ 1.mp3",
-          "ngawang/ཁྲི་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁྲི་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཁྲི་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཁྲི་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཁྲི་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཁྲི་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཁྲི་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཀྲི་",
-        "files": [
-          "khelsang/ཀྲི་ 1.mp3",
-          "ngawang/ཀྲི་ 1.mp3",
-          "ngawang/ཀྲི་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀྲི་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཀྲི་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཀྲི་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཀྲི་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཀྲི་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཀྲི་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "གྲི་ vs ཁྲི་ vs ཀྲི་",
+        "verified": {
+          "start": 156200,
+          "length": 8234,
+          "originalPath": "གྲི་ vs ཁྲི་ vs ཀྲི་"
+        },
+        "originalPath": "khelsang/གྲི་ vs ཁྲི་ vs ཀྲི་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "གྲི་ vs ཁྲི་ vs ཀྲི་",
+        "verified": {
+          "start": 110400,
+          "length": 8840,
+          "originalPath": "གྲི་ vs ཁྲི་ vs ཀྲི་"
+        },
+        "originalPath": "ngawang/གྲི་ vs ཁྲི་ vs ཀྲི་.mp3"
       }
     ]
   },
   {
     "name": "ཞེས་པ་ vs ཤེས་པ་ (v)",
-    "long": [
-      "khelsang/ཞེས་པ་ vs ཤེས་པ་.mp3",
-      "ngawang/ཞེས་པ་ vs ཤེས་པ་ 2.mp3"
-    ],
     "versionGroups": [
       {
         "name": "ཞེས་པ་",
-        "files": [
-          "khelsang/ཞེས་པ་ 1.mp3",
-          "ngawang/ཞེས་པ་ 1b.mp3",
-          "ngawang/ཞེས་པ་ 2b.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཞེས་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཞེས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཞེས་པ་ 1b",
+            "verified": true,
+            "originalPath": "ngawang/ཞེས་པ་ 1b.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཞེས་པ་ 2b",
+            "verified": true,
+            "originalPath": "ngawang/ཞེས་པ་ 2b.mp3"
+          }
         ]
       },
       {
         "name": "ཤེས་པ་",
-        "files": [
-          "khelsang/ཤེས་པ་ 1.mp3",
-          "ngawang/ཤེས་པ་ 1b.mp3",
-          "ngawang/ཤེས་པ་ 2b.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཤེས་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཤེས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཤེས་པ་ 1b",
+            "verified": true,
+            "originalPath": "ngawang/ཤེས་པ་ 1b.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཤེས་པ་ 2b",
+            "verified": true,
+            "originalPath": "ngawang/ཤེས་པ་ 2b.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ཞེས་པ་ vs ཤེས་པ་",
+        "verified": {
+          "start": 515200,
+          "length": 4362,
+          "originalPath": "ཞེས་པ་ vs ཤེས་པ་"
+        },
+        "originalPath": "khelsang/ཞེས་པ་ vs ཤེས་པ་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "ཞེས་པ་ vs ཤེས་པ་ 2",
+        "verified": {
+          "start": 344200,
+          "length": 16342,
+          "originalPath": "ཞེས་པ་ vs ཤེས་པ་ 2"
+        },
+        "originalPath": "ngawang/ཞེས་པ་ vs ཤེས་པ་ 2.mp3"
       }
     ]
   },
   {
     "name": "མགོ་ vs ཀོ་",
-    "long": [
-      "khelsang/མགོ vs ཀོ.mp3",
-      "ngawang/མགོ་ vs ཀོ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "མགོ་",
-        "files": [
-          "khelsang/མགོ་b 1.mp3",
-          "khelsang/མགོ་ 1.mp3",
-          "khelsang/མགོ་ 2.mp3",
-          "ngawang/མགོ་ 1b.mp3",
-          "ngawang/མགོ་ 2b.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "མགོ་b 1",
+            "verified": true,
+            "originalPath": "khelsang/མགོ་b 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "མགོ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/མགོ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "མགོ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/མགོ་ 2.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "མགོ་ 1b",
+            "verified": true,
+            "originalPath": "ngawang/མགོ་ 1b.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "མགོ་ 2b",
+            "verified": true,
+            "originalPath": "ngawang/མགོ་ 2b.mp3"
+          }
         ]
       },
       {
         "name": "ཀོ་",
-        "files": [
-          "khelsang/ཀོ་ 1.mp3",
-          "ngawang/ཀོ་ 1.mp3",
-          "ngawang/ཀོ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀོ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཀོ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཀོ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཀོ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཀོ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཀོ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "མགོ vs ཀོ",
+        "verified": {
+          "start": 451600,
+          "length": 5696,
+          "originalPath": "མགོ vs ཀོ"
+        },
+        "originalPath": "khelsang/མགོ vs ཀོ.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "མགོ་ vs ཀོ་",
+        "verified": {
+          "start": 298000,
+          "length": 11836,
+          "originalPath": "མགོ་ vs ཀོ་"
+        },
+        "originalPath": "ngawang/མགོ་ vs ཀོ་.mp3"
       }
     ]
   },
   {
     "name": "དགྲམ་པ་ vs བཀྲམ་པ་ (v)",
-    "long": [
-      "khelsang/དགྲམ་པ་ vs བཀྲམ་པ་.mp3",
-      "ngawang/དགྲམ་པ་ vs བཀྲམ་པ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "དགྲམ་པ་",
-        "files": [
-          "khelsang/དགྲམ་པ་ 1.mp3",
-          "ngawang/དགྲམ་པ་ 1.mp3",
-          "ngawang/དགྲམ་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དགྲམ་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/དགྲམ་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དགྲམ་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/དགྲམ་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དགྲམ་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/དགྲམ་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "བཀྲམ་པ་",
-        "files": [
-          "khelsang/བཀྲམ་པ་ 1.mp3",
-          "ngawang/བཀྲམ་པ་ 1.mp3",
-          "ngawang/བཀྲམ་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བཀྲམ་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/བཀྲམ་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བཀྲམ་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/བཀྲམ་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བཀྲམ་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/བཀྲམ་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "དགྲམ་པ་ vs བཀྲམ་པ་",
+        "verified": {
+          "start": 257000,
+          "length": 9170,
+          "originalPath": "དགྲམ་པ་ vs བཀྲམ་པ་"
+        },
+        "originalPath": "khelsang/དགྲམ་པ་ vs བཀྲམ་པ་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "དགྲམ་པ་ vs བཀྲམ་པ་",
+        "verified": {
+          "start": 153200,
+          "length": 15361,
+          "originalPath": "དགྲམ་པ་ vs བཀྲམ་པ་"
+        },
+        "originalPath": "ngawang/དགྲམ་པ་ vs བཀྲམ་པ་.mp3"
       }
     ]
   },
   {
     "name": "གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་ (v)",
-    "long": [
-      "khelsang/གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་.mp3",
-      "ngawang/གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "གཅོད་པ་",
-        "files": [
-          "khelsang/གཅོད་པ་ 1.mp3",
-          "ngawang/གཅོད་པ་ 1.mp3",
-          "ngawang/གཅོད་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གཅོད་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གཅོད་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "གཅོད་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/གཅོད་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "གཅོད་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/གཅོད་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཆོད་པ་",
-        "files": [
-          "khelsang/ཆོད་པ་ 1.mp3",
-          "ngawang/ཆོད་པ་ 1.mp3",
-          "ngawang/ཆོད་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཆོད་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཆོད་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཆོད་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཆོད་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཆོད་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཆོད་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "བརྗོད་པ་",
-        "files": [
-          "khelsang/བརྗོད་པ་ 1.mp3",
-          "ngawang/བརྗོད་པ་ 1.mp3",
-          "ngawang/བརྗོད་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བརྗོད་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/བརྗོད་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བརྗོད་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/བརྗོད་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བརྗོད་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/བརྗོད་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་",
+        "verified": {
+          "start": 75200,
+          "length": 10639,
+          "originalPath": "གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་"
+        },
+        "originalPath": "khelsang/གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་",
+        "verified": {
+          "start": 95200,
+          "length": 7435,
+          "originalPath": "གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་"
+        },
+        "originalPath": "ngawang/གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་.mp3"
       }
     ]
   },
   {
     "name": "འགྲིག་ vs མཁྲིག་ (v)",
-    "long": [
-      "khelsang/འགྲིག་ vs མཁྲིག་.mp3",
-      "ngawang/འགྲིག་ vs མཁྲིག་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "འགྲིག་",
-        "files": [
-          "khelsang/འགྲིག་ 1.mp3",
-          "ngawang/འགྲིག་ 1.mp3",
-          "ngawang/འགྲིག་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འགྲིག་ 1",
+            "verified": true,
+            "originalPath": "khelsang/འགྲིག་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "འགྲིག་ 1",
+            "verified": true,
+            "originalPath": "ngawang/འགྲིག་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "འགྲིག་ 2",
+            "verified": true,
+            "originalPath": "ngawang/འགྲིག་ 2.mp3"
+          }
         ]
       },
       {
         "name": "མཁྲིག་",
-        "files": [
-          "khelsang/མཁྲིག་ 1.mp3",
-          "ngawang/མཁྲིག་ 1.mp3",
-          "ngawang/མཁྲིག་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "མཁྲིག་ 1",
+            "verified": true,
+            "originalPath": "khelsang/མཁྲིག་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "མཁྲིག་ 1",
+            "verified": true,
+            "originalPath": "ngawang/མཁྲིག་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "མཁྲིག་ 2",
+            "verified": true,
+            "originalPath": "ngawang/མཁྲིག་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "འགྲིག་ vs མཁྲིག་",
+        "verified": {
+          "start": 565600,
+          "length": 4104,
+          "originalPath": "འགྲིག་ vs མཁྲིག་"
+        },
+        "originalPath": "khelsang/འགྲིག་ vs མཁྲིག་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "འགྲིག་ vs མཁྲིག་",
+        "verified": {
+          "start": 379600,
+          "length": 13288,
+          "originalPath": "འགྲིག་ vs མཁྲིག་"
+        },
+        "originalPath": "ngawang/འགྲིག་ vs མཁྲིག་.mp3"
       }
     ]
   },
   {
     "name": "དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་ (v)",
-    "long": [
-      "khelsang/དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་.mp3",
-      "ngawang/དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "དོགས་པ་",
-        "files": [
-          "khelsang/དོགས་པ་ 1.mp3",
-          "ngawang/དོགས་པ་ 1.mp3",
-          "ngawang/དོགས་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དོགས་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/དོགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དོགས་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/དོགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དོགས་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/དོགས་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ལྡོག་པ་",
-        "files": [
-          "khelsang/ལྡོག་པ་ 1.mp3",
-          "ngawang/ལྡོག་པ་ 1.mp3",
-          "ngawang/ལྡོག་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལྡོག་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ལྡོག་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ལྡོག་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ལྡོག་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ལྡོག་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ལྡོག་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཐོགས་པ་",
-        "files": [
-          "khelsang/ཐོགས་པ་ 1.mp3",
-          "ngawang/ཐོགས་པ་ 1.mp3",
-          "ngawang/ཐོགས་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཐོགས་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཐོགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཐོགས་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཐོགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཐོགས་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཐོགས་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "རྟོགས་པ་",
-        "files": [
-          "khelsang/རྟོགས་པ་ 1.mp3",
-          "ngawang/རྟོགས་པ་ 1.mp3",
-          "ngawang/རྟོགས་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྟོགས་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྟོགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "རྟོགས་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/རྟོགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "རྟོགས་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/རྟོགས་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་",
+        "verified": {
+          "start": 306600,
+          "length": 13594,
+          "originalPath": "དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་"
+        },
+        "originalPath": "khelsang/དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་",
+        "verified": {
+          "start": 184800,
+          "length": 23731,
+          "originalPath": "དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་"
+        },
+        "originalPath": "ngawang/དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་.mp3"
       }
     ]
   },
   {
     "name": "དོགས་པ་ vs ཐོགས་པ་ (v)",
-    "long": [
-      "khelsang/དོགས་པ་ vs ཐོགས་པ་.mp3",
-      "ngawang/དོགས་པ་ vs ཐོགས་པ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "དོགས་པ་",
-        "files": [
-          "khelsang/དོགས་པ་ 1.mp3",
-          "ngawang/དོགས་པ་ 1.mp3",
-          "ngawang/དོགས་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དོགས་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/དོགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དོགས་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/དོགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "དོགས་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/དོགས་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཐོགས་པ་",
-        "files": [
-          "khelsang/ཐོགས་པ་ 1.mp3",
-          "ngawang/ཐོགས་པ་ 1.mp3",
-          "ngawang/ཐོགས་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཐོགས་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཐོགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཐོགས་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཐོགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཐོགས་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཐོགས་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "དོགས་པ་ vs ཐོགས་པ་",
+        "verified": {
+          "start": 302400,
+          "length": 3494,
+          "originalPath": "དོགས་པ་ vs ཐོགས་པ་"
+        },
+        "originalPath": "khelsang/དོགས་པ་ vs ཐོགས་པ་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "དོགས་པ་ vs ཐོགས་པ་",
+        "verified": {
+          "start": 177600,
+          "length": 6340,
+          "originalPath": "དོགས་པ་ vs ཐོགས་པ་"
+        },
+        "originalPath": "ngawang/དོགས་པ་ vs ཐོགས་པ་.mp3"
       }
     ]
   },
   {
     "name": "ལྡོག་པ་ vs རྟོགས་པ་ (v)",
-    "long": [
-      "khelsang/ལྡོག་པ་ vs རྟོགས་པ་.mp3",
-      "ngawang/ལྡོག་པ་ vs རྟོགས་པ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "ལྡོག་པ་",
-        "files": [
-          "khelsang/ལྡོག་པ་ 1.mp3",
-          "ngawang/ལྡོག་པ་ 1.mp3",
-          "ngawang/ལྡོག་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལྡོག་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ལྡོག་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ལྡོག་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ལྡོག་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ལྡོག་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ལྡོག་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "རྟོགས་པ་",
-        "files": [
-          "khelsang/རྟོགས་པ་ 1.mp3",
-          "ngawang/རྟོགས་པ་ 1.mp3",
-          "ngawang/རྟོགས་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྟོགས་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྟོགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "རྟོགས་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/རྟོགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "རྟོགས་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/རྟོགས་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ལྡོག་པ་ vs རྟོགས་པ་",
+        "verified": {
+          "start": 726200,
+          "length": 3168,
+          "originalPath": "ལྡོག་པ་ vs རྟོགས་པ་"
+        },
+        "originalPath": "khelsang/ལྡོག་པ་ vs རྟོགས་པ་.mp3"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "ལྡོག་པ་ vs རྟོགས་པ་",
+        "verified": {
+          "start": 437000,
+          "length": 5887,
+          "originalPath": "ལྡོག་པ་ vs རྟོགས་པ་"
+        },
+        "originalPath": "ngawang/ལྡོག་པ་ vs རྟོགས་པ་.mp3"
       }
     ]
   },
   {
     "name": "ཟག་པ་ vs བསག་པ་ (v)",
-    "long": [
-      "khelsang/ཟག་པ་ vs བསག་པ་ (v).wav",
-      "ngawang/ཟག་པ་ vs བསག་པ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "ཟག་པ་",
-        "files": [
-          "khelsang/ཟག་པ་ 1.mp3",
-          "ngawang/ཟག་པ་ 1.mp3",
-          "ngawang/ཟག་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཟག་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཟག་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཟག་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/ཟག་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "ཟག་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/ཟག་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "བསག་པ་",
-        "files": [
-          "khelsang/བསག་པ་ 1.mp3",
-          "ngawang/བསག་པ་ 1.mp3",
-          "ngawang/བསག་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བསག་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/བསག་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བསག་པ་ 1",
+            "verified": true,
+            "originalPath": "ngawang/བསག་པ་ 1.mp3"
+          },
+          {
+            "speaker": "ngawang",
+            "soundKey": "བསག་པ་ 2",
+            "verified": true,
+            "originalPath": "ngawang/བསག་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ཟག་པ་ vs བསག་པ་ (v)",
+        "verified": {
+          "start": 527000,
+          "length": 8941,
+          "originalPath": "ཟག་པ་ vs བསག་པ་ (v)"
+        },
+        "originalPath": "khelsang/ཟག་པ་ vs བསག་པ་ (v).wav"
+      },
+      {
+        "speaker": "ngawang",
+        "soundKey": "ཟག་པ་ vs བསག་པ་",
+        "verified": {
+          "start": 371000,
+          "length": 5590,
+          "originalPath": "ཟག་པ་ vs བསག་པ་"
+        },
+        "originalPath": "ngawang/ཟག་པ་ vs བསག་པ་.mp3"
       }
     ]
   },
   {
     "name": "དུལ་བ་ vs འདུལ་བ་ vs བཏུལ་བ་ (v)",
-    "long": "khelsang/དུལ་བ་ vs འདུལ་བ་ vs བཏུལ་བ་ (v).wav",
     "versionGroups": [
       {
         "name": "དུལ་བ་",
-        "files": [
-          "khelsang/དུལ་བ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དུལ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/དུལ་བ་ 1.mp3"
+          }
         ]
       },
       {
         "name": "འདུལ་བ་",
-        "files": [
-          "khelsang/འདུལ་བ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འདུལ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/འདུལ་བ་ 1.mp3"
+          }
         ]
       },
       {
         "name": "བཏུལ་བ་",
-        "files": [
-          "khelsang/བཏུལ་བ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བཏུལ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/བཏུལ་བ་ 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "དུལ་བ་ vs འདུལ་བ་ vs བཏུལ་བ་ (v)",
+        "verified": {
+          "start": 283400,
+          "length": 10543,
+          "originalPath": "དུལ་བ་ vs འདུལ་བ་ vs བཏུལ་བ་ (v)"
+        },
+        "originalPath": "khelsang/དུལ་བ་ vs འདུལ་བ་ vs བཏུལ་བ་ (v).wav"
       }
     ]
   },
   {
     "name": "སྣང་ vs ནང་",
-    "long": "khelsang/སྣང་ vs ནང་.mp3",
     "versionGroups": [
       {
         "name": "སྣང་",
-        "files": [
-          "khelsang/སྣང་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྣང་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྣང་ 1.mp3"
+          }
         ]
       },
       {
         "name": "ནང་",
-        "files": [
-          "khelsang/ནང་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ནང་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ནང་ 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "སྣང་ vs ནང་",
+        "verified": {
+          "start": 821000,
+          "length": 6883,
+          "originalPath": "སྣང་ vs ནང་"
+        },
+        "originalPath": "khelsang/སྣང་ vs ནང་.mp3"
       }
     ]
   },
   {
     "name": "ལྡག་པ་ vs བརྟག་པ་ (v)",
-    "long": "khelsang/ལྡག་པ་ vs བརྟག་པ་.mp3",
     "versionGroups": [
       {
         "name": "ལྡག་པ་",
-        "files": [
-          "khelsang/ལྡག་པ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལྡག་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ལྡག་པ་ 1.mp3"
+          }
         ]
       },
       {
         "name": "བརྟག་པ་",
-        "files": [
-          "khelsang/བརྟག་པ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བརྟག་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/བརྟག་པ་ 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ལྡག་པ་ vs བརྟག་པ་",
+        "verified": {
+          "start": 720800,
+          "length": 3817,
+          "originalPath": "ལྡག་པ་ vs བརྟག་པ་"
+        },
+        "originalPath": "khelsang/ལྡག་པ་ vs བརྟག་པ་.mp3"
       }
     ]
   },
   {
     "name": "མཐོང་བ་ vs འཐུང་བ་ (v)",
-    "long": "khelsang/མཐོང་བ་ vs འཐུང་བ་.mp3",
     "versionGroups": [
       {
         "name": "མཐོང་བ་",
-        "files": [
-          "khelsang/མཐོང་བ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "མཐོང་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/མཐོང་བ་ 1.mp3"
+          }
         ]
       },
       {
         "name": "འཐུང་བ་",
-        "files": [
-          "khelsang/འཐུང་བ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འཐུང་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/འཐུང་བ་ 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "མཐོང་བ་ vs འཐུང་བ་",
+        "verified": {
+          "start": 468800,
+          "length": 11142,
+          "originalPath": "མཐོང་བ་ vs འཐུང་བ་"
+        },
+        "originalPath": "khelsang/མཐོང་བ་ vs འཐུང་བ་.mp3"
       }
     ]
   },
   {
     "name": "ཡིད་ vs ཡིག་",
-    "long": "khelsang/ཡིད་ vs ཡིག་.mp3",
     "versionGroups": [
       {
         "name": "ཡིད་",
-        "files": [
-          "khelsang/ཡིད་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཡིད་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཡིད་ 1.mp3"
+          }
         ]
       },
       {
         "name": "ཡིག་",
-        "files": [
-          "khelsang/ཡིག་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཡིག་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཡིག་ 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ཡིད་ vs ཡིག་",
+        "verified": {
+          "start": 636800,
+          "length": 2629,
+          "originalPath": "ཡིད་ vs ཡིག་"
+        },
+        "originalPath": "khelsang/ཡིད་ vs ཡིག་.mp3"
       }
     ]
   },
   {
     "name": "རྒོལ་བ་ vs སྐོལ་བ་ vs སྒུལ་བ་ vs སྐུལ་བ་ (v)",
-    "long": "khelsang/རྒོལ་བ་ vs སྐོལ་བ་ vs སྒུལ་བ་ vs སྐུལ་བ་ (v).mp3",
     "versionGroups": [
       {
         "name": "རྒོལ་བ་",
-        "files": [
-          "khelsang/རྒོལ་བ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒོལ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྒོལ་བ་ 1.mp3"
+          }
         ]
       },
       {
         "name": "སྐོལ་བ་",
-        "files": [
-          "khelsang/སྐོལ་བ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐོལ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྐོལ་བ་ 1.mp3"
+          }
         ]
       },
       {
         "name": "སྒུལ་བ་",
-        "files": [
-          "khelsang/སྒུལ་བ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྒུལ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྒུལ་བ་ 1.mp3"
+          }
         ]
       },
       {
         "name": "སྐུལ་བ་",
-        "files": [
-          "khelsang/སྐུལ་བ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐུལ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྐུལ་བ་ 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "རྒོལ་བ་ vs སྐོལ་བ་ vs སྒུལ་བ་ vs སྐུལ་བ་ (v)",
+        "verified": {
+          "start": 659200,
+          "length": 3776,
+          "originalPath": "རྒོལ་བ་ vs སྐོལ་བ་ vs སྒུལ་བ་ vs སྐུལ་བ་ (v)"
+        },
+        "originalPath": "khelsang/རྒོལ་བ་ vs སྐོལ་བ་ vs སྒུལ་བ་ vs སྐུལ་བ་ (v).mp3"
       }
     ]
   },
   {
     "name": "རྒོལ་བ་ vs སྐོལ་བ་ (v)",
-    "long": "khelsang/རྒོལ་བ་ vs སྐོལ་བ་.mp3",
     "versionGroups": [
       {
         "name": "རྒོལ་བ་",
-        "files": [
-          "khelsang/རྒོལ་བ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒོལ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྒོལ་བ་ 1.mp3"
+          }
         ]
       },
       {
         "name": "སྐོལ་བ་",
-        "files": [
-          "khelsang/སྐོལ་བ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐོལ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྐོལ་བ་ 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "རྒོལ་བ་ vs སྐོལ་བ་",
+        "verified": {
+          "start": 663400,
+          "length": 7252,
+          "originalPath": "རྒོལ་བ་ vs སྐོལ་བ་"
+        },
+        "originalPath": "khelsang/རྒོལ་བ་ vs སྐོལ་བ་.mp3"
       }
     ]
   },
   {
     "name": "སྒུལ་བ་ vs སྐུལ་བ་ (v)",
-    "long": "khelsang/སྒུལ་བ་ vs སྐུལ་བ་.mp3",
     "versionGroups": [
       {
         "name": "སྒུལ་བ་",
-        "files": [
-          "khelsang/སྒུལ་བ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྒུལ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྒུལ་བ་ 1.mp3"
+          }
         ]
       },
       {
         "name": "སྐུལ་བ་",
-        "files": [
-          "khelsang/སྐུལ་བ་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐུལ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྐུལ་བ་ 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "སྒུལ་བ་ vs སྐུལ་བ་",
+        "verified": {
+          "start": 791600,
+          "length": 6973,
+          "originalPath": "སྒུལ་བ་ vs སྐུལ་བ་"
+        },
+        "originalPath": "khelsang/སྒུལ་བ་ vs སྐུལ་བ་.mp3"
       }
     ]
   },
   {
     "name": "སྒུལ་བ་ (noun) vs སྐུལ་བ་ (verb)",
-    "long": "khelsang/རྒོལ་བ་ རྒོལ་བ་ (n vs v).mp3",
     "versionGroups": [
       {
         "name": "རྒོལ་བ་ n.",
-        "files": [
-          "khelsang/རྒོལ་བ་ n 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒོལ་བ་ n 1",
+            "verified": true,
+            "originalPath": "khelsang/རྒོལ་བ་ n 1.mp3"
+          }
         ]
       },
       {
         "name": "རྒོལ་བ་ v.",
-        "files": [
-          "khelsang/རྒོལ་བ་ v 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒོལ་བ་ v 1",
+            "verified": true,
+            "originalPath": "khelsang/རྒོལ་བ་ v 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "རྒོལ་བ་ རྒོལ་བ་ (n vs v)",
+        "verified": {
+          "start": 671600,
+          "length": 5534,
+          "originalPath": "རྒོལ་བ་ རྒོལ་བ་ (n vs v)"
+        },
+        "originalPath": "khelsang/རྒོལ་བ་ རྒོལ་བ་ (n vs v).mp3"
       }
     ]
   },
   {
     "name": "དགེ་རྒན་ vs སྐེ་རྒྱན་ (n)",
-    "long": "khelsang/དགེ་རྒན་ vs སྐེ་རྒྱན་.mp3",
     "versionGroups": [
       {
         "name": "དགེ་རྒན་",
-        "files": [
-          "khelsang/དགེ་རྒན་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དགེ་རྒན་ 1",
+            "verified": true,
+            "originalPath": "khelsang/དགེ་རྒན་ 1.mp3"
+          }
         ]
       },
       {
         "name": "སྐེ་རྒྱན་",
-        "files": [
-          "khelsang/སྐེ་རྒྱན་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐེ་རྒྱན་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྐེ་རྒྱན་ 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "དགེ་རྒན་ vs སྐེ་རྒྱན་",
+        "verified": {
+          "start": 248200,
+          "length": 4297,
+          "originalPath": "དགེ་རྒན་ vs སྐེ་རྒྱན་"
+        },
+        "originalPath": "khelsang/དགེ་རྒན་ vs སྐེ་རྒྱན་.mp3"
       }
     ]
   },
   {
     "name": "དགག་པ་ vs བཀག་པ་ (verb)",
-    "long": "khelsang/དགག་པ་ vs བཀག་པ་ (v).mp3",
     "versionGroups": [
       {
         "name": "དགག་པ་ v.",
-        "files": [
-          "khelsang/དགག་པ་ v 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དགག་པ་ v 1",
+            "verified": true,
+            "originalPath": "khelsang/དགག་པ་ v 1.mp3"
+          }
         ]
       },
       {
         "name": "བཀག་པ་ v.",
-        "files": [
-          "khelsang/བཀག་པ་ v 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བཀག་པ་ v 1",
+            "verified": true,
+            "originalPath": "khelsang/བཀག་པ་ v 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "དགག་པ་ vs བཀག་པ་ (v)",
+        "verified": {
+          "start": 230200,
+          "length": 8379,
+          "originalPath": "དགག་པ་ vs བཀག་པ་ (v)"
+        },
+        "originalPath": "khelsang/དགག་པ་ vs བཀག་པ་ (v).mp3"
       }
     ]
   },
   {
     "name": "དགག་པ་ vs བཀག་པ་ (noun)",
-    "long": "khelsang/དགག་པ་ vs བཀག་པ་ (n).mp3",
     "versionGroups": [
       {
         "name": "དགག་པ་ n.",
-        "files": [
-          "khelsang/དགག་པ་ n 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དགག་པ་ n 1",
+            "verified": true,
+            "originalPath": "khelsang/དགག་པ་ n 1.mp3"
+          }
         ]
       },
       {
         "name": "བཀག་པ་ n.",
-        "files": [
-          "khelsang/བཀག་པ་ n 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བཀག་པ་ n 1",
+            "verified": true,
+            "originalPath": "khelsang/བཀག་པ་ n 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "དགག་པ་ vs བཀག་པ་ (n)",
+        "verified": {
+          "start": 225000,
+          "length": 4066,
+          "originalPath": "དགག་པ་ vs བཀག་པ་ (n)"
+        },
+        "originalPath": "khelsang/དགག་པ་ vs བཀག་པ་ (n).mp3"
       }
     ]
   },
   {
     "name": "དགག་པ་ noun vs verb",
-    "long": "khelsang/དགག་པ་ noun vs verb.mp3",
     "versionGroups": [
       {
         "name": "དགག་པ་ n.",
-        "files": [
-          "khelsang/དགག་པ་ n 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དགག་པ་ n 1",
+            "verified": true,
+            "originalPath": "khelsang/དགག་པ་ n 1.mp3"
+          }
         ]
       },
       {
         "name": "དགག་པ་ v.",
-        "files": [
-          "khelsang/དགག་པ་ v 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དགག་པ་ v 1",
+            "verified": true,
+            "originalPath": "khelsang/དགག་པ་ v 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "དགག་པ་ noun vs verb",
+        "verified": {
+          "start": 218600,
+          "length": 4355,
+          "originalPath": "དགག་པ་ noun vs verb"
+        },
+        "originalPath": "khelsang/དགག་པ་ noun vs verb.mp3"
       }
     ]
   },
   {
     "name": "བཀག་པ་ noun vs verb",
-    "long": "khelsang/བཀག་པ་ noun vs verb.mp3",
     "versionGroups": [
       {
         "name": "བཀག་པ་ n.",
-        "files": [
-          "khelsang/བཀག་པ་ n 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བཀག་པ་ n 1",
+            "verified": true,
+            "originalPath": "khelsang/བཀག་པ་ n 1.mp3"
+          }
         ]
       },
       {
         "name": "བཀག་པ་ v.",
-        "files": [
-          "khelsang/བཀག་པ་ v 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བཀག་པ་ v 1",
+            "verified": true,
+            "originalPath": "khelsang/བཀག་པ་ v 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "བཀག་པ་ noun vs verb",
+        "verified": {
+          "start": 349600,
+          "length": 3379,
+          "originalPath": "བཀག་པ་ noun vs verb"
+        },
+        "originalPath": "khelsang/བཀག་པ་ noun vs verb.mp3"
       }
     ]
   },
   {
     "name": "འགྱེས་པ་ vs སྐྱེས་པ་ (v)",
-    "long": "khelsang/འགྱེས་པ་ vs སྐྱེས་པ་ b.mp3",
     "versionGroups": [
       {
         "name": "འགྱེས་པ་",
-        "files": [
-          "khelsang/འགྱེས་པ་ b 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འགྱེས་པ་ b 1",
+            "verified": true,
+            "originalPath": "khelsang/འགྱེས་པ་ b 1.mp3"
+          }
         ]
       },
       {
         "name": "སྐྱེས་པ་",
-        "files": [
-          "khelsang/སྐྱེས་པ་ b 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐྱེས་པ་ b 1",
+            "verified": true,
+            "originalPath": "khelsang/སྐྱེས་པ་ b 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "འགྱེས་པ་ vs སྐྱེས་པ་ b",
+        "verified": {
+          "start": 543000,
+          "length": 8678,
+          "originalPath": "འགྱེས་པ་ vs སྐྱེས་པ་ b"
+        },
+        "originalPath": "khelsang/འགྱེས་པ་ vs སྐྱེས་པ་ b.mp3"
       }
     ]
   },
   {
     "name": "ནས་ vs གནས་",
-    "long": "khelsang/ནས་ vs གནས་.mp3",
     "versionGroups": [
       {
         "name": "ནས་",
-        "files": [
-          "khelsang/ནས་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ནས་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ནས་ 1.mp3"
+          }
         ]
       },
       {
         "name": "གནས་",
-        "files": [
-          "khelsang/གནས་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གནས་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གནས་ 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ནས་ vs གནས་",
+        "verified": {
+          "start": 323200,
+          "length": 8830,
+          "originalPath": "ནས་ vs གནས་"
+        },
+        "originalPath": "khelsang/ནས་ vs གནས་.mp3"
       }
     ]
   },
   {
     "name": "སྐྱེས་པ་ (v) vs སྐྱེད་པ་ (n)",
-    "long": "khelsang/སྐྱེས་པ་ vs སྐྱེད་པ་.mp3",
     "versionGroups": [
       {
         "name": "སྐྱེས་པ་ (n)",
-        "files": [
-          "khelsang/སྐྱེས་པ་ c 1.mp3",
-          "khelsang/སྐྱེས་པ་ b 1.mp3",
-          "khelsang/སྐྱེས་པ་ c 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐྱེས་པ་ c 1",
+            "verified": true,
+            "originalPath": "khelsang/སྐྱེས་པ་ c 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐྱེས་པ་ b 1",
+            "verified": true,
+            "originalPath": "khelsang/སྐྱེས་པ་ b 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐྱེས་པ་ c 1",
+            "verified": true,
+            "originalPath": "khelsang/སྐྱེས་པ་ c 1.mp3"
+          }
         ]
       },
       {
         "name": "སྐྱེད་པ་ (v)",
-        "files": [
-          "khelsang/སྐྱེད་པ་ 1.mp3",
-          "khelsang/སྐྱེད་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐྱེད་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྐྱེད་པ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྐྱེད་པ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/སྐྱེད་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "སྐྱེས་པ་ vs སྐྱེད་པ་",
+        "verified": {
+          "start": 771600,
+          "length": 3051,
+          "originalPath": "སྐྱེས་པ་ vs སྐྱེད་པ་"
+        },
+        "originalPath": "khelsang/སྐྱེས་པ་ vs སྐྱེད་པ་.mp3"
       }
     ]
   },
   {
     "name": "ཟེར་ vs གསེར་",
-    "long": "khelsang/གསེར་ vs ཟེར་.mp3",
     "versionGroups": [
       {
         "name": "ཟེར་",
-        "files": [
-          "khelsang/ཟེར་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཟེར་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཟེར་ 1.mp3"
+          }
         ]
       },
       {
         "name": "གསེར་",
-        "files": [
-          "khelsang/གསེར་ 1.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གསེར་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གསེར་ 1.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "གསེར་ vs ཟེར་",
+        "verified": {
+          "start": 98200,
+          "length": 7723,
+          "originalPath": "གསེར་ vs ཟེར་"
+        },
+        "originalPath": "khelsang/གསེར་ vs ཟེར་.mp3"
       }
     ]
   },
   {
     "name": "གསུང་བ་ vs བཟུང་བ་",
-    "long": [
-      "khelsang/བཟུང་བ་ vs གསུང་བ་.mp3",
-      "tseringsamden/གསུང་བ་ vs བཟུང་བ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "གསུང་བ་",
-        "files": [
-          "khelsang/གསུང་བ་ 1.mp3",
-          "tseringsamden/གསུང་བ་ 1.mp3",
-          "tseringsamden/གསུང་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གསུང་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གསུང་བ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "གསུང་བ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/གསུང་བ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "གསུང་བ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/གསུང་བ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "བཟུང་བ་",
-        "files": [
-          "khelsang/བཟུང་བ་ 1.mp3",
-          "tseringsamden/བཟུང་བ་ 1.mp3",
-          "tseringsamden/བཟུང་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བཟུང་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/བཟུང་བ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བཟུང་བ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/བཟུང་བ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བཟུང་བ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/བཟུང་བ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "བཟུང་བ་ vs གསུང་བ་",
+        "verified": {
+          "start": 387600,
+          "length": 8579,
+          "originalPath": "བཟུང་བ་ vs གསུང་བ་"
+        },
+        "originalPath": "khelsang/བཟུང་བ་ vs གསུང་བ་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "གསུང་བ་ vs བཟུང་བ་",
+        "verified": {
+          "start": 35800,
+          "length": 12301,
+          "originalPath": "གསུང་བ་ vs བཟུང་བ་"
+        },
+        "originalPath": "tseringsamden/གསུང་བ་ vs བཟུང་བ་.mp3"
       }
     ]
   },
   {
     "name": "བྱ་བ་ vs འཕྱ་བ་",
-    "long": [
-      "khelsang/བྱ་བ་ vs འཕྱ་བ་.mp3",
-      "tseringsamden/བྱ་བ་ vs འཕྱ་བ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "བྱ་བ་",
-        "files": [
-          "khelsang/བྱ་བ་ 1.mp3",
-          "khelsang/བྱ་བ་ 2.mp3",
-          "tseringsamden/བྱ་བ་ 1.mp3",
-          "tseringsamden/བྱ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བྱ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/བྱ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བྱ་བ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/བྱ་བ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བྱ་བ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/བྱ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བྱ་བ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/བྱ་བ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "འཕྱ་བ་",
-        "files": [
-          "khelsang/འཕྱ་བ་ 1.mp3",
-          "khelsang/ཕྱ་བ་_1.mp3",
-          "tseringsamden/འཕྱ་བ་ 1.mp3",
-          "tseringsamden/འཕྱ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འཕྱ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/འཕྱ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཕྱ་བ་_1",
+            "verified": true,
+            "originalPath": "khelsang/ཕྱ་བ་_1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འཕྱ་བ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/འཕྱ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འཕྱ་བ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/འཕྱ་བ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "བྱ་བ་ vs འཕྱ་བ་",
+        "verified": {
+          "start": 433400,
+          "length": 5415,
+          "originalPath": "བྱ་བ་ vs འཕྱ་བ་"
+        },
+        "originalPath": "khelsang/བྱ་བ་ vs འཕྱ་བ་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "བྱ་བ་ vs འཕྱ་བ་",
+        "verified": {
+          "start": 165400,
+          "length": 10504,
+          "originalPath": "བྱ་བ་ vs འཕྱ་བ་"
+        },
+        "originalPath": "tseringsamden/བྱ་བ་ vs འཕྱ་བ་.mp3"
       }
     ]
   },
   {
     "name": "ཤག vs ཞག",
-    "long": [
-      "khelsang/ཤག vs ཞག.mp3",
-      "tseringsamden/ཤག་ vs ཞག་.mp3"
-    ],
-    "versionGroups": []
+    "versionGroups": [],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ཤག vs ཞག",
+        "verified": {
+          "start": 738800,
+          "length": 12160,
+          "originalPath": "ཤག vs ཞག"
+        },
+        "originalPath": "khelsang/ཤག vs ཞག.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "ཤག་ vs ཞག་",
+        "verified": {
+          "start": 273400,
+          "length": 19912,
+          "originalPath": "ཤག་ vs ཞག་"
+        },
+        "originalPath": "tseringsamden/ཤག་ vs ཞག་.mp3"
+      }
+    ]
   },
   {
     "name": "འཚེ་ vs བརྩེ་",
-    "long": [
-      "khelsang/འཚེ་ vs བརྩེ་.mp3",
-      "tseringsamden/འཚེ་ vs བརྩེ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "འཚེ་",
-        "files": [
-          "khelsang/འཚེ་ 1.mp3",
-          "khelsang/འཚེ་ 2.mp3",
-          "tseringsamden/འཚེ་ 1.mp3",
-          "tseringsamden/འཚེ་ 2.mp3",
-          "tseringsamden/འཚེ་ 3.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འཚེ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/འཚེ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "འཚེ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/འཚེ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འཚེ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/འཚེ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འཚེ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/འཚེ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འཚེ་ 3",
+            "verified": true,
+            "originalPath": "tseringsamden/འཚེ་ 3.mp3"
+          }
         ]
       },
       {
         "name": "བརྩེ་",
-        "files": [
-          "khelsang/བརྩེ་ 1.mp3",
-          "khelsang/བརྩེ་ 2.mp3",
-          "tseringsamden/བརྩེ་ 1.mp3",
-          "tseringsamden/བརྩེ་ 2.mp3",
-          "tseringsamden/བརྩེ་ 3.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བརྩེ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/བརྩེ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བརྩེ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/བརྩེ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བརྩེ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/བརྩེ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བརྩེ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/བརྩེ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བརྩེ་ 3",
+            "verified": true,
+            "originalPath": "tseringsamden/བརྩེ་ 3.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "འཚེ་ vs བརྩེ་",
+        "verified": {
+          "start": 614200,
+          "length": 7878,
+          "originalPath": "འཚེ་ vs བརྩེ་"
+        },
+        "originalPath": "khelsang/འཚེ་ vs བརྩེ་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "འཚེ་ vs བརྩེ་",
+        "verified": {
+          "start": 218400,
+          "length": 8831,
+          "originalPath": "འཚེ་ vs བརྩེ་"
+        },
+        "originalPath": "tseringsamden/འཚེ་ vs བརྩེ་.mp3"
       }
     ]
   },
   {
     "name": "འཚེ་བ་ vs བརྩེ་བ་",
-    "long": [
-      "khelsang/འཚེ་ vs བརྩེ་.mp3",
-      "tseringsamden/འཚེ་བ་ vs བརྩེ་བ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "འཚེ་བ་",
-        "files": [
-          "khelsang/འཚེ་བ་ 1.mp3",
-          "khelsang/འཚེ་བ་ 2.mp3",
-          "tseringsamden/འཚེ་བ་ 1.mp3",
-          "tseringsamden/འཚེ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འཚེ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/འཚེ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "འཚེ་བ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/འཚེ་བ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འཚེ་བ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/འཚེ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འཚེ་བ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/འཚེ་བ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "བརྩེ་བ་",
-        "files": [
-          "khelsang/བརྩེ་བ་ 1.mp3",
-          "khelsang/བརྩེ་བ་ 2.mp3",
-          "tseringsamden/བརྩེ་བ་ 1.mp3",
-          "tseringsamden/བརྩེ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བརྩེ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/བརྩེ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བརྩེ་བ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/བརྩེ་བ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བརྩེ་བ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/བརྩེ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བརྩེ་བ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/བརྩེ་བ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "འཚེ་ vs བརྩེ་",
+        "verified": {
+          "start": 614200,
+          "length": 7878,
+          "originalPath": "འཚེ་ vs བརྩེ་"
+        },
+        "originalPath": "khelsang/འཚེ་ vs བརྩེ་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "འཚེ་བ་ vs བརྩེ་བ་",
+        "verified": {
+          "start": 232000,
+          "length": 11766,
+          "originalPath": "འཚེ་བ་ vs བརྩེ་བ་"
+        },
+        "originalPath": "tseringsamden/འཚེ་བ་ vs བརྩེ་བ་.mp3"
       }
     ]
   },
   {
     "name": "འཚོ་ vs གཙོ་",
-    "long": [
-      "khelsang/འཚོ་ vs གཙོ་.mp3",
-      "tseringsamden/འཚོ་ vs གཙོ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "འཚོ་",
-        "files": [
-          "khelsang/འཚོ་ 1.mp3",
-          "khelsang/འཚོ་ 2.mp3",
-          "tseringsamden/འཚོ་ 1.mp3",
-          "tseringsamden/འཚོ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འཚོ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/འཚོ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "འཚོ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/འཚོ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འཚོ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/འཚོ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འཚོ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/འཚོ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "གཙོ་",
-        "files": [
-          "khelsang/གཙོ་ 1.mp3",
-          "khelsang/གཙོ་ 2.mp3",
-          "tseringsamden/གཙོ་ 1.mp3",
-          "tseringsamden/གཙོ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གཙོ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གཙོ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "གཙོ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/གཙོ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "གཙོ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/གཙོ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "གཙོ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/གཙོ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "འཚོ་ vs གཙོ་",
+        "verified": {
+          "start": 627200,
+          "length": 6506,
+          "originalPath": "འཚོ་ vs གཙོ་"
+        },
+        "originalPath": "khelsang/འཚོ་ vs གཙོ་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "འཚོ་ vs གཙོ་",
+        "verified": {
+          "start": 246600,
+          "length": 15516,
+          "originalPath": "འཚོ་ vs གཙོ་"
+        },
+        "originalPath": "tseringsamden/འཚོ་ vs གཙོ་.mp3"
       }
     ]
   },
   {
     "name": "བསྟེན་པ་ (v) vs བསྟན་པ་ (n)",
-    "long": "khelsang/བསྟེན་པ་ (v) vs བསྟན་པ་ (n).mp3",
     "note": "Distinguish between the pronunciation of a noun and verb",
     "versionGroups": [
       {
         "name": "བསྟེན་པ་ (v)",
-        "files": [
-          "khelsang/བསྟེན་པ་ (v) 1.mp3",
-          "khelsang/བསྟེན་པ་ (v) 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བསྟེན་པ་ (v) 1",
+            "verified": true,
+            "originalPath": "khelsang/བསྟེན་པ་ (v) 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བསྟེན་པ་ (v) 2",
+            "verified": true,
+            "originalPath": "khelsang/བསྟེན་པ་ (v) 2.mp3"
+          }
         ]
       },
       {
         "name": "བསྟན་པ་ (n)",
-        "files": [
-          "khelsang/བསྟན་པ་ (n) 1.mp3",
-          "khelsang/བསྟན་པ་ (n) 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བསྟན་པ་ (n) 1",
+            "verified": true,
+            "originalPath": "khelsang/བསྟན་པ་ (n) 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བསྟན་པ་ (n) 2",
+            "verified": true,
+            "originalPath": "khelsang/བསྟན་པ་ (n) 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "བསྟེན་པ་ (v) vs བསྟན་པ་ (n)",
+        "verified": {
+          "start": 421400,
+          "length": 3519,
+          "originalPath": "བསྟེན་པ་ (v) vs བསྟན་པ་ (n)"
+        },
+        "originalPath": "khelsang/བསྟེན་པ་ (v) vs བསྟན་པ་ (n).mp3"
       }
     ]
   },
   {
     "name": "བདེན་པ་ (n) vs བསྟན་པ་ (n)",
-    "long": [
-      "khelsang/བདེན་པ་ (n) vs བསྟན་པ་ (n).mp3",
-      "tseringsamden/བདེན་པ་ vs བསྟན་པ་ (n).mp3"
-    ],
     "note": "These are both pronounced as nouns",
     "versionGroups": [
       {
         "name": "བདེན་པ་ (n)",
-        "files": [
-          "khelsang/བདེན་པ་ (n) 1.mp3",
-          "khelsang/བདེན་པ་ (n) 2.mp3",
-          "tseringsamden/བདེན་པ་ 1.mp3",
-          "tseringsamden/བདེན་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བདེན་པ་ (n) 1",
+            "verified": true,
+            "originalPath": "khelsang/བདེན་པ་ (n) 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བདེན་པ་ (n) 2",
+            "verified": true,
+            "originalPath": "khelsang/བདེན་པ་ (n) 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བདེན་པ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/བདེན་པ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བདེན་པ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/བདེན་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "བསྟན་པ་ (n)",
-        "files": [
-          "khelsang/བསྟན་པ་ (n) b1.mp3",
-          "khelsang/བསྟན་པ་ (n) b2.mp3",
-          "tseringsamden/བསྟན་པ་ 1.mp3",
-          "tseringsamden/བསྟན་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བསྟན་པ་ (n) b1",
+            "verified": true,
+            "originalPath": "khelsang/བསྟན་པ་ (n) b1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བསྟན་པ་ (n) b2",
+            "verified": true,
+            "originalPath": "khelsang/བསྟན་པ་ (n) b2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བསྟན་པ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/བསྟན་པ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བསྟན་པ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/བསྟན་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "བདེན་པ་ (n) vs བསྟན་པ་ (n)",
+        "verified": {
+          "start": 370800,
+          "length": 3537,
+          "originalPath": "བདེན་པ་ (n) vs བསྟན་པ་ (n)"
+        },
+        "originalPath": "khelsang/བདེན་པ་ (n) vs བསྟན་པ་ (n).mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "བདེན་པ་ vs བསྟན་པ་ (n)",
+        "verified": {
+          "start": 133000,
+          "length": 13132,
+          "originalPath": "བདེན་པ་ vs བསྟན་པ་ (n)"
+        },
+        "originalPath": "tseringsamden/བདེན་པ་ vs བསྟན་པ་ (n).mp3"
       }
     ]
   },
   {
     "name": "འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་",
-    "long": [
-      "khelsang/འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་.mp3",
-      "tseringsamden/འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "འདོན་པ་འདོན་པ་",
-        "files": [
-          "khelsang/འདོན་པ་འདོན་པ་ 1.mp3",
-          "khelsang/འདོན་པ་འདོན་པ་ 2.mp3",
-          "tseringsamden/འདོན་པ་འདོན་པ་ 1.mp3",
-          "tseringsamden/འདོན་པ་འདོན་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འདོན་པ་འདོན་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/འདོན་པ་འདོན་པ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "འདོན་པ་འདོན་པ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/འདོན་པ་འདོན་པ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འདོན་པ་འདོན་པ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/འདོན་པ་འདོན་པ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འདོན་པ་འདོན་པ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/འདོན་པ་འདོན་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "འདོན་པ་བཏོན་པ་",
-        "files": [
-          "khelsang/འདོན་པ་བཏོན་པ་ 1.mp3",
-          "khelsang/འདོན་པ་བཏོན་པ་ 2.mp3",
-          "tseringsamden/འདོན་པ་བཏོན་པ་ 1.mp3",
-          "tseringsamden/འདོན་པ་བཏོན་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འདོན་པ་བཏོན་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/འདོན་པ་བཏོན་པ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "འདོན་པ་བཏོན་པ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/འདོན་པ་བཏོན་པ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འདོན་པ་བཏོན་པ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/འདོན་པ་བཏོན་པ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འདོན་པ་བཏོན་པ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/འདོན་པ་བཏོན་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་",
+        "verified": {
+          "start": 582400,
+          "length": 5344,
+          "originalPath": "འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་"
+        },
+        "originalPath": "khelsang/འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་",
+        "verified": {
+          "start": 197600,
+          "length": 9997,
+          "originalPath": "འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་"
+        },
+        "originalPath": "tseringsamden/འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་.mp3"
       }
     ]
   },
   {
     "name": "སྦྱང་ vs སྤྱང་",
-    "long": [
-      "khelsang/སྦྱང་ vs སྤྱང་.mp3",
-      "tseringsamden/སྦྱང་ vs སྤྱང་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "སྦྱང་",
-        "files": [
-          "khelsang/སྦྱང་ 1.mp3",
-          "khelsang/སྦྱང་ 2.mp3",
-          "tseringsamden/སྦྱང་ 1.mp3",
-          "tseringsamden/སྦྱང་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྦྱང་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྦྱང་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྦྱང་ 2",
+            "verified": true,
+            "originalPath": "khelsang/སྦྱང་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "སྦྱང་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/སྦྱང་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "སྦྱང་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/སྦྱང་ 2.mp3"
+          }
         ]
       },
       {
         "name": "སྤྱང་",
-        "files": [
-          "khelsang/སྤྱང་ 1.mp3",
-          "khelsang/སྤྱང་ 2.mp3",
-          "tseringsamden/སྤྱང་ 1.mp3",
-          "tseringsamden/སྤྱང་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྤྱང་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྤྱང་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྤྱང་ 2",
+            "verified": true,
+            "originalPath": "khelsang/སྤྱང་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "སྤྱང་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/སྤྱང་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "སྤྱང་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/སྤྱང་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "སྦྱང་ vs སྤྱང་",
+        "verified": {
+          "start": 852000,
+          "length": 3826,
+          "originalPath": "སྦྱང་ vs སྤྱང་"
+        },
+        "originalPath": "khelsang/སྦྱང་ vs སྤྱང་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "སྦྱང་ vs སྤྱང་",
+        "verified": {
+          "start": 325400,
+          "length": 5727,
+          "originalPath": "སྦྱང་ vs སྤྱང་"
+        },
+        "originalPath": "tseringsamden/སྦྱང་ vs སྤྱང་.mp3"
       }
     ]
   },
   {
     "name": "སྤྲོ་བ་ vs བྲོ་བ་",
-    "long": [
-      "khelsang/སྤྲོ་བ་ vs བྲོ་བ་.mp3",
-      "tseringsamden/སྤྲོ་བ་ vs བྲོ་བ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "སྤྲོ་བ་",
-        "files": [
-          "khelsang/སྤྲོ་བ་ 1.mp3",
-          "khelsang/སྤྲོ་བ་ 2.mp3",
-          "tseringsamden/སྤྲོ་བ་ 1.mp3",
-          "tseringsamden/སྤྲོ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྤྲོ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྤྲོ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྤྲོ་བ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/སྤྲོ་བ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "སྤྲོ་བ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/སྤྲོ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "སྤྲོ་བ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/སྤྲོ་བ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "བྲོ་བ་",
-        "files": [
-          "khelsang/བྲོ་བ་ 1.mp3",
-          "khelsang/བྲོ་བ་ 2.mp3",
-          "tseringsamden/བྲོ་བ་ 1.mp3",
-          "tseringsamden/བྲོ་བ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "བྲོ་བ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/བྲོ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "བྲོ་བ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/བྲོ་བ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བྲོ་བ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/བྲོ་བ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "བྲོ་བ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/བྲོ་བ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "སྤྲོ་བ་ vs བྲོ་བ་",
+        "verified": {
+          "start": 835400,
+          "length": 3369,
+          "originalPath": "སྤྲོ་བ་ vs བྲོ་བ་"
+        },
+        "originalPath": "khelsang/སྤྲོ་བ་ vs བྲོ་བ་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "སྤྲོ་བ་ vs བྲོ་བ་",
+        "verified": {
+          "start": 305200,
+          "length": 10672,
+          "originalPath": "སྤྲོ་བ་ vs བྲོ་བ་"
+        },
+        "originalPath": "tseringsamden/སྤྲོ་བ་ vs བྲོ་བ་.mp3"
       }
     ]
   },
   {
     "name": "ཉེན་ཁ་ vs གཉན་ཁ་",
-    "long": [
-      "khelsang/ཉེན་ཁ་ vs གཉན་ཁ་.mp3",
-      "tseringsamden/ཉེན་ཁ་ vs གཉན་ཁ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "ཉེན་ཁ་",
-        "files": [
-          "khelsang/ཉེན་ཁ་ 1.mp3",
-          "khelsang/ཉེན་ཁ་ 2.mp3",
-          "tseringsamden/ཉེན་ཁ་ 1.mp3",
-          "tseringsamden/ཉེན་ཁ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཉེན་ཁ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཉེན་ཁ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཉེན་ཁ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཉེན་ཁ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ཉེན་ཁ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/ཉེན་ཁ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ཉེན་ཁ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/ཉེན་ཁ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "གཉན་ཁ་",
-        "files": [
-          "khelsang/གཉན་ཁ་ 1.mp3",
-          "khelsang/གཉན་ཁ་ 2.mp3",
-          "tseringsamden/གཉན་ཁ་ 1.mp3",
-          "tseringsamden/གཉན་ཁ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གཉན་ཁ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གཉན་ཁ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "གཉན་ཁ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/གཉན་ཁ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "གཉན་ཁ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/གཉན་ཁ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "གཉན་ཁ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/གཉན་ཁ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ཉེན་ཁ་ vs གཉན་ཁ་",
+        "verified": {
+          "start": 191400,
+          "length": 3401,
+          "originalPath": "ཉེན་ཁ་ vs གཉན་ཁ་"
+        },
+        "originalPath": "khelsang/ཉེན་ཁ་ vs གཉན་ཁ་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "ཉེན་ཁ་ vs གཉན་ཁ་",
+        "verified": {
+          "start": 86000,
+          "length": 13969,
+          "originalPath": "ཉེན་ཁ་ vs གཉན་ཁ་"
+        },
+        "originalPath": "tseringsamden/ཉེན་ཁ་ vs གཉན་ཁ་.mp3"
       }
     ]
   },
   {
     "name": "པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་",
-    "long": [
-      "khelsang/པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་.mp3",
-      "tseringsamden/པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "པགས་པ་",
-        "files": [
-          "khelsang/པགས་པ་ 1.mp3",
-          "khelsang/པགས་པ་ 2.mp3",
-          "tseringsamden/པགས་པ་ 1.mp3",
-          "tseringsamden/པགས་པ་ 2.mp3",
-          "tseringsamden/པགས་པ་ 3.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "པགས་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/པགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "པགས་པ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/པགས་པ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "པགས་པ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/པགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "པགས་པ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/པགས་པ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "པགས་པ་ 3",
+            "verified": true,
+            "originalPath": "tseringsamden/པགས་པ་ 3.mp3"
+          }
         ]
       },
       {
         "name": "སྦག་སྦག་",
-        "files": [
-          "khelsang/སྦག་སྦག་ 1.mp3",
-          "khelsang/སྦག་སྦག་ 2.mp3",
-          "tseringsamden/སྦག་སྦག་ 1.mp3",
-          "tseringsamden/སྦག་སྦག་ 2.mp3",
-          "tseringsamden/སྦག་སྦག་ 3.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྦག་སྦག་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྦག་སྦག་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྦག་སྦག་ 2",
+            "verified": true,
+            "originalPath": "khelsang/སྦག་སྦག་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "སྦག་སྦག་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/སྦག་སྦག་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "སྦག་སྦག་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/སྦག་སྦག་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "སྦག་སྦག་ 3",
+            "verified": true,
+            "originalPath": "tseringsamden/སྦག་སྦག་ 3.mp3"
+          }
         ]
       },
       {
         "name": "འཕགས་པ་",
-        "files": [
-          "khelsang/འཕགས་པ་ 1.mp3",
-          "khelsang/འཕགས་པ་ 2.mp3",
-          "tseringsamden/འཕགས་པ་ 1.mp3",
-          "tseringsamden/འཕགས་པ་ 2.mp3",
-          "tseringsamden/འཕགས་པ་ 3.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "འཕགས་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/འཕགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "འཕགས་པ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/འཕགས་པ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འཕགས་པ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/འཕགས་པ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འཕགས་པ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/འཕགས་པ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "འཕགས་པ་ 3",
+            "verified": true,
+            "originalPath": "tseringsamden/འཕགས་པ་ 3.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་",
+        "verified": {
+          "start": 334800,
+          "length": 10160,
+          "originalPath": "པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་"
+        },
+        "originalPath": "khelsang/པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་",
+        "verified": {
+          "start": 115400,
+          "length": 12684,
+          "originalPath": "པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་"
+        },
+        "originalPath": "tseringsamden/པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་.mp3"
       }
     ]
   },
   {
     "name": "དེ་ སྡེ་ སྟེ་",
-    "long": [
-      "khelsang/དེ་ vs སྡེ་ vs སྟེ་.mp3",
-      "tseringsamden/དེ་ སྡེ་ སྟེ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "དེ་",
-        "files": [
-          "khelsang/དེ་ 1.mp3",
-          "khelsang/དེ་ 2.mp3",
-          "tseringsamden/དེ་ 1.mp3",
-          "tseringsamden/དེ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དེ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/དེ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "དེ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/དེ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "དེ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/དེ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "དེ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/དེ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "སྡེ་",
-        "files": [
-          "khelsang/སྡེ་ 1.mp3",
-          "khelsang/སྡེ་ 2.mp3",
-          "tseringsamden/སྡེ་ 1.mp3",
-          "tseringsamden/སྡེ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྡེ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྡེ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྡེ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/སྡེ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "སྡེ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/སྡེ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "སྡེ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/སྡེ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "སྟེ་",
-        "files": [
-          "khelsang/སྟེ་ 1.mp3",
-          "khelsang/སྟེ་ 2.mp3",
-          "tseringsamden/སྟེ་ 1.mp3",
-          "tseringsamden/སྟེ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྟེ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/སྟེ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "སྟེ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/སྟེ་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "སྟེ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/སྟེ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "སྟེ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/སྟེ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "དེ་ vs སྡེ་ vs སྟེ་",
+        "verified": {
+          "start": 297000,
+          "length": 3859,
+          "originalPath": "དེ་ vs སྡེ་ vs སྟེ་"
+        },
+        "originalPath": "khelsang/དེ་ vs སྡེ་ vs སྟེ་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "དེ་ སྡེ་ སྟེ་",
+        "verified": {
+          "start": 102600,
+          "length": 7903,
+          "originalPath": "དེ་ སྡེ་ སྟེ་"
+        },
+        "originalPath": "tseringsamden/དེ་ སྡེ་ སྟེ་.mp3"
       }
     ]
   },
   {
     "name": "གི་ གྱི་ ཀྱི་",
-    "long": [
-      "khelsang/གི་ vs གྱི་ vs ཀྱི་.mp3",
-      "tseringsamden/གི་ གྱི་ ཀྱི་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "གི་",
-        "files": [
-          "khelsang/གི་ 1.mp3",
-          "khelsang/གི་ 2.mp3",
-          "tseringsamden/གི་ 1.mp3",
-          "tseringsamden/གི་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གི་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གི་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "གི་ 2",
+            "verified": true,
+            "originalPath": "khelsang/གི་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "གི་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/གི་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "གི་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/གི་ 2.mp3"
+          }
         ]
       },
       {
         "name": "གྱི་",
-        "files": [
-          "khelsang/གྱི་ 1.mp3",
-          "khelsang/གྱི་ 2.mp3",
-          "tseringsamden/གྱི་ 1.mp3",
-          "tseringsamden/གྱི་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གྱི་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གྱི་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "གྱི་ 2",
+            "verified": true,
+            "originalPath": "khelsang/གྱི་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "གྱི་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/གྱི་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "གྱི་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/གྱི་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཀྱི་",
-        "files": [
-          "khelsang/ཀྱི་ 1.mp3",
-          "khelsang/ཀྱི་ 2.mp3",
-          "tseringsamden/ཀྱི་ 1.mp3",
-          "tseringsamden/ཀྱི་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀྱི་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཀྱི་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀྱི་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཀྱི་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ཀྱི་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/ཀྱི་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ཀྱི་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/ཀྱི་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "གི་ vs གྱི་ vs ཀྱི་",
+        "verified": {
+          "start": 111200,
+          "length": 3590,
+          "originalPath": "གི་ vs གྱི་ vs ཀྱི་"
+        },
+        "originalPath": "khelsang/གི་ vs གྱི་ vs ཀྱི་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "གི་ གྱི་ ཀྱི་",
+        "verified": {
+          "start": 57800,
+          "length": 8276,
+          "originalPath": "གི་ གྱི་ ཀྱི་"
+        },
+        "originalPath": "tseringsamden/གི་ གྱི་ ཀྱི་.mp3"
       }
     ]
   },
   {
     "name": "ག་ རྒ་ ཁ་ ཀ་",
-    "long": [
-      "khelsang/ག་ vs རྒ་ vs ཁ་ vs ཀ་.mp3",
-      "tseringsamden/ག་ རྒ་ ཁ་ ཀ་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "ག་",
-        "files": [
-          "khelsang/ག་ b1.mp3",
-          "khelsang/ག་ b2.mp3",
-          "tseringsamden/ག་ 1.mp3",
-          "tseringsamden/ག་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ག་ b1",
+            "verified": true,
+            "originalPath": "khelsang/ག་ b1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ག་ b2",
+            "verified": true,
+            "originalPath": "khelsang/ག་ b2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ག་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/ག་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ག་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/ག་ 2.mp3"
+          }
         ]
       },
       {
         "name": "རྒ་",
-        "files": [
-          "khelsang/རྒ་ 1.mp3",
-          "khelsang/རྒ་ 1.mp3",
-          "tseringsamden/རྒ་ 1.mp3",
-          "tseringsamden/རྒ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྒ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྒ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "རྒ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/རྒ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "རྒ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/རྒ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཁ་",
-        "files": [
-          "khelsang/ཁ་ b1.mp3",
-          "khelsang/ཁ་ b2.mp3",
-          "tseringsamden/ཁ་ 1.mp3",
-          "tseringsamden/ཁ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁ་ b1",
+            "verified": true,
+            "originalPath": "khelsang/ཁ་ b1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁ་ b2",
+            "verified": true,
+            "originalPath": "khelsang/ཁ་ b2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ཁ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/ཁ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ཁ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/ཁ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཀ་",
-        "files": [
-          "khelsang/ཀ་ 1.mp3",
-          "khelsang/ཀ་ 1.mp3",
-          "tseringsamden/ཀ་ 1.mp3",
-          "tseringsamden/ཀ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཀ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཀ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ཀ་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/ཀ་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ཀ་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/ཀ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ག་ vs རྒ་ vs ཁ་ vs ཀ་",
+        "verified": {
+          "start": 59000,
+          "length": 4661,
+          "originalPath": "ག་ vs རྒ་ vs ཁ་ vs ཀ་"
+        },
+        "originalPath": "khelsang/ག་ vs རྒ་ vs ཁ་ vs ཀ་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "ག་ རྒ་ ཁ་ ཀ་",
+        "verified": {
+          "start": 14400,
+          "length": 9504,
+          "originalPath": "ག་ རྒ་ ཁ་ ཀ་"
+        },
+        "originalPath": "tseringsamden/ག་ རྒ་ ཁ་ ཀ་.mp3"
       }
     ]
   },
   {
     "name": "གི་ རྒི ཁི་ ཀི་",
-    "long": [
-      "khelsang/གི་ རྒི ཁི་ ཀི་.mp3",
-      "tseringsamden/གི་ རྒི ཁི་ ཀི་.mp3"
-    ],
     "versionGroups": [
       {
         "name": "གི་",
-        "files": [
-          "khelsang/གི་ b 1.mp3",
-          "khelsang/གི་ b 2.mp3",
-          "tseringsamden/གི་ b 1.mp3",
-          "tseringsamden/གི་ b 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གི་ b 1",
+            "verified": true,
+            "originalPath": "khelsang/གི་ b 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "གི་ b 2",
+            "verified": true,
+            "originalPath": "khelsang/གི་ b 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "གི་ b 1",
+            "verified": true,
+            "originalPath": "tseringsamden/གི་ b 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "གི་ b 2",
+            "verified": true,
+            "originalPath": "tseringsamden/གི་ b 2.mp3"
+          }
         ]
       },
       {
         "name": "རྒི་",
-        "files": [
-          "khelsang/རྒི་ 1.mp3",
-          "khelsang/རྒི་ 2.mp3",
-          "tseringsamden/རྒི 1.mp3",
-          "tseringsamden/རྒི 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒི་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྒི་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒི་ 2",
+            "verified": true,
+            "originalPath": "khelsang/རྒི་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "རྒི 1",
+            "verified": true,
+            "originalPath": "tseringsamden/རྒི 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "རྒི 2",
+            "verified": true,
+            "originalPath": "tseringsamden/རྒི 2.mp3"
+          }
         ]
       },
       {
         "name": "ཁི་",
-        "files": [
-          "khelsang/ཁི་ 1.mp3",
-          "khelsang/ཁི་ 2.mp3",
-          "tseringsamden/ཁི་ 1.mp3",
-          "tseringsamden/ཁི་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁི་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཁི་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁི་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཁི་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ཁི་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/ཁི་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ཁི་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/ཁི་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཀི་",
-        "files": [
-          "khelsang/ཀི་ 1.mp3",
-          "khelsang/ཀི་ 2.mp3",
-          "tseringsamden/ཀི་ 1.mp3",
-          "tseringsamden/ཀི་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀི་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཀི་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀི་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཀི་ 2.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ཀི་ 1",
+            "verified": true,
+            "originalPath": "tseringsamden/ཀི་ 1.mp3"
+          },
+          {
+            "speaker": "tseringsamden",
+            "soundKey": "ཀི་ 2",
+            "verified": true,
+            "originalPath": "tseringsamden/ཀི་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "གི་ རྒི ཁི་ ཀི་",
+        "verified": {
+          "start": 115400,
+          "length": 4781,
+          "originalPath": "གི་ རྒི ཁི་ ཀི་"
+        },
+        "originalPath": "khelsang/གི་ རྒི ཁི་ ཀི་.mp3"
+      },
+      {
+        "speaker": "tseringsamden",
+        "soundKey": "གི་ རྒི ཁི་ ཀི་",
+        "verified": {
+          "start": 67000,
+          "length": 10986,
+          "originalPath": "གི་ རྒི ཁི་ ཀི་"
+        },
+        "originalPath": "tseringsamden/གི་ རྒི ཁི་ ཀི་.mp3"
       }
     ]
   },
   {
     "name": "གུ་ རྒུ་ ཁུ་ ཀུ་",
-    "long": "khelsang/གུ་ རྒུ་ ཁུ་ ཀུ་.mp3",
     "versionGroups": [
       {
         "name": "གུ་",
-        "files": [
-          "khelsang/གུ་ 1.mp3",
-          "khelsang/གུ་ 2.mp3",
-          "khelsang/གུ་ 3.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གུ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གུ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "གུ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/གུ་ 2.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "གུ་ 3",
+            "verified": true,
+            "originalPath": "khelsang/གུ་ 3.mp3"
+          }
         ]
       },
       {
         "name": "རྒུ་",
-        "files": [
-          "khelsang/རྒུ་ 1.mp3",
-          "khelsang/རྒུ་ 2.mp3",
-          "khelsang/རྒུ་ 3.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒུ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྒུ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒུ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/རྒུ་ 2.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒུ་ 3",
+            "verified": true,
+            "originalPath": "khelsang/རྒུ་ 3.mp3"
+          }
         ]
       },
       {
         "name": "ཁུ་",
-        "files": [
-          "khelsang/ཁུ་ 1.mp3",
-          "khelsang/ཁུ་ 2.mp3",
-          "khelsang/ཁུ་ 3.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁུ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཁུ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁུ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཁུ་ 2.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁུ་ 3",
+            "verified": true,
+            "originalPath": "khelsang/ཁུ་ 3.mp3"
+          }
         ]
       },
       {
         "name": "ཀུ་",
-        "files": [
-          "khelsang/ཀུ་ 1.mp3",
-          "khelsang/ཀུ་ 2.mp3",
-          "khelsang/ཀུ་ 3.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀུ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཀུ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀུ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཀུ་ 2.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀུ་ 3",
+            "verified": true,
+            "originalPath": "khelsang/ཀུ་ 3.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "གུ་ རྒུ་ ཁུ་ ཀུ་",
+        "verified": {
+          "start": 124200,
+          "length": 10205,
+          "originalPath": "གུ་ རྒུ་ ཁུ་ ཀུ་"
+        },
+        "originalPath": "khelsang/གུ་ རྒུ་ ཁུ་ ཀུ་.mp3"
       }
     ]
   },
   {
     "name": "གེ་ རྒེ་ ཁེ་ ཀེ་",
-    "long": "khelsang/གེ་ རྒེ་ ཁེ་ ཀེ་.mp3",
     "versionGroups": [
       {
         "name": "གེ་",
-        "files": [
-          "khelsang/གེ་ 1.mp3",
-          "khelsang/གེ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གེ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གེ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "གེ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/གེ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "རྒེ་",
-        "files": [
-          "khelsang/རྒེ་ 1.mp3",
-          "khelsang/རྒེ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒེ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྒེ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒེ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/རྒེ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཁེ་",
-        "files": [
-          "khelsang/ཁེ་ 1.mp3",
-          "khelsang/ཁེ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁེ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཁེ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁེ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཁེ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཀེ་",
-        "files": [
-          "khelsang/ཀེ་ 1.mp3",
-          "khelsang/ཀེ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀེ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཀེ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀེ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཀེ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "གེ་ རྒེ་ ཁེ་ ཀེ་",
+        "verified": {
+          "start": 137800,
+          "length": 5546,
+          "originalPath": "གེ་ རྒེ་ ཁེ་ ཀེ་"
+        },
+        "originalPath": "khelsang/གེ་ རྒེ་ ཁེ་ ཀེ་.mp3"
       }
     ]
   },
   {
     "name": "གོ་ རྒོ་ ཁོ་ ཀོ་",
-    "long": "khelsang/གོ་ རྒོ་ ཁོ་ ཀོ་.mp3",
     "versionGroups": [
       {
         "name": "གོ་",
-        "files": [
-          "khelsang/གོ་ 1.mp3",
-          "khelsang/གོ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གོ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གོ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "གོ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/གོ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "རྒོ་",
-        "files": [
-          "khelsang/རྒོ་ 1.mp3",
-          "khelsang/རྒོ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒོ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྒོ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྒོ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/རྒོ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཁོ་",
-        "files": [
-          "khelsang/ཁོ་ 1.mp3",
-          "khelsang/ཁོ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁོ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཁོ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཁོ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཁོ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཀོ་",
-        "files": [
-          "khelsang/ཀོ་ b 1.mp3",
-          "khelsang/ཀོ་ b 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀོ་ b 1",
+            "verified": true,
+            "originalPath": "khelsang/ཀོ་ b 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཀོ་ b 2",
+            "verified": true,
+            "originalPath": "khelsang/ཀོ་ b 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "གོ་ རྒོ་ ཁོ་ ཀོ་",
+        "verified": {
+          "start": 146400,
+          "length": 5548,
+          "originalPath": "གོ་ རྒོ་ ཁོ་ ཀོ་"
+        },
+        "originalPath": "khelsang/གོ་ རྒོ་ ཁོ་ ཀོ་.mp3"
       }
     ]
   },
   {
     "name": "ཐུགས་རྗེས་ vs དུག་ཆེ་",
-    "long": "khelsang/ཐུགས་རྗེས་ vs དུག་ཆེ་.mp3",
     "versionGroups": [
       {
         "name": "ཐུགས་རྗེས་",
-        "files": [
-          "khelsang/ཐུགས་རྗེས་ 1.mp3",
-          "khelsang/ཐུགས་རྗེས་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཐུགས་རྗེས་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཐུགས་རྗེས་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཐུགས་རྗེས་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཐུགས་རྗེས་ 2.mp3"
+          }
         ]
       },
       {
         "name": "དུག་ཆེ་",
-        "files": [
-          "khelsang/དུག་ཆེ་ 1.mp3",
-          "khelsang/དུག་ཆེ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དུག་ཆེ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/དུག་ཆེ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "དུག་ཆེ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/དུག་ཆེ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ཐུགས་རྗེས་ vs དུག་ཆེ་",
+        "verified": {
+          "start": 201400,
+          "length": 4543,
+          "originalPath": "ཐུགས་རྗེས་ vs དུག་ཆེ་"
+        },
+        "originalPath": "khelsang/ཐུགས་རྗེས་ vs དུག་ཆེ་.mp3"
       }
     ]
   },
   {
     "name": "ལ་ vs ལྷ་",
-    "long": "khelsang/ལ་ vs ལྷ་.mp3",
     "versionGroups": [
       {
         "name": "ལ་",
-        "files": [
-          "khelsang/ལ་ 1.mp3",
-          "khelsang/ལ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ལ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ལ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ལྷ་",
-        "files": [
-          "khelsang/ལྷ་ 1.mp3",
-          "khelsang/ལྷ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལྷ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ལྷ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལྷ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ལྷ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "ལ་ vs ལྷ་",
+        "verified": {
+          "start": 705000,
+          "length": 2537,
+          "originalPath": "ལ་ vs ལྷ་"
+        },
+        "originalPath": "khelsang/ལ་ vs ལྷ་.mp3"
       }
     ]
   },
   {
     "name": "དག་པ་ vs ཐག་པ་ vs རྟག་པ་",
-    "long": "khelsang/དག་པ་ vs ཐག་པ་ vs རྟག་པ་.mp3",
     "versionGroups": [
       {
         "name": "དག་པ་",
-        "files": [
-          "khelsang/དག་པ་ 1.mp3",
-          "khelsang/དག་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "དག་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/དག་པ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "དག་པ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/དག་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ཐག་པ་",
-        "files": [
-          "khelsang/ཐག་པ་ 1.mp3",
-          "khelsang/ཐག་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཐག་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ཐག་པ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ཐག་པ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ཐག་པ་ 2.mp3"
+          }
         ]
       },
       {
         "name": "རྟག་པ་",
-        "files": [
-          "khelsang/རྟག་པ་ 1.mp3",
-          "khelsang/རྟག་པ་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྟག་པ་ 1",
+            "verified": true,
+            "originalPath": "khelsang/རྟག་པ་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "རྟག་པ་ 2",
+            "verified": true,
+            "originalPath": "khelsang/རྟག་པ་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "དག་པ་ vs ཐག་པ་ vs རྟག་པ་",
+        "verified": {
+          "start": 210200,
+          "length": 6353,
+          "originalPath": "དག་པ་ vs ཐག་པ་ vs རྟག་པ་"
+        },
+        "originalPath": "khelsang/དག་པ་ vs ཐག་པ་ vs རྟག་པ་.mp3"
       }
     ]
   },
   {
     "name": "གློག་ vs ལོག་",
-    "long": "khelsang/གློག་ vs ལོག་.mp3",
     "versionGroups": [
       {
         "name": "གློག་",
-        "files": [
-          "khelsang/གློག་ 1.mp3",
-          "khelsang/གློག་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "གློག་ 1",
+            "verified": true,
+            "originalPath": "khelsang/གློག་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "གློག་ 2",
+            "verified": true,
+            "originalPath": "khelsang/གློག་ 2.mp3"
+          }
         ]
       },
       {
         "name": "ལོག་",
-        "files": [
-          "khelsang/ལོག་ 1.mp3",
-          "khelsang/ལོག་ 2.mp3"
+        "sounds": [
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལོག་ 1",
+            "verified": true,
+            "originalPath": "khelsang/ལོག་ 1.mp3"
+          },
+          {
+            "speaker": "khelsang",
+            "soundKey": "ལོག་ 2",
+            "verified": true,
+            "originalPath": "khelsang/ལོག་ 2.mp3"
+          }
         ]
+      }
+    ],
+    "longSounds": [
+      {
+        "speaker": "khelsang",
+        "soundKey": "གློག་ vs ལོག་",
+        "verified": {
+          "start": 167800,
+          "length": 11580,
+          "originalPath": "གློག་ vs ལོག་"
+        },
+        "originalPath": "khelsang/གློག་ vs ལོག་.mp3"
       }
     ]
   }

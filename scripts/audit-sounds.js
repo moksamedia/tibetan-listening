@@ -97,13 +97,6 @@ async function fileExists(filePath) {
   }
 }
 
-/**
- * Get speaker from file path
- */
-function getSpeakerFromFilePath(filePath) {
-  const parts = filePath.split('/');
-  return parts.length > 1 ? parts[0] : 'unknown';
-}
 
 /**
  * Expand applyPattern into explicit version groups
@@ -241,6 +234,124 @@ async function verifyFiles(soundGroup) {
 }
 
 /**
+ * Load sprite manifests for verification
+ */
+async function loadSpriteManifests() {
+  const manifests = {};
+  const manifestPath = path.join(__dirname, '../public/assets/sounds/manifest.json');
+  
+  try {
+    const masterManifest = JSON.parse(await fs.readFile(manifestPath, 'utf-8'));
+    log(`📋 Loaded master sprite manifest with ${Object.keys(masterManifest.sprites || {}).length} speakers`);
+    
+    for (const [speaker, spriteInfo] of Object.entries(masterManifest.sprites || {})) {
+      try {
+        const spriteManifestPath = path.join(__dirname, '../public/assets/sounds/', spriteInfo.manifestFile);
+        const spriteManifest = JSON.parse(await fs.readFile(spriteManifestPath, 'utf-8'));
+        manifests[speaker] = spriteManifest;
+        log(`  ✓ Loaded ${speaker} sprite: ${Object.keys(spriteManifest.spritemap || {}).length} sounds`);
+      } catch (error) {
+        log(`  ⚠️  Could not load sprite manifest for ${speaker}: ${error.message}`);
+      }
+    }
+  } catch (error) {
+    log(`⚠️  Could not load master manifest: ${error.message}`);
+  }
+  
+  return manifests;
+}
+
+/**
+ * Preprocess sound data with sprite verification
+ */
+function preprocessSoundData(soundGroup, spriteManifests) {
+  if (!soundGroup.versionGroups) return soundGroup;
+  
+  const processedVersionGroups = [];
+  
+  for (const vgConfig of soundGroup.versionGroups) {
+    const processedSounds = [];
+    
+    for (const filePath of vgConfig.files) {
+      const speaker = getSpeakerFromFilePath(filePath);
+      const soundKey = extractSoundKey(filePath);
+      
+      // Check if sound exists in sprite manifest
+      const verified = spriteManifests[speaker] && 
+                      spriteManifests[speaker].spritemap && 
+                      spriteManifests[speaker].spritemap[soundKey];
+      
+      if (verified) {
+        processedSounds.push({
+          speaker,
+          soundKey,
+          verified: true,
+          originalPath: filePath
+        });
+        log(`    ✓ Verified: ${speaker}/${soundKey}`);
+      } else {
+        processedSounds.push({
+          speaker,
+          soundKey,
+          verified: false,
+          originalPath: filePath
+        });
+        log(`    ⚠️  Not in sprite: ${speaker}/${soundKey}`);
+      }
+    }
+    
+    processedVersionGroups.push({
+      name: vgConfig.name,
+      sounds: processedSounds
+    });
+  }
+  
+  // Process long sounds similarly
+  const processedLongSounds = [];
+  if (soundGroup.long) {
+    const longFiles = Array.isArray(soundGroup.long) ? soundGroup.long : [soundGroup.long];
+    
+    for (const longFile of longFiles) {
+      const speaker = getSpeakerFromFilePath(longFile);
+      const soundKey = extractSoundKey(longFile);
+      
+      const verified = spriteManifests[speaker] && 
+                      spriteManifests[speaker].spritemap && 
+                      spriteManifests[speaker].spritemap[soundKey];
+      
+      processedLongSounds.push({
+        speaker,
+        soundKey,
+        verified,
+        originalPath: longFile
+      });
+    }
+  }
+  
+  return {
+    ...soundGroup,
+    versionGroups: processedVersionGroups,
+    longSounds: processedLongSounds,
+    long: undefined // Remove old format
+  };
+}
+
+/**
+ * Helper functions for file processing
+ */
+function getSpeakerFromFilePath(filePath) {
+  const match = filePath.match(/\/?(.*)\//)
+  if (!match) return null;
+  const [full, speaker] = match
+  return speaker ? speaker : null
+}
+
+function extractSoundKey(filePath) {
+  const fileName = filePath.split('/').pop();
+  return fileName.replace(/\.(mp3|wav|m4a)$/i, '');
+}
+
+/**
  * Main audit function
  */
 async function auditSounds() {
@@ -253,6 +364,9 @@ async function auditSounds() {
     
     log(`📁 Loaded ${soundGroups.length} sound groups from ${SOUNDS_JSON_PATH}`);
     stats.totalGroups = soundGroups.length;
+    
+    // Load sprite manifests for verification
+    const spriteManifests = await loadSpriteManifests();
     
     // Process each sound group
     const processedGroups = [];
@@ -269,6 +383,9 @@ async function auditSounds() {
       
       // Step 3: Verify files exist
       await verifyFiles(processed);
+      
+      // Step 4: Preprocess sound data with sprite verification
+      processed = preprocessSoundData(processed, spriteManifests);
       
       processedGroups.push(processed);
     }

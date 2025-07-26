@@ -57,21 +57,35 @@ export async function getSoundGroups(audioContext) {
  * Process long comparison files
  */
 async function processLongFiles(sgConfig, soundGroup) {
-  if (!sgConfig.long) return;
+  if (!sgConfig.longSounds || sgConfig.longSounds.length === 0) {
+    // Fallback for old format during transition
+    if (sgConfig.long) {
+      const longFiles = Array.isArray(sgConfig.long) ? sgConfig.long : [sgConfig.long];
+      
+      for (const longFile of longFiles) {
+        const speaker = getSpeakerFromFilePath(longFile);
+        const soundKey = extractSoundKey(longFile);
+        
+        // Check if this sound exists in the sprite
+        const hasSound = await audioService.hasSoundForSpeaker(speaker, soundKey);
+        if (hasSound) {
+          soundGroup.addLongSound(speaker, soundKey);
+          console.log(`📄 Added long sound: ${speaker}/${soundKey}`);
+        } else {
+          console.warn(`⚠️  Long sound not found in sprite: ${speaker}/${soundKey}`);
+        }
+      }
+    }
+    return;
+  }
   
-  const longFiles = Array.isArray(sgConfig.long) ? sgConfig.long : [sgConfig.long];
-  
-  for (const longFile of longFiles) {
-    const speaker = getSpeakerFromFilePath(longFile);
-    const soundKey = extractSoundKey(longFile);
-    
-    // Check if this sound exists in the sprite
-    const hasSound = await audioService.hasSoundForSpeaker(speaker, soundKey);
-    if (hasSound) {
-      soundGroup.addLongSound(speaker, soundKey);
-      console.log(`📄 Added long sound: ${speaker}/${soundKey}`);
+  // Process preprocessed long sounds
+  for (const longSound of sgConfig.longSounds) {
+    if (longSound.verified) {
+      soundGroup.addLongSound(longSound.speaker, longSound.soundKey);
+      console.log(`📄 Added long sound: ${longSound.speaker}/${longSound.soundKey}`);
     } else {
-      console.warn(`⚠️  Long sound not found in sprite: ${speaker}/${soundKey}`);
+      console.warn(`⚠️  Long sound not verified: ${longSound.speaker}/${longSound.soundKey}`);
     }
   }
 }
@@ -85,17 +99,31 @@ async function processVersionGroups(sgConfig, soundGroup) {
     for (const vgConfig of sgConfig.versionGroups) {
       const versionGroup = new SoundVersionGroup(vgConfig.name, audioService);
       
-      for (const filePath of vgConfig.files) {
-        const speaker = getSpeakerFromFilePath(filePath);
-        const soundKey = extractSoundKey(filePath);
-        
-        // Check if sound exists in sprite
-        const hasSound = await audioService.hasSoundForSpeaker(speaker, soundKey);
-        if (hasSound) {
-          versionGroup.addSound(speaker, soundKey);
-          console.log(`🎵 Added sound: ${speaker}/${soundKey} to ${versionGroup.name}`);
-        } else {
-          console.warn(`⚠️  Sound not found in sprite: ${speaker}/${soundKey}`);
+      // Handle both old format (files array) and new format (sounds array)
+      if (vgConfig.sounds) {
+        // New preprocessed format with {speaker, soundKey, verified} objects
+        for (const soundData of vgConfig.sounds) {
+          if (soundData.verified) {
+            versionGroup.addSound(soundData.speaker, soundData.soundKey);
+            console.log(`🎵 Added sound: ${soundData.speaker}/${soundData.soundKey} to ${versionGroup.name}`);
+          } else {
+            console.warn(`⚠️  Sound not verified: ${soundData.speaker}/${soundData.soundKey}`);
+          }
+        }
+      } else if (vgConfig.files) {
+        // Fallback for old format during transition
+        for (const filePath of vgConfig.files) {
+          const speaker = getSpeakerFromFilePath(filePath);
+          const soundKey = extractSoundKey(filePath);
+          
+          // Check if sound exists in sprite
+          const hasSound = await audioService.hasSoundForSpeaker(speaker, soundKey);
+          if (hasSound) {
+            versionGroup.addSound(speaker, soundKey);
+            console.log(`🎵 Added sound: ${speaker}/${soundKey} to ${versionGroup.name}`);
+          } else {
+            console.warn(`⚠️  Sound not found in sprite: ${speaker}/${soundKey}`);
+          }
         }
       }
       
