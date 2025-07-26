@@ -1,0 +1,31 @@
+{
+  "speaker": "misc",
+  "generatedAt": "2025-07-26T14:42:47.672Z",
+  "totalFiles": 4,
+  "totalDuration": 5562.222222222223,
+  "src": [
+    "misc-sprite.mp3"
+  ],
+  "spritemap": {
+    "དཔྲལ་བ་ 1": {
+      "start": 0,
+      "length": 967,
+      "originalPath": "དཔྲལ་བ་ 1"
+    },
+    "དཔྲལ་བ་ 2": {
+      "start": 1200,
+      "length": 814,
+      "originalPath": "དཔྲལ་བ་ 2"
+    },
+    "འབྲལ་བ་ 1": {
+      "start": 2400,
+      "length": 1129,
+      "originalPath": "འབྲལ་བ་ 1"
+    },
+    "འབྲལ་བ་ 2": {
+      "start": 4600,
+      "length": 962,
+      "originalPath": "འབྲལ་བ་ 2"
+    }
+  }
+}

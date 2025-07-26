@@ -171,18 +171,15 @@ export default defineComponent({
 
       try {
         console.assert(audioContext.value, 'No audio context')
-        const source = audioContext.value.createBufferSource()
         const randomFile = group.value.currentSoundVersionGroup.getRandom(selectedSpeaker.value)
-        source.buffer = randomFile.getBuffer()
         console.log('Playing:', group.value.currentSoundVersionGroup.name)
-        console.log('Buffer:', source.buffer)
-        source.connect(audioContext.value.destination)
-
-        source.onended = () => {
-          group.value.isPlaying = false
-        }
-
-        source.start(0)
+        
+        const source = await randomFile.play({
+          audioContext: audioContext.value,
+          onEnded: () => {
+            group.value.isPlaying = false
+          }
+        })
 
         // Set a timeout to reset the game state if no guess is made
         if (resetTimeout) clearTimeout(resetTimeout)
@@ -205,10 +202,10 @@ export default defineComponent({
       await loadBuffersForGroupIfNeeded()
 
       try {
-        const source = audioContext.value.createBufferSource()
-        source.buffer = await soundVersionGroup.getNextBuffer(audioContext.value)
-        source.connect(audioContext.value.destination)
-        source.start(0)
+        const nextFile = soundVersionGroup.getNext()
+        await nextFile.play({
+          audioContext: audioContext.value
+        })
       } catch (error) {
         console.error('Error playing sound:', error)
       }

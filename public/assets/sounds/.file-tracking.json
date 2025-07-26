@@ -1,0 +1,3247 @@
+{
+  "khelsang": {
+    "files": {
+      "/Users/andrew/Development/listening/public/sounds/khelsang/'phya ba 1.mp3": {
+        "size": 10141,
+        "mtime": "2025-03-04T12:26:57.429Z",
+        "hash": "a5c4d44276381d84"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/bya ba 1.mp3": {
+        "size": 9437,
+        "mtime": "2025-03-04T12:26:49.112Z",
+        "hash": "76798e0ebd762a48"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/bya ba vs 'phya ba.wav": {
+        "size": 1121164,
+        "mtime": "2025-03-04T12:26:39.038Z",
+        "hash": "8aa844e8e1a80d75"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀ་ 1.mp3": {
+        "size": 4815,
+        "mtime": "2025-04-14T14:18:58.258Z",
+        "hash": "a18ea42dc2af64db"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀ་ 2.mp3": {
+        "size": 5126,
+        "mtime": "2025-04-14T14:19:07.665Z",
+        "hash": "c0944f54e8f1fd71"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀི་ 1.mp3": {
+        "size": 6298,
+        "mtime": "2025-04-20T11:30:00.853Z",
+        "hash": "52625db7401d83fd"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀི་ 2.mp3": {
+        "size": 4373,
+        "mtime": "2025-04-20T11:38:04.751Z",
+        "hash": "e33a39ae38a2a69e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀུ་ 1.mp3": {
+        "size": 5594,
+        "mtime": "2025-04-20T11:44:42.321Z",
+        "hash": "ac790ce2b669cdb1"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀུ་ 2.mp3": {
+        "size": 5514,
+        "mtime": "2025-04-20T11:44:47.953Z",
+        "hash": "db0690d326ca6366"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀུ་ 3.mp3": {
+        "size": 5204,
+        "mtime": "2025-04-20T11:44:53.125Z",
+        "hash": "6776eaca1d2169e8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀེ་ 1.mp3": {
+        "size": 5466,
+        "mtime": "2025-04-20T12:51:46.631Z",
+        "hash": "135fb4c67cebd6b4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀེ་ 2.mp3": {
+        "size": 5206,
+        "mtime": "2025-04-20T12:51:53.069Z",
+        "hash": "577c5931b1fa096d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀོ་ 1.mp3": {
+        "size": 7872,
+        "mtime": "2025-03-04T12:51:05.434Z",
+        "hash": "2bc3e50a00f0f7d6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀོ་ b 1.mp3": {
+        "size": 5385,
+        "mtime": "2025-04-20T12:55:58.674Z",
+        "hash": "91367fb3b90f2528"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀོ་ b 2.mp3": {
+        "size": 4552,
+        "mtime": "2025-04-20T12:56:06.654Z",
+        "hash": "c956fe9c70a1941b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀོ་བ་ 1.mp3": {
+        "size": 12045,
+        "mtime": "2025-02-21T05:18:39.537Z",
+        "hash": "8a213d8599684e19"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀོ་བ་ 2.mp3": {
+        "size": 10742,
+        "mtime": "2025-02-21T05:18:39.538Z",
+        "hash": "bfc8cc2eeec4c555"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀྱི་ 1.mp3": {
+        "size": 5625,
+        "mtime": "2025-04-14T14:14:39.757Z",
+        "hash": "4effda54aefb814c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀྱི་ 2.mp3": {
+        "size": 5938,
+        "mtime": "2025-04-14T14:14:46.173Z",
+        "hash": "47d60e8b278fab32"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཀྲི་ 1.mp3": {
+        "size": 7873,
+        "mtime": "2025-03-04T12:44:26.662Z",
+        "hash": "070f47887dce9185"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁ་ 1.mp3": {
+        "size": 6046,
+        "mtime": "2025-03-04T12:21:43.759Z",
+        "hash": "97c827244af5a9af"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁ་ b1.mp3": {
+        "size": 5521,
+        "mtime": "2025-04-14T14:18:41.480Z",
+        "hash": "6da3d9cd876d89f7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁ་ b2.mp3": {
+        "size": 4661,
+        "mtime": "2025-04-14T14:18:48.656Z",
+        "hash": "2cb27f0fb12a95ed"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁ་པར་ 1.mp3": {
+        "size": 8812,
+        "mtime": "2025-03-04T12:24:44.646Z",
+        "hash": "e54950eea4fad3e0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁི་ 1.mp3": {
+        "size": 6560,
+        "mtime": "2025-04-20T11:29:43.482Z",
+        "hash": "99b6827446008c79"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁི་ 2.mp3": {
+        "size": 4739,
+        "mtime": "2025-04-20T11:37:59.186Z",
+        "hash": "197dfa8eb87e6765"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁུ་ 1.mp3": {
+        "size": 4921,
+        "mtime": "2025-04-20T11:43:48.138Z",
+        "hash": "ef639f571df0d719"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁུ་ 2.mp3": {
+        "size": 5048,
+        "mtime": "2025-04-20T11:43:56.194Z",
+        "hash": "7c0472a34f5960cc"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁུ་ 3.mp3": {
+        "size": 5361,
+        "mtime": "2025-04-20T11:44:30.828Z",
+        "hash": "818f295e558fb99a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁེ་ 1.mp3": {
+        "size": 5626,
+        "mtime": "2025-04-20T12:51:28.052Z",
+        "hash": "34596f67489aee97"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁེ་ 2.mp3": {
+        "size": 5625,
+        "mtime": "2025-04-20T12:51:36.124Z",
+        "hash": "6b42457d00a3ea7c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁོ་ 1.mp3": {
+        "size": 5258,
+        "mtime": "2025-04-20T12:55:27.556Z",
+        "hash": "218c417c64709fa4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁོ་ 2.mp3": {
+        "size": 5205,
+        "mtime": "2025-04-20T12:55:34.876Z",
+        "hash": "c125eb215c3d9245"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁྲ་_1.mp3": {
+        "size": 9725,
+        "mtime": "2025-02-21T05:18:39.538Z",
+        "hash": "e2cc871e7880ce82"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁྲ་_2.mp3": {
+        "size": 8551,
+        "mtime": "2025-02-21T05:18:39.539Z",
+        "hash": "08c7a3489809206b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཁྲི་ 1.mp3": {
+        "size": 9125,
+        "mtime": "2025-03-04T12:44:13.402Z",
+        "hash": "a558f9acc336cbcb"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ག་ 1.mp3": {
+        "size": 8498,
+        "mtime": "2025-03-04T12:21:26.142Z",
+        "hash": "f45232d8531b9470"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ག་ b1.mp3": {
+        "size": 6954,
+        "mtime": "2025-04-14T14:17:50.524Z",
+        "hash": "f6acf0acbbf7ed05"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ག་ b2.mp3": {
+        "size": 6095,
+        "mtime": "2025-04-14T14:18:01.601Z",
+        "hash": "72bf8206b1aa9d22"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ག་ vs ཁ་.wav": {
+        "size": 6080592,
+        "mtime": "2025-03-04T12:20:57.266Z",
+        "hash": "f9c7b736af83e6a0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ག་ vs རྒ་ vs ཁ་ vs ཀ་.mp3": {
+        "size": 44129,
+        "mtime": "2025-04-14T14:17:24.085Z",
+        "hash": "fc726703521a192f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ག་པར་ 1.mp3": {
+        "size": 9594,
+        "mtime": "2025-03-04T12:24:32.981Z",
+        "hash": "0c0e0a2d41e5c7cf"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གཅེས་ 1.mp3": {
+        "size": 12203,
+        "mtime": "2025-02-21T05:18:39.539Z",
+        "hash": "3f5b978f2f71400a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གཅེས་ 2.mp3": {
+        "size": 11993,
+        "mtime": "2025-02-21T05:18:39.540Z",
+        "hash": "62ef0e23bb29fc25"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གཅེས་ vs རྗེས་.mp3": {
+        "size": 58540,
+        "mtime": "2025-02-21T05:18:39.541Z",
+        "hash": "67eb385546db624a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གཅོད་པ་ 1.mp3": {
+        "size": 9828,
+        "mtime": "2025-03-04T13:01:21.902Z",
+        "hash": "112f2bd38bf6a85c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་.mp3": {
+        "size": 123228,
+        "mtime": "2025-03-04T13:00:34.934Z",
+        "hash": "bc1d4da419609ca3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གཉན་ཁ་ 1.mp3": {
+        "size": 8024,
+        "mtime": "2025-04-14T13:53:20.776Z",
+        "hash": "95401be6cf36fa52"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གཉན་ཁ་ 2.mp3": {
+        "size": 8754,
+        "mtime": "2025-04-14T13:54:21.581Z",
+        "hash": "2fd40e8c62a473ea"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གདོན་པ་ 1.mp3": {
+        "size": 10299,
+        "mtime": "2025-03-04T12:36:33.064Z",
+        "hash": "93d8bf155b940173"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གནས་ 1.mp3": {
+        "size": 11239,
+        "mtime": "2025-03-05T16:07:29.385Z",
+        "hash": "7ad377e786d0d5b6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གཙོ་ 1.mp3": {
+        "size": 6508,
+        "mtime": "2025-04-14T04:34:04.552Z",
+        "hash": "f4a1a6e096514ac9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གཙོ་ 2.mp3": {
+        "size": 7004,
+        "mtime": "2025-04-14T04:34:15.050Z",
+        "hash": "1314ba5611d12042"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གཤེ་ 1.mp3": {
+        "size": 10794,
+        "mtime": "2025-03-04T12:38:53.612Z",
+        "hash": "dbdd54015bab94e7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གསུང་བ་ 1.mp3": {
+        "size": 11746,
+        "mtime": "2025-04-13T08:51:25.831Z",
+        "hash": "76efe07067532b6f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གསེར་ 1.mp3": {
+        "size": 13769,
+        "mtime": "2025-03-05T16:28:28.730Z",
+        "hash": "728d92431ed8239f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གསེར་ vs ཟེར་.mp3": {
+        "size": 96511,
+        "mtime": "2025-03-05T16:28:03.630Z",
+        "hash": "7de8e43120f4ead9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གི་ 1.mp3": {
+        "size": 6254,
+        "mtime": "2025-04-14T14:14:05.309Z",
+        "hash": "9befebd44ea1caac"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གི་ 2.mp3": {
+        "size": 6930,
+        "mtime": "2025-04-14T14:14:11.109Z",
+        "hash": "b3998c3a17c67e9c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གི་ b 1.mp3": {
+        "size": 6173,
+        "mtime": "2025-04-20T11:29:10.631Z",
+        "hash": "c4a2cba08098c4f9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གི་ b 2.mp3": {
+        "size": 5286,
+        "mtime": "2025-04-20T11:37:12.493Z",
+        "hash": "863bd2efdb340194"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གི་ vs གྱི་ vs ཀྱི་.mp3": {
+        "size": 35857,
+        "mtime": "2025-04-14T14:13:40.636Z",
+        "hash": "b8571962eb36be8f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གི་ རྒི ཁི་ ཀི་.mp3": {
+        "size": 45038,
+        "mtime": "2025-04-20T11:35:07.972Z",
+        "hash": "dcc6061d32c2eb27"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གུ་ 1.mp3": {
+        "size": 5077,
+        "mtime": "2025-04-20T11:42:53.042Z",
+        "hash": "6e165fa583f3cd90"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གུ་ 2.mp3": {
+        "size": 5624,
+        "mtime": "2025-04-20T11:43:01.803Z",
+        "hash": "fc13d592df13e5d4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གུ་ 3.mp3": {
+        "size": 6012,
+        "mtime": "2025-04-20T11:43:07.089Z",
+        "hash": "494b99cf992a718a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གུ་ རྒུ་ ཁུ་ ཀུ་.mp3": {
+        "size": 91210,
+        "mtime": "2025-04-20T11:42:32.118Z",
+        "hash": "6ecfe31626d955fd"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གེ་ 1.mp3": {
+        "size": 6513,
+        "mtime": "2025-04-20T12:50:49.050Z",
+        "hash": "d9b514a58d041c16"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གེ་ 2.mp3": {
+        "size": 6094,
+        "mtime": "2025-04-20T12:50:56.767Z",
+        "hash": "f4cdc43e07b52889"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གེ་ རྒེ་ ཁེ་ ཀེ་.mp3": {
+        "size": 51603,
+        "mtime": "2025-04-20T12:48:58.554Z",
+        "hash": "0b60c909ffd9171b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གོ་ 1.mp3": {
+        "size": 6146,
+        "mtime": "2025-04-20T12:54:53.613Z",
+        "hash": "e992a9c02a3368b7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གོ་ 2.mp3": {
+        "size": 5180,
+        "mtime": "2025-04-20T12:55:00.176Z",
+        "hash": "1e32c8e2b4bf9190"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གོ་ རྒོ་ ཁོ་ ཀོ་.mp3": {
+        "size": 47429,
+        "mtime": "2025-04-20T12:53:40.119Z",
+        "hash": "0bb036bf2138d74c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གྱི་ 1.mp3": {
+        "size": 6408,
+        "mtime": "2025-04-14T14:14:22.575Z",
+        "hash": "b602142e86ca641e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གྱི་ 2.mp3": {
+        "size": 6149,
+        "mtime": "2025-04-14T14:14:30.329Z",
+        "hash": "69cd618f64fb7404"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གྲི་ 1.mp3": {
+        "size": 9908,
+        "mtime": "2025-03-04T12:43:56.638Z",
+        "hash": "725fa4bcf55ef5a5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གྲི་ vs ཁྲི་ vs ཀྲི་.mp3": {
+        "size": 94538,
+        "mtime": "2025-03-04T12:43:36.069Z",
+        "hash": "17bc6d9424fab614"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གློག་ 1.mp3": {
+        "size": 6428,
+        "mtime": "2025-04-20T13:41:25.808Z",
+        "hash": "d532b0b7609ce918"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གློག་ 2.mp3": {
+        "size": 6195,
+        "mtime": "2025-04-20T13:41:32.942Z",
+        "hash": "3cefa1d8d9c9e6f8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/གློག་ vs ལོག་.mp3": {
+        "size": 104971,
+        "mtime": "2025-04-20T13:40:44.293Z",
+        "hash": "269447a951016cb5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཆད་པ་ vs བྱེད་པ་ long.mp3": {
+        "size": 38593,
+        "mtime": "2025-02-21T05:18:39.542Z",
+        "hash": "8e749180ad27f197"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཆད་པ་_1.mp3": {
+        "size": 10738,
+        "mtime": "2025-02-21T05:18:39.542Z",
+        "hash": "424e5b8100c20669"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཆད་པ་_2.mp3": {
+        "size": 10951,
+        "mtime": "2025-02-21T05:18:39.543Z",
+        "hash": "352fea200c278760"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཆད་པ་_3.mp3": {
+        "size": 10270,
+        "mtime": "2025-02-21T05:18:39.543Z",
+        "hash": "5e2af23430655a49"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཆོད་པ་ 1.mp3": {
+        "size": 10897,
+        "mtime": "2025-03-04T13:01:34.495Z",
+        "hash": "c765b9ac1d0107fa"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཉེན་ཁ་ 1.mp3": {
+        "size": 10317,
+        "mtime": "2025-04-14T13:53:03.700Z",
+        "hash": "8f8937c390a180e6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཉེན་ཁ་ 2.mp3": {
+        "size": 8310,
+        "mtime": "2025-04-14T13:53:10.525Z",
+        "hash": "a3cd2bf10391d2b2"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཉེན་ཁ་ vs གཉན་ཁ་.mp3": {
+        "size": 34769,
+        "mtime": "2025-04-14T13:52:57.361Z",
+        "hash": "4b16ee6d6427bbe8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཐག་པ་ 1.mp3": {
+        "size": 8646,
+        "mtime": "2025-04-20T13:30:04.500Z",
+        "hash": "a2332d54c33b3c09"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཐག་པ་ 2.mp3": {
+        "size": 9145,
+        "mtime": "2025-04-20T13:30:09.915Z",
+        "hash": "c20be8340f538277"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཐུགས་རྗེས་ 1.mp3": {
+        "size": 11515,
+        "mtime": "2025-04-20T13:17:06.111Z",
+        "hash": "0657497ac53b5ee1"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཐུགས་རྗེས་ 2.mp3": {
+        "size": 9198,
+        "mtime": "2025-04-20T13:17:13.811Z",
+        "hash": "caa7a16a12795993"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཐུགས་རྗེས་ vs དུག་ཆེ་.mp3": {
+        "size": 44431,
+        "mtime": "2025-04-20T13:16:59.544Z",
+        "hash": "c41646b85bac19eb"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཐོགས་པ་ 1.mp3": {
+        "size": 11109,
+        "mtime": "2025-03-04T13:08:51.699Z",
+        "hash": "cfa8119fc99fd41e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དག་པ་ 1.mp3": {
+        "size": 8515,
+        "mtime": "2025-04-20T13:29:47.478Z",
+        "hash": "899326db74d76c2e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དག་པ་ 2.mp3": {
+        "size": 8855,
+        "mtime": "2025-04-20T13:29:52.265Z",
+        "hash": "a67b0dd6a6a3167b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དག་པ་ vs ཐག་པ་ vs རྟག་པ་.mp3": {
+        "size": 61280,
+        "mtime": "2025-04-20T13:29:37.535Z",
+        "hash": "d9315c5739594a42"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགག་པ་ n 1.mp3": {
+        "size": 11836,
+        "mtime": "2025-03-04T17:15:33.440Z",
+        "hash": "b492b1715f798df5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགག་པ་ noun vs verb.mp3": {
+        "size": 50397,
+        "mtime": "2025-03-04T15:26:15.714Z",
+        "hash": "c2babc114059d4b2"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགག་པ་ v 1.mp3": {
+        "size": 12151,
+        "mtime": "2025-03-04T15:12:45.263Z",
+        "hash": "d601dd166167b8b0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགག་པ་ vs བཀག་པ་ (n).mp3": {
+        "size": 48362,
+        "mtime": "2025-03-04T15:24:02.269Z",
+        "hash": "0da9c0712f825934"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགག་པ་ vs བཀག་པ་ (v).mp3": {
+        "size": 97203,
+        "mtime": "2025-03-04T15:12:31.953Z",
+        "hash": "d3a9ac90901d753f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགུ་བ་ vs རྐུ་བ་ long.mp3": {
+        "size": 44912,
+        "mtime": "2025-02-21T05:18:39.544Z",
+        "hash": "c3e8588820fee64c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགུ་བ་_1.mp3": {
+        "size": 11131,
+        "mtime": "2025-02-21T05:18:39.545Z",
+        "hash": "3fee7b661b6ae7ca"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགུ་བ་_2.mp3": {
+        "size": 9245,
+        "mtime": "2025-02-21T05:18:39.545Z",
+        "hash": "55497d10ac0395ac"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགེ་རྒན་ 1.mp3": {
+        "size": 11631,
+        "mtime": "2025-03-04T15:09:55.322Z",
+        "hash": "6f1a141d1bb8b2f0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགེ་རྒན་ vs སྐེ་རྒྱན་.mp3": {
+        "size": 49458,
+        "mtime": "2025-03-04T15:09:45.368Z",
+        "hash": "bd96d720dba7d108"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགྲ་_1.mp3": {
+        "size": 8446,
+        "mtime": "2025-02-21T05:18:39.545Z",
+        "hash": "7b7a951fd87eeaf0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགྲ་_2.mp3": {
+        "size": 7924,
+        "mtime": "2025-02-21T05:18:39.546Z",
+        "hash": "08a677c9b439c8a3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགྲམ་པ་ 1.mp3": {
+        "size": 12725,
+        "mtime": "2025-03-04T12:55:27.293Z",
+        "hash": "8600b1eb5dc3093a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དགྲམ་པ་ vs བཀྲམ་པ་.mp3": {
+        "size": 109569,
+        "mtime": "2025-03-04T12:55:13.972Z",
+        "hash": "f2e328e3e97ec6f4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དཔེ་ vs འབད་ long.mp3": {
+        "size": 37162,
+        "mtime": "2025-02-21T05:18:39.547Z",
+        "hash": "897fce1696b226df"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དཔེ་_1.mp3": {
+        "size": 7557,
+        "mtime": "2025-02-21T05:18:39.547Z",
+        "hash": "96376b79b1bae721"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དཔེ་_2.mp3": {
+        "size": 6462,
+        "mtime": "2025-02-21T05:18:39.548Z",
+        "hash": "5c1983664eaa51ff"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དཔྲལ་བ་ 1.mp3": {
+        "size": 12514,
+        "mtime": "2025-02-21T05:18:39.548Z",
+        "hash": "7702746b10f8e832"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དཔྲལ་བ་ 2.mp3": {
+        "size": 10430,
+        "mtime": "2025-02-21T05:18:39.548Z",
+        "hash": "3851f94d59f9a50e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དམིགས་ 1.mp3": {
+        "size": 9595,
+        "mtime": "2025-02-21T05:18:39.549Z",
+        "hash": "62da1e01a871fbb7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དམིགས་ 2.mp3": {
+        "size": 7768,
+        "mtime": "2025-02-21T05:18:39.550Z",
+        "hash": "7cf51a1b8923dfb6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དམིགས་ 3.mp3": {
+        "size": 5786,
+        "mtime": "2025-02-21T05:18:39.550Z",
+        "hash": "5ffae583693676e8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དུག་ཆེ་ 1.mp3": {
+        "size": 9377,
+        "mtime": "2025-04-20T13:17:25.854Z",
+        "hash": "9c9e5079f2eea5c4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དུག་ཆེ་ 2.mp3": {
+        "size": 10105,
+        "mtime": "2025-04-20T13:17:30.353Z",
+        "hash": "42c569f4d6968b4e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དུལ་བ་ 1.mp3": {
+        "size": 11054,
+        "mtime": "2025-03-04T14:42:14.536Z",
+        "hash": "e677445ffded55b6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དུལ་བ་ vs འདུལ་བ་ vs བཏུལ་བ་ (v).wav": {
+        "size": 3719724,
+        "mtime": "2025-03-04T14:42:02.166Z",
+        "hash": "66a952fd8b8e08d9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དེ་ 1.mp3": {
+        "size": 6278,
+        "mtime": "2025-04-14T14:10:30.593Z",
+        "hash": "15692959b1e416e0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དེ་ 2.mp3": {
+        "size": 6279,
+        "mtime": "2025-04-14T14:11:07.767Z",
+        "hash": "e3c120b0afe40666"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དེ་ vs སྡེ་ vs སྟེ་.mp3": {
+        "size": 36599,
+        "mtime": "2025-04-14T14:10:16.153Z",
+        "hash": "fd038c1550587974"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དོགས་པ་ 1.mp3": {
+        "size": 11055,
+        "mtime": "2025-03-04T13:08:29.165Z",
+        "hash": "1222771568f7dbf3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དོགས་པ་ vs ཐོགས་པ་.mp3": {
+        "size": 40403,
+        "mtime": "2025-03-04T13:09:53.634Z",
+        "hash": "00679b75df4ed292"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་.mp3": {
+        "size": 153161,
+        "mtime": "2025-03-04T13:08:14.687Z",
+        "hash": "04bf338ce3cfb23b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ནང་ 1.mp3": {
+        "size": 9542,
+        "mtime": "2025-03-04T14:45:01.249Z",
+        "hash": "f5d841b0a21c27d9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ནས་ 1.mp3": {
+        "size": 11996,
+        "mtime": "2025-03-05T16:07:39.142Z",
+        "hash": "4364f8736700ed4a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ནས་ vs གནས་.mp3": {
+        "size": 97051,
+        "mtime": "2025-03-05T16:10:31.792Z",
+        "hash": "5e82f55b98247471"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/པགས་པ་ 1.mp3": {
+        "size": 6400,
+        "mtime": "2025-04-14T14:00:36.951Z",
+        "hash": "2c9be72b84792e3f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/པགས་པ་ 2.mp3": {
+        "size": 6374,
+        "mtime": "2025-04-14T14:00:41.843Z",
+        "hash": "affae8225021585c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་.mp3": {
+        "size": 78710,
+        "mtime": "2025-04-14T13:59:13.395Z",
+        "hash": "fe7e721825875ad1"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཕྱ་བ་_1.mp3": {
+        "size": 8080,
+        "mtime": "2025-02-21T05:18:39.550Z",
+        "hash": "c6f5ebb7a0873846"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཕྱ་བ་_2.mp3": {
+        "size": 7352,
+        "mtime": "2025-02-21T05:18:39.551Z",
+        "hash": "e5b439045861e068"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བཀག་པ་ n 1.mp3": {
+        "size": 10587,
+        "mtime": "2025-03-04T15:24:34.193Z",
+        "hash": "afb9b85564a83535"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བཀག་པ་ noun vs verb.mp3": {
+        "size": 41554,
+        "mtime": "2025-03-04T15:25:33.843Z",
+        "hash": "e2e8a36af85b705e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བཀག་པ་ v 1.mp3": {
+        "size": 10351,
+        "mtime": "2025-03-04T15:12:56.214Z",
+        "hash": "0af1fc72e4d17c98"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བཀྲམ་པ་ 1.mp3": {
+        "size": 11264,
+        "mtime": "2025-03-04T12:55:38.242Z",
+        "hash": "4bb33cd85b826d4c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བཅིང་བ་ 1.mp3": {
+        "size": 8282,
+        "mtime": "2025-04-20T13:36:05.293Z",
+        "hash": "3daf72f495fa8917"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བཅིང་བ་ 2.mp3": {
+        "size": 7814,
+        "mtime": "2025-04-20T13:36:10.180Z",
+        "hash": "03f4998628e20f9b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བཏུལ་བ་ 1.mp3": {
+        "size": 9934,
+        "mtime": "2025-03-04T14:42:36.252Z",
+        "hash": "8cec1288569c8f33"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བདེ་འཇགས་ 1.mp3": {
+        "size": 12827,
+        "mtime": "2025-02-21T05:18:39.551Z",
+        "hash": "cc73fd21f448d7cd"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བདེ་འཇགས་ 2.mp3": {
+        "size": 11837,
+        "mtime": "2025-02-21T05:18:39.551Z",
+        "hash": "acbd321d692526f4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བདེ་འཇགས་ vs བརྟན་འཇགས་.mp3": {
+        "size": 61659,
+        "mtime": "2025-02-21T05:18:39.552Z",
+        "hash": "7166af906da8272d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བདེན་པ་ (n) 1.mp3": {
+        "size": 9322,
+        "mtime": "2025-04-14T04:47:29.992Z",
+        "hash": "8f235b27fa2e2c4f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བདེན་པ་ (n) 2.mp3": {
+        "size": 7369,
+        "mtime": "2025-04-14T04:47:44.663Z",
+        "hash": "70d492605402d1a4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བདེན་པ་ (n) vs བསྟན་པ་ (n).mp3": {
+        "size": 33150,
+        "mtime": "2025-04-14T04:45:08.845Z",
+        "hash": "cf8ae7ef6f595dd3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བཞད་ 1.mp3": {
+        "size": 9698,
+        "mtime": "2025-03-04T12:29:39.824Z",
+        "hash": "74bce77d3e20472d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བཞད་ vs གཤེ་.mp3": {
+        "size": 103245,
+        "mtime": "2025-03-04T12:29:24.621Z",
+        "hash": "c7d6e039924b1596"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བཟུང་བ་ 1.mp3": {
+        "size": 11015,
+        "mtime": "2025-04-13T08:51:38.739Z",
+        "hash": "3d17938b32a80414"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བཟུང་བ་ vs གསུང་བ་.mp3": {
+        "size": 79987,
+        "mtime": "2025-04-14T13:45:28.502Z",
+        "hash": "be59b4185743fedd"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བརྗོད་པ་ 1.mp3": {
+        "size": 10690,
+        "mtime": "2025-03-04T13:01:44.511Z",
+        "hash": "f25fe2aef26f5e10"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བརྟག་པ་ 1.mp3": {
+        "size": 9464,
+        "mtime": "2025-03-04T14:48:43.605Z",
+        "hash": "1e066b3baad1be88"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བརྟན་འཇགས་ 1.mp3": {
+        "size": 12306,
+        "mtime": "2025-02-21T05:18:39.553Z",
+        "hash": "0a630dcbbe6d7996"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བརྟན་འཇགས་ 2.mp3": {
+        "size": 11210,
+        "mtime": "2025-02-21T05:18:39.553Z",
+        "hash": "05d0fefdeecc02b5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བརྩེ་ 1.mp3": {
+        "size": 7813,
+        "mtime": "2025-04-14T04:27:40.338Z",
+        "hash": "d894d79bf4dcc08f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བརྩེ་ 2.mp3": {
+        "size": 7030,
+        "mtime": "2025-04-14T04:27:51.337Z",
+        "hash": "657204394fea9205"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བརྩེ་བ་ 1.mp3": {
+        "size": 8670,
+        "mtime": "2025-04-14T04:28:29.213Z",
+        "hash": "c87700b6f45e24aa"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བརྩེ་བ་ 2.mp3": {
+        "size": 8698,
+        "mtime": "2025-04-14T04:28:34.440Z",
+        "hash": "a020ef10d2466c8a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བརླག་པ་ vs ལག་པ་ long.mp3": {
+        "size": 40553,
+        "mtime": "2025-04-02T03:26:00.152Z",
+        "hash": "6f6242042a8b1aa2"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བརླག་པ་_1.mp3": {
+        "size": 9905,
+        "mtime": "2025-02-21T05:18:39.554Z",
+        "hash": "4fbe73f4a0140671"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བརླག་པ་_2.mp3": {
+        "size": 8183,
+        "mtime": "2025-02-21T05:18:39.554Z",
+        "hash": "2502db2127be303e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བསག་པ་ 1.mp3": {
+        "size": 14341,
+        "mtime": "2025-03-04T13:12:55.535Z",
+        "hash": "4655e3dad32dc190"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བསྟན་པ་ (n) 1.mp3": {
+        "size": 7995,
+        "mtime": "2025-04-14T04:39:42.954Z",
+        "hash": "a13f135343431dac"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བསྟན་པ་ (n) 2.mp3": {
+        "size": 6690,
+        "mtime": "2025-04-14T04:39:48.652Z",
+        "hash": "3a5caca69cf8b86f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བསྟན་པ་ (n) b1.mp3": {
+        "size": 8332,
+        "mtime": "2025-04-14T04:47:54.888Z",
+        "hash": "ac01beb77f1fe5a3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བསྟན་པ་ (n) b2.mp3": {
+        "size": 7106,
+        "mtime": "2025-04-14T04:47:59.462Z",
+        "hash": "307f4fd986546fe6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བསྟེན་པ་ (v) 1.mp3": {
+        "size": 7211,
+        "mtime": "2025-04-14T04:39:25.814Z",
+        "hash": "7021bdfa8e75ef71"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བསྟེན་པ་ (v) 2.mp3": {
+        "size": 6689,
+        "mtime": "2025-04-14T04:39:31.760Z",
+        "hash": "e84d5ab0b77d3789"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བསྟེན་པ་ (v) vs བསྟན་པ་ (n).mp3": {
+        "size": 33410,
+        "mtime": "2025-04-14T04:36:57.527Z",
+        "hash": "c7b42be31ff8e687"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བྱ་བ་ 1.mp3": {
+        "size": 10056,
+        "mtime": "2025-04-13T09:52:30.953Z",
+        "hash": "d10ec8a88f04bcc0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བྱ་བ་ 2.mp3": {
+        "size": 8889,
+        "mtime": "2025-02-21T05:18:39.556Z",
+        "hash": "786469fd390510a4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བྱ་བ་ 3.mp3": {
+        "size": 9462,
+        "mtime": "2025-02-21T05:18:39.555Z",
+        "hash": "9094afb0be52578f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བྱ་བ་ vs ཕྱ་བ་ long.mp3": {
+        "size": 34925,
+        "mtime": "2025-02-21T05:18:39.555Z",
+        "hash": "07214f8a5f152695"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བྱ་བ་ vs འཕྱ་བ་.mp3": {
+        "size": 53058,
+        "mtime": "2025-04-13T10:35:48.245Z",
+        "hash": "b9319522a0d51418"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བྱེད་པ་_1.mp3": {
+        "size": 10322,
+        "mtime": "2025-02-21T05:18:39.556Z",
+        "hash": "f6fb4dee55c5f9c8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བྱེད་པ་_2.mp3": {
+        "size": 9856,
+        "mtime": "2025-02-21T05:18:39.556Z",
+        "hash": "38d1ca3a170b8076"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བྱེད་པ་_3.mp3": {
+        "size": 9437,
+        "mtime": "2025-02-21T05:18:39.557Z",
+        "hash": "34c74f0cd38fa816"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བྲོ་བ་ 1.mp3": {
+        "size": 7524,
+        "mtime": "2025-04-14T13:51:10.322Z",
+        "hash": "ea5a7ce95903c64b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བྲོ་བ་ 2.mp3": {
+        "size": 6950,
+        "mtime": "2025-04-14T13:51:15.151Z",
+        "hash": "e59a22560193de06"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བླངས་པ་_1.mp3": {
+        "size": 9175,
+        "mtime": "2025-02-21T05:18:39.557Z",
+        "hash": "2d51de8dd2ce8d6e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/བླངས་པ་_2.mp3": {
+        "size": 8001,
+        "mtime": "2025-02-21T05:18:39.558Z",
+        "hash": "7f8451a82903dc70"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མཁྲིག་ 1.mp3": {
+        "size": 6804,
+        "mtime": "2025-03-04T13:03:03.288Z",
+        "hash": "fffc348601a598fa"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མཁྲིས་པ་ 1.mp3": {
+        "size": 12880,
+        "mtime": "2025-02-21T05:18:39.558Z",
+        "hash": "17e1af84754b78fa"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མཁྲིས་པ་ 2.mp3": {
+        "size": 11812,
+        "mtime": "2025-02-21T05:18:39.558Z",
+        "hash": "01d35df657a6ee3e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མགོ vs ཀོ.mp3": {
+        "size": 64856,
+        "mtime": "2025-03-04T12:50:43.076Z",
+        "hash": "2d3c1ef265fc2237"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མགོ་ 1.mp3": {
+        "size": 11518,
+        "mtime": "2025-04-02T05:00:36.096Z",
+        "hash": "460df8796b0edfb2"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མགོ་ 2.mp3": {
+        "size": 8524,
+        "mtime": "2025-02-21T05:18:39.559Z",
+        "hash": "1f2e3e2ab00017e9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མགོ་ vs ཀོ་བ་.mp3": {
+        "size": 41840,
+        "mtime": "2025-04-02T04:59:59.029Z",
+        "hash": "c5f24b6de92df45c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མགོ་b 1.mp3": {
+        "size": 10848,
+        "mtime": "2025-03-04T12:50:53.329Z",
+        "hash": "1d8312f44d6456bb"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མཐོང་བ་ 1.mp3": {
+        "size": 10481,
+        "mtime": "2025-03-04T14:52:11.479Z",
+        "hash": "24f35302a6981e5f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མཐོང་བ་ vs འཐུང་བ་.mp3": {
+        "size": 127060,
+        "mtime": "2025-03-04T14:52:28.770Z",
+        "hash": "0da28abfa103fa34"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མིག་ 1.mp3": {
+        "size": 10194,
+        "mtime": "2025-02-21T05:18:39.560Z",
+        "hash": "d656e36a30725138"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མིག་ 2.mp3": {
+        "size": 8028,
+        "mtime": "2025-02-21T05:18:39.560Z",
+        "hash": "90203061084967f9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མིག་ 3.mp3": {
+        "size": 5028,
+        "mtime": "2025-02-21T05:18:39.561Z",
+        "hash": "ecc3b4a4069c5046"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མིག་ vs དམིགས་.mp3": {
+        "size": 58906,
+        "mtime": "2025-02-21T05:18:39.562Z",
+        "hash": "98a5ae194f4c110e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མོག་མོག་ 1.mp3": {
+        "size": 12646,
+        "mtime": "2025-02-21T05:18:39.562Z",
+        "hash": "5dca8fbc12dda846"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མོག་མོག་ 2.mp3": {
+        "size": 10065,
+        "mtime": "2025-02-21T05:18:39.562Z",
+        "hash": "7df60a643b2ae670"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/མོག་མོག་ vs རྨོ་རྨོ་.mp3": {
+        "size": 60027,
+        "mtime": "2025-02-21T05:18:39.563Z",
+        "hash": "d59b38eb88d0b56e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཚད་ 1.mp3": {
+        "size": 9751,
+        "mtime": "2025-02-21T05:18:39.564Z",
+        "hash": "e9b2cea4046763df"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཚད་ 2.mp3": {
+        "size": 10430,
+        "mtime": "2025-02-21T05:18:39.564Z",
+        "hash": "f85a1209cf2743d6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཚུལ་ 1.mp3": {
+        "size": 11969,
+        "mtime": "2025-02-21T05:18:39.564Z",
+        "hash": "c06618d010a19318"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཚུལ་ 2.mp3": {
+        "size": 11003,
+        "mtime": "2025-02-21T05:18:39.565Z",
+        "hash": "94d7a401fc4fd2bc"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཚུལ་ 3.mp3": {
+        "size": 9959,
+        "mtime": "2025-02-21T05:18:39.565Z",
+        "hash": "2df4a008c510827e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཞག 1.mp3": {
+        "size": 9927,
+        "mtime": "2025-04-13T08:56:10.509Z",
+        "hash": "4817c7f1359d5d77"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཞག 2.mp3": {
+        "size": 8024,
+        "mtime": "2025-04-14T13:43:24.952Z",
+        "hash": "5f84f9197a3e8636"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཞེས་པ་ 1.mp3": {
+        "size": 11888,
+        "mtime": "2025-03-04T12:48:32.923Z",
+        "hash": "00679610d12b4a90"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཞེས་པ་ vs ཤེས་པ་ long.mp3": {
+        "size": 54931,
+        "mtime": "2025-02-21T05:18:39.566Z",
+        "hash": "2592ab4b374e5610"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཞེས་པ་ vs ཤེས་པ་.mp3": {
+        "size": 49231,
+        "mtime": "2025-03-04T12:48:07.207Z",
+        "hash": "5a3f629b5bc575cd"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཞེས་པ་_1.mp3": {
+        "size": 13975,
+        "mtime": "2025-02-21T05:18:39.566Z",
+        "hash": "e969b405812fbf87"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཞེས་པ་_2.mp3": {
+        "size": 13272,
+        "mtime": "2025-02-21T05:18:39.566Z",
+        "hash": "fb5a4b5a1d73d06a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཟག་པ་ 1.mp3": {
+        "size": 15036,
+        "mtime": "2025-03-04T13:12:42.943Z",
+        "hash": "420b295a3eec2a90"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཟག་པ་ vs བསག་པ་ (v).wav": {
+        "size": 3154640,
+        "mtime": "2025-03-04T13:12:16.781Z",
+        "hash": "da78f8fc22ed2bd7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཟེར་ 1.mp3": {
+        "size": 13664,
+        "mtime": "2025-03-05T16:28:20.716Z",
+        "hash": "eb4335ac687c871f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འགྱེས་པ་ 1.mp3": {
+        "size": 18850,
+        "mtime": "2025-02-21T05:18:39.567Z",
+        "hash": "341fa701d643ec3d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འགྱེས་པ་ 2.mp3": {
+        "size": 11640,
+        "mtime": "2025-02-21T05:18:39.567Z",
+        "hash": "020f03b93a06618a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འགྱེས་པ་ b 1.mp3": {
+        "size": 12726,
+        "mtime": "2025-03-05T16:09:09.434Z",
+        "hash": "3db1deedfd665db3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འགྱེས་པ་ vs སྐྱེས་པ་ b.mp3": {
+        "size": 100699,
+        "mtime": "2025-03-05T16:10:51.608Z",
+        "hash": "91b87e75f97e6f9d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འགྱེས་པ་ vs སྐྱེས་པ་.mp3": {
+        "size": 88426,
+        "mtime": "2025-03-05T03:42:14.901Z",
+        "hash": "acb9f026cf360c4e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འགྲིག་ 1.mp3": {
+        "size": 7718,
+        "mtime": "2025-03-04T13:02:54.733Z",
+        "hash": "f3a2d888a505559b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འགྲིག་ vs མཁྲིག་.mp3": {
+        "size": 47481,
+        "mtime": "2025-03-04T13:02:44.981Z",
+        "hash": "3d7df06f89619490"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཆིང་བ་ 1.mp3": {
+        "size": 9453,
+        "mtime": "2025-04-20T13:35:51.410Z",
+        "hash": "5b887c7ec38b03c6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཆིང་བ་ 2.mp3": {
+        "size": 9539,
+        "mtime": "2025-04-20T13:35:56.316Z",
+        "hash": "f9ffe9e36059bd9e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཐུང་བ་ 1.mp3": {
+        "size": 11317,
+        "mtime": "2025-03-04T14:52:40.278Z",
+        "hash": "8fb1426bc6bd74a7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འདུལ་བ་ 1.mp3": {
+        "size": 9647,
+        "mtime": "2025-03-04T14:42:26.958Z",
+        "hash": "7a2e76b6199b43db"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འདོན་པ་བཏོན་པ་ 1.mp3": {
+        "size": 11538,
+        "mtime": "2025-04-14T04:51:21.587Z",
+        "hash": "dd3591d44a4cd78b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འདོན་པ་བཏོན་པ་ 2.mp3": {
+        "size": 10574,
+        "mtime": "2025-04-14T04:51:26.701Z",
+        "hash": "2b36f3a063018176"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འདོན་པ་འདོན་པ་ 1.mp3": {
+        "size": 11173,
+        "mtime": "2025-04-14T04:52:57.427Z",
+        "hash": "aade38a845fbc938"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འདོན་པ་འདོན་པ་ 2.mp3": {
+        "size": 10732,
+        "mtime": "2025-04-14T04:51:45.085Z",
+        "hash": "2f009dba01e5390b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་.mp3": {
+        "size": 51112,
+        "mtime": "2025-04-14T04:52:48.436Z",
+        "hash": "22dcd0969b208197"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཕགས་པ་ 1.mp3": {
+        "size": 8118,
+        "mtime": "2025-04-14T14:00:21.424Z",
+        "hash": "f614420e6af5986a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཕགས་པ་ 2.mp3": {
+        "size": 7417,
+        "mtime": "2025-04-14T14:00:27.675Z",
+        "hash": "ae0eeb679c032fe4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཕྱ་བ་ 1.mp3": {
+        "size": 9222,
+        "mtime": "2025-04-13T09:52:44.526Z",
+        "hash": "d339ac3ef1a68ee0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འབད་_1.mp3": {
+        "size": 7976,
+        "mtime": "2025-02-21T05:18:39.569Z",
+        "hash": "b4fa38f92cdbbaec"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འབད་_2.mp3": {
+        "size": 5784,
+        "mtime": "2025-02-21T05:18:39.569Z",
+        "hash": "a89a070d22474ca5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འབྱིང་བ་ 1.mp3": {
+        "size": 8335,
+        "mtime": "2025-04-20T13:35:32.492Z",
+        "hash": "dad5c8695cb76f42"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འབྱིང་བ་ 2.mp3": {
+        "size": 9223,
+        "mtime": "2025-04-20T13:35:37.537Z",
+        "hash": "e5ad02f501f41102"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འབྱིང་བ་ vs འཆིང་བ་ vs བཅིང་བ་.mp3": {
+        "size": 52557,
+        "mtime": "2025-04-20T13:34:43.464Z",
+        "hash": "aa46c090e05dc9ec"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འབྲལ་བ་ 1.mp3": {
+        "size": 13089,
+        "mtime": "2025-02-21T05:18:39.570Z",
+        "hash": "f7a95a6663ccacdb"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འབྲལ་བ་ 2.mp3": {
+        "size": 11471,
+        "mtime": "2025-02-21T05:18:39.570Z",
+        "hash": "f4b113298093240b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འབྲལ་བ་ vs དཔྲལ་བ་.mp3": {
+        "size": 55408,
+        "mtime": "2025-02-21T05:18:39.572Z",
+        "hash": "e7e831e169690572"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཚེ་ 1.mp3": {
+        "size": 7814,
+        "mtime": "2025-04-14T04:27:20.013Z",
+        "hash": "e19091f3a2ffddea"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཚེ་ 2.mp3": {
+        "size": 7709,
+        "mtime": "2025-04-14T04:27:29.691Z",
+        "hash": "74de4467ba84783d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཚེ་ vs བརྩེ་.mp3": {
+        "size": 76547,
+        "mtime": "2025-04-14T04:27:08.870Z",
+        "hash": "9fcf6d78b506ebd5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཚེ་བ་ 1.mp3": {
+        "size": 8592,
+        "mtime": "2025-04-14T04:28:07.002Z",
+        "hash": "368160af02ce4c2a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཚེ་བ་ 2.mp3": {
+        "size": 8465,
+        "mtime": "2025-04-14T04:28:16.924Z",
+        "hash": "869186f23862a087"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཚོ་ 1.mp3": {
+        "size": 7343,
+        "mtime": "2025-04-14T04:33:32.837Z",
+        "hash": "3786c2f8f5f4d26a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཚོ་ 2.mp3": {
+        "size": 7762,
+        "mtime": "2025-04-14T04:33:54.798Z",
+        "hash": "931e837558f569bf"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/འཚོ་ vs གཙོ་.mp3": {
+        "size": 60506,
+        "mtime": "2025-04-14T04:33:15.320Z",
+        "hash": "05746435a440c618"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཡིག་ 1.mp3": {
+        "size": 9959,
+        "mtime": "2025-03-04T14:56:56.118Z",
+        "hash": "12920d15ffeb46ee"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཡིད་ 1.mp3": {
+        "size": 7977,
+        "mtime": "2025-03-04T14:56:46.621Z",
+        "hash": "5a491feac78845e6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཡིད་ vs ཡིག་.mp3": {
+        "size": 31351,
+        "mtime": "2025-03-04T14:56:37.567Z",
+        "hash": "10e3bd2a776ce083"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྐུ་བ་_1.mp3": {
+        "size": 9696,
+        "mtime": "2025-02-21T05:18:39.572Z",
+        "hash": "5901e278e2d7dc20"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྐུ་བ་_2.mp3": {
+        "size": 8914,
+        "mtime": "2025-02-21T05:18:39.572Z",
+        "hash": "187858c69fef4eca"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒ་ 1.mp3": {
+        "size": 6094,
+        "mtime": "2025-04-14T14:18:13.263Z",
+        "hash": "e40e6299c50583f5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒ་ 2.mp3": {
+        "size": 4869,
+        "mtime": "2025-04-14T14:18:19.441Z",
+        "hash": "432f22c311b8a63f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒི་ 1.mp3": {
+        "size": 6769,
+        "mtime": "2025-04-20T11:35:30.350Z",
+        "hash": "0a693e008f0fb394"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒི་ 2.mp3": {
+        "size": 5234,
+        "mtime": "2025-04-20T11:37:44.784Z",
+        "hash": "b8eaebb7443d7f35"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒུ་ 1.mp3": {
+        "size": 4995,
+        "mtime": "2025-04-20T11:43:20.458Z",
+        "hash": "1a34977c7d6b880c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒུ་ 2.mp3": {
+        "size": 5724,
+        "mtime": "2025-04-20T11:43:27.910Z",
+        "hash": "15215b5081388b5d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒུ་ 3.mp3": {
+        "size": 5907,
+        "mtime": "2025-04-20T11:43:34.847Z",
+        "hash": "b749ef2ee4f093b6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒེ་ 1.mp3": {
+        "size": 5806,
+        "mtime": "2025-04-20T12:51:07.484Z",
+        "hash": "38fb86d19e7e76ac"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒེ་ 2.mp3": {
+        "size": 6145,
+        "mtime": "2025-04-20T12:51:12.152Z",
+        "hash": "4675ee5c01feaf3b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒོ་ 1.mp3": {
+        "size": 5570,
+        "mtime": "2025-04-20T12:55:10.632Z",
+        "hash": "4eb9db245ff6dd4f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒོ་ 2.mp3": {
+        "size": 5958,
+        "mtime": "2025-04-20T12:55:16.580Z",
+        "hash": "1751c84d3c2c1398"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒོལ་བ་ 1.mp3": {
+        "size": 12307,
+        "mtime": "2025-03-04T15:00:29.239Z",
+        "hash": "6a1eed8a7673b076"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒོལ་བ་ n 1.mp3": {
+        "size": 12569,
+        "mtime": "2025-03-04T15:08:14.546Z",
+        "hash": "17a364d0076d47e2"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒོལ་བ་ v 1.mp3": {
+        "size": 11446,
+        "mtime": "2025-03-04T15:08:23.615Z",
+        "hash": "7c60cf4f39b9aae9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒོལ་བ་ vs སྐོལ་བ་ vs སྒུལ་བ་ vs སྐུལ་བ་ (v).mp3": {
+        "size": 44317,
+        "mtime": "2025-03-04T15:00:15.621Z",
+        "hash": "157848be17397d6f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒོལ་བ་ vs སྐོལ་བ་.mp3": {
+        "size": 84725,
+        "mtime": "2025-03-04T15:02:27.390Z",
+        "hash": "b3001889bf052b8a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྒོལ་བ་ རྒོལ་བ་ (n vs v).mp3": {
+        "size": 62614,
+        "mtime": "2025-03-04T15:05:29.969Z",
+        "hash": "2bc3a8f882e2e114"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྗེས་ 1.mp3": {
+        "size": 12569,
+        "mtime": "2025-02-21T05:18:39.573Z",
+        "hash": "78686792cf829855"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྗེས་ 2.mp3": {
+        "size": 11055,
+        "mtime": "2025-02-21T05:18:39.573Z",
+        "hash": "758a60292a9146c0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྟག་པ་ 1.mp3": {
+        "size": 8514,
+        "mtime": "2025-04-20T13:30:20.075Z",
+        "hash": "0f958233b064e8ff"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྟག་པ་ 2.mp3": {
+        "size": 8229,
+        "mtime": "2025-04-20T13:30:24.213Z",
+        "hash": "03a2933d977b2aed"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྟོག་པ་ vs ལྡོག་པ་ long.mp3": {
+        "size": 46532,
+        "mtime": "2025-02-21T05:18:39.574Z",
+        "hash": "af5bdfdb70323a56"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྟོག་པ་_1.mp3": {
+        "size": 5540,
+        "mtime": "2025-02-21T05:18:39.574Z",
+        "hash": "0a0ada7bf3d451c5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྟོག་པ་_2.mp3": {
+        "size": 5984,
+        "mtime": "2025-02-21T05:18:39.574Z",
+        "hash": "d2aab4bd572df6fe"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྟོག་པ་_3.mp3": {
+        "size": 5984,
+        "mtime": "2025-02-21T05:18:39.575Z",
+        "hash": "d2aab4bd572df6fe"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྟོགས་པ་ 1.mp3": {
+        "size": 10761,
+        "mtime": "2025-03-04T13:09:05.219Z",
+        "hash": "5ff1ff4b0ea747f6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྨོ་རྨོ་ 1.mp3": {
+        "size": 13037,
+        "mtime": "2025-02-21T05:18:39.575Z",
+        "hash": "f7b6679ea428fdde"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྨོ་རྨོ་ 2.mp3": {
+        "size": 12412,
+        "mtime": "2025-02-21T05:18:39.575Z",
+        "hash": "8bc30dc4acece7a1"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྩེད་ 1.mp3": {
+        "size": 11135,
+        "mtime": "2025-02-21T05:18:39.576Z",
+        "hash": "20bd61d199c13392"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྩེད་ 2.mp3": {
+        "size": 10064,
+        "mtime": "2025-02-21T05:18:39.576Z",
+        "hash": "32fcbb0cedbb4e87"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/རྩེད་ vs ཚད་ long.mp3": {
+        "size": 54889,
+        "mtime": "2025-02-21T05:18:39.577Z",
+        "hash": "5639ced9d3446339"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལ་ 1.mp3": {
+        "size": 5417,
+        "mtime": "2025-04-20T13:26:39.653Z",
+        "hash": "8e3e0eb8b9fdc0d5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལ་ 2.mp3": {
+        "size": 6042,
+        "mtime": "2025-04-20T13:26:46.359Z",
+        "hash": "cb38e46501076d1a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལ་ vs ལྷ་.mp3": {
+        "size": 24753,
+        "mtime": "2025-04-20T13:26:27.875Z",
+        "hash": "bde86860a773c49d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལག་པ་_1.mp3": {
+        "size": 9904,
+        "mtime": "2025-02-21T05:18:39.577Z",
+        "hash": "d88d49a3114e67c2"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལག་པ་_2.mp3": {
+        "size": 8286,
+        "mtime": "2025-02-21T05:18:39.578Z",
+        "hash": "ca8b61278af8e949"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལངས་པ་ vs བླནས་པ་ long.mp3": {
+        "size": 37789,
+        "mtime": "2025-02-21T05:18:39.578Z",
+        "hash": "e2dcdd3a3960719d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལངས་པ་_1.mp3": {
+        "size": 8653,
+        "mtime": "2025-02-21T05:18:39.579Z",
+        "hash": "63499183e0604f85"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལངས་པ་_2.mp3": {
+        "size": 9305,
+        "mtime": "2025-02-21T05:18:39.579Z",
+        "hash": "37cd6a6eaeb60d44"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལོག་ 1.mp3": {
+        "size": 7444,
+        "mtime": "2025-04-20T13:41:41.863Z",
+        "hash": "938515cb52dd9483"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལོག་ 2.mp3": {
+        "size": 6402,
+        "mtime": "2025-04-20T13:41:47.332Z",
+        "hash": "274b9ab3f15da0cf"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལྡག་པ་ 1.mp3": {
+        "size": 10977,
+        "mtime": "2025-03-04T14:48:35.905Z",
+        "hash": "7137fe04e65a605b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལྡག་པ་ vs བརྟག་པ་.mp3": {
+        "size": 44870,
+        "mtime": "2025-03-04T14:46:47.221Z",
+        "hash": "5d777174677f6516"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལྡོག་པ་ 1.mp3": {
+        "size": 10061,
+        "mtime": "2025-03-04T13:08:40.733Z",
+        "hash": "45798c2d0924b909"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལྡོག་པ་ vs རྟོགས་པ་.mp3": {
+        "size": 38130,
+        "mtime": "2025-03-04T13:10:20.301Z",
+        "hash": "cf362ae736e2d1b0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལྡོག་པ་_1.mp3": {
+        "size": 6659,
+        "mtime": "2025-02-21T05:18:39.579Z",
+        "hash": "7f223a1fba529ff4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལྡོག་པ་_2.mp3": {
+        "size": 6013,
+        "mtime": "2025-02-21T05:18:39.580Z",
+        "hash": "17ef98105ff4fe67"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལྡོག་པ་_3.mp3": {
+        "size": 6013,
+        "mtime": "2025-02-21T05:18:39.580Z",
+        "hash": "17ef98105ff4fe67"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལྷ་ 1.mp3": {
+        "size": 6147,
+        "mtime": "2025-04-20T13:26:57.715Z",
+        "hash": "bcf283704f7dd66d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ལྷ་ 2.mp3": {
+        "size": 5312,
+        "mtime": "2025-04-20T13:27:02.787Z",
+        "hash": "3a74bf001680684a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཤག 1.mp3": {
+        "size": 9483,
+        "mtime": "2025-04-13T08:56:21.871Z",
+        "hash": "5ec11742aaa961f1"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཤག 2.mp3": {
+        "size": 7608,
+        "mtime": "2025-04-14T13:43:12.008Z",
+        "hash": "ce048fa2e489f0d3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཤག vs ཞག.mp3": {
+        "size": 119390,
+        "mtime": "2025-04-14T13:42:12.202Z",
+        "hash": "23a1350334dba5f3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཤེས་པ་ 1.mp3": {
+        "size": 14027,
+        "mtime": "2025-03-04T12:48:43.511Z",
+        "hash": "39a7b486dadcdb6b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཤེས་པ་_1.mp3": {
+        "size": 14602,
+        "mtime": "2025-02-21T05:18:39.580Z",
+        "hash": "2e19b38674e4cf4b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/ཤེས་པ་_2.mp3": {
+        "size": 12725,
+        "mtime": "2025-02-21T05:18:39.580Z",
+        "hash": "a096e50c13a461d6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐུལ་བ་ 1.mp3": {
+        "size": 10847,
+        "mtime": "2025-03-04T15:01:09.989Z",
+        "hash": "e4a70d06804a4810"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐེ་རྒྱན་ 1.mp3": {
+        "size": 11160,
+        "mtime": "2025-03-04T15:10:05.452Z",
+        "hash": "307eb486e7d0c6d0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐོལ་བ་ 1.mp3": {
+        "size": 11213,
+        "mtime": "2025-03-04T15:00:43.173Z",
+        "hash": "30b89553a8a629cb"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐྱེད་པ་ 1.mp3": {
+        "size": 8864,
+        "mtime": "2025-03-05T16:16:14.826Z",
+        "hash": "9373fa581fd2ccb7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐྱེད་པ་ 2.mp3": {
+        "size": 8237,
+        "mtime": "2025-03-05T16:22:08.907Z",
+        "hash": "48e01270f06c2396"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐྱེས་པ་ 1.mp3": {
+        "size": 14461,
+        "mtime": "2025-02-21T05:18:39.581Z",
+        "hash": "d8cb0dbe4fb5baac"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐྱེས་པ་ 2.mp3": {
+        "size": 12894,
+        "mtime": "2025-02-21T05:18:39.581Z",
+        "hash": "f663fcbfe45f0335"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐྱེས་པ་ b 1.mp3": {
+        "size": 11394,
+        "mtime": "2025-03-05T16:09:24.697Z",
+        "hash": "8a604d0d76a41c60"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐྱེས་པ་ c 1.mp3": {
+        "size": 9412,
+        "mtime": "2025-03-05T16:16:01.747Z",
+        "hash": "f532d803c2c56451"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐྱེས་པ་ d 1.mp3": {
+        "size": 9071,
+        "mtime": "2025-03-05T16:22:00.073Z",
+        "hash": "61dda3dd2056b95e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐྱེས་པ་ vs སྐྱེད་པ་.mp3": {
+        "size": 36362,
+        "mtime": "2025-03-05T16:15:42.545Z",
+        "hash": "2e6d392a21ee1939"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐྲ་ vs དགྲ་ vs ཁྲ་ long.mp3": {
+        "size": 122356,
+        "mtime": "2025-02-21T05:18:39.582Z",
+        "hash": "933363366c202e0d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐྲ་_1.mp3": {
+        "size": 8916,
+        "mtime": "2025-02-21T05:18:39.582Z",
+        "hash": "a378c7adfaf76ffd"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྐྲ་_2.mp3": {
+        "size": 9463,
+        "mtime": "2025-02-21T05:18:39.582Z",
+        "hash": "e08e19d232904700"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྒུལ་བ་ 1.mp3": {
+        "size": 11472,
+        "mtime": "2025-03-04T15:00:56.547Z",
+        "hash": "944c66e2c1ff6c63"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྒུལ་བ་ vs སྐུལ་བ་.mp3": {
+        "size": 82017,
+        "mtime": "2025-03-04T15:03:06.681Z",
+        "hash": "0b34a0a08b9d4a74"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྒྲིབ་པ་ 1.mp3": {
+        "size": 10532,
+        "mtime": "2025-02-21T05:18:39.582Z",
+        "hash": "dfa4fcced93e52d8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྒྲིབ་པ་ 2.mp3": {
+        "size": 9725,
+        "mtime": "2025-02-21T05:18:39.583Z",
+        "hash": "1f83f26698a3b252"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྒྲིབ་པ་ vs མཁྲིས་པ་.mp3": {
+        "size": 52118,
+        "mtime": "2025-02-21T05:18:39.583Z",
+        "hash": "360a62efd2432c5b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྟུན་པ་ 1.mp3": {
+        "size": 8917,
+        "mtime": "2025-03-04T12:36:07.194Z",
+        "hash": "a4306d45b19f96cc"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་.wav": {
+        "size": 1793556,
+        "mtime": "2025-03-04T12:35:39.176Z",
+        "hash": "ee9c20e71e5d01a7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྟེ་ 1.mp3": {
+        "size": 5728,
+        "mtime": "2025-04-14T14:11:41.781Z",
+        "hash": "352fa65335126408"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྟེ་ 2.mp3": {
+        "size": 5258,
+        "mtime": "2025-04-14T14:11:48.141Z",
+        "hash": "709fe6d358c79839"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྟོན་པ་ 1.mp3": {
+        "size": 9700,
+        "mtime": "2025-03-04T12:36:18.842Z",
+        "hash": "707ca0bfcc6d537e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྡེ་ 1.mp3": {
+        "size": 6614,
+        "mtime": "2025-04-14T14:11:21.596Z",
+        "hash": "025e0fbe74a0d792"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྡེ་ 2.mp3": {
+        "size": 5571,
+        "mtime": "2025-04-14T14:11:30.761Z",
+        "hash": "d90e3dc199c691d0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྣང་ 1.mp3": {
+        "size": 9202,
+        "mtime": "2025-03-04T14:44:51.016Z",
+        "hash": "1ddc6878a1617ba2"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྣང་ vs ནང་.mp3": {
+        "size": 77948,
+        "mtime": "2025-03-04T14:44:38.385Z",
+        "hash": "6a860fb75832a4c6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྤང་བ་ 1.mp3": {
+        "size": 10899,
+        "mtime": "2025-02-21T05:18:39.584Z",
+        "hash": "580274a6313e275a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྤང་བ་ 2.mp3": {
+        "size": 12100,
+        "mtime": "2025-02-21T05:18:39.584Z",
+        "hash": "1e66d25a5c6d3f6d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྤྱང་ 1.mp3": {
+        "size": 7396,
+        "mtime": "2025-04-14T13:48:33.776Z",
+        "hash": "de6ae269d050379b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྤྱང་ 2.mp3": {
+        "size": 7472,
+        "mtime": "2025-04-14T13:48:39.826Z",
+        "hash": "485ee2591b791560"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྤྲོ་བ་ 1.mp3": {
+        "size": 8076,
+        "mtime": "2025-04-14T13:50:53.343Z",
+        "hash": "07f4d8a8cb3363da"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྤྲོ་བ་ 2.mp3": {
+        "size": 6875,
+        "mtime": "2025-04-14T13:50:59.252Z",
+        "hash": "5012409119135f94"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྤྲོ་བ་ vs བྲོ་བ་.mp3": {
+        "size": 31675,
+        "mtime": "2025-04-14T13:50:43.220Z",
+        "hash": "a52bae9cf9a4abe9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྦག་སྦག་ 1.mp3": {
+        "size": 6478,
+        "mtime": "2025-04-14T14:00:01.134Z",
+        "hash": "4d86f703169f1409"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྦག་སྦག་ 2.mp3": {
+        "size": 5906,
+        "mtime": "2025-04-14T14:00:06.737Z",
+        "hash": "0232ac8670a968f5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྦང་བ་ 1.mp3": {
+        "size": 12620,
+        "mtime": "2025-02-21T05:18:39.584Z",
+        "hash": "c90cc3360226a531"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྦང་བ་ 2.mp3": {
+        "size": 10012,
+        "mtime": "2025-02-21T05:18:39.584Z",
+        "hash": "464b0dcbd58e9a09"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྦང་བ་ vs སྤང་བ་.mp3": {
+        "size": 56713,
+        "mtime": "2025-02-21T05:18:39.585Z",
+        "hash": "2932ed5209889935"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྦྱང་ 1.mp3": {
+        "size": 8333,
+        "mtime": "2025-04-14T13:48:13.188Z",
+        "hash": "45a13015063632af"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྦྱང་ 2.mp3": {
+        "size": 7549,
+        "mtime": "2025-04-14T13:48:22.364Z",
+        "hash": "5652f053cf6eda37"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྦྱང་ vs སྤྱང་.mp3": {
+        "size": 35920,
+        "mtime": "2025-04-14T13:49:20.205Z",
+        "hash": "b647ae0400c32aa5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྲོལ་ 1.mp3": {
+        "size": 11941,
+        "mtime": "2025-02-21T05:18:39.585Z",
+        "hash": "316f7914be24a82b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྲོལ་ 2.mp3": {
+        "size": 9071,
+        "mtime": "2025-02-21T05:18:39.586Z",
+        "hash": "919ec3b9b7ad0f8c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྲོལ་ 3.mp3": {
+        "size": 9280,
+        "mtime": "2025-02-21T05:18:39.586Z",
+        "hash": "e386940222e1a501"
+      },
+      "/Users/andrew/Development/listening/public/sounds/khelsang/སྲོལ་ vs ཚུལ་ long.mp3": {
+        "size": 69465,
+        "mtime": "2025-02-21T05:18:39.587Z",
+        "hash": "ef91506877d14610"
+      }
+    },
+    "hash": "7fd37e43502a",
+    "lastGenerated": "2025-07-26T14:41:43.515Z"
+  },
+  "ngawang": {
+    "files": {
+      "/Users/andrew/Development/listening/public/sounds/ngawang/'bad 1.mp3": {
+        "size": 7883,
+        "mtime": "2025-03-18T02:28:57.509Z",
+        "hash": "a58bad5c1b243681"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/'bad 2.mp3": {
+        "size": 7155,
+        "mtime": "2025-03-18T02:29:18.058Z",
+        "hash": "4285361afff55425"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/bralgs pa 2.mp3": {
+        "size": 12593,
+        "mtime": "2025-03-18T02:34:05.840Z",
+        "hash": "af327ee8c9b67ff4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/brlags pa 1.mp3": {
+        "size": 9574,
+        "mtime": "2025-03-18T02:33:51.040Z",
+        "hash": "75e2e1a864594ccd"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/byed pa 1.mp3": {
+        "size": 10205,
+        "mtime": "2025-03-18T02:27:03.416Z",
+        "hash": "409d26982e7ecf75"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/byed pa 2.mp3": {
+        "size": 9837,
+        "mtime": "2025-03-18T02:27:10.846Z",
+        "hash": "b603b235c212da60"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/chad pa 1.mp3": {
+        "size": 10152,
+        "mtime": "2025-03-18T02:26:49.569Z",
+        "hash": "4fd828adcdb686fb"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/chad pa 2.mp3": {
+        "size": 9942,
+        "mtime": "2025-03-18T02:26:56.491Z",
+        "hash": "87b108fd37760aab"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/chad pa vs byed pa.mp3": {
+        "size": 44434,
+        "mtime": "2025-03-18T02:26:37.781Z",
+        "hash": "c7f14862b004d962"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/dpe 1.mp3": {
+        "size": 6843,
+        "mtime": "2025-03-18T02:28:37.898Z",
+        "hash": "70594863cc35d377"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/dpe 2.mp3": {
+        "size": 7207,
+        "mtime": "2025-03-18T02:29:08.813Z",
+        "hash": "b517b4a58c073482"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/dpe vs 'bad.mp3": {
+        "size": 34711,
+        "mtime": "2025-03-18T02:28:28.037Z",
+        "hash": "6c5e1c691b46ef25"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/lag pa 1.mp3": {
+        "size": 10377,
+        "mtime": "2025-03-18T02:33:43.907Z",
+        "hash": "7b6774b51895fce0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/lag pa 2.mp3": {
+        "size": 9521,
+        "mtime": "2025-03-18T02:33:59.898Z",
+        "hash": "f04727f0f1f095f1"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/lag pa vs brlags pa.mp3": {
+        "size": 45323,
+        "mtime": "2025-03-18T02:33:36.941Z",
+        "hash": "0737ba87eb0d2281"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཀོ་ 1.mp3": {
+        "size": 6660,
+        "mtime": "2025-04-02T09:33:12.076Z",
+        "hash": "dcbbe60b34f69562"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཀོ་ 2.mp3": {
+        "size": 6816,
+        "mtime": "2025-04-02T09:33:34.633Z",
+        "hash": "d90441541872c6e7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཀོ་བ་ 1.mp3": {
+        "size": 6917,
+        "mtime": "2025-04-02T04:57:07.172Z",
+        "hash": "53a4ed486a3f80df"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཀོ་བ་ 2.mp3": {
+        "size": 6944,
+        "mtime": "2025-04-02T04:57:14.423Z",
+        "hash": "67de688c700c72b9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཀྲི་ 1.mp3": {
+        "size": 6271,
+        "mtime": "2025-04-02T09:13:39.071Z",
+        "hash": "3fdd99166c97c73f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཀྲི་ 2.mp3": {
+        "size": 7181,
+        "mtime": "2025-04-02T09:13:44.765Z",
+        "hash": "68d5fe8cb019303f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཁ་ 1.mp3": {
+        "size": 7002,
+        "mtime": "2025-04-02T05:18:14.667Z",
+        "hash": "c273df77e14882e5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཁ་ 2.mp3": {
+        "size": 5801,
+        "mtime": "2025-04-02T05:24:11.187Z",
+        "hash": "2e3833b809f203ed"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཁ་པར་ 1.mp3": {
+        "size": 7883,
+        "mtime": "2025-04-02T05:16:48.856Z",
+        "hash": "81f8d73c9370c1b3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཁ་པར་ 2.mp3": {
+        "size": 7701,
+        "mtime": "2025-04-02T05:24:18.423Z",
+        "hash": "53cbb210043154d8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཁྲ་ 1.mp3": {
+        "size": 6764,
+        "mtime": "2025-04-02T04:02:23.613Z",
+        "hash": "fa029b27b758b01a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཁྲ་ 2.mp3": {
+        "size": 7572,
+        "mtime": "2025-04-02T04:02:57.324Z",
+        "hash": "c2048d1ab8be2fd3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཁྲི་ 1.mp3": {
+        "size": 9131,
+        "mtime": "2025-04-02T09:13:21.185Z",
+        "hash": "c09f0cef4caf22b8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཁྲི་ 2.mp3": {
+        "size": 8039,
+        "mtime": "2025-04-02T09:13:27.762Z",
+        "hash": "8abaa938183e17db"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ག་ 1.mp3": {
+        "size": 7468,
+        "mtime": "2025-04-02T05:18:08.412Z",
+        "hash": "02e478b9ae590aa0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ག་ 2.mp3": {
+        "size": 7573,
+        "mtime": "2025-04-02T05:23:54.037Z",
+        "hash": "62fe0d1cccd73ae3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ག་ vs ཁ་.mp3": {
+        "size": 28738,
+        "mtime": "2025-04-02T05:19:06.165Z",
+        "hash": "f89c4a9d0943e9b1"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ག་པར་ 1.mp3": {
+        "size": 7883,
+        "mtime": "2025-04-02T05:16:34.439Z",
+        "hash": "f55d47f03e3f197c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ག་པར་ 2.mp3": {
+        "size": 8378,
+        "mtime": "2025-04-02T05:24:04.092Z",
+        "hash": "7ad779d3214408a6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ག་པར་ vs ཁ་པར་ 2.mp3": {
+        "size": 72184,
+        "mtime": "2025-04-02T05:23:45.473Z",
+        "hash": "08d4ce023ec03792"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ག་པར་ vs ཁ་པར་.mp3": {
+        "size": 95764,
+        "mtime": "2025-04-02T05:20:18.717Z",
+        "hash": "f9accc37db075947"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/གཅེས་ 1.mp3": {
+        "size": 8010,
+        "mtime": "2025-04-02T04:54:14.698Z",
+        "hash": "5d1aba15ee73eb69"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/གཅེས་ 2.mp3": {
+        "size": 8220,
+        "mtime": "2025-04-02T04:54:21.378Z",
+        "hash": "07d6cce72f0a1f12"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/གཅེས་ vs རྗེས་.mp3": {
+        "size": 38094,
+        "mtime": "2025-04-02T04:55:04.287Z",
+        "hash": "e8a059c795b4cf8a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/གཅོད་པ་ 1.mp3": {
+        "size": 8585,
+        "mtime": "2025-04-02T09:42:18.018Z",
+        "hash": "b3b8fe541e8bc022"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/གཅོད་པ་ 2.mp3": {
+        "size": 7884,
+        "mtime": "2025-04-02T09:42:26.069Z",
+        "hash": "c6308089dbbff472"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་.mp3": {
+        "size": 62232,
+        "mtime": "2025-04-02T09:42:02.897Z",
+        "hash": "6806266466b14240"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/གདོན་པ་ 1.mp3": {
+        "size": 10147,
+        "mtime": "2025-04-02T09:18:45.741Z",
+        "hash": "a095bd04c6f58c53"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/གདོན་པ་ 2.mp3": {
+        "size": 8928,
+        "mtime": "2025-04-02T09:18:51.289Z",
+        "hash": "6108a3c985babcb6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/གཤེ་ 1.mp3": {
+        "size": 8275,
+        "mtime": "2025-04-02T09:08:05.709Z",
+        "hash": "64570fb450f041f9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/གྲི་ 1.mp3": {
+        "size": 7807,
+        "mtime": "2025-04-02T09:13:02.538Z",
+        "hash": "4c50c6c2a3fe1223"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/གྲི་ 2.mp3": {
+        "size": 7468,
+        "mtime": "2025-04-02T09:13:11.485Z",
+        "hash": "b21866d196fbf8f3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/གྲི་ vs ཁྲི་ vs ཀྲི་.mp3": {
+        "size": 68810,
+        "mtime": "2025-04-02T09:12:26.642Z",
+        "hash": "bc33da626dcd072d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཆོད་པ་ 1.mp3": {
+        "size": 9397,
+        "mtime": "2025-04-02T09:42:34.872Z",
+        "hash": "e84887e4b0e97328"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཆོད་པ་ 2.mp3": {
+        "size": 8460,
+        "mtime": "2025-04-02T09:42:41.357Z",
+        "hash": "d5d74eb9060f7c16"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཐོགས་པ་ 1.mp3": {
+        "size": 9233,
+        "mtime": "2025-04-02T09:52:14.728Z",
+        "hash": "bf3eec77bfba5864"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཐོགས་པ་ 2.mp3": {
+        "size": 8379,
+        "mtime": "2025-04-02T09:52:21.273Z",
+        "hash": "37e06ce31b5ba243"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དགའ་ 1.mp3": {
+        "size": 7754,
+        "mtime": "2025-04-02T02:18:34.833Z",
+        "hash": "1ae38fd3edfc9548"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དགའ་ 2.mp3": {
+        "size": 7362,
+        "mtime": "2025-04-02T02:18:40.207Z",
+        "hash": "045ce6cbe0c758b2"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དགུ་བ་ 1.mp3": {
+        "size": 8038,
+        "mtime": "2025-04-02T03:38:30.861Z",
+        "hash": "0ac944d8c2d04462"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དགུ་བ་ 2.mp3": {
+        "size": 8013,
+        "mtime": "2025-04-02T03:38:41.084Z",
+        "hash": "9e481a73eeed0e2b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དགྲ་ 1.mp3": {
+        "size": 8246,
+        "mtime": "2025-04-02T04:02:12.830Z",
+        "hash": "53fb57776ae25221"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དགྲ་ 2.mp3": {
+        "size": 8405,
+        "mtime": "2025-04-02T04:02:44.320Z",
+        "hash": "9c42b4b1d0263e7e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དགྲ་ vs ཁྲ་ vs སྐྲ་.mp3": {
+        "size": 134246,
+        "mtime": "2025-04-02T04:00:56.356Z",
+        "hash": "9cbebf463d5cf31f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དགྲམ་པ་ 1.mp3": {
+        "size": 11139,
+        "mtime": "2025-04-02T09:37:27.074Z",
+        "hash": "9628d32e3b7c8a99"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དགྲམ་པ་ 2.mp3": {
+        "size": 9809,
+        "mtime": "2025-04-02T09:37:37.789Z",
+        "hash": "5e065a1247e692e0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དགྲམ་པ་ vs བཀྲམ་པ་.mp3": {
+        "size": 126844,
+        "mtime": "2025-04-02T09:37:18.451Z",
+        "hash": "b41df7e4e13c7f51"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དཔྲལ་བ་ 1.mp3": {
+        "size": 8354,
+        "mtime": "2025-04-02T04:11:58.689Z",
+        "hash": "04224cbf92257c7f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དཔྲལ་བ་ 2.mp3": {
+        "size": 9185,
+        "mtime": "2025-04-02T04:11:50.942Z",
+        "hash": "a9b443e395136541"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དམིགས་ 1.mp3": {
+        "size": 6396,
+        "mtime": "2025-04-02T04:28:31.479Z",
+        "hash": "dfa66d6e23dd525f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དམིགས་ 2.mp3": {
+        "size": 5902,
+        "mtime": "2025-04-02T04:28:36.473Z",
+        "hash": "c2e3474066c0ced3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དོགས་པ་ 1.mp3": {
+        "size": 8688,
+        "mtime": "2025-04-02T09:51:45.716Z",
+        "hash": "ae1ef725e5218368"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དོགས་པ་ 2.mp3": {
+        "size": 10040,
+        "mtime": "2025-04-02T09:51:52.361Z",
+        "hash": "1a06de99dace5c17"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དོགས་པ་ vs ཐོགས་པ་.mp3": {
+        "size": 50644,
+        "mtime": "2025-04-02T09:54:27.197Z",
+        "hash": "b74f6c2cf1ef7b47"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་.mp3": {
+        "size": 188594,
+        "mtime": "2025-04-02T09:50:45.164Z",
+        "hash": "222428712ccf0c78"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཕྱ་བ་ 1.mp3": {
+        "size": 9577,
+        "mtime": "2025-03-18T02:39:24.461Z",
+        "hash": "d679ef22049f5ec7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཕྱ་བ་ 2.mp3": {
+        "size": 8169,
+        "mtime": "2025-03-18T02:39:35.763Z",
+        "hash": "71e87f12a70a6433"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བཀའ་ 1.mp3": {
+        "size": 6504,
+        "mtime": "2025-04-02T02:18:14.523Z",
+        "hash": "679f3538724ca33e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བཀའ་ 2.mp3": {
+        "size": 6321,
+        "mtime": "2025-04-02T02:18:20.512Z",
+        "hash": "86cdccd8cccd0c74"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བཀའ་ vs དགའ་.mp3": {
+        "size": 50230,
+        "mtime": "2025-04-02T02:17:58.790Z",
+        "hash": "464479e6ced5bf95"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བཀྲམ་པ་ 1.mp3": {
+        "size": 9626,
+        "mtime": "2025-04-02T09:37:47.740Z",
+        "hash": "ad1c9c02de1241c5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བཀྲམ་པ་ 2.mp3": {
+        "size": 8638,
+        "mtime": "2025-04-02T09:37:52.751Z",
+        "hash": "d55d8130478a434b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བདེ་འཇགས་ 1.mp3": {
+        "size": 11112,
+        "mtime": "2025-04-02T04:24:02.576Z",
+        "hash": "33a9522313e3833d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བདེ་འཇགས་ 2.mp3": {
+        "size": 10282,
+        "mtime": "2025-04-02T04:24:09.919Z",
+        "hash": "067fde2790640d95"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བདེ་འཇགས་ vs བརྟན་འཇགས་.mp3": {
+        "size": 48995,
+        "mtime": "2025-04-02T04:24:57.941Z",
+        "hash": "8fd48345f7b1b3cd"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བཞད་ 1.mp3": {
+        "size": 8826,
+        "mtime": "2025-04-02T09:07:55.640Z",
+        "hash": "39b6beca987e15f1"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བཞད་ vs གཤེ་.mp3": {
+        "size": 134969,
+        "mtime": "2025-04-02T09:07:42.776Z",
+        "hash": "7ca6a259ca2c2928"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བརྗོད་པ་ 1.mp3": {
+        "size": 10909,
+        "mtime": "2025-04-02T09:42:54.254Z",
+        "hash": "dc6bd7536a63d07e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བརྗོད་པ་ 2.mp3": {
+        "size": 8850,
+        "mtime": "2025-04-02T09:42:59.399Z",
+        "hash": "e6a8061e6359190a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བརྟན་འཇགས་ 1.mp3": {
+        "size": 8796,
+        "mtime": "2025-04-02T04:24:18.820Z",
+        "hash": "e4641b3a5c5e6073"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བརྟན་འཇགས་ 2.mp3": {
+        "size": 8746,
+        "mtime": "2025-04-02T04:24:24.472Z",
+        "hash": "5c8272eab856052c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བསག་པ་ 1.mp3": {
+        "size": 10152,
+        "mtime": "2025-04-02T09:59:03.216Z",
+        "hash": "790e5ccf85eca78a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བསག་པ་ 2.mp3": {
+        "size": 9684,
+        "mtime": "2025-04-02T09:59:07.731Z",
+        "hash": "e3bd1ce8903c3d0e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བྱ་བ་ 1.mp3": {
+        "size": 7913,
+        "mtime": "2025-03-18T02:39:02.621Z",
+        "hash": "84fd2bb2bd2e839d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བྱ་བ་ 1b.mp3": {
+        "size": 8925,
+        "mtime": "2025-04-02T06:30:12.757Z",
+        "hash": "9b5550541e51eac1"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བྱ་བ་ 2.mp3": {
+        "size": 9374,
+        "mtime": "2025-03-18T02:39:14.132Z",
+        "hash": "8b73d599bbdeedb0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བྱ་བ་ 2b.mp3": {
+        "size": 9032,
+        "mtime": "2025-04-02T06:30:29.831Z",
+        "hash": "d9853420cff26eee"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བྱ་བ་ vs ཕྱ་བ་.mp3": {
+        "size": 44505,
+        "mtime": "2025-03-18T02:38:46.894Z",
+        "hash": "394358fc6b69d832"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བྱ་བ་ vs འཕྱ་བ་.mp3": {
+        "size": 45210,
+        "mtime": "2025-04-02T06:31:07.676Z",
+        "hash": "27eb53d57e62cec7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བླངས་པ་ 1.mp3": {
+        "size": 9156,
+        "mtime": "2025-04-02T03:34:59.178Z",
+        "hash": "1c6fa0e8794eef0c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བླངས་པ་ 2.mp3": {
+        "size": 9104,
+        "mtime": "2025-04-02T03:35:09.279Z",
+        "hash": "c58f778be75d9e2b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/བླངས་པ་ vs ལངས་པ་.mp3": {
+        "size": 45110,
+        "mtime": "2025-04-02T03:34:40.642Z",
+        "hash": "b6f1b8956e863fd5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མཁྲིག་ 1.mp3": {
+        "size": 6972,
+        "mtime": "2025-04-02T09:47:03.193Z",
+        "hash": "4ace00ef35262082"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མཁྲིག་ 2.mp3": {
+        "size": 5358,
+        "mtime": "2025-04-02T09:47:08.397Z",
+        "hash": "f51ddaef0c5bbbf8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མཁྲིས་པ་ 1.mp3": {
+        "size": 7857,
+        "mtime": "2025-04-02T04:32:44.869Z",
+        "hash": "073c361b5d97de81"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མཁྲིས་པ་ 2.mp3": {
+        "size": 7570,
+        "mtime": "2025-04-02T04:32:50.804Z",
+        "hash": "5a338b206c8b665b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མགོ་ 1.mp3": {
+        "size": 7099,
+        "mtime": "2025-04-02T04:58:22.252Z",
+        "hash": "b3bd2fad22ab36da"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མགོ་ 1b.mp3": {
+        "size": 7519,
+        "mtime": "2025-04-02T09:32:48.599Z",
+        "hash": "f9ad8692fffb24ca"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མགོ་ 2.mp3": {
+        "size": 7076,
+        "mtime": "2025-04-02T04:56:59.167Z",
+        "hash": "06a313e91380d560"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མགོ་ 2b.mp3": {
+        "size": 8822,
+        "mtime": "2025-04-02T09:32:59.210Z",
+        "hash": "8f5eb7c1ed354b63"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མགོ་ vs ཀོ་.mp3": {
+        "size": 95957,
+        "mtime": "2025-04-02T09:32:20.482Z",
+        "hash": "2d654fb14f469789"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མགོ་ vs ཀོ་བ་.mp3": {
+        "size": 32615,
+        "mtime": "2025-04-02T04:56:29.175Z",
+        "hash": "f8747ffc9d44c33f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མིག་ 1.mp3": {
+        "size": 6583,
+        "mtime": "2025-04-02T04:28:14.265Z",
+        "hash": "f582c045a0a9d923"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མིག་ 2.mp3": {
+        "size": 7491,
+        "mtime": "2025-04-02T04:28:22.243Z",
+        "hash": "9590f376fab35870"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མིག་ vs དམིགས་.mp3": {
+        "size": 27701,
+        "mtime": "2025-04-02T04:28:00.423Z",
+        "hash": "76bfe16ba46cd84f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མོག་མོག་ 1.mp3": {
+        "size": 11216,
+        "mtime": "2025-04-02T04:21:27.732Z",
+        "hash": "640c93c6bdb47682"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མོག་མོག་ 2.mp3": {
+        "size": 8350,
+        "mtime": "2025-04-02T04:21:32.949Z",
+        "hash": "3cd703f22fd4af51"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/མོག་མོག་ vs རྨོ་རྨོ་.mp3": {
+        "size": 35484,
+        "mtime": "2025-04-02T04:21:15.522Z",
+        "hash": "b7da0ffdff0168b0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཚད་ 1.mp3": {
+        "size": 6687,
+        "mtime": "2025-04-02T04:09:32.013Z",
+        "hash": "f374e65bcb4abbc7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཚད་ 2.mp3": {
+        "size": 7286,
+        "mtime": "2025-04-02T04:09:38.582Z",
+        "hash": "a07e66ca1731a961"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཚུལ་ 1.mp3": {
+        "size": 8251,
+        "mtime": "2025-04-02T04:06:38.451Z",
+        "hash": "03efa9ce5e005c5b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཚུལ་ 2.mp3": {
+        "size": 7468,
+        "mtime": "2025-04-02T04:06:43.358Z",
+        "hash": "e70a822fd239fd0a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཞེས་པ་ 1.mp3": {
+        "size": 11947,
+        "mtime": "2025-04-02T03:42:16.461Z",
+        "hash": "e11366dd3ee80b54"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཞེས་པ་ 1b.mp3": {
+        "size": 10829,
+        "mtime": "2025-04-02T09:25:20.989Z",
+        "hash": "f2463347fb206536"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཞེས་པ་ 2.mp3": {
+        "size": 12050,
+        "mtime": "2025-04-02T03:42:29.911Z",
+        "hash": "775890eb3fae4592"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཞེས་པ་ 2b.mp3": {
+        "size": 9965,
+        "mtime": "2025-04-02T09:25:38.495Z",
+        "hash": "cf93f0afb685137d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཞེས་པ་ vs ཤེས་པ་ 2.mp3": {
+        "size": 130902,
+        "mtime": "2025-04-02T09:24:42.978Z",
+        "hash": "ad2588df0dfbf373"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཞེས་པ་ vs ཤེས་པ་.mp3": {
+        "size": 49323,
+        "mtime": "2025-04-02T03:42:00.331Z",
+        "hash": "ab0bba888c99022c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཟག་པ་ 1.mp3": {
+        "size": 11458,
+        "mtime": "2025-04-02T09:58:48.526Z",
+        "hash": "8e4adecde368c3e3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཟག་པ་ 2.mp3": {
+        "size": 10517,
+        "mtime": "2025-04-02T09:58:55.386Z",
+        "hash": "a766bf9d5185e69a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཟག་པ་ vs བསག་པ་.mp3": {
+        "size": 50634,
+        "mtime": "2025-04-02T09:58:39.517Z",
+        "hash": "a1c5486835096187"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/འགྲིག་ 1.mp3": {
+        "size": 7364,
+        "mtime": "2025-04-02T09:46:33.808Z",
+        "hash": "e84b05801bd0e368"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/འགྲིག་ 2.mp3": {
+        "size": 6321,
+        "mtime": "2025-04-02T09:46:53.525Z",
+        "hash": "6165804f1727f0b9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/འགྲིག་ vs མཁྲིག་.mp3": {
+        "size": 107898,
+        "mtime": "2025-04-02T09:46:24.019Z",
+        "hash": "ff98d34f7ddd75d8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/འཕྱ་བ་ 1.mp3": {
+        "size": 8927,
+        "mtime": "2025-04-02T06:30:40.077Z",
+        "hash": "03a4db8d3924525a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/འཕྱ་བ་ 2.mp3": {
+        "size": 9059,
+        "mtime": "2025-04-02T06:30:47.738Z",
+        "hash": "f517f0021311b57d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/འབྲལ་བ་ 1.mp3": {
+        "size": 11428,
+        "mtime": "2025-04-02T04:11:32.278Z",
+        "hash": "018db0cc980817e0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/འབྲལ་བ་ 2.mp3": {
+        "size": 11037,
+        "mtime": "2025-04-02T04:11:37.572Z",
+        "hash": "4b53e7ed3e0e3624"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/འབྲལ་བ་ vs དཔྲལ་བ་.mp3": {
+        "size": 57657,
+        "mtime": "2025-04-02T04:12:41.780Z",
+        "hash": "1e2e30926b71c68f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/རྐུ་བ་ 1.mp3": {
+        "size": 7048,
+        "mtime": "2025-04-02T03:38:10.491Z",
+        "hash": "2ceddc62e8562e3d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/རྐུ་བ་ 2.mp3": {
+        "size": 7207,
+        "mtime": "2025-04-02T03:38:21.136Z",
+        "hash": "de95c7c4f94f8143"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/རྐུ་བ་ vs དགུ་བ་.mp3": {
+        "size": 35510,
+        "mtime": "2025-04-02T03:37:46.653Z",
+        "hash": "be83d24e374194ff"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/རྗེས་ 1.mp3": {
+        "size": 9162,
+        "mtime": "2025-04-02T04:54:30.463Z",
+        "hash": "097fbb17d89c285f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/རྗེས་ 2.mp3": {
+        "size": 8458,
+        "mtime": "2025-04-02T04:54:35.463Z",
+        "hash": "f20a12dcd229880d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/རྟོགས་པ་ 1.mp3": {
+        "size": 8453,
+        "mtime": "2025-04-02T09:52:30.048Z",
+        "hash": "e4d5b7bf32bfdbb6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/རྟོགས་པ་ 2.mp3": {
+        "size": 7414,
+        "mtime": "2025-04-02T09:52:37.174Z",
+        "hash": "d6a3f705e37e7bf4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/རྨོ་རྨོ་ 1.mp3": {
+        "size": 8242,
+        "mtime": "2025-04-02T04:21:43.866Z",
+        "hash": "e4aa941a52d4ea3f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/རྨོ་རྨོ་ 2.mp3": {
+        "size": 8271,
+        "mtime": "2025-04-02T04:21:49.679Z",
+        "hash": "e0e7158713b99e2d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/རྩེད་ 1.mp3": {
+        "size": 8143,
+        "mtime": "2025-04-02T04:09:07.647Z",
+        "hash": "bc24f6060ca85499"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/རྩེད་ 2.mp3": {
+        "size": 7884,
+        "mtime": "2025-04-02T04:09:22.097Z",
+        "hash": "cfa668b04c0a9996"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/རྩེད་ vs ཚད་.mp3": {
+        "size": 39105,
+        "mtime": "2025-04-02T04:08:52.886Z",
+        "hash": "66b34195abeb3c71"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ལངས་པ་ 1.mp3": {
+        "size": 9024,
+        "mtime": "2025-04-02T03:35:22.134Z",
+        "hash": "0d8781a48bb29f87"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ལངས་པ་ 2.mp3": {
+        "size": 8898,
+        "mtime": "2025-04-02T03:35:27.271Z",
+        "hash": "31bb6a327b74519a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ལྡོག་པ་ 1.mp3": {
+        "size": 9967,
+        "mtime": "2025-04-02T09:52:00.990Z",
+        "hash": "2fa2ac2e4fec93e2"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ལྡོག་པ་ 2.mp3": {
+        "size": 9236,
+        "mtime": "2025-04-02T09:52:06.632Z",
+        "hash": "0d8b82e727051ba9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ལྡོག་པ་ vs རྟོགས་པ་.mp3": {
+        "size": 48594,
+        "mtime": "2025-04-02T09:55:37.353Z",
+        "hash": "be4ab79940bd64a7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཤེས་པ་ 1.mp3": {
+        "size": 9136,
+        "mtime": "2025-04-02T03:42:38.456Z",
+        "hash": "94688ef54c7e92b0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཤེས་པ་ 1b.mp3": {
+        "size": 9315,
+        "mtime": "2025-04-02T09:25:55.569Z",
+        "hash": "f25b37241a7acf4e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཤེས་པ་ 2.mp3": {
+        "size": 10122,
+        "mtime": "2025-04-02T03:42:47.351Z",
+        "hash": "6942ff7cdcbedd00"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/ཤེས་པ་ 2b.mp3": {
+        "size": 9156,
+        "mtime": "2025-04-02T09:26:04.630Z",
+        "hash": "ee10eb7e53b134a5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྐྲ་ 1.mp3": {
+        "size": 8325,
+        "mtime": "2025-04-02T04:02:34.367Z",
+        "hash": "377e087cb5134c88"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྐྲ་ 2.mp3": {
+        "size": 7807,
+        "mtime": "2025-04-02T04:03:09.148Z",
+        "hash": "0e0dee1a25405eb1"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྒྲིབ་པ་ 1.mp3": {
+        "size": 8299,
+        "mtime": "2025-04-02T04:32:31.693Z",
+        "hash": "75887b792b3b2321"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྒྲིབ་པ་ 2.mp3": {
+        "size": 7570,
+        "mtime": "2025-04-02T04:32:35.920Z",
+        "hash": "516af084b0217a09"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྒྲིབ་པ་ vs མཁྲིས་པ་.mp3": {
+        "size": 38740,
+        "mtime": "2025-04-02T04:34:11.716Z",
+        "hash": "e818e05e02141703"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྟུན་པ་ 1.mp3": {
+        "size": 8091,
+        "mtime": "2025-04-02T09:18:10.263Z",
+        "hash": "bcdf78a782c2630a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྟུན་པ་ 2.mp3": {
+        "size": 7671,
+        "mtime": "2025-04-02T09:18:21.247Z",
+        "hash": "f7a9f8309d5930cb"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་.mp3": {
+        "size": 62494,
+        "mtime": "2025-04-02T09:17:49.371Z",
+        "hash": "949ca867c408422c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྟོན་པ་ 1.mp3": {
+        "size": 7621,
+        "mtime": "2025-04-02T09:18:31.368Z",
+        "hash": "d0bafb3e8f94d7be"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྟོན་པ་ 2.mp3": {
+        "size": 6896,
+        "mtime": "2025-04-02T09:18:38.153Z",
+        "hash": "fb4ff8c4063adb03"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྤང་བ་ 1.mp3": {
+        "size": 9290,
+        "mtime": "2025-04-02T04:52:38.096Z",
+        "hash": "45d3de546cecd616"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྤང་བ་ 2.mp3": {
+        "size": 7750,
+        "mtime": "2025-04-02T04:52:48.345Z",
+        "hash": "9d7c24a80997c9f9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྦང་བ་ 1.mp3": {
+        "size": 11710,
+        "mtime": "2025-04-02T04:52:21.830Z",
+        "hash": "4934a818def568eb"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྦང་བ་ 2.mp3": {
+        "size": 9498,
+        "mtime": "2025-04-02T04:52:27.996Z",
+        "hash": "a669137ea6196d92"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྦང་བ་ vs སྤང་བ་.mp3": {
+        "size": 45099,
+        "mtime": "2025-04-02T04:53:39.197Z",
+        "hash": "5a025e6b07902117"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྲོལ་ 1.mp3": {
+        "size": 9080,
+        "mtime": "2025-04-02T04:06:20.193Z",
+        "hash": "9c361094356b2f9e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྲོལ་ 2.mp3": {
+        "size": 8247,
+        "mtime": "2025-04-02T04:06:27.241Z",
+        "hash": "ac53a496083b2fac"
+      },
+      "/Users/andrew/Development/listening/public/sounds/ngawang/སྲོལ་ vs ཚུལ་.mp3": {
+        "size": 39003,
+        "mtime": "2025-04-02T04:06:09.825Z",
+        "hash": "0d00aa9b050e476e"
+      }
+    },
+    "hash": "f4912db1639d",
+    "lastGenerated": "2025-07-26T14:42:18.819Z"
+  },
+  "tseringsamden": {
+    "files": {
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཀ་ 1.mp3": {
+        "size": 7573,
+        "mtime": "2025-04-28T03:49:30.318Z",
+        "hash": "1d87c8a8d16db921"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཀ་ 2.mp3": {
+        "size": 7081,
+        "mtime": "2025-04-28T03:49:34.977Z",
+        "hash": "330d47566620c977"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཀི་ 1.mp3": {
+        "size": 7862,
+        "mtime": "2025-04-28T04:53:20.770Z",
+        "hash": "d94c7a3f8fd5d1bb"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཀི་ 2.mp3": {
+        "size": 8407,
+        "mtime": "2025-04-28T04:53:25.467Z",
+        "hash": "f8d21d8796b1efde"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཀྱི་ 1.mp3": {
+        "size": 9474,
+        "mtime": "2025-04-28T03:40:39.740Z",
+        "hash": "426cfa12f2df044b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཀྱི་ 2.mp3": {
+        "size": 9526,
+        "mtime": "2025-04-28T03:40:44.786Z",
+        "hash": "4fb51717c9aab271"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཁ་ 1.mp3": {
+        "size": 7265,
+        "mtime": "2025-04-28T03:49:16.007Z",
+        "hash": "527e0193ad850917"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཁ་ 2.mp3": {
+        "size": 6507,
+        "mtime": "2025-04-28T03:49:21.322Z",
+        "hash": "875d10808423f69d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཁི་ 1.mp3": {
+        "size": 7601,
+        "mtime": "2025-04-28T04:53:04.254Z",
+        "hash": "8253696c27f456f9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཁི་ 2.mp3": {
+        "size": 7157,
+        "mtime": "2025-04-28T04:53:10.084Z",
+        "hash": "5a6e7f5d27ba5ec1"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ག་ 1.mp3": {
+        "size": 8458,
+        "mtime": "2025-04-28T03:48:42.567Z",
+        "hash": "34da071f3530e4e0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ག་ 2.mp3": {
+        "size": 7730,
+        "mtime": "2025-04-28T03:48:47.972Z",
+        "hash": "96742a0c698d33ab"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ག་ རྒ་ ཁ་ ཀ་.mp3": {
+        "size": 82458,
+        "mtime": "2025-04-28T03:48:34.052Z",
+        "hash": "7e4011dddf899093"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གཉན་ཁ་ 1.mp3": {
+        "size": 11694,
+        "mtime": "2025-04-27T05:01:20.959Z",
+        "hash": "983e4d051bd312e4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གཉན་ཁ་ 2.mp3": {
+        "size": 11619,
+        "mtime": "2025-04-27T05:01:25.390Z",
+        "hash": "ff294ae587d0d2ef"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གཙོ་ 1.mp3": {
+        "size": 9662,
+        "mtime": "2025-04-27T04:36:38.789Z",
+        "hash": "e23304e02ec7b22d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གཙོ་ 2.mp3": {
+        "size": 9480,
+        "mtime": "2025-04-27T04:36:44.543Z",
+        "hash": "5642ef492f724bb3"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གསུང་བ་ 1.mp3": {
+        "size": 13079,
+        "mtime": "2025-04-27T04:00:40.076Z",
+        "hash": "4de3b2f8fadd3b1f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གསུང་བ་ 2.mp3": {
+        "size": 13289,
+        "mtime": "2025-04-27T04:00:56.445Z",
+        "hash": "b64a0dc56e06048d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གསུང་བ་ vs བཟུང་བ་.mp3": {
+        "size": 120266,
+        "mtime": "2025-04-27T03:56:56.981Z",
+        "hash": "2f154e78c0b16a40"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གི་ 1.mp3": {
+        "size": 10617,
+        "mtime": "2025-04-28T03:40:10.124Z",
+        "hash": "2c2529a52ff7de2b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གི་ 2.mp3": {
+        "size": 10385,
+        "mtime": "2025-04-28T03:40:15.090Z",
+        "hash": "15e75c8d1fd021c7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གི་ b 1.mp3": {
+        "size": 9916,
+        "mtime": "2025-04-28T04:52:25.386Z",
+        "hash": "95b340757634c1c8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གི་ b 2.mp3": {
+        "size": 9732,
+        "mtime": "2025-04-28T04:52:35.561Z",
+        "hash": "5d7e5a9dad1f1682"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གི་ གྱི་ ཀྱི་.mp3": {
+        "size": 74188,
+        "mtime": "2025-04-28T03:40:01.222Z",
+        "hash": "33c36feec1a025fd"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གི་ རྒི ཁི་ ཀི་.mp3": {
+        "size": 89676,
+        "mtime": "2025-04-28T04:52:05.485Z",
+        "hash": "8ed0ccb6c86e0fd5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གྱི་ 1.mp3": {
+        "size": 10749,
+        "mtime": "2025-04-28T03:40:25.238Z",
+        "hash": "d4e314abd7622279"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/གྱི་ 2.mp3": {
+        "size": 9215,
+        "mtime": "2025-04-28T03:40:30.662Z",
+        "hash": "2b8f743dda9fdee7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཉེན་ཁ་ 1.mp3": {
+        "size": 13494,
+        "mtime": "2025-04-27T05:01:06.551Z",
+        "hash": "fc95c0057dd47399"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཉེན་ཁ་ 2.mp3": {
+        "size": 13311,
+        "mtime": "2025-04-27T05:01:11.532Z",
+        "hash": "3cdd5f9d4df99e72"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཉེན་ཁ་ vs གཉན་ཁ་.mp3": {
+        "size": 128268,
+        "mtime": "2025-04-27T05:00:58.778Z",
+        "hash": "1d2bf206d0b7e847"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/དེ་ 1.mp3": {
+        "size": 7626,
+        "mtime": "2025-04-28T03:45:09.925Z",
+        "hash": "fec302f48423eb58"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/དེ་ 2.mp3": {
+        "size": 7989,
+        "mtime": "2025-04-28T03:45:15.027Z",
+        "hash": "c5cc1d7fea3d4d5a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/དེ་ སྡེ་ སྟེ་.mp3": {
+        "size": 69928,
+        "mtime": "2025-04-28T03:44:53.001Z",
+        "hash": "06659ac07809a282"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/པགས་པ་ 1.mp3": {
+        "size": 11403,
+        "mtime": "2025-04-28T03:35:29.700Z",
+        "hash": "7b6bea318a0d7838"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/པགས་པ་ 2.mp3": {
+        "size": 8668,
+        "mtime": "2025-04-28T03:35:37.864Z",
+        "hash": "5300da343d14540c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/པགས་པ་ 3.mp3": {
+        "size": 8641,
+        "mtime": "2025-04-28T03:35:44.579Z",
+        "hash": "659bb3c9f8eb46ce"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་.mp3": {
+        "size": 114005,
+        "mtime": "2025-04-28T03:37:49.601Z",
+        "hash": "259caab1c2c2799d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བདེན་པ་ 1.mp3": {
+        "size": 16066,
+        "mtime": "2025-04-27T04:42:09.909Z",
+        "hash": "7fd64034cf8073b8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བདེན་པ་ 2.mp3": {
+        "size": 13018,
+        "mtime": "2025-04-27T04:42:17.014Z",
+        "hash": "d15f6a964fa7c4e7"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བདེན་པ་ vs བསྟན་པ་ (n).mp3": {
+        "size": 118288,
+        "mtime": "2025-04-27T04:42:00.108Z",
+        "hash": "9f9f36d8fd433359"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བཟུང་བ་ 1.mp3": {
+        "size": 11827,
+        "mtime": "2025-04-27T04:00:47.993Z",
+        "hash": "21b13bc302325ddb"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བཟུང་བ་ 2.mp3": {
+        "size": 13266,
+        "mtime": "2025-04-27T04:01:07.749Z",
+        "hash": "ac24638f76110ea8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བརྩེ་ 1.mp3": {
+        "size": 8959,
+        "mtime": "2025-04-27T04:29:26.009Z",
+        "hash": "072b2d6daeee40f4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བརྩེ་ 2.mp3": {
+        "size": 8281,
+        "mtime": "2025-04-27T04:29:33.150Z",
+        "hash": "289aa20420af64ce"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བརྩེ་ 3.mp3": {
+        "size": 8594,
+        "mtime": "2025-04-27T04:29:38.861Z",
+        "hash": "8f93924879518cce"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བརྩེ་བ་ 1.mp3": {
+        "size": 11016,
+        "mtime": "2025-04-27T04:33:51.984Z",
+        "hash": "0d6973fdb555b9a1"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བརྩེ་བ་ 2.mp3": {
+        "size": 10940,
+        "mtime": "2025-04-27T04:33:59.427Z",
+        "hash": "ebfebc4fd28bb003"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བསྟན་པ་ 1.mp3": {
+        "size": 10649,
+        "mtime": "2025-04-27T04:42:29.298Z",
+        "hash": "ad33d3564c78aba5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བསྟན་པ་ 2.mp3": {
+        "size": 9606,
+        "mtime": "2025-04-27T04:42:34.208Z",
+        "hash": "d0d4de9c1dd43a58"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བྱ་བ་ 1.mp3": {
+        "size": 9531,
+        "mtime": "2025-04-27T04:10:14.948Z",
+        "hash": "17f0077cac3ff030"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བྱ་བ་ 2.mp3": {
+        "size": 8903,
+        "mtime": "2025-04-27T04:10:19.574Z",
+        "hash": "f2bd1c6ab16de96d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བྱ་བ་ vs འཕྱ་བ་.mp3": {
+        "size": 97608,
+        "mtime": "2025-04-27T04:09:27.673Z",
+        "hash": "b1abb4ec52f03d6e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བྲོ་བ་ 1.mp3": {
+        "size": 11590,
+        "mtime": "2025-04-27T04:59:00.010Z",
+        "hash": "c39cc6ffe5a5cc5c"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/བྲོ་བ་ 2.mp3": {
+        "size": 11644,
+        "mtime": "2025-04-27T04:59:06.531Z",
+        "hash": "116680a45952c620"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཞག 1.mp3": {
+        "size": 11491,
+        "mtime": "2025-04-27T04:04:22.582Z",
+        "hash": "5dbbe02c43350e17"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཞག 2.mp3": {
+        "size": 10364,
+        "mtime": "2025-04-27T04:04:27.584Z",
+        "hash": "64c0c93d33cefed8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཞག 3.mp3": {
+        "size": 11829,
+        "mtime": "2025-04-27T04:52:12.376Z",
+        "hash": "9f63abcc73eabb41"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཞག 4.mp3": {
+        "size": 10475,
+        "mtime": "2025-04-27T04:52:22.792Z",
+        "hash": "1d0205750343d5ea"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འདོན་པ་བཏོན་པ་ 1.mp3": {
+        "size": 18074,
+        "mtime": "2025-04-27T04:49:54.373Z",
+        "hash": "2b5fc9655adddda0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འདོན་པ་བཏོན་པ་ 2.mp3": {
+        "size": 19038,
+        "mtime": "2025-04-27T04:49:58.539Z",
+        "hash": "1733e27e48c21a27"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འདོན་པ་འདོན་པ་ 1.mp3": {
+        "size": 20159,
+        "mtime": "2025-04-27T04:49:42.917Z",
+        "hash": "7e82e88b418b5bd9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འདོན་པ་འདོན་པ་ 2.mp3": {
+        "size": 17347,
+        "mtime": "2025-04-27T04:50:30.765Z",
+        "hash": "7bb328e59283f081"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་.mp3": {
+        "size": 92897,
+        "mtime": "2025-04-27T04:49:35.699Z",
+        "hash": "50aea71dd23e8b8b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཕགས་པ་ 1.mp3": {
+        "size": 9737,
+        "mtime": "2025-04-28T03:36:18.124Z",
+        "hash": "8b2c2f70c492ae53"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཕགས་པ་ 2.mp3": {
+        "size": 8404,
+        "mtime": "2025-04-28T03:36:23.307Z",
+        "hash": "59464a23b5b3530a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཕགས་པ་ 3.mp3": {
+        "size": 9212,
+        "mtime": "2025-04-28T03:36:28.129Z",
+        "hash": "b7af3c2a74e29faa"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཕྱ་བ་ 1.mp3": {
+        "size": 10366,
+        "mtime": "2025-04-27T04:10:29.723Z",
+        "hash": "65e0d30a8fad2eb6"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཕྱ་བ་ 2.mp3": {
+        "size": 9897,
+        "mtime": "2025-04-27T04:10:34.471Z",
+        "hash": "1176eff869c35517"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཚེ་ 1.mp3": {
+        "size": 8902,
+        "mtime": "2025-04-27T04:29:08.201Z",
+        "hash": "feadff604a9e7fda"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཚེ་ 2.mp3": {
+        "size": 9973,
+        "mtime": "2025-04-27T04:28:19.609Z",
+        "hash": "8f417bfdb64ae9a9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཚེ་ 3.mp3": {
+        "size": 10990,
+        "mtime": "2025-04-27T04:28:27.477Z",
+        "hash": "8535da1d854707d9"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཚེ་ vs བརྩེ་.mp3": {
+        "size": 82168,
+        "mtime": "2025-04-27T04:27:35.578Z",
+        "hash": "6091399bf0734d3d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཚེ་བ་ 1.mp3": {
+        "size": 12031,
+        "mtime": "2025-04-27T04:33:35.783Z",
+        "hash": "f0df87d539602347"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཚེ་བ་ 2.mp3": {
+        "size": 11300,
+        "mtime": "2025-04-27T04:33:41.519Z",
+        "hash": "324df9496a11ebc8"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཚེ་བ་ vs བརྩེ་བ་.mp3": {
+        "size": 106465,
+        "mtime": "2025-04-27T04:31:29.786Z",
+        "hash": "38c843f975123b23"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཚོ་ 1.mp3": {
+        "size": 9507,
+        "mtime": "2025-04-27T04:36:20.308Z",
+        "hash": "d82204cb3163aa8b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཚོ་ 2.mp3": {
+        "size": 9061,
+        "mtime": "2025-04-27T04:36:27.616Z",
+        "hash": "5248c7ef1ec61512"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/འཚོ་ vs གཙོ་.mp3": {
+        "size": 140900,
+        "mtime": "2025-04-27T04:38:05.375Z",
+        "hash": "0cde190f6fe1a115"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/རྒ་ 1.mp3": {
+        "size": 8768,
+        "mtime": "2025-04-28T03:48:59.756Z",
+        "hash": "3bda71a4eea9f3bf"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/རྒ་ 2.mp3": {
+        "size": 8849,
+        "mtime": "2025-04-28T03:49:06.950Z",
+        "hash": "93b6f6711a28b561"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/རྒི 1.mp3": {
+        "size": 9941,
+        "mtime": "2025-04-28T04:52:45.545Z",
+        "hash": "99a52ef92a2c1fba"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/རྒི 2.mp3": {
+        "size": 8821,
+        "mtime": "2025-04-28T04:52:51.839Z",
+        "hash": "baf1549b20ccbba0"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཤག 1.mp3": {
+        "size": 9115,
+        "mtime": "2025-04-27T04:03:23.918Z",
+        "hash": "9fd191effc3e3200"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཤག 2.mp3": {
+        "size": 9634,
+        "mtime": "2025-04-27T04:04:12.751Z",
+        "hash": "6d4e63d0fe161a7b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཤག 3.mp3": {
+        "size": 9277,
+        "mtime": "2025-04-27T04:51:54.843Z",
+        "hash": "dd8cf10e121cba73"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཤག 4.mp3": {
+        "size": 7712,
+        "mtime": "2025-04-27T04:52:03.370Z",
+        "hash": "b0ef3854e6f7f30f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/ཤག་ vs ཞག་.mp3": {
+        "size": 186564,
+        "mtime": "2025-04-27T04:53:43.353Z",
+        "hash": "e40257be87270f84"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྟེ་ 1.mp3": {
+        "size": 8901,
+        "mtime": "2025-04-28T03:45:41.173Z",
+        "hash": "71c5a9ab0aa3ee5a"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྟེ་ 2.mp3": {
+        "size": 8483,
+        "mtime": "2025-04-28T03:45:45.813Z",
+        "hash": "0834479fb8481ce5"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྡེ་ 1.mp3": {
+        "size": 10720,
+        "mtime": "2025-04-28T03:45:24.582Z",
+        "hash": "9b3c0542a2c9d35e"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྡེ་ 2.mp3": {
+        "size": 12864,
+        "mtime": "2025-04-28T03:45:30.254Z",
+        "hash": "0ab664de7b2daa29"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྤྱང་ 1.mp3": {
+        "size": 9242,
+        "mtime": "2025-04-27T04:56:46.482Z",
+        "hash": "ba147b36cc2bd9bf"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྤྱང་ 2.mp3": {
+        "size": 8597,
+        "mtime": "2025-04-27T04:56:51.191Z",
+        "hash": "e57e787c817df8d4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྤྲོ་བ་ 1.mp3": {
+        "size": 10183,
+        "mtime": "2025-04-27T04:58:41.305Z",
+        "hash": "835b98b3f6632e1d"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྤྲོ་བ་ 2.mp3": {
+        "size": 9326,
+        "mtime": "2025-04-27T04:58:46.126Z",
+        "hash": "9ca05121c628f034"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྤྲོ་བ་ vs བྲོ་བ་.mp3": {
+        "size": 101136,
+        "mtime": "2025-04-27T04:58:32.712Z",
+        "hash": "4cbdc1d56267b943"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྦག་སྦག་ 1.mp3": {
+        "size": 10463,
+        "mtime": "2025-04-28T03:35:54.131Z",
+        "hash": "4a429a4e708dd86b"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྦག་སྦག་ 2.mp3": {
+        "size": 9866,
+        "mtime": "2025-04-28T03:35:59.889Z",
+        "hash": "be3065872b99d277"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྦག་སྦག་ 3.mp3": {
+        "size": 11946,
+        "mtime": "2025-04-28T03:36:04.568Z",
+        "hash": "b6775b45283debe2"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྦྱང་ 1.mp3": {
+        "size": 11148,
+        "mtime": "2025-04-27T04:56:32.999Z",
+        "hash": "a35e7c049efb5290"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྦྱང་ 2.mp3": {
+        "size": 10366,
+        "mtime": "2025-04-27T04:56:38.109Z",
+        "hash": "162815ea199378e4"
+      },
+      "/Users/andrew/Development/listening/public/sounds/tseringsamden/སྦྱང་ vs སྤྱང་.mp3": {
+        "size": 54451,
+        "mtime": "2025-04-27T04:55:37.123Z",
+        "hash": "ae7680f34f32716b"
+      }
+    },
+    "hash": "52e0d16c6994",
+    "lastGenerated": "2025-07-26T14:42:36.131Z"
+  },
+  "wangdac": {
+    "files": {
+      "/Users/andrew/Development/listening/public/sounds/wangdac/ཞ་མོ་ 1.mp3": {
+        "size": 12672,
+        "mtime": "2025-02-25T02:57:38.263Z",
+        "hash": "82826f4a7d390988"
+      },
+      "/Users/andrew/Development/listening/public/sounds/wangdac/ཞ་མོ་ vs ཤ་མོ་.mp3": {
+        "size": 53252,
+        "mtime": "2025-02-25T02:51:40.771Z",
+        "hash": "c4c6a3a2e3e6cdad"
+      },
+      "/Users/andrew/Development/listening/public/sounds/wangdac/ཤ་མོ་ 1.mp3": {
+        "size": 13273,
+        "mtime": "2025-02-25T02:57:31.124Z",
+        "hash": "7262ebf2b35b5e43"
+      }
+    },
+    "hash": "d75420899786",
+    "lastGenerated": "2025-07-26T14:42:46.733Z"
+  },
+  "misc": {
+    "files": {
+      "/Users/andrew/Development/listening/public/sounds/misc/དཔྲལ་བ་ 1.mp3": {
+        "size": 12668,
+        "mtime": "2025-04-02T04:18:03.302Z",
+        "hash": "ef4127f7d8487498"
+      },
+      "/Users/andrew/Development/listening/public/sounds/misc/དཔྲལ་བ་ 2.mp3": {
+        "size": 10788,
+        "mtime": "2025-04-02T04:19:16.307Z",
+        "hash": "27bb4b79eac09225"
+      },
+      "/Users/andrew/Development/listening/public/sounds/misc/འབྲལ་བ་ 1.mp3": {
+        "size": 14818,
+        "mtime": "2025-04-02T04:17:49.557Z",
+        "hash": "ec6f4cd2495a5e7f"
+      },
+      "/Users/andrew/Development/listening/public/sounds/misc/འབྲལ་བ་ 2.mp3": {
+        "size": 12355,
+        "mtime": "2025-04-02T04:19:28.327Z",
+        "hash": "7b7ec73027ae700e"
+      }
+    },
+    "hash": "ce2d34d98c5f",
+    "lastGenerated": "2025-07-26T14:42:47.147Z"
+  }
+}

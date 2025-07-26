@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2025-07-26T14:42:47.673Z",
+  "spritesGenerated": "2025-07-26T14:42:47.673Z",
+  "sprites": {
+    "khelsang": {
+      "audioFile": "khelsang-sprite.mp3",
+      "manifestFile": "khelsang-sprite.json",
+      "totalFiles": 360,
+      "totalDuration": 865.8992517006802,
+      "generatedAt": "2025-07-26T14:42:47.673Z"
+    },
+    "ngawang": {
+      "audioFile": "ngawang-sprite.mp3",
+      "manifestFile": "ngawang-sprite.json",
+      "totalFiles": 173,
+      "totalDuration": 493.1907029478457,
+      "generatedAt": "2025-07-26T14:42:47.673Z"
+    },
+    "tseringsamden": {
+      "audioFile": "tseringsamden-sprite.mp3",
+      "manifestFile": "tseringsamden-sprite.json",
+      "totalFiles": 103,
+      "totalDuration": 331.12662131519295,
+      "generatedAt": "2025-07-26T14:42:47.673Z"
+    },
+    "wangdac": {
+      "audioFile": "wangdac-sprite.mp3",
+      "manifestFile": "wangdac-sprite.json",
+      "totalFiles": 3,
+      "totalDuration": 9.544535147392292,
+      "generatedAt": "2025-07-26T14:42:47.673Z"
+    },
+    "misc": {
+      "audioFile": "misc-sprite.mp3",
+      "manifestFile": "misc-sprite.json",
+      "totalFiles": 4,
+      "totalDuration": 5.562222222222223,
+      "generatedAt": "2025-07-26T14:42:47.673Z"
+    }
+  }
+}

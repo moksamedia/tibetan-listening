@@ -21,6 +21,10 @@
             The sounds for each group are loaded when you first click on a sound in the group, so
             there might be a delay the first time you play a sound in a group.
           </p>
+          <p v-if="usingSprites" class="sprite-info">
+            🎵 <strong>Audio sprites enabled!</strong> Sounds are loaded from optimized sprite files for faster performance.
+            <span v-if="spriteStats">({{ spriteStats.loadedSpeakers }}/{{ spriteStats.totalSpeakers }} speakers loaded)</span>
+          </p>
         </v-col>
       </v-row>
       <v-row>
@@ -75,7 +79,7 @@
 
 <script>
 import { ref, computed, onMounted } from 'vue'
-import { getSoundGroups } from '../library/sound-loader'
+import { getSoundGroups, isUsingSprites, getSpriteStats } from '../library/sprite-sound-loader'
 import { useDisplay } from 'vuetify'
 import SoundGroupCard from '../components/SoundGroupCard.vue'
 
@@ -92,12 +96,22 @@ export default {
     const errorMessage = ref(null)
     const showFavoritesOnly = ref(false)
     const autoplayRandom = ref(true)
+    const usingSprites = ref(false)
+    const spriteStats = ref(null)
 
     const loadSoundFiles = async () => {
       try {
         if (audioContext.value == null) throw Error('loadSoundFiles() No audio context')
         soundGroups.value = await getSoundGroups(audioContext.value)
         console.log('soundGroups', soundGroups.value)
+        
+        // Update sprite information
+        usingSprites.value = isUsingSprites()
+        if (usingSprites.value) {
+          spriteStats.value = getSpriteStats()
+          console.log('🎵 Using sprite audio system:', spriteStats.value)
+        }
+        
         isLoading.value = false
       } catch (error) {
         console.error('Error loading sound files:', error)
@@ -143,6 +157,8 @@ export default {
       showFavoritesOnly,
       filteredSoundGroups,
       autoplayRandom,
+      usingSprites,
+      spriteStats,
     }
   },
 }
@@ -178,6 +194,15 @@ export default {
   opacity: 0.9;
   width: 80%;
   margin: 0 auto;
+}
+
+.sprite-info {
+  background-color: #e8f5e8;
+  padding: 10px;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50;
+  font-size: 110%;
+  margin-top: 10px;
 }
 
 @media only screen and (max-device-width: 480px) {
