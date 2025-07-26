@@ -138,15 +138,88 @@ export class SpriteOnlyAudioService {
   }
 
   /**
-   * Preload sprites for multiple speakers
+   * Preload sprites for multiple speakers with progress tracking
    */
-  async preloadSprites(speakers) {
-    const loadPromises = speakers.map(speaker => 
-      this.loadSprite(speaker).catch(error => 
-        console.warn(`Failed to preload ${speaker}:`, error.message)
-      )
-    );
+  async preloadSprites(speakers, onProgress = null) {
+    if (!Array.isArray(speakers) || speakers.length === 0) {
+      return;
+    }
+
+    const totalSpeakers = speakers.length;
+    let loadedCount = 0;
+    let failedCount = 0;
+
+    // Report initial progress
+    if (onProgress) {
+      onProgress({
+        loaded: 0,
+        total: totalSpeakers,
+        failed: 0,
+        progress: 0,
+        currentSpeaker: null,
+        phase: 'starting'
+      });
+    }
+
+    const loadPromises = speakers.map(async (speaker) => {
+      try {
+        if (onProgress) {
+          onProgress({
+            loaded: loadedCount,
+            total: totalSpeakers,
+            failed: failedCount,
+            progress: (loadedCount / totalSpeakers) * 100,
+            currentSpeaker: speaker,
+            phase: 'loading'
+          });
+        }
+
+        await this.loadSprite(speaker);
+        loadedCount++;
+
+        if (onProgress) {
+          onProgress({
+            loaded: loadedCount,
+            total: totalSpeakers,
+            failed: failedCount,
+            progress: (loadedCount / totalSpeakers) * 100,
+            currentSpeaker: speaker,
+            phase: 'loaded'
+          });
+        }
+      } catch (error) {
+        console.warn(`Failed to preload ${speaker}:`, error.message);
+        failedCount++;
+        
+        if (onProgress) {
+          onProgress({
+            loaded: loadedCount,
+            total: totalSpeakers,
+            failed: failedCount,
+            progress: ((loadedCount + failedCount) / totalSpeakers) * 100,
+            currentSpeaker: speaker,
+            phase: 'failed',
+            error: error.message
+          });
+        }
+      }
+    });
+
     await Promise.all(loadPromises);
+
+    // Report completion
+    if (onProgress) {
+      onProgress({
+        loaded: loadedCount,
+        total: totalSpeakers,
+        failed: failedCount,
+        progress: 100,
+        currentSpeaker: null,
+        phase: 'completed'
+      });
+    }
+
+    console.log(`🎵 Preloading completed: ${loadedCount}/${totalSpeakers} sprites loaded successfully${failedCount > 0 ? `, ${failedCount} failed` : ''}`);
   }
 
   /**
@@ -166,13 +239,26 @@ export class SpriteOnlyAudioService {
  */
 
 export class SoundVersionGroup {
-  constructor(name, audioService) {
+  constructor(name, audioService = null) {
     this.name = name;
-    this.audioService = audioService;
+    this.audioService = audioService; // Will be set by audioManager if null
     this.sounds = []; // Array of {speaker, soundKey} objects
     this.isCorrect = null; // For UI state
     this.nextIndex = 0; // For rotation
     this.speakerIndices = {}; // For per-speaker rotation
+  }
+
+  /**
+   * Get audio service, using singleton if not provided
+   */
+  async _getAudioService() {
+    if (this.audioService) {
+      return this.audioService;
+    }
+    
+    // Import here to avoid circular dependency
+    const { audioManager } = await import('./audio-manager.js');
+    return audioManager.getAudioService();
   }
 
   /**
@@ -195,7 +281,8 @@ export class SoundVersionGroup {
   async playSound(index, options = {}) {
     if (index < 0 || index >= this.sounds.length) return null;
     const { speaker, soundKey } = this.sounds[index];
-    return await this.audioService.playSound(speaker, soundKey, options);
+    const audioService = await this._getAudioService();
+    return await audioService.playSound(speaker, soundKey, options);
   }
 
   /**
@@ -272,14 +359,27 @@ export class SoundVersionGroup {
 }
 
 export class SoundGroup {
-  constructor(name, audioService) {
+  constructor(name, audioService = null) {
     this.name = name;
-    this.audioService = audioService;
+    this.audioService = audioService; // Will be set by audioManager if null
     this.versionGroups = [];
     this.longSounds = []; // Array of {speaker, soundKey} objects
     this.currentVersionGroup = null; // For random game
     this.isPlaying = false;
     this.note = null;
+  }
+
+  /**
+   * Get audio service, using singleton if not provided
+   */
+  async _getAudioService() {
+    if (this.audioService) {
+      return this.audioService;
+    }
+    
+    // Import here to avoid circular dependency
+    const { audioManager } = await import('./audio-manager.js');
+    return audioManager.getAudioService();
   }
 
   /**
@@ -302,7 +402,8 @@ export class SoundGroup {
   async playLongSound(index, options = {}) {
     if (index < 0 || index >= this.longSounds.length) return null;
     const { speaker, soundKey } = this.longSounds[index];
-    return await this.audioService.playSound(speaker, soundKey, options);
+    const audioService = await this._getAudioService();
+    return await audioService.playSound(speaker, soundKey, options);
   }
 
   /**
@@ -351,10 +452,11 @@ export class SoundGroup {
 
   /**
    * Preload all sprites needed for this sound group
+   * NOTE: This method is now unused since we preload all sprites at app startup
    */
   async preloadSprites() {
-    const speakers = this.getAllSpeakers();
-    await this.audioService.preloadSprites(speakers);
+    // No-op: sprites are preloaded at app startup
+    console.log('Sprites already preloaded at startup for:', this.name);
   }
 
   /**

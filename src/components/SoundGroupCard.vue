@@ -10,11 +10,7 @@
         {{ isFavorited ? 'mdi-star' : 'mdi-star-outline' }}
       </v-icon>
     </v-card-title>
-    <v-card-text v-if="loading" class="loading-panel">
-      Loading sounds (each group loads only once when it is first played)
-      <v-progress-linear indeterminate height="40" color="yellow"></v-progress-linear>
-    </v-card-text>
-    <v-card-text v-else>
+    <v-card-text>
       <v-row align="center">
         <!--
         <v-col cols="12" md="3">
@@ -91,15 +87,13 @@ export default defineComponent({
   props: {
     group: Object,
     groupIndex: Number,
-    audioContext: Object,
     xs: Boolean,
     pushErrorMessage: Function,
     autoplayRandom: Boolean,
   },
   setup(props) {
-    const { group, groupIndex, xs, audioContext, pushErrorMessage, autoplayRandom } = toRefs(props)
+    const { group, groupIndex, xs, pushErrorMessage, autoplayRandom } = toRefs(props)
     const isFavorited = ref(false)
-    const loading = ref(false)
     const selectedSpeaker = ref('all')
     let resetTimeout = null
     let autoplayTimeout = null
@@ -114,37 +108,14 @@ export default defineComponent({
       return [...new Set(speakers)]
     }
 
-    const loadBuffersForGroupIfNeeded = async () => {
-      // For sprite-only system, we preload sprites instead of individual buffers
-      try {
-        console.log('Preloading sprites for:', group.value.name)
-        
-        // only show loading indicator after a short delay
-        const delayTimeout = setTimeout(() => {
-          loading.value = true
-        }, 300)
-
-        try {
-          await group.value.preloadSprites()
-        } catch (error) {
-          console.error('Error preloading sprites:', error)
-          group.value.isPlaying = false
-          pushErrorMessage.value(`Error preloading sprites for ${group.value.name}`)
-        } finally {
-          clearTimeout(delayTimeout)
-          loading.value = false
-        }
-      } catch (error) {
-        console.error('Error in sprite preloading:', error)
-      }
-    }
+    // Sprites are now preloaded at app startup, so no loading needed per group
 
     const handlePlayLong = async (idx) => {
-      await loadBuffersForGroupIfNeeded()
       try {
         await group.value.playLongSound(idx)
       } catch (error) {
         console.error('Error playing long sound:', error)
+        pushErrorMessage.value(`Error playing long sound: ${error.message}`)
       }
     }
 
@@ -163,11 +134,9 @@ export default defineComponent({
         group.value.setRandomCurrentVersionGroup()
       }
 
-      await loadBuffersForGroupIfNeeded()
       group.value.isPlaying = true
 
       try {
-        console.assert(audioContext.value, 'No audio context')
         const randomSound = group.value.currentVersionGroup.getRandom()
         console.log('Playing:', group.value.currentVersionGroup.name)
         
@@ -186,6 +155,7 @@ export default defineComponent({
       } catch (error) {
         console.error('Error playing sound:', error)
         group.value.isPlaying = false
+        pushErrorMessage.value(`Error playing sound: ${error.message}`)
       }
     }
 
@@ -195,13 +165,12 @@ export default defineComponent({
     }
 
     const handleCheckAnswer = async (versionGroup) => {
-      await loadBuffersForGroupIfNeeded()
-
       try {
         const nextSound = versionGroup.getNext()
         await nextSound.play()
       } catch (error) {
         console.error('Error playing sound:', error)
+        pushErrorMessage.value(`Error playing sound: ${error.message}`)
       }
 
       if (!group.value.currentVersionGroup) return
@@ -257,7 +226,6 @@ export default defineComponent({
       handleGetButtonColor,
       isFavorited,
       toggleFavorite,
-      loading,
       selectedSpeaker,
       getSpeakers,
     }
@@ -266,10 +234,6 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.loading-panel {
-  text-align: center;
-  font-size: 20px;
-}
 .answer-btn-group {
   display: flex;
   flex-direction: row;

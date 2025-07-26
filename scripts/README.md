@@ -41,14 +41,96 @@ node scripts/generate-sprites.js --force --debug --maxSilenceMs 200
 - `--maxSilenceMs N`: Maximum silence duration to trim (default: 150ms)
 - `--trimSilence false`: Disable silence trimming
 
+### `audit-sounds.js`
+Build-time processing script that converts sounds.json into an optimized, preprocessed format.
+
+**Features:**
+- **Pattern Expansion**: Converts `applyPattern` entries into explicit version groups
+- **Wylie Text Processing**: Converts `{wylie text}` to Tibetan Unicode at build time
+- **File Path Processing**: Extracts speaker and sound keys from file paths
+- **Sprite Verification**: Verifies all sounds exist in sprite manifests
+- **Build-Time Optimization**: Eliminates runtime transformations for better performance
+
+**Usage:**
+```bash
+# Audit sounds and show statistics
+node scripts/audit-sounds.js
+
+# Process and write sounds-processed.json
+node scripts/audit-sounds.js --fix
+
+# With verbose logging
+node scripts/audit-sounds.js --fix --verbose
+
+# Custom output location
+node scripts/audit-sounds.js --output custom-path.json
+```
+
+**Options:**
+- `--fix` / `-f`: Write processed sounds-processed.json file
+- `--output` / `-o PATH`: Specify custom output path
+- `--verbose` / `-v`: Show detailed logging
+- `--help` / `-h`: Show usage information
+
+**Input Format (sounds.json):**
+```json
+{
+  "name": "ལ་ vs ལྷ་",
+  "applyPattern": [
+    {"speaker": "khelsang", "num": 2}
+  ],
+  "long": "khelsang/{la} vs {lha}.mp3"
+}
+```
+
+**Output Format (sounds-processed.json):**
+```json
+{
+  "name": "ལ་ vs ལྷ་",
+  "versionGroups": [
+    {
+      "name": "ལ་",
+      "sounds": [
+        {
+          "speaker": "khelsang",
+          "soundKey": "ལ་ 1",
+          "verified": true,
+          "originalPath": "khelsang/ལ་ 1.mp3"
+        }
+      ]
+    }
+  ],
+  "longSounds": [
+    {
+      "speaker": "khelsang",
+      "soundKey": "ལ་ vs ལྷ་",
+      "verified": true,
+      "originalPath": "khelsang/ལ་ vs ལྷ་.mp3"
+    }
+  ]
+}
+```
+
+**Performance Benefits:**
+- Eliminates runtime file path processing (640+ sound files)
+- Eliminates runtime sprite verification checks
+- Eliminates runtime Wylie text conversion
+- Reduces app startup time by moving all transformations to build time
+
 ## Generated Files
 
-The script generates the following files in `public/assets/sounds/`:
+### Audio Processing Pipeline
 
-- `manifest.json` - Master manifest listing all available sprites
-- `{speaker}-sprite.mp3` - Audio sprite file for each speaker
-- `{speaker}-sprite.json` - Timing data for each speaker's sprite
-- `.file-tracking.json` - Internal file change tracking data (hidden)
+The build system generates the following files:
+
+**Build-Time Processing (`audit-sounds.js`):**
+- `src/assets/sounds-processed.json` - Preprocessed sound configuration with build-time optimizations
+
+**Sprite Generation (`generate-sprites.js`):**
+- `public/assets/sounds/manifest.json` - Master manifest listing all available sprites
+- `public/assets/sounds/{speaker}-sprite.mp3` - Audio sprite file for each speaker
+- `public/assets/sounds/{speaker}-sprite.json` - Timing data for each speaker's sprite
+- `public/assets/sounds/.file-tracking.json` - Internal file change tracking data (hidden)
 
 ### Example Sprite Data Structure
 ```json
@@ -97,10 +179,12 @@ Key integration points:
 
 ## Development Workflow
 
-1. **Make changes** to audio files in `public/sounds/` or to `src/assets/sounds.json`
+1. **Make changes** to audio files in `audio-source/sounds/` or to `src/assets/sounds.json`
 2. **Run audio build process**: `npm run build-audio` (this audits sounds, expands patterns, and generates sprites)
 3. **Test the app** - sprites will be used automatically
 4. **For production builds** - include `npm run build-audio` in your CI/CD pipeline
+
+**Important**: Individual audio files are stored in `audio-source/sounds/` (not in `public/`) to keep them out of the production build. Only the generated sprite files in `public/assets/sounds/` are included in the build.
 
 ### Individual Commands
 
@@ -108,6 +192,32 @@ Key integration points:
 - `npm run audit-sounds:fix` - Process patterns, Wylie text, and generate sounds-processed.json
 - `npm run generate-sprites` - Generate sprite files (automatically runs audit first)
 - `npm run build-audio` - Complete audio build process (audit + sprites)
+
+### Build-Time Optimization Details
+
+The `audit-sounds.js` script implements a **build-time processing optimization** that significantly improves runtime performance:
+
+**Before (Runtime Processing):**
+```javascript
+// Runtime transformations for each of 640+ sounds
+const speaker = getSpeakerFromFilePath(filePath)        // String parsing
+const soundKey = extractSoundKey(filePath)             // File extension removal
+const hasSound = await audioService.hasSoundForSpeaker(speaker, soundKey) // Sprite checking
+```
+
+**After (Build-Time Processing):**
+```javascript
+// Direct object access - no runtime processing needed
+const { speaker, soundKey, verified } = preprocessedSound
+```
+
+**Performance Impact:**
+- **640+ file path operations** → **0 runtime operations**
+- **640+ sprite verification checks** → **0 runtime checks**
+- **Multiple Wylie text conversions** → **0 runtime conversions**
+- **Pattern expansions on every load** → **Pre-expanded at build time**
+
+This optimization moves all expensive string processing and I/O operations from app startup (runtime) to the build process, resulting in faster app initialization and better user experience.
 
 ## Troubleshooting
 

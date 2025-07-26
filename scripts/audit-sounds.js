@@ -23,7 +23,7 @@ const __dirname = path.dirname(__filename);
 
 // Configuration
 const SOUNDS_JSON_PATH = path.join(__dirname, '../src/assets/sounds.json');
-const SOUNDS_DIR = path.join(__dirname, '../public/sounds');
+const SOUNDS_DIR = path.join(__dirname, '../audio-source/sounds');
 const OUTPUT_PATH = path.join(__dirname, '../src/assets/sounds-processed.json');
 
 // Command line arguments

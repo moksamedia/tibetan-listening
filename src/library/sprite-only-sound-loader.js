@@ -5,10 +5,9 @@
  * Builds sound groups directly from sprites and JSON configuration.
  */
 
-import { SpriteOnlyAudioService, SoundVersionGroup, SoundGroup } from './sprite-only-audio-service.js';
+import { SoundVersionGroup, SoundGroup } from './sprite-only-audio-service.js';
+import { audioManager } from './audio-manager.js';
 import sounds from '../assets/sounds-processed.json' with { type: 'json' };
-
-let audioService = null;
 
 /**
  * Extract speaker name from file path
@@ -22,18 +21,27 @@ function getSpeakerFromFilePath(path) {
 /**
  * Initialize and get sound groups
  */
-export async function getSoundGroups(audioContext) {
+export async function getSoundGroups(audioContext, onProgress = null) {
   console.log('🔄 Loading sound groups with sprite-only system...');
   
-  // Initialize audio service
-  audioService = new SpriteOnlyAudioService(audioContext);
-  await audioService.initialize();
+  // Initialize audio manager singleton
+  await audioManager.initialize(audioContext);
   
   // Process JSON configuration (already processed by audit script)
   const soundGroups = [];
+  const allSpeakers = new Set();
+  
+  // Report initial progress for sound group processing
+  if (onProgress) {
+    onProgress({
+      phase: 'processing',
+      message: 'Processing sound groups...',
+      progress: 0
+    });
+  }
   
   for (const sgConfig of sounds) {
-    const soundGroup = new SoundGroup(sgConfig.name, audioService);
+    const soundGroup = new SoundGroup(sgConfig.name);
     
     // Add note if present
     if (sgConfig.note) {
@@ -46,10 +54,41 @@ export async function getSoundGroups(audioContext) {
     // Process version groups (already expanded)
     await processVersionGroups(sgConfig, soundGroup);
     
+    // Collect all speakers used in this sound group
+    soundGroup.getAllSpeakers().forEach(speaker => allSpeakers.add(speaker));
+    
     soundGroups.push(soundGroup);
   }
   
-  console.log(`✅ Loaded ${soundGroups.length} sound groups`);
+  // Report completion of sound group processing
+  if (onProgress) {
+    onProgress({
+      phase: 'preloading',
+      message: 'Starting sprite preloading...',
+      progress: 0
+    });
+  }
+  
+  // Preload all sprites at startup for instant playback
+  console.log('🚀 Preloading all sprites for instant playback...');
+  await audioManager.preloadSprites([...allSpeakers], (spriteProgress) => {
+    if (onProgress) {
+      onProgress({
+        phase: 'preloading',
+        message: spriteProgress.currentSpeaker 
+          ? `Loading ${spriteProgress.currentSpeaker} speaker...`
+          : 'Preloading sprites...',
+        progress: spriteProgress.progress,
+        loaded: spriteProgress.loaded,
+        total: spriteProgress.total,
+        failed: spriteProgress.failed,
+        currentSpeaker: spriteProgress.currentSpeaker,
+        spritePhase: spriteProgress.phase
+      });
+    }
+  });
+  
+  console.log(`✅ Loaded ${soundGroups.length} sound groups with all sprites preloaded`);
   return soundGroups;
 }
 
@@ -67,7 +106,7 @@ async function processLongFiles(sgConfig, soundGroup) {
         const soundKey = extractSoundKey(longFile);
         
         // Check if this sound exists in the sprite
-        const hasSound = await audioService.hasSoundForSpeaker(speaker, soundKey);
+        const hasSound = await audioManager.hasSoundForSpeaker(speaker, soundKey);
         if (hasSound) {
           soundGroup.addLongSound(speaker, soundKey);
           console.log(`📄 Added long sound: ${speaker}/${soundKey}`);
@@ -97,7 +136,7 @@ async function processVersionGroups(sgConfig, soundGroup) {
   // Process explicitly defined version groups (patterns already expanded)
   if (sgConfig.versionGroups) {
     for (const vgConfig of sgConfig.versionGroups) {
-      const versionGroup = new SoundVersionGroup(vgConfig.name, audioService);
+      const versionGroup = new SoundVersionGroup(vgConfig.name);
       
       // Handle both old format (files array) and new format (sounds array)
       if (vgConfig.sounds) {
@@ -117,7 +156,7 @@ async function processVersionGroups(sgConfig, soundGroup) {
           const soundKey = extractSoundKey(filePath);
           
           // Check if sound exists in sprite
-          const hasSound = await audioService.hasSoundForSpeaker(speaker, soundKey);
+          const hasSound = await audioManager.hasSoundForSpeaker(speaker, soundKey);
           if (hasSound) {
             versionGroup.addSound(speaker, soundKey);
             console.log(`🎵 Added sound: ${speaker}/${soundKey} to ${versionGroup.name}`);
@@ -148,12 +187,12 @@ function extractSoundKey(filePath) {
  * Get the audio service instance
  */
 export function getAudioService() {
-  return audioService;
+  return audioManager.getAudioService();
 }
 
 /**
  * Get sprite statistics
  */
 export function getSpriteStats() {
-  return audioService ? audioService.getStats() : null;
+  return audioManager.isInitialized() ? audioManager.getStats() : null;
 }

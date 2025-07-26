@@ -29,7 +29,7 @@ const __dirname = dirname(__filename);
 // Configuration
 const CONFIG = {
   projectRoot: join(__dirname, '..'),
-  soundsDir: join(__dirname, '../public/sounds'),
+  soundsDir: join(__dirname, '../audio-source/sounds'),
   outputDir: join(__dirname, '../public/assets/sounds'),
   soundsJsonPath: join(__dirname, '../src/assets/sounds.json'),
   fileTrackingPath: join(__dirname, '../public/assets/sounds/.file-tracking.json'),
