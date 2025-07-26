@@ -1,0 +1,1077 @@
+[
+  {
+    "name": "རྟོག་པ་ vs ལྡོག་པ་ (verbs)",
+    "long": "khelsang/རྟོག་པ་ vs ལྡོག་པ་ long.mp3",
+    "versionGroups": [
+      {
+        "name": "ལྡོག་པ་",
+        "files": [
+          "khelsang/ལྡོག་པ་_1.mp3",
+          "khelsang/ལྡོག་པ་_2.mp3",
+          "khelsang/ལྡོག་པ་_3.mp3"
+        ]
+      },
+      {
+        "name": "རྟོག་པ་",
+        "files": [
+          "khelsang/རྟོག་པ་_1.mp3",
+          "khelsang/རྟོག་པ་_2.mp3",
+          "khelsang/རྟོག་པ་_3.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ཆད་པ་ vs བྱེད་པ་ (verbs)",
+    "long": [
+      "khelsang/ཆད་པ་ vs བྱེད་པ་ long.mp3",
+      "ngawang/chad pa vs byed pa.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "ཆད་པ་",
+        "files": [
+          "khelsang/ཆད་པ་_1.mp3",
+          "khelsang/ཆད་པ་_2.mp3",
+          "khelsang/ཆད་པ་_3.mp3",
+          "ngawang/chad pa 1.mp3",
+          "ngawang/chad pa 2.mp3"
+        ]
+      },
+      {
+        "name": "བྱེད་པ་",
+        "files": [
+          "khelsang/བྱེད་པ་_1.mp3",
+          "khelsang/བྱེད་པ་_2.mp3",
+          "khelsang/བྱེད་པ་_3.mp3",
+          "ngawang/byed pa 1.mp3",
+          "ngawang/byed pa 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "དཔེ་ vs འབད་",
+    "long": [
+      "khelsang/དཔེ་ vs འབད་ long.mp3",
+      "ngawang/dpe vs 'bad.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "དཔེ་",
+        "files": [
+          "khelsang/དཔེ་_1.mp3",
+          "khelsang/དཔེ་_2.mp3",
+          "ngawang/dpe 1.mp3"
+        ]
+      },
+      {
+        "name": "འབད་",
+        "files": [
+          "khelsang/འབད་_1.mp3",
+          "khelsang/འབད་_2.mp3",
+          "ngawang/'bad 1.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ལག་པ་ (n) vs བརླག་པ (v)",
+    "long": [
+      "khelsang/བརླག་པ་ vs ལག་པ་ long.mp3",
+      "ngawang/lag pa vs brlags pa.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "ལག་པ་",
+        "files": [
+          "khelsang/ལག་པ་_1.mp3",
+          "khelsang/ལག་པ་_2.mp3",
+          "ngawang/lag pa 1.mp3",
+          "ngawang/lag pa 2.mp3"
+        ]
+      },
+      {
+        "name": "བརླག་པ་",
+        "files": [
+          "khelsang/བརླག་པ་_1.mp3",
+          "khelsang/བརླག་པ་_2.mp3",
+          "ngawang/brlags pa 1.mp3",
+          "ngawang/bralgs pa 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "བྱ་བ་ vs ཕྱ་བ་ (v)",
+    "long": [
+      "khelsang/བྱ་བ་ vs ཕྱ་བ་ long.mp3",
+      "ngawang/བྱ་བ་ vs ཕྱ་བ་.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "བྱ་བ་",
+        "files": [
+          "khelsang/བྱ་བ་_1.mp3",
+          "khelsang/བྱ་བ་_2.mp3",
+          "ngawang/བྱ་བ་ 1.mp3",
+          "ngawang/བྱ་བ་ 2.mp3"
+        ]
+      },
+      {
+        "name": "ཕྱ་བ་",
+        "files": [
+          "khelsang/ཕྱ་བ་_1.mp3",
+          "khelsang/ཕྱ་བ་_2.mp3",
+          "ngawang/ཕྱ་བ་ 1.mp3",
+          "ngawang/ཕྱ་བ་ 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "བཀའ་ vs དགའ་",
+    "long": "ngawang/བཀའ་ vs དགའ་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "བླངས་པ་ vs ལངས་པ་",
+    "long": "ngawang/བླངས་པ་ vs ལངས་པ་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "རྐུ་བ་ vs དགུ་བ་ (v)",
+    "long": [
+      "khelsang/དགུ་བ་ vs རྐུ་བ་ long.mp3",
+      "ngawang/རྐུ་བ་ vs དགུ་བ་.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "རྐུ་བ་",
+        "files": [
+          "khelsang/རྐུ་བ་_1.mp3",
+          "khelsang/རྐུ་བ་_2.mp3",
+          "ngawang/རྐུ་བ་ 1.mp3",
+          "ngawang/རྐུ་བ་ 2.mp3"
+        ]
+      },
+      {
+        "name": "དགུ་བ་",
+        "files": [
+          "khelsang/དགུ་བ་_1.mp3",
+          "khelsang/དགུ་བ་_2.mp3",
+          "ngawang/དགུ་བ་ 1.mp3",
+          "ngawang/དགུ་བ་ 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ཞེས་པ་ vs ཤེས་པ་ (v)",
+    "long": [
+      "khelsang/ཞེས་པ་ vs ཤེས་པ་ long.mp3",
+      "ngawang/ཞེས་པ་ vs ཤེས་པ་.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "ཞེས་པ་",
+        "files": [
+          "khelsang/ཞེས་པ་_1.mp3",
+          "khelsang/ཞེས་པ་_2.mp3",
+          "ngawang/ཞེས་པ་ 1.mp3",
+          "ngawang/ཞེས་པ་ 2.mp3"
+        ]
+      },
+      {
+        "name": "ཤེས་པ་",
+        "files": [
+          "khelsang/ཤེས་པ་_1.mp3",
+          "khelsang/ཤེས་པ་_2.mp3",
+          "ngawang/ཤེས་པ་ 1.mp3",
+          "ngawang/ཤེས་པ་ 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "དགྲ་ vs ཁྲ་ vs སྐྲ་ (n)",
+    "long": [
+      "khelsang/སྐྲ་ vs དགྲ་ vs ཁྲ་ long.mp3",
+      "ngawang/དགྲ་ vs ཁྲ་ vs སྐྲ་.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "དགྲ་",
+        "files": [
+          "khelsang/དགྲ་_1.mp3",
+          "khelsang/དགྲ་_2.mp3",
+          "ngawang/དགྲ་ 1.mp3",
+          "ngawang/དགྲ་ 2.mp3"
+        ]
+      },
+      {
+        "name": "ཁྲ་",
+        "files": [
+          "khelsang/ཁྲ་_1.mp3",
+          "khelsang/ཁྲ་_2.mp3",
+          "ngawang/ཁྲ་ 1.mp3",
+          "ngawang/ཁྲ་ 2.mp3"
+        ]
+      },
+      {
+        "name": "སྐྲ་",
+        "files": [
+          "khelsang/སྐྲ་_1.mp3",
+          "khelsang/སྐྲ་_2.mp3",
+          "ngawang/སྐྲ་ 1.mp3",
+          "ngawang/སྐྲ་ 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "སྲོལ་ vs ཚུལ་",
+    "long": [
+      "khelsang/སྲོལ་ vs ཚུལ་ long.mp3",
+      "ngawang/སྲོལ་ vs ཚུལ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "རྩེད་ vs ཚད་",
+    "long": [
+      "khelsang/རྩེད་ vs ཚད་ long.mp3",
+      "ngawang/རྩེད་ vs ཚད་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "འབྲལ་བ་ vs དཔྲལ་བ་ (v)",
+    "long": [
+      "khelsang/འབྲལ་བ་ vs དཔྲལ་བ་.mp3",
+      "ngawang/འབྲལ་བ་ vs དཔྲལ་བ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "མོག་མོག་ vs རྨོ་རྨོ་ (n)",
+    "long": [
+      "khelsang/མོག་མོག་ vs རྨོ་རྨོ་.mp3",
+      "ngawang/མོག་མོག་ vs རྨོ་རྨོ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "བདེ་འཇགས་ vs བརྟན་འཇགས་ (n)",
+    "long": [
+      "khelsang/བདེ་འཇགས་ vs བརྟན་འཇགས་.mp3",
+      "ngawang/བདེ་འཇགས་ vs བརྟན་འཇགས་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "མིག་ vs དམིགས་",
+    "long": [
+      "khelsang/མིག་ vs དམིགས་.mp3",
+      "ngawang/མིག་ vs དམིགས་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "སྒྲིབ་པ་ vs མཁྲིས་པ་",
+    "long": [
+      "khelsang/སྒྲིབ་པ་ vs མཁྲིས་པ་.mp3",
+      "ngawang/སྒྲིབ་པ་ vs མཁྲིས་པ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "སྦང་བ་ vs སྤང་བ་ (v)",
+    "long": [
+      "khelsang/སྦང་བ་ vs སྤང་བ་.mp3",
+      "ngawang/སྦང་བ་ vs སྤང་བ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "གཅེས་ vs རྗེས་",
+    "long": [
+      "khelsang/གཅེས་ vs རྗེས་.mp3",
+      "ngawang/གཅེས་ vs རྗེས་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "མགོ་ vs ཀོ་བ་",
+    "long": [
+      "khelsang/མགོ་ vs ཀོ་བ་.mp3",
+      "ngawang/མགོ་ vs ཀོ་བ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "འགྱེས་པ་ vs སྐྱེས་པ་",
+    "long": "khelsang/འགྱེས་པ་ vs སྐྱེས་པ་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "ཞ་མོ་ vs ཤ་མོ་",
+    "long": "wangdac/ཞ་མོ་ vs ཤ་མོ་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "ག་ vs ཁ་",
+    "long": [
+      "khelsang/ག་ vs ཁ་.wav",
+      "ngawang/ག་ vs ཁ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "ག་པར་ vs ཁ་པར (n)",
+    "long": [
+      "khelsang/ག་ vs ཁ་.wav",
+      "ngawang/ག་པར་ vs ཁ་པར་.mp3",
+      "ngawang/ག་པར་ vs ཁ་པར་ 2.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "ག་པར་",
+        "files": [
+          "khelsang/ག་པར་ 1.mp3",
+          "ngawang/ག་པར་ 1.mp3",
+          "ngawang/ག་པར་ 2.mp3"
+        ]
+      },
+      {
+        "name": "ཁ་པར",
+        "files": [
+          "khelsang/ཁ་པར་ 1.mp3",
+          "ngawang/ཁ་པར་ 1.mp3",
+          "ngawang/ཁ་པར་ 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "བྱ་བ་ vs འཕྱ་བ་ (v)",
+    "long": [
+      "khelsang/bya ba vs 'phya ba.wav",
+      "ngawang/བྱ་བ་ vs འཕྱ་བ་.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "བྱ་བ",
+        "files": [
+          "khelsang/bya ba 1.mp3",
+          "ngawang/བྱ་བ་ 1b.mp3",
+          "ngawang/བྱ་བ་ 2b.mp3"
+        ]
+      },
+      {
+        "name": "འཕྱ་བ",
+        "files": [
+          "khelsang/'phya ba 1.mp3",
+          "ngawang/འཕྱ་བ་ 1.mp3",
+          "ngawang/འཕྱ་བ་ 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "བཞད་ vs གཤེ་",
+    "long": [
+      "khelsang/བཞད་ vs གཤེ་.mp3",
+      "ngawang/བཞད་ vs གཤེ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་",
+    "long": [
+      "khelsang/སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་.wav",
+      "ngawang/སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "གྲི་ vs ཁྲི་ vs ཀྲི་",
+    "long": [
+      "khelsang/གྲི་ vs ཁྲི་ vs ཀྲི་.mp3",
+      "ngawang/གྲི་ vs ཁྲི་ vs ཀྲི་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "ཞེས་པ་ vs ཤེས་པ་ (v)",
+    "long": [
+      "khelsang/ཞེས་པ་ vs ཤེས་པ་.mp3",
+      "ngawang/ཞེས་པ་ vs ཤེས་པ་ 2.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "ཞེས་པ་",
+        "files": [
+          "khelsang/ཞེས་པ་ 1.mp3",
+          "ngawang/ཞེས་པ་ 1b.mp3",
+          "ngawang/ཞེས་པ་ 2b.mp3"
+        ]
+      },
+      {
+        "name": "ཤེས་པ་",
+        "files": [
+          "khelsang/ཤེས་པ་ 1.mp3",
+          "ngawang/ཤེས་པ་ 1b.mp3",
+          "ngawang/ཤེས་པ་ 2b.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "མགོ་ vs ཀོ་",
+    "long": [
+      "khelsang/མགོ vs ཀོ.mp3",
+      "ngawang/མགོ་ vs ཀོ་.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "མགོ་",
+        "files": [
+          "khelsang/མགོ་b 1.mp3",
+          "khelsang/མགོ་ 1.mp3",
+          "khelsang/མགོ་ 2.mp3",
+          "ngawang/མགོ་ 1b.mp3",
+          "ngawang/མགོ་ 2b.mp3"
+        ]
+      },
+      {
+        "name": "ཀོ་",
+        "files": [
+          "khelsang/ཀོ་ 1.mp3",
+          "ngawang/ཀོ་ 1.mp3",
+          "ngawang/ཀོ་ 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "དགྲམ་པ་ vs བཀྲམ་པ་ (v)",
+    "long": [
+      "khelsang/དགྲམ་པ་ vs བཀྲམ་པ་.mp3",
+      "ngawang/དགྲམ་པ་ vs བཀྲམ་པ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་ (v)",
+    "long": [
+      "khelsang/གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་.mp3",
+      "ngawang/གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "འགྲིག་ vs མཁྲིག་ (v)",
+    "long": [
+      "khelsang/འགྲིག་ vs མཁྲིག་.mp3",
+      "ngawang/འགྲིག་ vs མཁྲིག་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་ (v)",
+    "long": [
+      "khelsang/དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་.mp3",
+      "ngawang/དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "དོགས་པ་ vs ཐོགས་པ་ (v)",
+    "long": [
+      "khelsang/དོགས་པ་ vs ཐོགས་པ་.mp3",
+      "ngawang/དོགས་པ་ vs ཐོགས་པ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "ལྡོག་པ་ vs རྟོགས་པ་ (v)",
+    "long": [
+      "khelsang/ལྡོག་པ་ vs རྟོགས་པ་.mp3",
+      "ngawang/ལྡོག་པ་ vs རྟོགས་པ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "ཟག་པ་ vs བསག་པ་ (v)",
+    "long": [
+      "khelsang/ཟག་པ་ vs བསག་པ་ (v).wav",
+      "ngawang/ཟག་པ་ vs བསག་པ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "དུལ་བ་ vs འདུལ་བ་ vs བཏུལ་བ་ (v)",
+    "long": "khelsang/དུལ་བ་ vs འདུལ་བ་ vs བཏུལ་བ་ (v).wav",
+    "versionGroups": []
+  },
+  {
+    "name": "སྣང་ vs ནང་",
+    "long": "khelsang/སྣང་ vs ནང་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "ལྡག་པ་ vs བརྟག་པ་ (v)",
+    "long": "khelsang/ལྡག་པ་ vs བརྟག་པ་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "མཐོང་བ་ vs འཐུང་བ་ (v)",
+    "long": "khelsang/མཐོང་བ་ vs འཐུང་བ་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "ཡིད་ vs ཡིག་",
+    "long": "khelsang/ཡིད་ vs ཡིག་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "རྒོལ་བ་ vs སྐོལ་བ་ vs སྒུལ་བ་ vs སྐུལ་བ་ (v)",
+    "long": "khelsang/རྒོལ་བ་ vs སྐོལ་བ་ vs སྒུལ་བ་ vs སྐུལ་བ་ (v).mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "རྒོལ་བ་ vs སྐོལ་བ་ (v)",
+    "long": "khelsang/རྒོལ་བ་ vs སྐོལ་བ་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "སྒུལ་བ་ vs སྐུལ་བ་ (v)",
+    "long": "khelsang/སྒུལ་བ་ vs སྐུལ་བ་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "སྒུལ་བ་ (noun) vs སྐུལ་བ་ (verb)",
+    "long": "khelsang/རྒོལ་བ་ རྒོལ་བ་ (n vs v).mp3",
+    "versionGroups": [
+      {
+        "name": "རྒོལ་བ་ n.",
+        "files": [
+          "khelsang/རྒོལ་བ་ n 1.mp3"
+        ]
+      },
+      {
+        "name": "རྒོལ་བ་ v.",
+        "files": [
+          "khelsang/རྒོལ་བ་ v 1.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "དགེ་རྒན་ vs སྐེ་རྒྱན་ (n)",
+    "long": "khelsang/དགེ་རྒན་ vs སྐེ་རྒྱན་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "དགག་པ་ vs བཀག་པ་ (verb)",
+    "long": "khelsang/དགག་པ་ vs བཀག་པ་ (v).mp3",
+    "versionGroups": [
+      {
+        "name": "དགག་པ་ v.",
+        "files": [
+          "khelsang/དགག་པ་ v 1.mp3"
+        ]
+      },
+      {
+        "name": "བཀག་པ་ v.",
+        "files": [
+          "khelsang/བཀག་པ་ v 1.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "དགག་པ་ vs བཀག་པ་ (noun)",
+    "long": "khelsang/དགག་པ་ vs བཀག་པ་ (n).mp3",
+    "versionGroups": [
+      {
+        "name": "དགག་པ་ n.",
+        "files": [
+          "khelsang/དགག་པ་ n 1.mp3"
+        ]
+      },
+      {
+        "name": "བཀག་པ་ n.",
+        "files": [
+          "khelsang/བཀག་པ་ n 1.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "དགག་པ་ noun vs verb",
+    "long": "khelsang/དགག་པ་ noun vs verb.mp3",
+    "versionGroups": [
+      {
+        "name": "དགག་པ་ n.",
+        "files": [
+          "khelsang/དགག་པ་ n 1.mp3"
+        ]
+      },
+      {
+        "name": "དགག་པ་ v.",
+        "files": [
+          "khelsang/དགག་པ་ v 1.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "བཀག་པ་ noun vs verb",
+    "long": "khelsang/བཀག་པ་ noun vs verb.mp3",
+    "versionGroups": [
+      {
+        "name": "བཀག་པ་ n.",
+        "files": [
+          "khelsang/བཀག་པ་ n 1.mp3"
+        ]
+      },
+      {
+        "name": "བཀག་པ་ v.",
+        "files": [
+          "khelsang/བཀག་པ་ v 1.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "འགྱེས་པ་ vs སྐྱེས་པ་ (v)",
+    "long": "khelsang/འགྱེས་པ་ vs སྐྱེས་པ་ b.mp3",
+    "versionGroups": [
+      {
+        "name": "འགྱེས་པ་",
+        "files": [
+          "khelsang/འགྱེས་པ་ b 1.mp3"
+        ]
+      },
+      {
+        "name": "སྐྱེས་པ་",
+        "files": [
+          "khelsang/སྐྱེས་པ་ b 1.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ནས་ vs གནས་",
+    "long": "khelsang/ནས་ vs གནས་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "སྐྱེས་པ་ (v) vs སྐྱེད་པ་ (n)",
+    "long": "khelsang/སྐྱེས་པ་ vs སྐྱེད་པ་.mp3",
+    "versionGroups": [
+      {
+        "name": "སྐྱེས་པ་ (n)",
+        "files": [
+          "khelsang/སྐྱེས་པ་ c 1.mp3",
+          "khelsang/སྐྱེས་པ་ b 1.mp3",
+          "khelsang/སྐྱེས་པ་ c 1.mp3"
+        ]
+      },
+      {
+        "name": "སྐྱེད་པ་ (v)",
+        "files": [
+          "khelsang/སྐྱེད་པ་ 1.mp3",
+          "khelsang/སྐྱེད་པ་ 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ཟེར་ vs གསེར་",
+    "long": "khelsang/གསེར་ vs ཟེར་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "གསུང་བ་ vs བཟུང་བ་",
+    "long": [
+      "khelsang/བཟུང་བ་ vs གསུང་བ་.mp3",
+      "tseringsamden/གསུང་བ་ vs བཟུང་བ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "བྱ་བ་ vs འཕྱ་བ་",
+    "long": [
+      "khelsang/བྱ་བ་ vs འཕྱ་བ་.mp3",
+      "tseringsamden/བྱ་བ་ vs འཕྱ་བ་.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "བྱ་བ་",
+        "files": [
+          "khelsang/བྱ་བ་ 1.mp3",
+          "khelsang/བྱ་བ་ 2.mp3",
+          "tseringsamden/བྱ་བ་ 1.mp3",
+          "tseringsamden/བྱ་བ་ 2.mp3"
+        ]
+      },
+      {
+        "name": "འཕྱ་བ་",
+        "files": [
+          "khelsang/འཕྱ་བ་ 1.mp3",
+          "khelsang/ཕྱ་བ་_1.mp3",
+          "tseringsamden/འཕྱ་བ་ 1.mp3",
+          "tseringsamden/འཕྱ་བ་ 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ཤག vs ཞག",
+    "long": [
+      "khelsang/ཤག vs ཞག.mp3",
+      "tseringsamden/ཤག་ vs ཞག་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "འཚེ་ vs བརྩེ་",
+    "long": [
+      "khelsang/འཚེ་ vs བརྩེ་.mp3",
+      "tseringsamden/འཚེ་ vs བརྩེ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "འཚེ་བ་ vs བརྩེ་བ་",
+    "long": [
+      "khelsang/འཚེ་ vs བརྩེ་.mp3",
+      "tseringsamden/འཚེ་བ་ vs བརྩེ་བ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "འཚོ་ vs གཙོ་",
+    "long": [
+      "khelsang/འཚོ་ vs གཙོ་.mp3",
+      "tseringsamden/འཚོ་ vs གཙོ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "བསྟེན་པ་ (v) vs བསྟན་པ་ (n)",
+    "long": "khelsang/བསྟེན་པ་ (v) vs བསྟན་པ་ (n).mp3",
+    "note": "Distinguish between the pronunciation of a noun and verb",
+    "versionGroups": [
+      {
+        "name": "བསྟེན་པ་ (v)",
+        "files": [
+          "khelsang/བསྟེན་པ་ (v) 1.mp3",
+          "khelsang/བསྟེན་པ་ (v) 2.mp3"
+        ]
+      },
+      {
+        "name": "བསྟན་པ་ (n)",
+        "files": [
+          "khelsang/བསྟན་པ་ (n) 1.mp3",
+          "khelsang/བསྟན་པ་ (n) 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "བདེན་པ་ (n) vs བསྟན་པ་ (n)",
+    "long": [
+      "khelsang/བདེན་པ་ (n) vs བསྟན་པ་ (n).mp3",
+      "tseringsamden/བདེན་པ་ vs བསྟན་པ་ (n).mp3"
+    ],
+    "note": "These are both pronounced as nouns",
+    "versionGroups": [
+      {
+        "name": "བདེན་པ་ (n)",
+        "files": [
+          "khelsang/བདེན་པ་ (n) 1.mp3",
+          "khelsang/བདེན་པ་ (n) 2.mp3",
+          "tseringsamden/བདེན་པ་ 1.mp3",
+          "tseringsamden/བདེན་པ་ 2.mp3"
+        ]
+      },
+      {
+        "name": "བསྟན་པ་ (n)",
+        "files": [
+          "khelsang/བསྟན་པ་ (n) b1.mp3",
+          "khelsang/བསྟན་པ་ (n) b2.mp3",
+          "tseringsamden/བསྟན་པ་ 1.mp3",
+          "tseringsamden/བསྟན་པ་ 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་",
+    "long": [
+      "khelsang/འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་.mp3",
+      "tseringsamden/འདོན་པ་འདོན་པ་ vs འདོན་པ་བཏོན་པ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "སྦྱང་ vs སྤྱང་",
+    "long": [
+      "khelsang/སྦྱང་ vs སྤྱང་.mp3",
+      "tseringsamden/སྦྱང་ vs སྤྱང་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "སྤྲོ་བ་ vs བྲོ་བ་",
+    "long": [
+      "khelsang/སྤྲོ་བ་ vs བྲོ་བ་.mp3",
+      "tseringsamden/སྤྲོ་བ་ vs བྲོ་བ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "ཉེན་ཁ་ vs གཉན་ཁ་",
+    "long": [
+      "khelsang/ཉེན་ཁ་ vs གཉན་ཁ་.mp3",
+      "tseringsamden/ཉེན་ཁ་ vs གཉན་ཁ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་",
+    "long": [
+      "khelsang/པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་.mp3",
+      "tseringsamden/པགས་པ་ vs སྦག་སྦག་ vs འཕགས་པ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "དེ་ སྡེ་ སྟེ་",
+    "long": [
+      "khelsang/དེ་ vs སྡེ་ vs སྟེ་.mp3",
+      "tseringsamden/དེ་ སྡེ་ སྟེ་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "གི་ གྱི་ ཀྱི་",
+    "long": [
+      "khelsang/གི་ vs གྱི་ vs ཀྱི་.mp3",
+      "tseringsamden/གི་ གྱི་ ཀྱི་.mp3"
+    ],
+    "versionGroups": []
+  },
+  {
+    "name": "ག་ རྒ་ ཁ་ ཀ་",
+    "long": [
+      "khelsang/ག་ vs རྒ་ vs ཁ་ vs ཀ་.mp3",
+      "tseringsamden/ག་ རྒ་ ཁ་ ཀ་.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "ག་",
+        "files": [
+          "khelsang/ག་ b1.mp3",
+          "khelsang/ག་ b2.mp3"
+        ]
+      },
+      {
+        "name": "རྒ་",
+        "files": [
+          "khelsang/རྒ་ 1.mp3",
+          "khelsang/རྒ་ 1.mp3"
+        ]
+      },
+      {
+        "name": "ཁ་",
+        "files": [
+          "khelsang/ཁ་ b1.mp3",
+          "khelsang/ཁ་ b2.mp3"
+        ]
+      },
+      {
+        "name": "ཀ་",
+        "files": [
+          "khelsang/ཀ་ 1.mp3",
+          "khelsang/ཀ་ 1.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "གི་ རྒི ཁི་ ཀི་",
+    "long": [
+      "khelsang/གི་ རྒི ཁི་ ཀི་.mp3",
+      "tseringsamden/གི་ རྒི ཁི་ ཀི་.mp3"
+    ],
+    "versionGroups": [
+      {
+        "name": "གི་",
+        "files": [
+          "khelsang/གི་ b 1.mp3",
+          "khelsang/གི་ b 2.mp3",
+          "tseringsamden/གི་ b 1.mp3",
+          "tseringsamden/གི་ b 2.mp3"
+        ]
+      },
+      {
+        "name": "རྒི་",
+        "files": [
+          "khelsang/རྒི་ 1.mp3",
+          "khelsang/རྒི་ 2.mp3",
+          "tseringsamden/རྒི 1.mp3",
+          "tseringsamden/རྒི 2.mp3"
+        ]
+      },
+      {
+        "name": "ཁི་",
+        "files": [
+          "khelsang/ཁི་ 1.mp3",
+          "khelsang/ཁི་ 2.mp3",
+          "tseringsamden/ཁི་ 1.mp3",
+          "tseringsamden/ཁི་ 2.mp3"
+        ]
+      },
+      {
+        "name": "ཀི་",
+        "files": [
+          "khelsang/ཀི་ 1.mp3",
+          "khelsang/ཀི་ 2.mp3",
+          "tseringsamden/ཀི་ 1.mp3",
+          "tseringsamden/ཀི་ 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "གུ་ རྒུ་ ཁུ་ ཀུ་",
+    "long": "khelsang/གུ་ རྒུ་ ཁུ་ ཀུ་.mp3",
+    "versionGroups": [
+      {
+        "name": "གུ་",
+        "files": [
+          "khelsang/གུ་ 1.mp3",
+          "khelsang/གུ་ 2.mp3",
+          "khelsang/གུ་ 3.mp3"
+        ]
+      },
+      {
+        "name": "རྒུ་",
+        "files": [
+          "khelsang/རྒུ་ 1.mp3",
+          "khelsang/རྒུ་ 2.mp3",
+          "khelsang/རྒུ་ 3.mp3"
+        ]
+      },
+      {
+        "name": "ཁུ་",
+        "files": [
+          "khelsang/ཁུ་ 1.mp3",
+          "khelsang/ཁུ་ 2.mp3",
+          "khelsang/ཁུ་ 3.mp3"
+        ]
+      },
+      {
+        "name": "ཀུ་",
+        "files": [
+          "khelsang/ཀུ་ 1.mp3",
+          "khelsang/ཀུ་ 2.mp3",
+          "khelsang/ཀུ་ 3.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "གེ་ རྒེ་ ཁེ་ ཀེ་",
+    "long": "khelsang/གེ་ རྒེ་ ཁེ་ ཀེ་.mp3",
+    "versionGroups": [
+      {
+        "name": "གེ་",
+        "files": [
+          "khelsang/གེ་ 1.mp3",
+          "khelsang/གེ་ 2.mp3"
+        ]
+      },
+      {
+        "name": "རྒེ་",
+        "files": [
+          "khelsang/རྒེ་ 1.mp3",
+          "khelsang/རྒེ་ 2.mp3"
+        ]
+      },
+      {
+        "name": "ཁེ་",
+        "files": [
+          "khelsang/ཁེ་ 1.mp3",
+          "khelsang/ཁེ་ 2.mp3"
+        ]
+      },
+      {
+        "name": "ཀེ་",
+        "files": [
+          "khelsang/ཀེ་ 1.mp3",
+          "khelsang/ཀེ་ 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "གོ་ རྒོ་ ཁོ་ ཀོ་",
+    "long": "khelsang/གོ་ རྒོ་ ཁོ་ ཀོ་.mp3",
+    "versionGroups": [
+      {
+        "name": "གོ་",
+        "files": [
+          "khelsang/གོ་ 1.mp3",
+          "khelsang/གོ་ 2.mp3"
+        ]
+      },
+      {
+        "name": "རྒོ་",
+        "files": [
+          "khelsang/རྒོ་ 1.mp3",
+          "khelsang/རྒོ་ 2.mp3"
+        ]
+      },
+      {
+        "name": "ཁོ་",
+        "files": [
+          "khelsang/ཁོ་ 1.mp3",
+          "khelsang/ཁོ་ 2.mp3"
+        ]
+      },
+      {
+        "name": "ཀོ་",
+        "files": [
+          "khelsang/ཀོ་ b 1.mp3",
+          "khelsang/ཀོ་ b 2.mp3"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ཐུགས་རྗེས་ vs དུག་ཆེ་",
+    "long": "khelsang/ཐུགས་རྗེས་ vs དུག་ཆེ་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "ལ་ vs ལྷ་",
+    "long": "khelsang/ལ་ vs ལྷ་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "དག་པ་ vs ཐག་པ་ vs རྟག་པ་",
+    "long": "khelsang/དག་པ་ vs ཐག་པ་ vs རྟག་པ་.mp3",
+    "versionGroups": []
+  },
+  {
+    "name": "གློག་ vs ལོག་",
+    "long": "khelsang/གློག་ vs ལོག་.mp3",
+    "versionGroups": []
+  }
+]

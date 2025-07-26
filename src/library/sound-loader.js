@@ -1,6 +1,6 @@
-import jsEWTS from './jsewts'
+import jsEWTS from './jsewts.js'
 import sounds from '../assets/sounds.json'
-import { SoundFile, SoundVersionGroup, SoundGroup } from '../library/sound-classes'
+import { SoundFile, SoundVersionGroup, SoundGroup } from '../library/sound-classes.js'
 import { mapAsync } from 'lodasync'
 
 export const rawJson = sounds

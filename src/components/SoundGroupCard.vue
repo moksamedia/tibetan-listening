@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-card-title class="group-title">
-      {{ group.getScreenName() }}
+      {{ group.getDisplayName() }}
       <v-icon
         class="favorite-icon"
         :color="isFavorited ? 'yellow' : 'grey'"
@@ -29,16 +29,16 @@
         <v-col cols="12" md="3" class="d-flex align-center">
           <v-btn
             block
-            :color="group.currentSoundVersionGroup != null ? 'primary' : 'white'"
+            :color="group.currentVersionGroup != null ? 'primary' : 'white'"
             :loading="group.isPlaying"
             @click="handlePlayRandomSound"
             :disabled="group.isPlaying"
           >
             <v-icon left>mdi-play</v-icon>
-            {{ group.currentSoundVersionGroup != null ? 'Again' : 'Random' }}
+            {{ group.currentVersionGroup != null ? 'Again' : 'Random' }}
           </v-btn>
           <v-btn
-            v-if="group.currentSoundVersionGroup != null"
+            v-if="group.currentVersionGroup != null"
             color="red"
             class="ml-2"
             density="comfortable"
@@ -51,22 +51,22 @@
         <v-col cols="12" md="6">
           <div class="answer-btn-group">
             <v-btn
-              v-for="soundVersionGroup in group.soundVersions"
-              :key="soundVersionGroup.name"
+              v-for="versionGroup in group.versionGroups"
+              :key="versionGroup.name"
               size="x-large"
-              :color="handleGetButtonColor(soundVersionGroup)"
-              @click="handleCheckAnswer(soundVersionGroup)"
+              :color="handleGetButtonColor(versionGroup)"
+              @click="handleCheckAnswer(versionGroup)"
             >
-              {{ soundVersionGroup.name }}
-              <span class="num-files">{{ `(${soundVersionGroup.files.length})` }}</span>
+              {{ versionGroup.name }}
+              <span class="num-files">{{ `(${versionGroup.sounds.length})` }}</span>
             </v-btn>
           </div>
         </v-col>
 
         <v-col cols="12" md="2">
           <v-btn
-            v-for="(l, idx) in group.long"
-            :key="l.path"
+            v-for="(longSound, idx) in group.longSounds"
+            :key="longSound.soundKey"
             block
             color="secondary"
             @click="handlePlayLong(idx)"
@@ -110,60 +110,59 @@ export default defineComponent({
 
     const getSpeakers = () => {
       if (!group.value) return []
-      const speakers = group.value.soundVersions.map((sv) => sv.getSpeakers()).flat()
+      const speakers = group.value.versionGroups.map((vg) => vg.getSpeakers()).flat()
       return [...new Set(speakers)]
     }
 
     const loadBuffersForGroupIfNeeded = async () => {
-      if (group.value.needToLoadBuffers(group)) {
-        console.log('Loading buffers for:', group.value.name)
-
+      // For sprite-only system, we preload sprites instead of individual buffers
+      try {
+        console.log('Preloading sprites for:', group.value.name)
+        
         // only show loading indicator after a short delay
         const delayTimeout = setTimeout(() => {
           loading.value = true
         }, 300)
 
         try {
-          console.assert(audioContext.value, 'No audio context')
-          await group.value.loadBuffers(audioContext.value)
+          await group.value.preloadSprites()
         } catch (error) {
-          console.error('Error loading sound buffers:', error)
+          console.error('Error preloading sprites:', error)
           group.value.isPlaying = false
-          pushErrorMessage.value(`Error loading sound buffers for ${group.value.name}`)
+          pushErrorMessage.value(`Error preloading sprites for ${group.value.name}`)
         } finally {
           clearTimeout(delayTimeout)
           loading.value = false
         }
-      } else {
-        console.log('Buffers already loaded for:', group.value.name)
+      } catch (error) {
+        console.error('Error in sprite preloading:', error)
       }
     }
 
     const handlePlayLong = async (idx) => {
       await loadBuffersForGroupIfNeeded()
       try {
-        const source = audioContext.value.createBufferSource()
-        source.buffer = group.value.long[idx].getBuffer()
-        source.connect(audioContext.value.destination)
-        source.start(0)
+        await group.value.longSounds[idx].play({
+          audioContext: audioContext.value
+        })
       } catch (error) {
-        console.error('Error playing sound:', error)
+        console.error('Error playing long sound:', error)
       }
     }
 
     const resetGameState = () => {
-      group.value.currentSoundVersionGroup = null
-      group.value.resetGuesses()
+      group.value.currentVersionGroup = null
+      group.value.resetStates()
       group.value.isPlaying = false
     }
 
     const handlePlayRandomSound = async () => {
       if (!group.value || group.value.isPlaying) return
 
-      group.value.resetGuesses()
+      group.value.resetStates()
 
-      if (!group.value.currentSoundVersionGroup) {
-        group.value.setRandomCurrentSounVersionGroup()
+      if (!group.value.currentVersionGroup) {
+        group.value.setRandomCurrentVersionGroup()
       }
 
       await loadBuffersForGroupIfNeeded()
@@ -171,11 +170,10 @@ export default defineComponent({
 
       try {
         console.assert(audioContext.value, 'No audio context')
-        const randomFile = group.value.currentSoundVersionGroup.getRandom(selectedSpeaker.value)
-        console.log('Playing:', group.value.currentSoundVersionGroup.name)
+        const randomSound = group.value.currentVersionGroup.getRandom()
+        console.log('Playing:', group.value.currentVersionGroup.name)
         
-        const source = await randomFile.play({
-          audioContext: audioContext.value,
+        const source = await randomSound.play({
           onEnded: () => {
             group.value.isPlaying = false
           }
@@ -198,27 +196,25 @@ export default defineComponent({
       resetGameState()
     }
 
-    const handleCheckAnswer = async (soundVersionGroup) => {
+    const handleCheckAnswer = async (versionGroup) => {
       await loadBuffersForGroupIfNeeded()
 
       try {
-        const nextFile = soundVersionGroup.getNext()
-        await nextFile.play({
-          audioContext: audioContext.value
-        })
+        const nextSound = versionGroup.getNext()
+        await nextSound.play()
       } catch (error) {
         console.error('Error playing sound:', error)
       }
 
-      if (!group.value.currentSoundVersionGroup) return
+      if (!group.value.currentVersionGroup) return
 
-      const isCorrect = soundVersionGroup.name === group.value.currentSoundVersionGroup.name
-      soundVersionGroup.isCorrect = isCorrect
+      const isCorrect = versionGroup.name === group.value.currentVersionGroup.name
+      versionGroup.isCorrect = isCorrect
 
       if (isCorrect) {
         postAnswerTimeout = setTimeout(() => {
-          group.value.currentSoundVersionGroup = null
-          group.value.resetGuesses()
+          group.value.currentVersionGroup = null
+          group.value.resetStates()
           if (autoplayRandom.value) {
             autoplayTimeout = setTimeout(() => {
               handlePlayRandomSound()
@@ -227,7 +223,7 @@ export default defineComponent({
         }, 700)
       } else {
         postAnswerTimeout = setTimeout(() => {
-          soundVersionGroup.isCorrect = null
+          versionGroup.isCorrect = null
         }, 700)
       }
 
@@ -235,9 +231,9 @@ export default defineComponent({
       if (resetTimeout) clearTimeout(resetTimeout)
     }
 
-    const handleGetButtonColor = (soundVersionGroup) => {
-      if (soundVersionGroup.isCorrect === null) return 'default'
-      return soundVersionGroup.isCorrect ? 'success' : 'error'
+    const handleGetButtonColor = (versionGroup) => {
+      if (versionGroup.isCorrect === null) return 'default'
+      return versionGroup.isCorrect ? 'success' : 'error'
     }
 
     const toggleFavorite = () => {

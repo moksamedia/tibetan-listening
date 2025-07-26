@@ -85,20 +85,29 @@ The sprite system provides significant performance improvements:
 
 ## Integration
 
-The Vue.js application automatically detects if sprites are available and uses them preferentially, falling back to individual files if sprites are not found.
+The Vue.js application uses a simplified sprite-only audio system that assumes sprites are always available. This eliminates fallback complexity while maintaining all speaker/version functionality.
 
 Key integration points:
-- `src/library/sprite-audio-service.js` - Core sprite audio service
-- `src/library/sprite-sound-loader.js` - Enhanced sound loader with sprite support  
+- `src/library/sprite-only-audio-service.js` - Simplified sprite-only audio service
+- `src/library/sprite-only-sound-loader.js` - Clean sound loader without fallback complexity  
 - `src/views/HomeView.vue` - UI shows sprite status
-- `src/components/SoundGroupCard.vue` - Uses sprite-aware sound classes
+- `src/components/SoundGroupCard.vue` - Uses simplified sprite sound classes
+
+**Note**: The application requires sprites to function. Always run `npm run generate-sprites` before starting the app.
 
 ## Development Workflow
 
-1. **Make changes** to audio files in `public/sounds/`
-2. **Run sprite generation**: `npm run generate-sprites`
-3. **Test the app** - sprites will be used automatically if available
-4. **For production builds** - include sprite generation in your CI/CD pipeline
+1. **Make changes** to audio files in `public/sounds/` or to `src/assets/sounds.json`
+2. **Run audio build process**: `npm run build-audio` (this audits sounds, expands patterns, and generates sprites)
+3. **Test the app** - sprites will be used automatically
+4. **For production builds** - include `npm run build-audio` in your CI/CD pipeline
+
+### Individual Commands
+
+- `npm run audit-sounds` - Check for missing files and show statistics
+- `npm run audit-sounds:fix` - Process patterns, Wylie text, and generate sounds-processed.json
+- `npm run generate-sprites` - Generate sprite files (automatically runs audit first)
+- `npm run build-audio` - Complete audio build process (audit + sprites)
 
 ## Troubleshooting
 
@@ -113,6 +122,7 @@ Key integration points:
 - Check that `public/assets/sounds/manifest.json` exists
 - Verify sprite files are accessible at `/assets/sounds/` in your web server
 - Check browser console for loading errors
+- **Important**: The app requires sprites to function - no fallback to individual files
 
 **Large sprite files**
 - Sprites inherit the quality of source files

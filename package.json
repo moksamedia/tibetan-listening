@@ -10,8 +10,12 @@
     "test:unit": "vitest",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
-    "generate-sprites": "node scripts/generate-sprites.js",
-    "generate-sprites:force": "node scripts/generate-sprites.js --force"
+    "generate-sprites": "npm run audit-sounds:fix && node scripts/generate-sprites.js",
+    "generate-sprites:force": "npm run audit-sounds:fix && node scripts/generate-sprites.js --force",
+    "audit-sounds": "node scripts/audit-sounds.js",
+    "audit-sounds:fix": "node scripts/audit-sounds.js --fix",
+    "audit-sounds:verbose": "node scripts/audit-sounds.js --verbose",
+    "build-audio": "npm run audit-sounds:fix && npm run generate-sprites"
   },
   "dependencies": {
     "lodasync": "^1.0.7",

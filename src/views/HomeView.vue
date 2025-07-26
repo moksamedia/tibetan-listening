@@ -79,7 +79,7 @@
 
 <script>
 import { ref, computed, onMounted } from 'vue'
-import { getSoundGroups, isUsingSprites, getSpriteStats } from '../library/sprite-sound-loader'
+import { getSoundGroups, getSpriteStats } from '../library/sprite-only-sound-loader'
 import { useDisplay } from 'vuetify'
 import SoundGroupCard from '../components/SoundGroupCard.vue'
 
@@ -105,12 +105,10 @@ export default {
         soundGroups.value = await getSoundGroups(audioContext.value)
         console.log('soundGroups', soundGroups.value)
         
-        // Update sprite information
-        usingSprites.value = isUsingSprites()
-        if (usingSprites.value) {
-          spriteStats.value = getSpriteStats()
-          console.log('🎵 Using sprite audio system:', spriteStats.value)
-        }
+        // Update sprite information (always true for sprite-only system)
+        usingSprites.value = true
+        spriteStats.value = getSpriteStats()
+        console.log('🎵 Using sprite-only audio system:', spriteStats.value)
         
         isLoading.value = false
       } catch (error) {
