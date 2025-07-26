@@ -40,6 +40,17 @@ const CONFIG = {
   maxSilenceMs: 150, // Max silence before/after clips
   trimSilence: true, // Trim silence from audio files
   
+  // Progressive loading - separate word sounds from long sounds
+  separateWordAndLongSprites: true,
+  longSoundPatterns: [
+    ' vs ',        // Most comparison sounds
+    ' long',       // Explicit long sounds
+    'noun vs verb', // Specific pattern
+    '(n vs v)',    // Another pattern
+    '(v)',         // Verb indicators that are usually long
+    '(n)',         // Noun indicators that are usually long
+  ],
+  
   // Output options
   format: 'mp3',
   bitrate: 128,
@@ -112,7 +123,14 @@ class SpriteGenerator {
         if (data === 'skipped') {
           console.log(`  ${speaker}: ⏭️  Skipped (no changes)`);
         } else if (data && typeof data === 'object') {
-          console.log(`  ${speaker}: ${data.totalSounds} sounds, ${data.totalDuration.toFixed(2)}s total`);
+          if (CONFIG.separateWordAndLongSprites && data.word) {
+            // Separate sprites format
+            const wordInfo = `${data.word.totalSounds} words (${data.word.totalDuration.toFixed(2)}s)`;
+            const longInfo = data.long ? `${data.long.totalSounds} long (${data.long.totalDuration.toFixed(2)}s)` : '0 long';
+            console.log(`  ${speaker}: ${wordInfo}, ${longInfo}, ${data.totalSounds} total`);
+          } else {
+            console.log(`  ${speaker}: ${data.totalSounds} sounds, ${data.totalDuration.toFixed(2)}s total`);
+          }
         } else {
           console.log(`  ${speaker}: ❌ Failed`);
         }
@@ -333,6 +351,14 @@ class SpriteGenerator {
   }
 
   async createSprite(speaker) {
+    if (CONFIG.separateWordAndLongSprites) {
+      return await this.createSeparateSprites(speaker);
+    }
+    
+    return await this.createSingleSprite(speaker);
+  }
+
+  async createSingleSprite(speaker) {
     const speakerDir = join(CONFIG.soundsDir, speaker);
     const outputName = `${speaker}-sprite`;
     
@@ -458,6 +484,194 @@ class SpriteGenerator {
     }
   }
 
+  async createSeparateSprites(speaker) {
+    console.log(`  🎭 Creating separate word and long sprites for ${speaker}`);
+    
+    // Load processed sounds data to identify long sounds
+    const processedSoundsPath = join(CONFIG.projectRoot, 'src/assets/sounds-processed.json');
+    
+    if (!existsSync(processedSoundsPath)) {
+      console.log(`  ⚠️  No processed sounds data found. Run audit-sounds:fix first.`);
+      return await this.createSingleSprite(speaker);
+    }
+    
+    const processedSounds = JSON.parse(readFileSync(processedSoundsPath, 'utf8'));
+    
+    // Collect all long sound keys for this speaker
+    const longSoundKeys = new Set();
+    
+    for (const soundGroup of processedSounds) {
+      if (soundGroup.longSounds) {
+        for (const longSound of soundGroup.longSounds) {
+          if (longSound.speaker === speaker) {
+            longSoundKeys.add(longSound.soundKey);
+          }
+        }
+      }
+    }
+    
+    console.log(`  📝 Found ${longSoundKeys.size} long sounds for ${speaker}`);
+    
+    const speakerDir = join(CONFIG.soundsDir, speaker);
+    
+    // Prepare temporary directory for processed files
+    if (this.trimSilence && !await this.prepareTempDirectory()) {
+      throw new Error('Failed to prepare temporary directory');
+    }
+    
+    try {
+      // Get all audio files for this speaker
+      const allFiles = readdirSync(speakerDir)
+        .filter(file => file.endsWith('.mp3') || file.endsWith('.wav') || file.endsWith('.m4a'))
+        .sort();
+        
+      console.log(`  🔍 Found ${allFiles.length} total audio files`);
+      
+      if (allFiles.length === 0) {
+        throw new Error(`No sound files found for ${speaker}`);
+      }
+      
+      // Separate files into word and long categories
+      const wordFiles = [];
+      const longFiles = [];
+      
+      for (const fileName of allFiles) {
+        const soundKey = basename(fileName, extname(fileName));
+        
+        if (longSoundKeys.has(soundKey)) {
+          longFiles.push(fileName);
+        } else {
+          wordFiles.push(fileName);
+        }
+      }
+      
+      console.log(`  📊 Categorized: ${wordFiles.length} word sounds, ${longFiles.length} long sounds`);
+      
+      // Process and create word sprite
+      const wordResult = await this.createSpriteFromFiles(speaker, wordFiles, 'words', speakerDir);
+      
+      // Process and create long sprite (if any long files exist)
+      let longResult = null;
+      if (longFiles.length > 0) {
+        longResult = await this.createSpriteFromFiles(speaker, longFiles, 'long', speakerDir);
+      }
+      
+      // Create combined manifest
+      const combinedResult = {
+        word: wordResult,
+        long: longResult,
+        totalSounds: wordFiles.length + longFiles.length,
+        totalDuration: wordResult.totalDuration + (longResult ? longResult.totalDuration : 0)
+      };
+      
+      console.log(`  ✅ Separate sprite generation complete`);
+      
+      return combinedResult;
+      
+    } catch (error) {
+      console.error(`  ❌ Separate sprite generation failed:`, error.message);
+      throw error;
+    } finally {
+      if (this.trimSilence) {
+        await this.cleanupTempDirectory();
+      }
+    }
+  }
+
+  async createSpriteFromFiles(speaker, fileNames, spriteType, speakerDir) {
+    const outputName = `${speaker}-${spriteType}-sprite`;
+    
+    console.log(`  🎵 Creating ${spriteType} sprite with ${fileNames.length} files...`);
+    
+    // Process files (trim silence if enabled)
+    const availableFiles = [];
+    const fileMap = {};
+    
+    for (const fileName of fileNames) {
+      const inputFile = join(speakerDir, fileName);
+      let fileToUse = inputFile;
+      
+      if (this.trimSilence) {
+        const trimmedFile = join(this.tempDir, fileName);
+        const trimSuccess = await this.trimSilenceFromFile(inputFile, trimmedFile);
+        
+        if (trimSuccess) {
+          fileToUse = trimmedFile;
+          console.log(`    ✂️  ${fileName}: trimmed and ready`);
+        } else {
+          console.log(`    ⚠️  ${fileName}: using original (trim failed)`);
+        }
+      } else {
+        console.log(`    ✓ ${fileName}: ${inputFile}`);
+      }
+      
+      availableFiles.push(fileToUse);
+      fileMap[fileToUse] = basename(fileName, extname(fileName));
+    }
+    
+    // Use audiosprite to generate the sprite
+    const options = {
+      output: join(CONFIG.outputDir, outputName),
+      format: CONFIG.format,
+      gap: CONFIG.silenceDuration / 1000,
+      export: CONFIG.format,
+      bitrate: CONFIG.bitrate,
+      vbr: -1,
+      samplerate: CONFIG.sampleRate,
+      channels: CONFIG.channels,
+      logger: {
+        debug: () => {},
+        info: (msg) => console.log(`    ${msg}`),
+        log: (msg) => console.log(`    ${msg}`)
+      }
+    };
+    
+    const result = await audiospriteAsync(availableFiles, options);
+    
+    // Transform the audiosprite result to match our expected format
+    const transformedSprite = {};
+    
+    if (!result || !result.spritemap) {
+      console.error(`  ❌ No sprite data in result:`, result);
+      throw new Error('Audiosprite did not return sprite data');
+    }
+    
+    // Map the generated sprite data back to our file names
+    for (const [spriteName, spriteInfo] of Object.entries(result.spritemap)) {
+      const cleanName = basename(spriteName, extname(spriteName));
+      transformedSprite[cleanName] = {
+        start: Math.round(spriteInfo.start * 1000),
+        length: Math.round((spriteInfo.end - spriteInfo.start) * 1000),
+        originalPath: spriteName
+      };
+      console.log(`    🔗 Mapped ${cleanName}: [${transformedSprite[cleanName].start}, ${transformedSprite[cleanName].length}]`);
+    }
+    
+    // Create our format sprite data
+    const spriteData = {
+      speaker: speaker,
+      type: spriteType,
+      generatedAt: new Date().toISOString(),
+      totalFiles: Object.keys(transformedSprite).length,
+      totalDuration: Math.max(...Object.values(result.spritemap).map(s => s.end * 1000)),
+      src: [`${speaker}-${spriteType}-sprite.mp3`],
+      spritemap: transformedSprite
+    };
+    
+    // Write our custom sprite JSON file
+    const spriteJsonFile = join(CONFIG.outputDir, `${speaker}-${spriteType}-sprite.json`);
+    writeFileSync(spriteJsonFile, JSON.stringify(spriteData, null, 2));
+    console.log(`  💾 ${spriteType} sprite data written to: ${spriteJsonFile}`);
+    
+    return {
+      spriteFile: `${speaker}-${spriteType}-sprite.mp3`,
+      spriteData: spriteJsonFile,
+      totalSounds: availableFiles.length,
+      totalDuration: spriteData.totalDuration / 1000,
+      spritemap: transformedSprite
+    };
+  }
+
   async postProcessManifest(jsonFile, speaker) {
     const manifest = JSON.parse(await fs.readFile(jsonFile, 'utf8'));
     
@@ -496,19 +710,47 @@ class SpriteGenerator {
       version: '1.0.0',
       generatedAt: new Date().toISOString(),
       spritesGenerated: new Date().toISOString(),
+      separateWordAndLongSprites: CONFIG.separateWordAndLongSprites,
       sprites: {}
     };
     
     // Add sprite data to master manifest
     for (const [speaker, spriteData] of Object.entries(spriteResults)) {
       if (spriteData) {
-        masterManifest.sprites[speaker] = {
-          audioFile: spriteData.spriteFile,
-          manifestFile: basename(spriteData.spriteData),
-          totalFiles: spriteData.totalSounds,
-          totalDuration: spriteData.totalDuration,
-          generatedAt: new Date().toISOString()
-        };
+        if (CONFIG.separateWordAndLongSprites && spriteData.word) {
+          // Separate sprites format
+          masterManifest.sprites[speaker] = {
+            word: {
+              audioFile: spriteData.word.spriteFile,
+              manifestFile: basename(spriteData.word.spriteData),
+              totalFiles: spriteData.word.totalSounds,
+              totalDuration: spriteData.word.totalDuration,
+              generatedAt: new Date().toISOString()
+            },
+            totalFiles: spriteData.totalSounds,
+            totalDuration: spriteData.totalDuration,
+            generatedAt: new Date().toISOString()
+          };
+          
+          if (spriteData.long) {
+            masterManifest.sprites[speaker].long = {
+              audioFile: spriteData.long.spriteFile,
+              manifestFile: basename(spriteData.long.spriteData),
+              totalFiles: spriteData.long.totalSounds,
+              totalDuration: spriteData.long.totalDuration,
+              generatedAt: new Date().toISOString()
+            };
+          }
+        } else {
+          // Single sprite format (backwards compatibility)
+          masterManifest.sprites[speaker] = {
+            audioFile: spriteData.spriteFile,
+            manifestFile: basename(spriteData.spriteData),
+            totalFiles: spriteData.totalSounds,
+            totalDuration: spriteData.totalDuration,
+            generatedAt: new Date().toISOString()
+          };
+        }
       }
     }
     

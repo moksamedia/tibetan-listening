@@ -1,0 +1,447 @@
+{
+  "speaker": "tseringsamden",
+  "type": "words",
+  "generatedAt": "2025-07-26T16:28:50.251Z",
+  "totalFiles": 87,
+  "totalDuration": 141146.6666666667,
+  "src": [
+    "tseringsamden-words-sprite.mp3"
+  ],
+  "spritemap": {
+    "ཀ་ 1": {
+      "start": 0,
+      "length": 720,
+      "originalPath": "ཀ་ 1"
+    },
+    "ཀ་ 2": {
+      "start": 1200,
+      "length": 640,
+      "originalPath": "ཀ་ 2"
+    },
+    "ཀི་ 1": {
+      "start": 2400,
+      "length": 775,
+      "originalPath": "ཀི་ 1"
+    },
+    "ཀི་ 2": {
+      "start": 3600,
+      "length": 837,
+      "originalPath": "ཀི་ 2"
+    },
+    "ཀྱི་ 1": {
+      "start": 4800,
+      "length": 921,
+      "originalPath": "ཀྱི་ 1"
+    },
+    "ཀྱི་ 2": {
+      "start": 6000,
+      "length": 940,
+      "originalPath": "ཀྱི་ 2"
+    },
+    "ཁ་ 1": {
+      "start": 7200,
+      "length": 645,
+      "originalPath": "ཁ་ 1"
+    },
+    "ཁ་ 2": {
+      "start": 8400,
+      "length": 597,
+      "originalPath": "ཁ་ 2"
+    },
+    "ཁི་ 1": {
+      "start": 9600,
+      "length": 753,
+      "originalPath": "ཁི་ 1"
+    },
+    "ཁི་ 2": {
+      "start": 10800,
+      "length": 684,
+      "originalPath": "ཁི་ 2"
+    },
+    "ག་ 1": {
+      "start": 12000,
+      "length": 825,
+      "originalPath": "ག་ 1"
+    },
+    "ག་ 2": {
+      "start": 13200,
+      "length": 712,
+      "originalPath": "ག་ 2"
+    },
+    "གཉན་ཁ་ 1": {
+      "start": 14400,
+      "length": 1138,
+      "originalPath": "གཉན་ཁ་ 1"
+    },
+    "གཉན་ཁ་ 2": {
+      "start": 16600,
+      "length": 1102,
+      "originalPath": "གཉན་ཁ་ 2"
+    },
+    "གཙོ་ 1": {
+      "start": 18800,
+      "length": 934,
+      "originalPath": "གཙོ་ 1"
+    },
+    "གཙོ་ 2": {
+      "start": 20000,
+      "length": 889,
+      "originalPath": "གཙོ་ 2"
+    },
+    "གསུང་བ་ 1": {
+      "start": 21200,
+      "length": 1258,
+      "originalPath": "གསུང་བ་ 1"
+    },
+    "གསུང་བ་ 2": {
+      "start": 23400,
+      "length": 1279,
+      "originalPath": "གསུང་བ་ 2"
+    },
+    "གི་ 1": {
+      "start": 25600,
+      "length": 1074,
+      "originalPath": "གི་ 1"
+    },
+    "གི་ 2": {
+      "start": 27800,
+      "length": 1060,
+      "originalPath": "གི་ 2"
+    },
+    "གི་ b 1": {
+      "start": 30000,
+      "length": 1035,
+      "originalPath": "གི་ b 1"
+    },
+    "གི་ b 2": {
+      "start": 32200,
+      "length": 1018,
+      "originalPath": "གི་ b 2"
+    },
+    "གྱི་ 1": {
+      "start": 34400,
+      "length": 1092,
+      "originalPath": "གྱི་ 1"
+    },
+    "གྱི་ 2": {
+      "start": 36600,
+      "length": 909,
+      "originalPath": "གྱི་ 2"
+    },
+    "ཉེན་ཁ་ 1": {
+      "start": 37800,
+      "length": 1319,
+      "originalPath": "ཉེན་ཁ་ 1"
+    },
+    "ཉེན་ཁ་ 2": {
+      "start": 40000,
+      "length": 1316,
+      "originalPath": "ཉེན་ཁ་ 2"
+    },
+    "དེ་ 1": {
+      "start": 42200,
+      "length": 743,
+      "originalPath": "དེ་ 1"
+    },
+    "དེ་ 2": {
+      "start": 43400,
+      "length": 756,
+      "originalPath": "དེ་ 2"
+    },
+    "པགས་པ་ 1": {
+      "start": 44600,
+      "length": 1058,
+      "originalPath": "པགས་པ་ 1"
+    },
+    "པགས་པ་ 2": {
+      "start": 46800,
+      "length": 811,
+      "originalPath": "པགས་པ་ 2"
+    },
+    "པགས་པ་ 3": {
+      "start": 48000,
+      "length": 825,
+      "originalPath": "པགས་པ་ 3"
+    },
+    "བདེན་པ་ 1": {
+      "start": 49200,
+      "length": 1659,
+      "originalPath": "བདེན་པ་ 1"
+    },
+    "བདེན་པ་ 2": {
+      "start": 51400,
+      "length": 1307,
+      "originalPath": "བདེན་པ་ 2"
+    },
+    "བཟུང་བ་ 1": {
+      "start": 53600,
+      "length": 1131,
+      "originalPath": "བཟུང་བ་ 1"
+    },
+    "བཟུང་བ་ 2": {
+      "start": 55800,
+      "length": 1244,
+      "originalPath": "བཟུང་བ་ 2"
+    },
+    "བརྩེ་ 1": {
+      "start": 58000,
+      "length": 812,
+      "originalPath": "བརྩེ་ 1"
+    },
+    "བརྩེ་ 2": {
+      "start": 59200,
+      "length": 757,
+      "originalPath": "བརྩེ་ 2"
+    },
+    "བརྩེ་ 3": {
+      "start": 60400,
+      "length": 794,
+      "originalPath": "བརྩེ་ 3"
+    },
+    "བརྩེ་བ་ 1": {
+      "start": 61600,
+      "length": 1060,
+      "originalPath": "བརྩེ་བ་ 1"
+    },
+    "བརྩེ་བ་ 2": {
+      "start": 63800,
+      "length": 1022,
+      "originalPath": "བརྩེ་བ་ 2"
+    },
+    "བསྟན་པ་ 1": {
+      "start": 66000,
+      "length": 1020,
+      "originalPath": "བསྟན་པ་ 1"
+    },
+    "བསྟན་པ་ 2": {
+      "start": 68200,
+      "length": 928,
+      "originalPath": "བསྟན་པ་ 2"
+    },
+    "བྱ་བ་ 1": {
+      "start": 69400,
+      "length": 877,
+      "originalPath": "བྱ་བ་ 1"
+    },
+    "བྱ་བ་ 2": {
+      "start": 70600,
+      "length": 836,
+      "originalPath": "བྱ་བ་ 2"
+    },
+    "བྲོ་བ་ 1": {
+      "start": 71800,
+      "length": 1092,
+      "originalPath": "བྲོ་བ་ 1"
+    },
+    "བྲོ་བ་ 2": {
+      "start": 74000,
+      "length": 1095,
+      "originalPath": "བྲོ་བ་ 2"
+    },
+    "ཞག 1": {
+      "start": 76200,
+      "length": 1087,
+      "originalPath": "ཞག 1"
+    },
+    "ཞག 2": {
+      "start": 78400,
+      "length": 981,
+      "originalPath": "ཞག 2"
+    },
+    "ཞག 3": {
+      "start": 79600,
+      "length": 1074,
+      "originalPath": "ཞག 3"
+    },
+    "ཞག 4": {
+      "start": 81800,
+      "length": 965,
+      "originalPath": "ཞག 4"
+    },
+    "འདོན་པ་བཏོན་པ་ 1": {
+      "start": 83000,
+      "length": 1802,
+      "originalPath": "འདོན་པ་བཏོན་པ་ 1"
+    },
+    "འདོན་པ་བཏོན་པ་ 2": {
+      "start": 85200,
+      "length": 1920,
+      "originalPath": "འདོན་པ་བཏོན་པ་ 2"
+    },
+    "འདོན་པ་འདོན་པ་ 1": {
+      "start": 87400,
+      "length": 2043,
+      "originalPath": "འདོན་པ་འདོན་པ་ 1"
+    },
+    "འདོན་པ་འདོན་པ་ 2": {
+      "start": 90600,
+      "length": 1709,
+      "originalPath": "འདོན་པ་འདོན་པ་ 2"
+    },
+    "འཕགས་པ་ 1": {
+      "start": 92800,
+      "length": 949,
+      "originalPath": "འཕགས་པ་ 1"
+    },
+    "འཕགས་པ་ 2": {
+      "start": 94000,
+      "length": 835,
+      "originalPath": "འཕགས་པ་ 2"
+    },
+    "འཕགས་པ་ 3": {
+      "start": 95200,
+      "length": 869,
+      "originalPath": "འཕགས་པ་ 3"
+    },
+    "འཕྱ་བ་ 1": {
+      "start": 96400,
+      "length": 970,
+      "originalPath": "འཕྱ་བ་ 1"
+    },
+    "འཕྱ་བ་ 2": {
+      "start": 97600,
+      "length": 950,
+      "originalPath": "འཕྱ་བ་ 2"
+    },
+    "འཚེ་ 1": {
+      "start": 98800,
+      "length": 836,
+      "originalPath": "འཚེ་ 1"
+    },
+    "འཚེ་ 2": {
+      "start": 100000,
+      "length": 957,
+      "originalPath": "འཚེ་ 2"
+    },
+    "འཚེ་ 3": {
+      "start": 101200,
+      "length": 1021,
+      "originalPath": "འཚེ་ 3"
+    },
+    "འཚེ་བ་ 1": {
+      "start": 103400,
+      "length": 1180,
+      "originalPath": "འཚེ་བ་ 1"
+    },
+    "འཚེ་བ་ 2": {
+      "start": 105600,
+      "length": 1101,
+      "originalPath": "འཚེ་བ་ 2"
+    },
+    "འཚོ་ 1": {
+      "start": 107800,
+      "length": 911,
+      "originalPath": "འཚོ་ 1"
+    },
+    "འཚོ་ 2": {
+      "start": 109000,
+      "length": 870,
+      "originalPath": "འཚོ་ 2"
+    },
+    "རྒ་ 1": {
+      "start": 110200,
+      "length": 858,
+      "originalPath": "རྒ་ 1"
+    },
+    "རྒ་ 2": {
+      "start": 111400,
+      "length": 869,
+      "originalPath": "རྒ་ 2"
+    },
+    "རྒི 1": {
+      "start": 112600,
+      "length": 1063,
+      "originalPath": "རྒི 1"
+    },
+    "རྒི 2": {
+      "start": 114800,
+      "length": 911,
+      "originalPath": "རྒི 2"
+    },
+    "ཤག 1": {
+      "start": 116000,
+      "length": 862,
+      "originalPath": "ཤག 1"
+    },
+    "ཤག 2": {
+      "start": 117200,
+      "length": 925,
+      "originalPath": "ཤག 2"
+    },
+    "ཤག 3": {
+      "start": 118400,
+      "length": 840,
+      "originalPath": "ཤག 3"
+    },
+    "ཤག 4": {
+      "start": 119600,
+      "length": 678,
+      "originalPath": "ཤག 4"
+    },
+    "སྟེ་ 1": {
+      "start": 120800,
+      "length": 858,
+      "originalPath": "སྟེ་ 1"
+    },
+    "སྟེ་ 2": {
+      "start": 122000,
+      "length": 841,
+      "originalPath": "སྟེ་ 2"
+    },
+    "སྡེ་ 1": {
+      "start": 123200,
+      "length": 1132,
+      "originalPath": "སྡེ་ 1"
+    },
+    "སྡེ་ 2": {
+      "start": 125400,
+      "length": 1290,
+      "originalPath": "སྡེ་ 2"
+    },
+    "སྤྱང་ 1": {
+      "start": 127600,
+      "length": 874,
+      "originalPath": "སྤྱང་ 1"
+    },
+    "སྤྱང་ 2": {
+      "start": 128800,
+      "length": 747,
+      "originalPath": "སྤྱང་ 2"
+    },
+    "སྤྲོ་བ་ 1": {
+      "start": 130000,
+      "length": 961,
+      "originalPath": "སྤྲོ་བ་ 1"
+    },
+    "སྤྲོ་བ་ 2": {
+      "start": 131200,
+      "length": 852,
+      "originalPath": "སྤྲོ་བ་ 2"
+    },
+    "སྦག་སྦག་ 1": {
+      "start": 132400,
+      "length": 1005,
+      "originalPath": "སྦག་སྦག་ 1"
+    },
+    "སྦག་སྦག་ 2": {
+      "start": 134600,
+      "length": 942,
+      "originalPath": "སྦག་སྦག་ 2"
+    },
+    "སྦག་སྦག་ 3": {
+      "start": 135800,
+      "length": 1197,
+      "originalPath": "སྦག་སྦག་ 3"
+    },
+    "སྦྱང་ 1": {
+      "start": 138000,
+      "length": 1054,
+      "originalPath": "སྦྱང་ 1"
+    },
+    "སྦྱང་ 2": {
+      "start": 140200,
+      "length": 947,
+      "originalPath": "སྦྱང་ 2"
+    }
+  }
+}

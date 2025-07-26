@@ -10,8 +10,11 @@ const SPRITE_BASE_PATH = process.env.NODE_ENV === 'production' ? '/utils/assets/
 export class SpriteOnlyAudioService {
   constructor(audioContext) {
     this.audioContext = audioContext;
-    this.sprites = new Map(); // speaker -> { buffer, manifest }
+    this.sprites = new Map(); // speaker -> { word, long, manifest }
     this.masterManifest = null;
+    this.longSpritesLoaded = new Map(); // speaker -> boolean
+    this.longSpritesLoading = new Map(); // speaker -> Promise
+    this.backgroundLoadingStarted = false;
   }
 
   /**
@@ -36,9 +39,9 @@ export class SpriteOnlyAudioService {
   }
 
   /**
-   * Load sprite for speaker if not already loaded
+   * Load word sprite for speaker (for startup)
    */
-  async loadSprite(speaker) {
+  async loadWordSprite(speaker) {
     if (this.sprites.has(speaker)) {
       return this.sprites.get(speaker);
     }
@@ -48,49 +51,212 @@ export class SpriteOnlyAudioService {
       throw new Error(`No sprite available for speaker: ${speaker}`);
     }
 
-    console.log(`🔄 Loading sprite for ${speaker}...`);
+    console.log(`🔄 Loading word sprite for ${speaker}...`);
 
-    // Load audio and manifest in parallel
+    // Check if we have separate word/long sprites or single sprite
+    const hasSeparateSprites = this.masterManifest.separateWordAndLongSprites && spriteInfo.word;
+    
+    if (hasSeparateSprites) {
+      // Load only word sprite for fast startup
+      console.log(`📝 Loading word sprite for ${speaker}`);
+      
+      const wordSprite = await this.loadSingleSprite(speaker, spriteInfo.word, 'word');
+      
+      // Create combined structure with only word sprite loaded
+      const combinedManifest = {
+        speaker: speaker,
+        totalFiles: spriteInfo.word.totalFiles, // Only word sounds initially
+        totalDuration: spriteInfo.word.totalDuration,
+        spritemap: { ...wordSprite.manifest.spritemap }
+      };
+      
+      const combinedSprites = {
+        word: wordSprite,
+        long: null, // Will be loaded in background
+        manifest: combinedManifest,
+        hasLongSprite: !!spriteInfo.long
+      };
+      
+      this.sprites.set(speaker, combinedSprites);
+      this.longSpritesLoaded.set(speaker, false);
+      
+      console.log(`✅ Loaded word sprite for ${speaker}: ${wordSprite.manifest.totalFiles} sounds`);
+      
+      return combinedSprites;
+    } else {
+      // Load single sprite (backwards compatibility)
+      const spriteData = await this.loadSingleSprite(speaker, spriteInfo, 'single');
+      this.sprites.set(speaker, spriteData);
+      this.longSpritesLoaded.set(speaker, true); // No separate long sprite
+      console.log(`✅ Loaded sprite for ${speaker}: ${spriteData.manifest.totalFiles} sounds`);
+      return spriteData;
+    }
+  }
+
+  /**
+   * Load long sprite for speaker in background
+   */
+  async loadLongSprite(speaker) {
+    const spriteData = this.sprites.get(speaker);
+    if (!spriteData || !spriteData.hasLongSprite || spriteData.long) {
+      return; // Already loaded or no long sprite exists
+    }
+
+    // Check if already loading
+    if (this.longSpritesLoading.has(speaker)) {
+      return this.longSpritesLoading.get(speaker);
+    }
+
+    const spriteInfo = this.masterManifest.sprites[speaker];
+    if (!spriteInfo.long) {
+      return;
+    }
+
+    console.log(`🔄 Loading long sprite for ${speaker} in background...`);
+
+    const loadPromise = this.loadSingleSprite(speaker, spriteInfo.long, 'long')
+      .then(longSprite => {
+        // Add long sprite to existing data
+        spriteData.long = longSprite;
+        
+        // Merge long sounds into combined manifest
+        const longSounds = Object.keys(longSprite.manifest.spritemap);
+        Object.assign(spriteData.manifest.spritemap, longSprite.manifest.spritemap);
+        
+        // Update totals
+        spriteData.manifest.totalFiles = spriteInfo.totalFiles;
+        spriteData.manifest.totalDuration = spriteInfo.totalDuration;
+        
+        this.longSpritesLoaded.set(speaker, true);
+        this.longSpritesLoading.delete(speaker);
+        
+        console.log(`✅ Loaded long sprite for ${speaker}: ${longSounds.length} long sounds`);
+        
+        return spriteData;
+      })
+      .catch(error => {
+        console.error(`❌ Failed to load long sprite for ${speaker}:`, error);
+        this.longSpritesLoading.delete(speaker);
+        throw error;
+      });
+
+    this.longSpritesLoading.set(speaker, loadPromise);
+    return loadPromise;
+  }
+
+  /**
+   * Check if long sprites are loaded for a speaker
+   */
+  areLongSpritesLoaded(speaker) {
+    return this.longSpritesLoaded.get(speaker) || false;
+  }
+
+  /**
+   * Start background loading of all long sprites
+   */
+  async startBackgroundLongSpriteLoading() {
+    if (this.backgroundLoadingStarted) {
+      return;
+    }
+    
+    this.backgroundLoadingStarted = true;
+    console.log('🎭 Starting background loading of long sprites...');
+    
+    const speakers = this.getAvailableSpeakers();
+    const loadPromises = speakers.map(speaker => 
+      this.loadLongSprite(speaker).catch(error => 
+        console.warn(`Failed to load long sprite for ${speaker}:`, error)
+      )
+    );
+    
+    await Promise.all(loadPromises);
+    console.log('✅ Background loading of long sprites completed');
+  }
+  
+  /**
+   * Load a single sprite file and manifest
+   */
+  async loadSingleSprite(speaker, spriteInfo, type) {
+    const audioUrl = `${SPRITE_BASE_PATH}${spriteInfo.audioFile}`;
+    const manifestUrl = `${SPRITE_BASE_PATH}${spriteInfo.manifestFile}`;
+    
+    console.log(`🔍 Loading ${type} sprite for ${speaker}: ${manifestUrl}`);
+    
     const [audioResponse, manifestResponse] = await Promise.all([
-      fetch(`${SPRITE_BASE_PATH}${spriteInfo.audioFile}`),
-      fetch(`${SPRITE_BASE_PATH}${spriteInfo.manifestFile}`)
+      fetch(audioUrl),
+      fetch(manifestUrl)
     ]);
 
     if (!audioResponse.ok || !manifestResponse.ok) {
-      throw new Error(`Failed to load sprite files for ${speaker}`);
+      console.error(`Failed to fetch ${type} sprite files for ${speaker}:`);
+      console.error(`Audio (${audioResponse.status}): ${audioUrl}`);
+      console.error(`Manifest (${manifestResponse.status}): ${manifestUrl}`);
+      throw new Error(`Failed to load ${type} sprite files for ${speaker}`);
     }
 
-    const [arrayBuffer, manifest] = await Promise.all([
+    const [arrayBuffer, manifestText] = await Promise.all([
       audioResponse.arrayBuffer(),
-      manifestResponse.json()
+      manifestResponse.text()
     ]);
+    
+    let manifest;
+    try {
+      manifest = JSON.parse(manifestText);
+    } catch (error) {
+      console.error(`Failed to parse ${type} sprite manifest for ${speaker}:`, error);
+      console.error('Manifest text:', manifestText.substring(0, 200));
+      throw new Error(`Invalid JSON in ${type} sprite manifest for ${speaker}`);
+    }
 
     const audioBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
     
-    const spriteData = {
+    return {
       buffer: audioBuffer,
-      manifest: manifest
+      manifest: manifest,
+      type: type
     };
-
-    this.sprites.set(speaker, spriteData);
-    console.log(`✅ Loaded sprite for ${speaker}: ${manifest.totalFiles} sounds`);
-    
-    return spriteData;
   }
 
   /**
    * Play a sound from a speaker's sprite
    */
   async playSound(speaker, soundKey, options = {}) {
-    const spriteData = await this.loadSprite(speaker);
+    const spriteData = this.sprites.get(speaker);
+    if (!spriteData) {
+      throw new Error(`No sprite data loaded for speaker: ${speaker}`);
+    }
+
+    // Check if sound is in currently loaded sprites
     const spriteInfo = spriteData.manifest.spritemap[soundKey];
-    
     if (!spriteInfo) {
+      // If we have separate sprites and this might be a long sound, try loading it
+      if (spriteData.hasLongSprite && !spriteData.long) {
+        throw new Error(`Sound "${soundKey}" not available yet - long sprites still loading`);
+      }
       throw new Error(`Sound "${soundKey}" not found in ${speaker} sprite`);
     }
 
+    // Determine which buffer to use for separate sprites
+    let audioBuffer = spriteData.buffer;
+    
+    if (spriteData.word) {
+      // Check which sprite contains this sound
+      const inWordSprite = spriteData.word.manifest.spritemap[soundKey];
+      const inLongSprite = spriteData.long && spriteData.long.manifest.spritemap[soundKey];
+      
+      if (inWordSprite) {
+        audioBuffer = spriteData.word.buffer;
+      } else if (inLongSprite) {
+        audioBuffer = spriteData.long.buffer;
+      } else if (spriteData.hasLongSprite && !spriteData.long) {
+        throw new Error(`Sound "${soundKey}" not available yet - long sprites still loading`);
+      } else {
+        throw new Error(`Sound "${soundKey}" not found in either word or long sprite for ${speaker}`);
+      }
+    }
+
     const source = this.audioContext.createBufferSource();
-    source.buffer = spriteData.buffer;
+    source.buffer = audioBuffer;
     
     // Apply volume if specified
     let outputNode = this.audioContext.destination;
@@ -138,9 +304,9 @@ export class SpriteOnlyAudioService {
   }
 
   /**
-   * Preload sprites for multiple speakers with progress tracking
+   * Preload word sprites for multiple speakers with progress tracking (fast startup)
    */
-  async preloadSprites(speakers, onProgress = null) {
+  async preloadWordSprites(speakers, onProgress = null) {
     if (!Array.isArray(speakers) || speakers.length === 0) {
       return;
     }
@@ -174,7 +340,7 @@ export class SpriteOnlyAudioService {
           });
         }
 
-        await this.loadSprite(speaker);
+        await this.loadWordSprite(speaker);
         loadedCount++;
 
         if (onProgress) {
@@ -188,7 +354,7 @@ export class SpriteOnlyAudioService {
           });
         }
       } catch (error) {
-        console.warn(`Failed to preload ${speaker}:`, error.message);
+        console.warn(`Failed to preload word sprite ${speaker}:`, error.message);
         failedCount++;
         
         if (onProgress) {
@@ -219,7 +385,19 @@ export class SpriteOnlyAudioService {
       });
     }
 
-    console.log(`🎵 Preloading completed: ${loadedCount}/${totalSpeakers} sprites loaded successfully${failedCount > 0 ? `, ${failedCount} failed` : ''}`);
+    console.log(`🎵 Word sprite preloading completed: ${loadedCount}/${totalSpeakers} word sprites loaded successfully${failedCount > 0 ? `, ${failedCount} failed` : ''}`);
+    
+    // Start background loading of long sprites after word sprites are loaded
+    setTimeout(() => {
+      this.startBackgroundLongSpriteLoading();
+    }, 100); // Small delay to let UI render
+  }
+
+  /**
+   * Legacy method for backwards compatibility - now loads word sprites only
+   */
+  async preloadSprites(speakers, onProgress = null) {
+    return this.preloadWordSprites(speakers, onProgress);
   }
 
   /**
@@ -403,7 +581,27 @@ export class SoundGroup {
     if (index < 0 || index >= this.longSounds.length) return null;
     const { speaker, soundKey } = this.longSounds[index];
     const audioService = await this._getAudioService();
+    
+    // Check if long sprites are loaded for this speaker
+    if (!audioService.areLongSpritesLoaded(speaker)) {
+      throw new Error('Long sounds are still loading in background. Please wait...');
+    }
+    
     return await audioService.playSound(speaker, soundKey, options);
+  }
+
+  /**
+   * Check if all long sounds are available for this sound group
+   */
+  async areLongSoundsAvailable() {
+    if (this.longSounds.length === 0) {
+      return true; // No long sounds to load
+    }
+    
+    const audioService = await this._getAudioService();
+    const speakers = [...new Set(this.longSounds.map(sound => sound.speaker))];
+    
+    return speakers.every(speaker => audioService.areLongSpritesLoaded(speaker));
   }
 
   /**

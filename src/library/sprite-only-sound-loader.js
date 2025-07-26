@@ -69,15 +69,15 @@ export async function getSoundGroups(audioContext, onProgress = null) {
     });
   }
   
-  // Preload all sprites at startup for instant playback
-  console.log('🚀 Preloading all sprites for instant playback...');
+  // Preload word sprites at startup for fast loading (long sprites load in background)
+  console.log('🚀 Preloading word sprites for fast startup...');
   await audioManager.preloadSprites([...allSpeakers], (spriteProgress) => {
     if (onProgress) {
       onProgress({
         phase: 'preloading',
         message: spriteProgress.currentSpeaker 
-          ? `Loading ${spriteProgress.currentSpeaker} speaker...`
-          : 'Preloading sprites...',
+          ? `Loading word sounds for ${spriteProgress.currentSpeaker}...`
+          : 'Loading word sprites...',
         progress: spriteProgress.progress,
         loaded: spriteProgress.loaded,
         total: spriteProgress.total,
@@ -88,7 +88,7 @@ export async function getSoundGroups(audioContext, onProgress = null) {
     }
   });
   
-  console.log(`✅ Loaded ${soundGroups.length} sound groups with all sprites preloaded`);
+  console.log(`✅ Loaded ${soundGroups.length} sound groups with word sprites preloaded (long sprites loading in background)`);
   return soundGroups;
 }
 

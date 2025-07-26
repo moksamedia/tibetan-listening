@@ -1,0 +1,1442 @@
+{
+  "speaker": "khelsang",
+  "type": "words",
+  "generatedAt": "2025-07-26T16:28:10.310Z",
+  "totalFiles": 286,
+  "totalDuration": 367663.9002267574,
+  "src": [
+    "khelsang-words-sprite.mp3"
+  ],
+  "spritemap": {
+    "'phya ba 1": {
+      "start": 0,
+      "length": 744,
+      "originalPath": "'phya ba 1"
+    },
+    "bya ba 1": {
+      "start": 1200,
+      "length": 681,
+      "originalPath": "bya ba 1"
+    },
+    "ཀ་ 1": {
+      "start": 2400,
+      "length": 408,
+      "originalPath": "ཀ་ 1"
+    },
+    "ཀ་ 2": {
+      "start": 3600,
+      "length": 418,
+      "originalPath": "ཀ་ 2"
+    },
+    "ཀི་ 1": {
+      "start": 4800,
+      "length": 552,
+      "originalPath": "ཀི་ 1"
+    },
+    "ཀི་ 2": {
+      "start": 6000,
+      "length": 325,
+      "originalPath": "ཀི་ 2"
+    },
+    "ཀུ་ 1": {
+      "start": 7200,
+      "length": 492,
+      "originalPath": "ཀུ་ 1"
+    },
+    "ཀུ་ 2": {
+      "start": 8400,
+      "length": 516,
+      "originalPath": "ཀུ་ 2"
+    },
+    "ཀུ་ 3": {
+      "start": 9600,
+      "length": 422,
+      "originalPath": "ཀུ་ 3"
+    },
+    "ཀེ་ 1": {
+      "start": 10800,
+      "length": 470,
+      "originalPath": "ཀེ་ 1"
+    },
+    "ཀེ་ 2": {
+      "start": 12000,
+      "length": 430,
+      "originalPath": "ཀེ་ 2"
+    },
+    "ཀོ་ 1": {
+      "start": 13200,
+      "length": 579,
+      "originalPath": "ཀོ་ 1"
+    },
+    "ཀོ་ b 1": {
+      "start": 14400,
+      "length": 514,
+      "originalPath": "ཀོ་ b 1"
+    },
+    "ཀོ་ b 2": {
+      "start": 15600,
+      "length": 408,
+      "originalPath": "ཀོ་ b 2"
+    },
+    "ཀོ་བ་ 1": {
+      "start": 16800,
+      "length": 928,
+      "originalPath": "ཀོ་བ་ 1"
+    },
+    "ཀོ་བ་ 2": {
+      "start": 18000,
+      "length": 829,
+      "originalPath": "ཀོ་བ་ 2"
+    },
+    "ཀྱི་ 1": {
+      "start": 19200,
+      "length": 446,
+      "originalPath": "ཀྱི་ 1"
+    },
+    "ཀྱི་ 2": {
+      "start": 20400,
+      "length": 479,
+      "originalPath": "ཀྱི་ 2"
+    },
+    "ཀྲི་ 1": {
+      "start": 21600,
+      "length": 586,
+      "originalPath": "ཀྲི་ 1"
+    },
+    "ཁ་ 1": {
+      "start": 22800,
+      "length": 403,
+      "originalPath": "ཁ་ 1"
+    },
+    "ཁ་ b1": {
+      "start": 24000,
+      "length": 443,
+      "originalPath": "ཁ་ b1"
+    },
+    "ཁ་ b2": {
+      "start": 25200,
+      "length": 362,
+      "originalPath": "ཁ་ b2"
+    },
+    "ཁ་པར་ 1": {
+      "start": 26400,
+      "length": 658,
+      "originalPath": "ཁ་པར་ 1"
+    },
+    "ཁི་ 1": {
+      "start": 27600,
+      "length": 580,
+      "originalPath": "ཁི་ 1"
+    },
+    "ཁི་ 2": {
+      "start": 28800,
+      "length": 350,
+      "originalPath": "ཁི་ 2"
+    },
+    "ཁུ་ 1": {
+      "start": 30000,
+      "length": 390,
+      "originalPath": "ཁུ་ 1"
+    },
+    "ཁུ་ 2": {
+      "start": 31200,
+      "length": 424,
+      "originalPath": "ཁུ་ 2"
+    },
+    "ཁུ་ 3": {
+      "start": 32400,
+      "length": 448,
+      "originalPath": "ཁུ་ 3"
+    },
+    "ཁེ་ 1": {
+      "start": 33600,
+      "length": 464,
+      "originalPath": "ཁེ་ 1"
+    },
+    "ཁེ་ 2": {
+      "start": 34800,
+      "length": 467,
+      "originalPath": "ཁེ་ 2"
+    },
+    "ཁོ་ 1": {
+      "start": 36000,
+      "length": 457,
+      "originalPath": "ཁོ་ 1"
+    },
+    "ཁོ་ 2": {
+      "start": 37200,
+      "length": 449,
+      "originalPath": "ཁོ་ 2"
+    },
+    "ཁྲ་_1": {
+      "start": 38400,
+      "length": 718,
+      "originalPath": "ཁྲ་_1"
+    },
+    "ཁྲ་_2": {
+      "start": 39600,
+      "length": 622,
+      "originalPath": "ཁྲ་_2"
+    },
+    "ཁྲི་ 1": {
+      "start": 40800,
+      "length": 659,
+      "originalPath": "ཁྲི་ 1"
+    },
+    "ག་ 1": {
+      "start": 42000,
+      "length": 617,
+      "originalPath": "ག་ 1"
+    },
+    "ག་ b1": {
+      "start": 43200,
+      "length": 582,
+      "originalPath": "ག་ b1"
+    },
+    "ག་ b2": {
+      "start": 44400,
+      "length": 499,
+      "originalPath": "ག་ b2"
+    },
+    "ག་པར་ 1": {
+      "start": 45600,
+      "length": 687,
+      "originalPath": "ག་པར་ 1"
+    },
+    "གཅེས་ 1": {
+      "start": 46800,
+      "length": 933,
+      "originalPath": "གཅེས་ 1"
+    },
+    "གཅེས་ 2": {
+      "start": 48000,
+      "length": 892,
+      "originalPath": "གཅེས་ 2"
+    },
+    "གཅོད་པ་ 1": {
+      "start": 49200,
+      "length": 725,
+      "originalPath": "གཅོད་པ་ 1"
+    },
+    "གཉན་ཁ་ 1": {
+      "start": 50400,
+      "length": 697,
+      "originalPath": "གཉན་ཁ་ 1"
+    },
+    "གཉན་ཁ་ 2": {
+      "start": 51600,
+      "length": 737,
+      "originalPath": "གཉན་ཁ་ 2"
+    },
+    "གདོན་པ་ 1": {
+      "start": 52800,
+      "length": 747,
+      "originalPath": "གདོན་པ་ 1"
+    },
+    "གནས་ 1": {
+      "start": 54000,
+      "length": 904,
+      "originalPath": "གནས་ 1"
+    },
+    "གཙོ་ 1": {
+      "start": 55200,
+      "length": 574,
+      "originalPath": "གཙོ་ 1"
+    },
+    "གཙོ་ 2": {
+      "start": 56400,
+      "length": 605,
+      "originalPath": "གཙོ་ 2"
+    },
+    "གཤེ་ 1": {
+      "start": 57600,
+      "length": 812,
+      "originalPath": "གཤེ་ 1"
+    },
+    "གསུང་བ་ 1": {
+      "start": 58800,
+      "length": 1057,
+      "originalPath": "གསུང་བ་ 1"
+    },
+    "གསེར་ 1": {
+      "start": 61000,
+      "length": 997,
+      "originalPath": "གསེར་ 1"
+    },
+    "གི་ 1": {
+      "start": 62200,
+      "length": 507,
+      "originalPath": "གི་ 1"
+    },
+    "གི་ 2": {
+      "start": 63400,
+      "length": 558,
+      "originalPath": "གི་ 2"
+    },
+    "གི་ b 1": {
+      "start": 64600,
+      "length": 524,
+      "originalPath": "གི་ b 1"
+    },
+    "གི་ b 2": {
+      "start": 65800,
+      "length": 417,
+      "originalPath": "གི་ b 2"
+    },
+    "གུ་ 1": {
+      "start": 67000,
+      "length": 405,
+      "originalPath": "གུ་ 1"
+    },
+    "གུ་ 2": {
+      "start": 68200,
+      "length": 467,
+      "originalPath": "གུ་ 2"
+    },
+    "གུ་ 3": {
+      "start": 69400,
+      "length": 525,
+      "originalPath": "གུ་ 3"
+    },
+    "གེ་ 1": {
+      "start": 70600,
+      "length": 550,
+      "originalPath": "གེ་ 1"
+    },
+    "གེ་ 2": {
+      "start": 71800,
+      "length": 497,
+      "originalPath": "གེ་ 2"
+    },
+    "གོ་ 1": {
+      "start": 73000,
+      "length": 569,
+      "originalPath": "གོ་ 1"
+    },
+    "གོ་ 2": {
+      "start": 74200,
+      "length": 434,
+      "originalPath": "གོ་ 2"
+    },
+    "གྱི་ 1": {
+      "start": 75400,
+      "length": 520,
+      "originalPath": "གྱི་ 1"
+    },
+    "གྱི་ 2": {
+      "start": 76600,
+      "length": 492,
+      "originalPath": "གྱི་ 2"
+    },
+    "གྲི་ 1": {
+      "start": 77800,
+      "length": 746,
+      "originalPath": "གྲི་ 1"
+    },
+    "གློག་ 1": {
+      "start": 79000,
+      "length": 600,
+      "originalPath": "གློག་ 1"
+    },
+    "གློག་ 2": {
+      "start": 80200,
+      "length": 552,
+      "originalPath": "གློག་ 2"
+    },
+    "ཆད་པ་_1": {
+      "start": 81400,
+      "length": 838,
+      "originalPath": "ཆད་པ་_1"
+    },
+    "ཆད་པ་_2": {
+      "start": 82600,
+      "length": 848,
+      "originalPath": "ཆད་པ་_2"
+    },
+    "ཆད་པ་_3": {
+      "start": 83800,
+      "length": 789,
+      "originalPath": "ཆད་པ་_3"
+    },
+    "ཆོད་པ་ 1": {
+      "start": 85000,
+      "length": 801,
+      "originalPath": "ཆོད་པ་ 1"
+    },
+    "ཉེན་ཁ་ 1": {
+      "start": 86200,
+      "length": 916,
+      "originalPath": "ཉེན་ཁ་ 1"
+    },
+    "ཉེན་ཁ་ 2": {
+      "start": 87400,
+      "length": 723,
+      "originalPath": "ཉེན་ཁ་ 2"
+    },
+    "ཐག་པ་ 1": {
+      "start": 88600,
+      "length": 758,
+      "originalPath": "ཐག་པ་ 1"
+    },
+    "ཐག་པ་ 2": {
+      "start": 89800,
+      "length": 805,
+      "originalPath": "ཐག་པ་ 2"
+    },
+    "ཐུགས་རྗེས་ 1": {
+      "start": 91000,
+      "length": 1065,
+      "originalPath": "ཐུགས་རྗེས་ 1"
+    },
+    "ཐུགས་རྗེས་ 2": {
+      "start": 93200,
+      "length": 826,
+      "originalPath": "ཐུགས་རྗེས་ 2"
+    },
+    "ཐོགས་པ་ 1": {
+      "start": 94400,
+      "length": 860,
+      "originalPath": "ཐོགས་པ་ 1"
+    },
+    "དག་པ་ 1": {
+      "start": 95600,
+      "length": 774,
+      "originalPath": "དག་པ་ 1"
+    },
+    "དག་པ་ 2": {
+      "start": 96800,
+      "length": 802,
+      "originalPath": "དག་པ་ 2"
+    },
+    "དགག་པ་ n 1": {
+      "start": 98000,
+      "length": 939,
+      "originalPath": "དགག་པ་ n 1"
+    },
+    "དགག་པ་ v 1": {
+      "start": 99200,
+      "length": 935,
+      "originalPath": "དགག་པ་ v 1"
+    },
+    "དགུ་བ་_1": {
+      "start": 100400,
+      "length": 926,
+      "originalPath": "དགུ་བ་_1"
+    },
+    "དགུ་བ་_2": {
+      "start": 101600,
+      "length": 727,
+      "originalPath": "དགུ་བ་_2"
+    },
+    "དགེ་རྒན་ 1": {
+      "start": 102800,
+      "length": 910,
+      "originalPath": "དགེ་རྒན་ 1"
+    },
+    "དགྲ་_1": {
+      "start": 104000,
+      "length": 573,
+      "originalPath": "དགྲ་_1"
+    },
+    "དགྲ་_2": {
+      "start": 105200,
+      "length": 532,
+      "originalPath": "དགྲ་_2"
+    },
+    "དགྲམ་པ་ 1": {
+      "start": 106400,
+      "length": 989,
+      "originalPath": "དགྲམ་པ་ 1"
+    },
+    "དཔེ་_1": {
+      "start": 107600,
+      "length": 601,
+      "originalPath": "དཔེ་_1"
+    },
+    "དཔེ་_2": {
+      "start": 108800,
+      "length": 524,
+      "originalPath": "དཔེ་_2"
+    },
+    "དཔྲལ་བ་ 1": {
+      "start": 110000,
+      "length": 918,
+      "originalPath": "དཔྲལ་བ་ 1"
+    },
+    "དཔྲལ་བ་ 2": {
+      "start": 111200,
+      "length": 776,
+      "originalPath": "དཔྲལ་བ་ 2"
+    },
+    "དམིགས་ 1": {
+      "start": 112400,
+      "length": 716,
+      "originalPath": "དམིགས་ 1"
+    },
+    "དམིགས་ 2": {
+      "start": 113600,
+      "length": 545,
+      "originalPath": "དམིགས་ 2"
+    },
+    "དམིགས་ 3": {
+      "start": 114800,
+      "length": 384,
+      "originalPath": "དམིགས་ 3"
+    },
+    "དུག་ཆེ་ 1": {
+      "start": 116000,
+      "length": 847,
+      "originalPath": "དུག་ཆེ་ 1"
+    },
+    "དུག་ཆེ་ 2": {
+      "start": 117200,
+      "length": 928,
+      "originalPath": "དུག་ཆེ་ 2"
+    },
+    "དུལ་བ་ 1": {
+      "start": 118400,
+      "length": 838,
+      "originalPath": "དུལ་བ་ 1"
+    },
+    "དེ་ 1": {
+      "start": 119600,
+      "length": 516,
+      "originalPath": "དེ་ 1"
+    },
+    "དེ་ 2": {
+      "start": 120800,
+      "length": 515,
+      "originalPath": "དེ་ 2"
+    },
+    "དོགས་པ་ 1": {
+      "start": 122000,
+      "length": 874,
+      "originalPath": "དོགས་པ་ 1"
+    },
+    "ནང་ 1": {
+      "start": 123200,
+      "length": 701,
+      "originalPath": "ནང་ 1"
+    },
+    "ནས་ 1": {
+      "start": 124400,
+      "length": 968,
+      "originalPath": "ནས་ 1"
+    },
+    "པགས་པ་ 1": {
+      "start": 125600,
+      "length": 702,
+      "originalPath": "པགས་པ་ 1"
+    },
+    "པགས་པ་ 2": {
+      "start": 126800,
+      "length": 639,
+      "originalPath": "པགས་པ་ 2"
+    },
+    "ཕྱ་བ་_1": {
+      "start": 128000,
+      "length": 619,
+      "originalPath": "ཕྱ་བ་_1"
+    },
+    "ཕྱ་བ་_2": {
+      "start": 129200,
+      "length": 570,
+      "originalPath": "ཕྱ་བ་_2"
+    },
+    "བཀག་པ་ n 1": {
+      "start": 130400,
+      "length": 775,
+      "originalPath": "བཀག་པ་ n 1"
+    },
+    "བཀག་པ་ v 1": {
+      "start": 131600,
+      "length": 776,
+      "originalPath": "བཀག་པ་ v 1"
+    },
+    "བཀྲམ་པ་ 1": {
+      "start": 132800,
+      "length": 846,
+      "originalPath": "བཀྲམ་པ་ 1"
+    },
+    "བཅིང་བ་ 1": {
+      "start": 134000,
+      "length": 733,
+      "originalPath": "བཅིང་བ་ 1"
+    },
+    "བཅིང་བ་ 2": {
+      "start": 135200,
+      "length": 675,
+      "originalPath": "བཅིང་བ་ 2"
+    },
+    "བཏུལ་བ་ 1": {
+      "start": 136400,
+      "length": 721,
+      "originalPath": "བཏུལ་བ་ 1"
+    },
+    "བདེ་འཇགས་ 1": {
+      "start": 137600,
+      "length": 953,
+      "originalPath": "བདེ་འཇགས་ 1"
+    },
+    "བདེ་འཇགས་ 2": {
+      "start": 138800,
+      "length": 830,
+      "originalPath": "བདེ་འཇགས་ 2"
+    },
+    "བདེན་པ་ (n) 1": {
+      "start": 140000,
+      "length": 864,
+      "originalPath": "བདེན་པ་ (n) 1"
+    },
+    "བདེན་པ་ (n) 2": {
+      "start": 141200,
+      "length": 653,
+      "originalPath": "བདེན་པ་ (n) 2"
+    },
+    "བཞད་ 1": {
+      "start": 142400,
+      "length": 733,
+      "originalPath": "བཞད་ 1"
+    },
+    "བཟུང་བ་ 1": {
+      "start": 143600,
+      "length": 1104,
+      "originalPath": "བཟུང་བ་ 1"
+    },
+    "བརྗོད་པ་ 1": {
+      "start": 145800,
+      "length": 807,
+      "originalPath": "བརྗོད་པ་ 1"
+    },
+    "བརྟག་པ་ 1": {
+      "start": 147000,
+      "length": 666,
+      "originalPath": "བརྟག་པ་ 1"
+    },
+    "བརྟན་འཇགས་ 1": {
+      "start": 148200,
+      "length": 909,
+      "originalPath": "བརྟན་འཇགས་ 1"
+    },
+    "བརྟན་འཇགས་ 2": {
+      "start": 149400,
+      "length": 788,
+      "originalPath": "བརྟན་འཇགས་ 2"
+    },
+    "བརྩེ་ 1": {
+      "start": 150600,
+      "length": 664,
+      "originalPath": "བརྩེ་ 1"
+    },
+    "བརྩེ་ 2": {
+      "start": 151800,
+      "length": 601,
+      "originalPath": "བརྩེ་ 2"
+    },
+    "བརྩེ་བ་ 1": {
+      "start": 153000,
+      "length": 780,
+      "originalPath": "བརྩེ་བ་ 1"
+    },
+    "བརྩེ་བ་ 2": {
+      "start": 154200,
+      "length": 766,
+      "originalPath": "བརྩེ་བ་ 2"
+    },
+    "བརླག་པ་_1": {
+      "start": 155400,
+      "length": 813,
+      "originalPath": "བརླག་པ་_1"
+    },
+    "བརླག་པ་_2": {
+      "start": 156600,
+      "length": 635,
+      "originalPath": "བརླག་པ་_2"
+    },
+    "བསག་པ་ 1": {
+      "start": 157800,
+      "length": 950,
+      "originalPath": "བསག་པ་ 1"
+    },
+    "བསྟན་པ་ (n) 1": {
+      "start": 159000,
+      "length": 700,
+      "originalPath": "བསྟན་པ་ (n) 1"
+    },
+    "བསྟན་པ་ (n) 2": {
+      "start": 160200,
+      "length": 584,
+      "originalPath": "བསྟན་པ་ (n) 2"
+    },
+    "བསྟན་པ་ (n) b1": {
+      "start": 161400,
+      "length": 747,
+      "originalPath": "བསྟན་པ་ (n) b1"
+    },
+    "བསྟན་པ་ (n) b2": {
+      "start": 162600,
+      "length": 628,
+      "originalPath": "བསྟན་པ་ (n) b2"
+    },
+    "བསྟེན་པ་ (v) 1": {
+      "start": 163800,
+      "length": 644,
+      "originalPath": "བསྟེན་པ་ (v) 1"
+    },
+    "བསྟེན་པ་ (v) 2": {
+      "start": 165000,
+      "length": 576,
+      "originalPath": "བསྟེན་པ་ (v) 2"
+    },
+    "བྱ་བ་ 1": {
+      "start": 166200,
+      "length": 921,
+      "originalPath": "བྱ་བ་ 1"
+    },
+    "བྱ་བ་ 2": {
+      "start": 167400,
+      "length": 670,
+      "originalPath": "བྱ་བ་ 2"
+    },
+    "བྱ་བ་ 3": {
+      "start": 168600,
+      "length": 720,
+      "originalPath": "བྱ་བ་ 3"
+    },
+    "བྱེད་པ་_1": {
+      "start": 169800,
+      "length": 815,
+      "originalPath": "བྱེད་པ་_1"
+    },
+    "བྱེད་པ་_2": {
+      "start": 171000,
+      "length": 761,
+      "originalPath": "བྱེད་པ་_2"
+    },
+    "བྱེད་པ་_3": {
+      "start": 172200,
+      "length": 751,
+      "originalPath": "བྱེད་པ་_3"
+    },
+    "བྲོ་བ་ 1": {
+      "start": 173400,
+      "length": 696,
+      "originalPath": "བྲོ་བ་ 1"
+    },
+    "བྲོ་བ་ 2": {
+      "start": 174600,
+      "length": 634,
+      "originalPath": "བྲོ་བ་ 2"
+    },
+    "བླངས་པ་_1": {
+      "start": 175800,
+      "length": 735,
+      "originalPath": "བླངས་པ་_1"
+    },
+    "བླངས་པ་_2": {
+      "start": 177000,
+      "length": 647,
+      "originalPath": "བླངས་པ་_2"
+    },
+    "མཁྲིག་ 1": {
+      "start": 178200,
+      "length": 488,
+      "originalPath": "མཁྲིག་ 1"
+    },
+    "མཁྲིས་པ་ 1": {
+      "start": 179400,
+      "length": 975,
+      "originalPath": "མཁྲིས་པ་ 1"
+    },
+    "མཁྲིས་པ་ 2": {
+      "start": 180600,
+      "length": 873,
+      "originalPath": "མཁྲིས་པ་ 2"
+    },
+    "མགོ་ 1": {
+      "start": 181800,
+      "length": 1007,
+      "originalPath": "མགོ་ 1"
+    },
+    "མགོ་ 2": {
+      "start": 184000,
+      "length": 614,
+      "originalPath": "མགོ་ 2"
+    },
+    "མགོ་b 1": {
+      "start": 185200,
+      "length": 833,
+      "originalPath": "མགོ་b 1"
+    },
+    "མཐོང་བ་ 1": {
+      "start": 186400,
+      "length": 786,
+      "originalPath": "མཐོང་བ་ 1"
+    },
+    "མིག་ 1": {
+      "start": 187600,
+      "length": 746,
+      "originalPath": "མིག་ 1"
+    },
+    "མིག་ 2": {
+      "start": 188800,
+      "length": 554,
+      "originalPath": "མིག་ 2"
+    },
+    "མིག་ 3": {
+      "start": 190000,
+      "length": 303,
+      "originalPath": "མིག་ 3"
+    },
+    "མོག་མོག་ 1": {
+      "start": 191200,
+      "length": 1033,
+      "originalPath": "མོག་མོག་ 1"
+    },
+    "མོག་མོག་ 2": {
+      "start": 193400,
+      "length": 755,
+      "originalPath": "མོག་མོག་ 2"
+    },
+    "ཚད་ 1": {
+      "start": 194600,
+      "length": 685,
+      "originalPath": "ཚད་ 1"
+    },
+    "ཚད་ 2": {
+      "start": 195800,
+      "length": 735,
+      "originalPath": "ཚད་ 2"
+    },
+    "ཚུལ་ 1": {
+      "start": 197000,
+      "length": 952,
+      "originalPath": "ཚུལ་ 1"
+    },
+    "ཚུལ་ 2": {
+      "start": 198200,
+      "length": 845,
+      "originalPath": "ཚུལ་ 2"
+    },
+    "ཚུལ་ 3": {
+      "start": 199400,
+      "length": 753,
+      "originalPath": "ཚུལ་ 3"
+    },
+    "ཞག 1": {
+      "start": 200600,
+      "length": 901,
+      "originalPath": "ཞག 1"
+    },
+    "ཞག 2": {
+      "start": 201800,
+      "length": 663,
+      "originalPath": "ཞག 2"
+    },
+    "ཞེས་པ་ 1": {
+      "start": 203000,
+      "length": 850,
+      "originalPath": "ཞེས་པ་ 1"
+    },
+    "ཞེས་པ་_1": {
+      "start": 204200,
+      "length": 1084,
+      "originalPath": "ཞེས་པ་_1"
+    },
+    "ཞེས་པ་_2": {
+      "start": 206400,
+      "length": 1042,
+      "originalPath": "ཞེས་པ་_2"
+    },
+    "ཟག་པ་ 1": {
+      "start": 208600,
+      "length": 1030,
+      "originalPath": "ཟག་པ་ 1"
+    },
+    "ཟེར་ 1": {
+      "start": 210800,
+      "length": 1003,
+      "originalPath": "ཟེར་ 1"
+    },
+    "འགྱེས་པ་ 1": {
+      "start": 213000,
+      "length": 1500,
+      "originalPath": "འགྱེས་པ་ 1"
+    },
+    "འགྱེས་པ་ 2": {
+      "start": 215200,
+      "length": 890,
+      "originalPath": "འགྱེས་པ་ 2"
+    },
+    "འགྱེས་པ་ b 1": {
+      "start": 216400,
+      "length": 975,
+      "originalPath": "འགྱེས་པ་ b 1"
+    },
+    "འགྲིག་ 1": {
+      "start": 217600,
+      "length": 574,
+      "originalPath": "འགྲིག་ 1"
+    },
+    "འཆིང་བ་ 1": {
+      "start": 218800,
+      "length": 859,
+      "originalPath": "འཆིང་བ་ 1"
+    },
+    "འཆིང་བ་ 2": {
+      "start": 220000,
+      "length": 823,
+      "originalPath": "འཆིང་བ་ 2"
+    },
+    "འཐུང་བ་ 1": {
+      "start": 221200,
+      "length": 867,
+      "originalPath": "འཐུང་བ་ 1"
+    },
+    "འདུལ་བ་ 1": {
+      "start": 222400,
+      "length": 717,
+      "originalPath": "འདུལ་བ་ 1"
+    },
+    "འདོན་པ་བཏོན་པ་ 1": {
+      "start": 223600,
+      "length": 1117,
+      "originalPath": "འདོན་པ་བཏོན་པ་ 1"
+    },
+    "འདོན་པ་བཏོན་པ་ 2": {
+      "start": 225800,
+      "length": 984,
+      "originalPath": "འདོན་པ་བཏོན་པ་ 2"
+    },
+    "འདོན་པ་འདོན་པ་ 1": {
+      "start": 227000,
+      "length": 1060,
+      "originalPath": "འདོན་པ་འདོན་པ་ 1"
+    },
+    "འདོན་པ་འདོན་པ་ 2": {
+      "start": 229200,
+      "length": 968,
+      "originalPath": "འདོན་པ་འདོན་པ་ 2"
+    },
+    "འཕགས་པ་ 1": {
+      "start": 230400,
+      "length": 822,
+      "originalPath": "འཕགས་པ་ 1"
+    },
+    "འཕགས་པ་ 2": {
+      "start": 231600,
+      "length": 744,
+      "originalPath": "འཕགས་པ་ 2"
+    },
+    "འཕྱ་བ་ 1": {
+      "start": 232800,
+      "length": 817,
+      "originalPath": "འཕྱ་བ་ 1"
+    },
+    "འབད་_1": {
+      "start": 234000,
+      "length": 630,
+      "originalPath": "འབད་_1"
+    },
+    "འབད་_2": {
+      "start": 235200,
+      "length": 458,
+      "originalPath": "འབད་_2"
+    },
+    "འབྱིང་བ་ 1": {
+      "start": 236400,
+      "length": 749,
+      "originalPath": "འབྱིང་བ་ 1"
+    },
+    "འབྱིང་བ་ 2": {
+      "start": 237600,
+      "length": 829,
+      "originalPath": "འབྱིང་བ་ 2"
+    },
+    "འབྱིང་བ་ vs འཆིང་བ་ vs བཅིང་བ་": {
+      "start": 238800,
+      "length": 5392,
+      "originalPath": "འབྱིང་བ་ vs འཆིང་བ་ vs བཅིང་བ་"
+    },
+    "འབྲལ་བ་ 1": {
+      "start": 245000,
+      "length": 1000,
+      "originalPath": "འབྲལ་བ་ 1"
+    },
+    "འབྲལ་བ་ 2": {
+      "start": 247200,
+      "length": 828,
+      "originalPath": "འབྲལ་བ་ 2"
+    },
+    "འཚེ་ 1": {
+      "start": 248400,
+      "length": 664,
+      "originalPath": "འཚེ་ 1"
+    },
+    "འཚེ་ 2": {
+      "start": 249600,
+      "length": 667,
+      "originalPath": "འཚེ་ 2"
+    },
+    "འཚེ་བ་ 1": {
+      "start": 250800,
+      "length": 782,
+      "originalPath": "འཚེ་བ་ 1"
+    },
+    "འཚེ་བ་ 2": {
+      "start": 252000,
+      "length": 748,
+      "originalPath": "འཚེ་བ་ 2"
+    },
+    "འཚོ་ 1": {
+      "start": 253200,
+      "length": 652,
+      "originalPath": "འཚོ་ 1"
+    },
+    "འཚོ་ 2": {
+      "start": 254400,
+      "length": 686,
+      "originalPath": "འཚོ་ 2"
+    },
+    "ཡིག་ 1": {
+      "start": 255600,
+      "length": 741,
+      "originalPath": "ཡིག་ 1"
+    },
+    "ཡིད་ 1": {
+      "start": 256800,
+      "length": 596,
+      "originalPath": "ཡིད་ 1"
+    },
+    "རྐུ་བ་_1": {
+      "start": 258000,
+      "length": 768,
+      "originalPath": "རྐུ་བ་_1"
+    },
+    "རྐུ་བ་_2": {
+      "start": 259200,
+      "length": 709,
+      "originalPath": "རྐུ་བ་_2"
+    },
+    "རྒ་ 1": {
+      "start": 260400,
+      "length": 497,
+      "originalPath": "རྒ་ 1"
+    },
+    "རྒ་ 2": {
+      "start": 261600,
+      "length": 385,
+      "originalPath": "རྒ་ 2"
+    },
+    "རྒི་ 1": {
+      "start": 262800,
+      "length": 624,
+      "originalPath": "རྒི་ 1"
+    },
+    "རྒི་ 2": {
+      "start": 264000,
+      "length": 433,
+      "originalPath": "རྒི་ 2"
+    },
+    "རྒུ་ 1": {
+      "start": 265200,
+      "length": 424,
+      "originalPath": "རྒུ་ 1"
+    },
+    "རྒུ་ 2": {
+      "start": 266400,
+      "length": 528,
+      "originalPath": "རྒུ་ 2"
+    },
+    "རྒུ་ 3": {
+      "start": 267600,
+      "length": 548,
+      "originalPath": "རྒུ་ 3"
+    },
+    "རྒེ་ 1": {
+      "start": 268800,
+      "length": 514,
+      "originalPath": "རྒེ་ 1"
+    },
+    "རྒེ་ 2": {
+      "start": 270000,
+      "length": 526,
+      "originalPath": "རྒེ་ 2"
+    },
+    "རྒོ་ 1": {
+      "start": 271200,
+      "length": 512,
+      "originalPath": "རྒོ་ 1"
+    },
+    "རྒོ་ 2": {
+      "start": 272400,
+      "length": 577,
+      "originalPath": "རྒོ་ 2"
+    },
+    "རྒོལ་བ་ 1": {
+      "start": 273600,
+      "length": 952,
+      "originalPath": "རྒོལ་བ་ 1"
+    },
+    "རྒོལ་བ་ n 1": {
+      "start": 274800,
+      "length": 993,
+      "originalPath": "རྒོལ་བ་ n 1"
+    },
+    "རྒོལ་བ་ v 1": {
+      "start": 276000,
+      "length": 874,
+      "originalPath": "རྒོལ་བ་ v 1"
+    },
+    "རྗེས་ 1": {
+      "start": 277200,
+      "length": 943,
+      "originalPath": "རྗེས་ 1"
+    },
+    "རྗེས་ 2": {
+      "start": 278400,
+      "length": 841,
+      "originalPath": "རྗེས་ 2"
+    },
+    "རྟག་པ་ 1": {
+      "start": 279600,
+      "length": 771,
+      "originalPath": "རྟག་པ་ 1"
+    },
+    "རྟག་པ་ 2": {
+      "start": 280800,
+      "length": 737,
+      "originalPath": "རྟག་པ་ 2"
+    },
+    "རྟོག་པ་_1": {
+      "start": 282000,
+      "length": 746,
+      "originalPath": "རྟོག་པ་_1"
+    },
+    "རྟོག་པ་_2": {
+      "start": 283200,
+      "length": 552,
+      "originalPath": "རྟོག་པ་_2"
+    },
+    "རྟོག་པ་_3": {
+      "start": 284400,
+      "length": 552,
+      "originalPath": "རྟོག་པ་_3"
+    },
+    "རྟོགས་པ་ 1": {
+      "start": 285600,
+      "length": 774,
+      "originalPath": "རྟོགས་པ་ 1"
+    },
+    "རྨོ་རྨོ་ 1": {
+      "start": 286800,
+      "length": 995,
+      "originalPath": "རྨོ་རྨོ་ 1"
+    },
+    "རྨོ་རྨོ་ 2": {
+      "start": 288000,
+      "length": 981,
+      "originalPath": "རྨོ་རྨོ་ 2"
+    },
+    "རྩེད་ 1": {
+      "start": 289200,
+      "length": 827,
+      "originalPath": "རྩེད་ 1"
+    },
+    "རྩེད་ 2": {
+      "start": 290400,
+      "length": 704,
+      "originalPath": "རྩེད་ 2"
+    },
+    "ལ་ 1": {
+      "start": 291600,
+      "length": 439,
+      "originalPath": "ལ་ 1"
+    },
+    "ལ་ 2": {
+      "start": 292800,
+      "length": 521,
+      "originalPath": "ལ་ 2"
+    },
+    "ལག་པ་_1": {
+      "start": 294000,
+      "length": 861,
+      "originalPath": "ལག་པ་_1"
+    },
+    "ལག་པ་_2": {
+      "start": 295200,
+      "length": 696,
+      "originalPath": "ལག་པ་_2"
+    },
+    "ལངས་པ་ vs བླནས་པ་ long": {
+      "start": 296400,
+      "length": 3441,
+      "originalPath": "ལངས་པ་ vs བླནས་པ་ long"
+    },
+    "ལངས་པ་_1": {
+      "start": 300600,
+      "length": 725,
+      "originalPath": "ལངས་པ་_1"
+    },
+    "ལངས་པ་_2": {
+      "start": 301800,
+      "length": 724,
+      "originalPath": "ལངས་པ་_2"
+    },
+    "ལོག་ 1": {
+      "start": 303000,
+      "length": 709,
+      "originalPath": "ལོག་ 1"
+    },
+    "ལོག་ 2": {
+      "start": 304200,
+      "length": 593,
+      "originalPath": "ལོག་ 2"
+    },
+    "ལྡག་པ་ 1": {
+      "start": 305400,
+      "length": 849,
+      "originalPath": "ལྡག་པ་ 1"
+    },
+    "ལྡོག་པ་ 1": {
+      "start": 306600,
+      "length": 800,
+      "originalPath": "ལྡོག་པ་ 1"
+    },
+    "ལྡོག་པ་_1": {
+      "start": 307800,
+      "length": 904,
+      "originalPath": "ལྡོག་པ་_1"
+    },
+    "ལྡོག་པ་_2": {
+      "start": 309000,
+      "length": 505,
+      "originalPath": "ལྡོག་པ་_2"
+    },
+    "ལྡོག་པ་_3": {
+      "start": 310200,
+      "length": 505,
+      "originalPath": "ལྡོག་པ་_3"
+    },
+    "ལྷ་ 1": {
+      "start": 311400,
+      "length": 528,
+      "originalPath": "ལྷ་ 1"
+    },
+    "ལྷ་ 2": {
+      "start": 312600,
+      "length": 420,
+      "originalPath": "ལྷ་ 2"
+    },
+    "ཤག 1": {
+      "start": 313800,
+      "length": 848,
+      "originalPath": "ཤག 1"
+    },
+    "ཤག 2": {
+      "start": 315000,
+      "length": 629,
+      "originalPath": "ཤག 2"
+    },
+    "ཤེས་པ་ 1": {
+      "start": 316200,
+      "length": 1081,
+      "originalPath": "ཤེས་པ་ 1"
+    },
+    "ཤེས་པ་_1": {
+      "start": 318400,
+      "length": 1116,
+      "originalPath": "ཤེས་པ་_1"
+    },
+    "ཤེས་པ་_2": {
+      "start": 320600,
+      "length": 936,
+      "originalPath": "ཤེས་པ་_2"
+    },
+    "སྐུལ་བ་ 1": {
+      "start": 321800,
+      "length": 837,
+      "originalPath": "སྐུལ་བ་ 1"
+    },
+    "སྐེ་རྒྱན་ 1": {
+      "start": 323000,
+      "length": 867,
+      "originalPath": "སྐེ་རྒྱན་ 1"
+    },
+    "སྐོལ་བ་ 1": {
+      "start": 324200,
+      "length": 861,
+      "originalPath": "སྐོལ་བ་ 1"
+    },
+    "སྐྱེད་པ་ 1": {
+      "start": 325400,
+      "length": 635,
+      "originalPath": "སྐྱེད་པ་ 1"
+    },
+    "སྐྱེད་པ་ 2": {
+      "start": 326600,
+      "length": 575,
+      "originalPath": "སྐྱེད་པ་ 2"
+    },
+    "སྐྱེས་པ་ 1": {
+      "start": 327800,
+      "length": 1130,
+      "originalPath": "སྐྱེས་པ་ 1"
+    },
+    "སྐྱེས་པ་ 2": {
+      "start": 330000,
+      "length": 1010,
+      "originalPath": "སྐྱེས་པ་ 2"
+    },
+    "སྐྱེས་པ་ b 1": {
+      "start": 332200,
+      "length": 846,
+      "originalPath": "སྐྱེས་པ་ b 1"
+    },
+    "སྐྱེས་པ་ c 1": {
+      "start": 333400,
+      "length": 697,
+      "originalPath": "སྐྱེས་པ་ c 1"
+    },
+    "སྐྱེས་པ་ d 1": {
+      "start": 334600,
+      "length": 646,
+      "originalPath": "སྐྱེས་པ་ d 1"
+    },
+    "སྐྲ་_1": {
+      "start": 335800,
+      "length": 657,
+      "originalPath": "སྐྲ་_1"
+    },
+    "སྐྲ་_2": {
+      "start": 337000,
+      "length": 667,
+      "originalPath": "སྐྲ་_2"
+    },
+    "སྒུལ་བ་ 1": {
+      "start": 338200,
+      "length": 872,
+      "originalPath": "སྒུལ་བ་ 1"
+    },
+    "སྒྲིབ་པ་ 1": {
+      "start": 339400,
+      "length": 779,
+      "originalPath": "སྒྲིབ་པ་ 1"
+    },
+    "སྒྲིབ་པ་ 2": {
+      "start": 340600,
+      "length": 725,
+      "originalPath": "སྒྲིབ་པ་ 2"
+    },
+    "སྟུན་པ་ 1": {
+      "start": 341800,
+      "length": 641,
+      "originalPath": "སྟུན་པ་ 1"
+    },
+    "སྟེ་ 1": {
+      "start": 343000,
+      "length": 493,
+      "originalPath": "སྟེ་ 1"
+    },
+    "སྟེ་ 2": {
+      "start": 344200,
+      "length": 436,
+      "originalPath": "སྟེ་ 2"
+    },
+    "སྟོན་པ་ 1": {
+      "start": 345400,
+      "length": 716,
+      "originalPath": "སྟོན་པ་ 1"
+    },
+    "སྡེ་ 1": {
+      "start": 346600,
+      "length": 582,
+      "originalPath": "སྡེ་ 1"
+    },
+    "སྡེ་ 2": {
+      "start": 347800,
+      "length": 484,
+      "originalPath": "སྡེ་ 2"
+    },
+    "སྣང་ 1": {
+      "start": 349000,
+      "length": 698,
+      "originalPath": "སྣང་ 1"
+    },
+    "སྤང་བ་ 1": {
+      "start": 350200,
+      "length": 782,
+      "originalPath": "སྤང་བ་ 1"
+    },
+    "སྤང་བ་ 2": {
+      "start": 351400,
+      "length": 939,
+      "originalPath": "སྤང་བ་ 2"
+    },
+    "སྤྱང་ 1": {
+      "start": 352600,
+      "length": 662,
+      "originalPath": "སྤྱང་ 1"
+    },
+    "སྤྱང་ 2": {
+      "start": 353800,
+      "length": 669,
+      "originalPath": "སྤྱང་ 2"
+    },
+    "སྤྲོ་བ་ 1": {
+      "start": 355000,
+      "length": 707,
+      "originalPath": "སྤྲོ་བ་ 1"
+    },
+    "སྤྲོ་བ་ 2": {
+      "start": 356200,
+      "length": 614,
+      "originalPath": "སྤྲོ་བ་ 2"
+    },
+    "སྦག་སྦག་ 1": {
+      "start": 357400,
+      "length": 695,
+      "originalPath": "སྦག་སྦག་ 1"
+    },
+    "སྦག་སྦག་ 2": {
+      "start": 358600,
+      "length": 611,
+      "originalPath": "སྦག་སྦག་ 2"
+    },
+    "སྦང་བ་ 1": {
+      "start": 359800,
+      "length": 934,
+      "originalPath": "སྦང་བ་ 1"
+    },
+    "སྦང་བ་ 2": {
+      "start": 361000,
+      "length": 750,
+      "originalPath": "སྦང་བ་ 2"
+    },
+    "སྦྱང་ 1": {
+      "start": 362200,
+      "length": 756,
+      "originalPath": "སྦྱང་ 1"
+    },
+    "སྦྱང་ 2": {
+      "start": 363400,
+      "length": 703,
+      "originalPath": "སྦྱང་ 2"
+    },
+    "སྲོལ་ 1": {
+      "start": 364600,
+      "length": 894,
+      "originalPath": "སྲོལ་ 1"
+    },
+    "སྲོལ་ 2": {
+      "start": 365800,
+      "length": 630,
+      "originalPath": "སྲོལ་ 2"
+    },
+    "སྲོལ་ 3": {
+      "start": 367000,
+      "length": 664,
+      "originalPath": "སྲོལ་ 3"
+    }
+  }
+}

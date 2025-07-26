@@ -64,13 +64,15 @@
             v-for="(longSound, idx) in group.longSounds"
             :key="`${longSound.speaker}-${longSound.soundKey}`"
             block
-            color="secondary"
+            :color="longSpritesAvailable ? 'secondary' : 'grey'"
             @click="handlePlayLong(idx)"
             :density="xs ? 'comfortable' : 'default'"
+            :disabled="!longSpritesAvailable"
+            :loading="longSpritesLoading"
             class="long-btn"
           >
-            <v-icon left>mdi-play</v-icon>
-            Long
+            <v-icon left>{{ longSpritesAvailable ? 'mdi-play' : 'mdi-clock-outline' }}</v-icon>
+            {{ longSpritesAvailable ? 'Long' : 'Loading...' }}
           </v-btn>
         </v-col>
       </v-row>
@@ -95,6 +97,8 @@ export default defineComponent({
     const { group, groupIndex, xs, pushErrorMessage, autoplayRandom } = toRefs(props)
     const isFavorited = ref(false)
     const selectedSpeaker = ref('all')
+    const longSpritesAvailable = ref(false)
+    const longSpritesLoading = ref(true)
     let resetTimeout = null
     let autoplayTimeout = null
     let postAnswerTimeout = null
@@ -106,6 +110,39 @@ export default defineComponent({
       if (!group.value) return []
       const speakers = group.value.versionGroups.map((vg) => vg.getSpeakers()).flat()
       return [...new Set(speakers)]
+    }
+
+    // Check if long sprites are available for this group
+    const checkLongSpritesAvailability = async () => {
+      if (!group.value || group.value.longSounds.length === 0) {
+        longSpritesAvailable.value = true
+        longSpritesLoading.value = false
+        return
+      }
+
+      try {
+        const available = await group.value.areLongSoundsAvailable()
+        longSpritesAvailable.value = available
+        longSpritesLoading.value = !available
+      } catch (error) {
+        console.warn('Error checking long sprite availability:', error)
+        longSpritesLoading.value = false
+      }
+    }
+
+    // Poll for long sprite availability
+    let longSpriteCheckInterval = null
+    const startLongSpritePolling = () => {
+      if (group.value && group.value.longSounds.length > 0) {
+        longSpriteCheckInterval = setInterval(checkLongSpritesAvailability, 1000)
+      }
+    }
+
+    const stopLongSpritePolling = () => {
+      if (longSpriteCheckInterval) {
+        clearInterval(longSpriteCheckInterval)
+        longSpriteCheckInterval = null
+      }
     }
 
     // Sprites are now preloaded at app startup, so no loading needed per group
@@ -209,12 +246,16 @@ export default defineComponent({
 
     onMounted(() => {
       isFavorited.value = group.value.isFavorite()
+      // Start checking for long sprite availability
+      checkLongSpritesAvailability()
+      startLongSpritePolling()
     })
 
     onUnmounted(() => {
       if (resetTimeout) clearTimeout(resetTimeout)
       if (autoplayTimeout) clearTimeout(autoplayTimeout)
       if (postAnswerTimeout) clearTimeout(postAnswerTimeout)
+      stopLongSpritePolling()
       group.value.isPlaying = false
     })
 
@@ -228,6 +269,8 @@ export default defineComponent({
       toggleFavorite,
       selectedSpeaker,
       getSpeakers,
+      longSpritesAvailable,
+      longSpritesLoading,
     }
   },
 })

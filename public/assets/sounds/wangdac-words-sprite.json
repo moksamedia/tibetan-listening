@@ -1,0 +1,22 @@
+{
+  "speaker": "wangdac",
+  "type": "words",
+  "generatedAt": "2025-07-26T16:28:53.234Z",
+  "totalFiles": 2,
+  "totalDuration": 3344.5351473922906,
+  "src": [
+    "wangdac-words-sprite.mp3"
+  ],
+  "spritemap": {
+    "ཞ་མོ་ 1": {
+      "start": 0,
+      "length": 1105,
+      "originalPath": "ཞ་མོ་ 1"
+    },
+    "ཤ་མོ་ 1": {
+      "start": 2200,
+      "length": 1145,
+      "originalPath": "ཤ་མོ་ 1"
+    }
+  }
+}

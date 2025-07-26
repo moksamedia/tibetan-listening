@@ -1,0 +1,187 @@
+{
+  "speaker": "ngawang",
+  "type": "long",
+  "generatedAt": "2025-07-26T16:28:40.852Z",
+  "totalFiles": 35,
+  "totalDuration": 302590.7029478458,
+  "src": [
+    "ngawang-long-sprite.mp3"
+  ],
+  "spritemap": {
+    "chad pa vs byed pa": {
+      "start": 0,
+      "length": 5287,
+      "originalPath": "chad pa vs byed pa"
+    },
+    "dpe vs 'bad": {
+      "start": 6200,
+      "length": 4177,
+      "originalPath": "dpe vs 'bad"
+    },
+    "lag pa vs brlags pa": {
+      "start": 11400,
+      "length": 5744,
+      "originalPath": "lag pa vs brlags pa"
+    },
+    "ག་ vs ཁ་": {
+      "start": 17600,
+      "length": 3447,
+      "originalPath": "ག་ vs ཁ་"
+    },
+    "ག་པར་ vs ཁ་པར་ 2": {
+      "start": 21800,
+      "length": 8957,
+      "originalPath": "ག་པར་ vs ཁ་པར་ 2"
+    },
+    "ག་པར་ vs ཁ་པར་": {
+      "start": 31000,
+      "length": 12236,
+      "originalPath": "ག་པར་ vs ཁ་པར་"
+    },
+    "གཅེས་ vs རྗེས་": {
+      "start": 44200,
+      "length": 4554,
+      "originalPath": "གཅེས་ vs རྗེས་"
+    },
+    "གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་": {
+      "start": 49400,
+      "length": 7435,
+      "originalPath": "གཅོད་པ་ vs ཆོད་པ་ vs བརྗོད་པ་"
+    },
+    "གྲི་ vs ཁྲི་ vs ཀྲི་": {
+      "start": 57600,
+      "length": 8840,
+      "originalPath": "གྲི་ vs ཁྲི་ vs ཀྲི་"
+    },
+    "དགྲ་ vs ཁྲ་ vs སྐྲ་": {
+      "start": 66800,
+      "length": 16896,
+      "originalPath": "དགྲ་ vs ཁྲ་ vs སྐྲ་"
+    },
+    "དགྲམ་པ་ vs བཀྲམ་པ་": {
+      "start": 84000,
+      "length": 15361,
+      "originalPath": "དགྲམ་པ་ vs བཀྲམ་པ་"
+    },
+    "དོགས་པ་ vs ཐོགས་པ་": {
+      "start": 100200,
+      "length": 6340,
+      "originalPath": "དོགས་པ་ vs ཐོགས་པ་"
+    },
+    "དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་": {
+      "start": 107400,
+      "length": 23731,
+      "originalPath": "དོགས་པ་ vs ལྡོག་པ་ vs ཐོགས་པ་ vs རྟོགས་པ་"
+    },
+    "བཀའ་ vs དགའ་": {
+      "start": 131600,
+      "length": 6597,
+      "originalPath": "བཀའ་ vs དགའ་"
+    },
+    "བདེ་འཇགས་ vs བརྟན་འཇགས་": {
+      "start": 138800,
+      "length": 5866,
+      "originalPath": "བདེ་འཇགས་ vs བརྟན་འཇགས་"
+    },
+    "བཞད་ vs གཤེ་": {
+      "start": 145000,
+      "length": 16333,
+      "originalPath": "བཞད་ vs གཤེ་"
+    },
+    "བྱ་བ་ vs ཕྱ་བ་": {
+      "start": 162200,
+      "length": 5152,
+      "originalPath": "བྱ་བ་ vs ཕྱ་བ་"
+    },
+    "བྱ་བ་ vs འཕྱ་བ་": {
+      "start": 168400,
+      "length": 5263,
+      "originalPath": "བྱ་བ་ vs འཕྱ་བ་"
+    },
+    "བླངས་པ་ vs ལངས་པ་": {
+      "start": 174600,
+      "length": 5836,
+      "originalPath": "བླངས་པ་ vs ལངས་པ་"
+    },
+    "མགོ་ vs ཀོ་": {
+      "start": 180800,
+      "length": 11836,
+      "originalPath": "མགོ་ vs ཀོ་"
+    },
+    "མགོ་ vs ཀོ་བ་": {
+      "start": 193000,
+      "length": 4114,
+      "originalPath": "མགོ་ vs ཀོ་བ་"
+    },
+    "མིག་ vs དམིགས་": {
+      "start": 198200,
+      "length": 3498,
+      "originalPath": "མིག་ vs དམིགས་"
+    },
+    "མོག་མོག་ vs རྨོ་རྨོ་": {
+      "start": 202400,
+      "length": 4249,
+      "originalPath": "མོག་མོག་ vs རྨོ་རྨོ་"
+    },
+    "ཞེས་པ་ vs ཤེས་པ་ 2": {
+      "start": 207600,
+      "length": 16342,
+      "originalPath": "ཞེས་པ་ vs ཤེས་པ་ 2"
+    },
+    "ཞེས་པ་ vs ཤེས་པ་": {
+      "start": 224800,
+      "length": 5591,
+      "originalPath": "ཞེས་པ་ vs ཤེས་པ་"
+    },
+    "ཟག་པ་ vs བསག་པ་": {
+      "start": 231000,
+      "length": 5590,
+      "originalPath": "ཟག་པ་ vs བསག་པ་"
+    },
+    "འགྲིག་ vs མཁྲིག་": {
+      "start": 237200,
+      "length": 13288,
+      "originalPath": "འགྲིག་ vs མཁྲིག་"
+    },
+    "འབྲལ་བ་ vs དཔྲལ་བ་": {
+      "start": 251400,
+      "length": 7018,
+      "originalPath": "འབྲལ་བ་ vs དཔྲལ་བ་"
+    },
+    "རྐུ་བ་ vs དགུ་བ་": {
+      "start": 259600,
+      "length": 4492,
+      "originalPath": "རྐུ་བ་ vs དགུ་བ་"
+    },
+    "རྩེད་ vs ཚད་": {
+      "start": 264800,
+      "length": 4768,
+      "originalPath": "རྩེད་ vs ཚད་"
+    },
+    "ལྡོག་པ་ vs རྟོགས་པ་": {
+      "start": 270000,
+      "length": 5887,
+      "originalPath": "ལྡོག་པ་ vs རྟོགས་པ་"
+    },
+    "སྒྲིབ་པ་ vs མཁྲིས་པ་": {
+      "start": 276200,
+      "length": 4794,
+      "originalPath": "སྒྲིབ་པ་ vs མཁྲིས་པ་"
+    },
+    "སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་": {
+      "start": 281400,
+      "length": 9142,
+      "originalPath": "སྟུན་པ་ vs སྟོན་པ་ vs གདོན་པ་"
+    },
+    "སྦང་བ་ vs སྤང་བ་": {
+      "start": 291600,
+      "length": 5575,
+      "originalPath": "སྦང་བ་ vs སྤང་བ་"
+    },
+    "སྲོལ་ vs ཚུལ་": {
+      "start": 297800,
+      "length": 4791,
+      "originalPath": "སྲོལ་ vs ཚུལ་"
+    }
+  }
+}

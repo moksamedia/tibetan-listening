@@ -1,42 +1,96 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2025-07-26T14:42:47.673Z",
-  "spritesGenerated": "2025-07-26T14:42:47.673Z",
+  "generatedAt": "2025-07-26T16:28:53.999Z",
+  "spritesGenerated": "2025-07-26T16:28:53.999Z",
+  "separateWordAndLongSprites": true,
   "sprites": {
     "khelsang": {
-      "audioFile": "khelsang-sprite.mp3",
-      "manifestFile": "khelsang-sprite.json",
+      "word": {
+        "audioFile": "khelsang-words-sprite.mp3",
+        "manifestFile": "khelsang-words-sprite.json",
+        "totalFiles": 286,
+        "totalDuration": 367.6639002267574,
+        "generatedAt": "2025-07-26T16:28:53.999Z"
+      },
       "totalFiles": 360,
-      "totalDuration": 865.8992517006802,
-      "generatedAt": "2025-07-26T14:42:47.673Z"
+      "totalDuration": 865.3631519274377,
+      "generatedAt": "2025-07-26T16:28:53.999Z",
+      "long": {
+        "audioFile": "khelsang-long-sprite.mp3",
+        "manifestFile": "khelsang-long-sprite.json",
+        "totalFiles": 74,
+        "totalDuration": 497.6992517006803,
+        "generatedAt": "2025-07-26T16:28:53.999Z"
+      }
     },
     "ngawang": {
-      "audioFile": "ngawang-sprite.mp3",
-      "manifestFile": "ngawang-sprite.json",
+      "word": {
+        "audioFile": "ngawang-words-sprite.mp3",
+        "manifestFile": "ngawang-words-sprite.json",
+        "totalFiles": 138,
+        "totalDuration": 190.2645804988662,
+        "generatedAt": "2025-07-26T16:28:53.999Z"
+      },
       "totalFiles": 173,
-      "totalDuration": 493.1907029478457,
-      "generatedAt": "2025-07-26T14:42:47.673Z"
+      "totalDuration": 492.85528344671195,
+      "generatedAt": "2025-07-26T16:28:53.999Z",
+      "long": {
+        "audioFile": "ngawang-long-sprite.mp3",
+        "manifestFile": "ngawang-long-sprite.json",
+        "totalFiles": 35,
+        "totalDuration": 302.5907029478458,
+        "generatedAt": "2025-07-26T16:28:53.999Z"
+      }
     },
     "tseringsamden": {
-      "audioFile": "tseringsamden-sprite.mp3",
-      "manifestFile": "tseringsamden-sprite.json",
+      "word": {
+        "audioFile": "tseringsamden-words-sprite.mp3",
+        "manifestFile": "tseringsamden-words-sprite.json",
+        "totalFiles": 87,
+        "totalDuration": 141.14666666666668,
+        "generatedAt": "2025-07-26T16:28:53.999Z"
+      },
       "totalFiles": 103,
-      "totalDuration": 331.12662131519295,
-      "generatedAt": "2025-07-26T14:42:47.673Z"
+      "totalDuration": 330.87328798185945,
+      "generatedAt": "2025-07-26T16:28:53.999Z",
+      "long": {
+        "audioFile": "tseringsamden-long-sprite.mp3",
+        "manifestFile": "tseringsamden-long-sprite.json",
+        "totalFiles": 16,
+        "totalDuration": 189.72662131519277,
+        "generatedAt": "2025-07-26T16:28:53.999Z"
+      }
     },
     "wangdac": {
-      "audioFile": "wangdac-sprite.mp3",
-      "manifestFile": "wangdac-sprite.json",
+      "word": {
+        "audioFile": "wangdac-words-sprite.mp3",
+        "manifestFile": "wangdac-words-sprite.json",
+        "totalFiles": 2,
+        "totalDuration": 3.3445351473922904,
+        "generatedAt": "2025-07-26T16:28:53.999Z"
+      },
       "totalFiles": 3,
-      "totalDuration": 9.544535147392292,
-      "generatedAt": "2025-07-26T14:42:47.673Z"
+      "totalDuration": 8.387233560090703,
+      "generatedAt": "2025-07-26T16:28:53.999Z",
+      "long": {
+        "audioFile": "wangdac-long-sprite.mp3",
+        "manifestFile": "wangdac-long-sprite.json",
+        "totalFiles": 1,
+        "totalDuration": 5.042698412698413,
+        "generatedAt": "2025-07-26T16:28:53.999Z"
+      }
     },
     "misc": {
-      "audioFile": "misc-sprite.mp3",
-      "manifestFile": "misc-sprite.json",
+      "word": {
+        "audioFile": "misc-words-sprite.mp3",
+        "manifestFile": "misc-words-sprite.json",
+        "totalFiles": 4,
+        "totalDuration": 5.562222222222223,
+        "generatedAt": "2025-07-26T16:28:53.999Z"
+      },
       "totalFiles": 4,
       "totalDuration": 5.562222222222223,
-      "generatedAt": "2025-07-26T14:42:47.673Z"
+      "generatedAt": "2025-07-26T16:28:53.999Z"
     }
   }
 }
